@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "109876543210",
+    "firebase_url": "https://smart-laundry-placeholder.firebaseio.com",
+    "project_id": "smart-laundry-placeholder",
+    "storage_bucket": "smart-laundry-placeholder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109876543210:android:a1b2c3d4e5f6g7h8i9j0",
+        "android_client_info": {
+          "package_name": "com.smartlaundry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109876543210-placeholder.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyPlaceholderAPIKey-ForCompilingOnly"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Laundry Management - Dashboard</title>
+    <!-- Premium Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Vector Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- QR Code Generator Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+
+    <!-- Main Navigation Top Bar -->
+    <header class="top-nav" id="mainHeader" style="display: none;">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fa-solid fa-soap logo-icon"></i>
+                <span>Smart Laundry</span>
+            </div>
+            <div class="user-profile">
+                <span id="navUserName" class="profile-name">Jane Doe</span>
+                <span id="navUserBadge" class="profile-badge">Customer</span>
+                <button id="btnLogOut" class="btn-logout-icon" title="Logout">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="content-wrapper">
+
+        <!-- ================= AUTH SECTION ================= -->
+        <section id="sectAuth" class="sect-container auth-sect">
+            <div class="auth-card">
+                <div class="auth-header">
+                    <i class="fa-solid fa-soap logo-icon-large animate-bounce"></i>
+                    <h2>Smart Laundry Management</h2>
+                    <p>Digital laundry booking and live status tracking</p>
+                </div>
+
+                <!-- Tab Toggle Buttons -->
+                <div class="auth-tabs">
+                    <button id="tabLogin" class="tab-btn active">Login</button>
+                    <button id="tabRegister" class="tab-btn">Register</button>
+                </div>
+
+                <!-- Login Form -->
+                <div id="formLogin" class="auth-form-panel">
+                    <div class="input-group">
+                        <label for="loginEmail">Email Address</label>
+                        <div class="input-with-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" id="loginEmail" placeholder="customer@laundry.com" value="customer@laundry.com">
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="loginPassword">Password</label>
+                        <div class="input-with-icon">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" id="loginPassword" placeholder="••••••••" value="123">
+                        </div>
+                    </div>
+                    <button id="submitLogin" class="btn-primary w-full">LOG IN</button>
+                </div>
+
+                <!-- Register Form -->
+                <div id="formRegister" class="auth-form-panel" style="display: none;">
+                    <div class="input-group">
+                        <label for="regName">Full Name</label>
+                        <div class="input-with-icon">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="regName" placeholder="John Doe">
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="regEmail">Email Address</label>
+                        <div class="input-with-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" id="regEmail" placeholder="john@example.com">
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="regPhone">Phone Number</label>
+                        <div class="input-with-icon">
+                            <i class="fa-solid fa-phone"></i>
+                            <input type="tel" id="regPhone" placeholder="+1234567890">
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="regAddress">Pickup &amp; Delivery Address</label>
+                        <div class="input-with-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <input type="text" id="regAddress" placeholder="123 Main St, Apartment 4B">
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="regPassword">Password</label>
+                        <div class="input-with-icon">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" id="regPassword" placeholder="Minimum 6 characters">
+                        </div>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label>Account Profile Role</label>
+                        <div class="segmented-control">
+                            <label class="segment-item">
+                                <input type="radio" name="regRole" value="customer" checked>
+                                <span class="segment-label">Customer</span>
+                            </label>
+                            <label class="segment-item">
+                                <input type="radio" name="regRole" value="staff">
+                                <span class="segment-label">Staff</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <button id="submitRegister" class="btn-primary w-full btn-register">CREATE ACCOUNT</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= CUSTOMER DASHBOARD ================= -->
+        <section id="sectCustomer" class="sect-container" style="display: none;">
+            
+            <!-- Greeting and Active Order Card -->
+            <div class="dashboard-banner">
+                <h1 id="custGreeting">Welcome, Customer!</h1>
+                <p>Track your clothes and book services instantly below.</p>
+            </div>
+
+            <!-- Active Order Status Overlay Card -->
+            <div id="cardCustActiveOrder" class="glass-card active-order-card" style="display: none;">
+                <div class="active-order-header">
+                    <h3><i class="fa-solid fa-rotate animate-spin text-primary"></i> Active Order Real-Time Status</h3>
+                    <span id="custActiveStatusTag" class="status-badge status-washing">Washing</span>
+                </div>
+                <div class="active-order-body">
+                    <p id="custActiveEstDelivery">Estimated Delivery: Tomorrow, 6:00 PM</p>
+                    <p id="custActiveDetails" class="text-muted">Service: -- | Quantity: -- items</p>
+                    
+                    <div class="btn-container-right">
+                        <button id="btnShowTimeline" class="btn-secondary btn-sm">
+                            <i class="fa-solid fa-timeline"></i> View Live Timeline &amp; QR Code
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Double Column Layout -->
+            <div class="grid-2-col">
+                
+                <!-- Left: Booking Services Form -->
+                <div class="column-card">
+                    <div class="card-header">
+                        <h2><i class="fa-solid fa-calendar-plus text-primary"></i> Book a New Wash</h2>
+                    </div>
+                    
+                    <div class="booking-form">
+                        
+                        <!-- Service Type selection -->
+                        <div class="input-group">
+                            <label>1. Select Laundry Service</label>
+                            <div class="services-icon-grid">
+                                <div class="service-chip active" data-service="Standard Wash">
+                                    <i class="fa-solid fa-shirt"></i>
+                                    <span>Standard Wash</span>
+                                </div>
+                                <div class="service-chip" data-service="Dry Cleaning">
+                                    <i class="fa-solid fa-wind"></i>
+                                    <span>Dry Clean</span>
+                                </div>
+                                <div class="service-chip" data-service="Iron / Press">
+                                    <i class="fa-solid fa-square-poll-horizontal"></i>
+                                    <span>Iron / Press</span>
+                                </div>
+                                <div class="service-chip" data-service="Express Wash">
+                                    <i class="fa-solid fa-bolt"></i>
+                                    <span>Express Wash</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Fabric and Quantity Calculator -->
+                        <div class="input-group">
+                            <label for="custFabricInput">2. Fabric Materials &amp; Details</label>
+                            <div class="input-with-icon">
+                                <i class="fa-solid fa-cotton"></i>
+                                <input type="text" id="custFabricInput" placeholder="e.g. Silk saree, cotton shirts, heavy jeans">
+                            </div>
+                            
+                            <!-- AI Recommendation dynamic popover -->
+                            <div id="custAIAlert" class="ai-alert-bubble" style="display: none;">
+                                <div class="ai-header">
+                                    <i class="fa-solid fa-microchip-ai text-accent"></i>
+                                    <span>AI Assistant Recommendation:</span>
+                                </div>
+                                <p id="custAIAlertBody">Delicate fabric detected. Standard cold dry cycle recommended.</p>
+                            </div>
+                        </div>
+
+                        <div class="grid-2-col" style="gap: 12dp;">
+                            <div class="input-group">
+                                <label for="custQtyInput">Clothes Quantity</label>
+                                <div class="input-with-icon">
+                                    <i class="fa-solid fa-hashtag"></i>
+                                    <input type="number" id="custQtyInput" min="1" value="1">
+                                </div>
+                            </div>
+                            <div class="input-group">
+                                <label for="custDateInput">Select Pickup Date</label>
+                                <div class="input-with-icon">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <input type="date" id="custDateInput">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pricing Summary -->
+                        <div class="pricing-summary-card">
+                            <div class="price-row">
+                                <span>Estimated Bill:</span>
+                                <span id="custEstimatedPrice" class="price-val">₹0.00</span>
+                            </div>
+                        </div>
+
+                        <button id="btnSubmitBooking" class="btn-primary w-full">CONFIRM LAUNDRY BOOKING</button>
+                    </div>
+                </div>
+
+                <!-- Right: History List or Tracking Timeline -->
+                <div class="column-card">
+                    
+                    <!-- Dynamic view toggle wrapper -->
+                    <div id="panelTrackingTimeline" style="display: none;">
+                        <div class="card-header relative">
+                            <h2><i class="fa-solid fa-route text-accent"></i> Order Progress Timeline</h2>
+                            <button id="btnBackToHistory" class="btn-icon-back"><i class="fa-solid fa-xmark"></i></button>
+                        </div>
+
+                        <!-- Horizontal Timeline Steps -->
+                        <div class="vertical-timeline">
+                            <div class="timeline-item" id="tl_step1">
+                                <div class="timeline-marker"><i class="fa-solid fa-check"></i></div>
+                                <div class="timeline-content">
+                                    <h4>Pickup Scheduled</h4>
+                                    <p>Clothes awaiting collection driver.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" id="tl_step2">
+                                <div class="timeline-marker"><i class="fa-solid fa-check"></i></div>
+                                <div class="timeline-content">
+                                    <h4>Picked Up</h4>
+                                    <p>Gathered and dispatched to local washing depot.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" id="tl_step3">
+                                <div class="timeline-marker"><i class="fa-solid fa-check"></i></div>
+                                <div class="timeline-content">
+                                    <h4>Washing / Cleaning</h4>
+                                    <p>Clothes undergo tailored wash cycle.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" id="tl_step4">
+                                <div class="timeline-marker"><i class="fa-solid fa-check"></i></div>
+                                <div class="timeline-content">
+                                    <h4>Ironing / Steam Press</h4>
+                                    <p>Quality hot steam finish applied.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" id="tl_step5">
+                                <div class="timeline-marker"><i class="fa-solid fa-check"></i></div>
+                                <div class="timeline-content">
+                                    <h4>Ready for Delivery</h4>
+                                    <p>Packed and awaiting delivery agent dispatch.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" id="tl_step6">
+                                <div class="timeline-marker"><i class="fa-solid fa-check"></i></div>
+                                <div class="timeline-content">
+                                    <h4>Delivered</h4>
+                                    <p>Returned to door. System verification complete.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Digital QR Validation Section -->
+                        <div class="qr-container-card">
+                            <h3>Delivery Validation QR</h3>
+                            <p class="text-muted">Present this QR code to the driver upon delivery dropoff.</p>
+                            <div id="custQrCanvas" class="qr-code-box"></div>
+                        </div>
+                    </div>
+
+                    <!-- Booking History List -->
+                    <div id="panelBookingHistory">
+                        <div class="card-header">
+                            <h2><i class="fa-solid fa-receipt text-primary"></i> Booking History</h2>
+                        </div>
+                        <div class="history-list" id="custHistoryList">
+                            <!-- Populated by JavaScript -->
+                            <div class="empty-state">
+                                <i class="fa-solid fa-box-open"></i>
+                                <p>No bookings found. Place a wash request above!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= LAUNDRY STAFF MODULE ================= -->
+        <section id="sectStaff" class="sect-container" style="display: none;">
+            <div class="dashboard-banner bg-gradient-staff">
+                <h1 id="staffGreeting">Hello, Staff Agent!</h1>
+                <p>Advance order washing schedules and scan validation QR codes.</p>
+            </div>
+
+            <!-- Dynamic Scan verification popup -->
+            <div class="grid-2-col">
+                <!-- Left: Workload RecyclerView List -->
+                <div class="column-card flex-2-3">
+                    <div class="card-header">
+                        <h2><i class="fa-solid fa-list-check text-primary"></i> Assigned Workload</h2>
+                    </div>
+                    <div class="history-list" id="staffWorkloadList">
+                        <!-- Populated dynamically -->
+                    </div>
+                </div>
+
+                <!-- Right: Scan verification simulation module -->
+                <div class="column-card flex-1-3">
+                    <div class="card-header">
+                        <h2><i class="fa-solid fa-qrcode text-accent"></i> Digital QR Verification</h2>
+                    </div>
+                    <div class="qr-scan-simulator">
+                        <p class="text-muted">Since this is a localhost simulation browser environment, scan the QR code by pasting the Customer's Order ID below to confirm immediate drop-offs.</p>
+                        
+                        <div class="input-group">
+                            <label for="staffQrSimInput">Pasted Order ID</label>
+                            <div class="input-with-icon">
+                                <i class="fa-solid fa-terminal"></i>
+                                <input type="text" id="staffQrSimInput" placeholder="Paste ord_xxxxx here...">
+                            </div>
+                        </div>
+                        
+                        <button id="btnStaffSimScan" class="btn-primary w-full">VERIFY &amp; DELIVER ORDER</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= ADMIN MODULE ================= -->
+        <section id="sectAdmin" class="sect-container" style="display: none;">
+            <div style="display: flex; gap: 24px; align-items: flex-start; margin-top: 20px;">
+                <!-- Admin Sidebar -->
+                <div class="admin-sidebar column-card" style="width: 260px; padding: 20px;">
+                    <div style="margin-bottom: 24px; text-align: center;">
+                        <i class="fa-solid fa-user-shield text-primary" style="font-size: 32px; margin-bottom: 12px;"></i>
+                        <h3 style="font-size: 16px;">Admin Controls</h3>
+                    </div>
+                    <div class="sidebar-nav" style="display: flex; flex-direction: column; gap: 10px;">
+                        <button class="btn-sidebar active" onclick="toggleAdminView('adminOverview')">
+                            <i class="fa-solid fa-chart-pie"></i> Dashboard Overview
+                        </button>
+                        <button class="btn-sidebar" onclick="toggleAdminView('adminTasks')">
+                            <i class="fa-solid fa-list-check"></i> Manage Tasks
+                        </button>
+                        <button class="btn-sidebar" onclick="toggleAdminView('adminUsers')">
+                            <i class="fa-solid fa-users-gear"></i> User Directory
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Admin Main Content -->
+                <div class="admin-main-content" style="flex: 1;">
+                    
+                    <!-- VIEW: Overview -->
+                    <div id="adminOverview">
+                        <div class="dashboard-banner bg-gradient-admin">
+                            <h1 id="adminGreeting">System Administrator</h1>
+                            <p>Manage overall platform pricing, orders, and total revenue analytics.</p>
+                        </div>
+
+                        <!-- Statistical Analytics Row -->
+                        <div class="analytics-row">
+                            <div class="metric-card">
+                                <div class="metric-icon bg-primary"><i class="fa-solid fa-sack-dollar"></i></div>
+                                <div class="metric-data">
+                                    <span class="metric-title">Total Revenue</span>
+                                    <h3 id="adminRevenueMetric">₹0.00</h3>
+                                </div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-icon bg-accent"><i class="fa-solid fa-soap"></i></div>
+                                <div class="metric-data">
+                                    <span class="metric-title">Active Orders</span>
+                                    <h3 id="adminActiveCountMetric">0 Bookings</h3>
+                                </div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-icon bg-warning"><i class="fa-solid fa-users"></i></div>
+                                <div class="metric-data">
+                                    <span class="metric-title">User Accounts</span>
+                                    <h3 id="adminUsersCountMetric">3 Users</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Global Pricing Configuration -->
+                        <div class="column-card">
+                            <div class="card-header">
+                                <h2><i class="fa-solid fa-sliders text-primary"></i> Global Pricing Settings</h2>
+                            </div>
+                            <div class="admin-pricing-manager">
+                                <p class="text-muted">Adjust the base pricing rate per piece. This changes all customer pricing calculations dynamically.</p>
+                                <div class="input-group">
+                                    <label for="adminBasePriceInput">Base Price Per Piece (₹)</label>
+                                    <div class="input-with-icon">
+                                        <i class="fa-solid fa-indian-rupee-sign"></i>
+                                        <input type="number" id="adminBasePriceInput" min="0.1" step="0.1" value="2.00">
+                                    </div>
+                                </div>
+                                <button id="btnAdminApplyPrice" class="btn-primary w-full">APPLY NEW PRICING</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- VIEW: Manage Tasks -->
+                    <div id="adminTasks" style="display: none;">
+                        <div class="column-card">
+                            <div class="card-header">
+                                <h2><i class="fa-solid fa-list text-primary"></i> Overall Platform Bookings</h2>
+                                <p class="text-muted" style="font-size: 13px; margin-top: 5px;">Change the status of any task/order in the system below.</p>
+                            </div>
+                            <div class="history-list" id="adminAllOrdersList">
+                                <!-- Populated by JS -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- VIEW: User Directory -->
+                    <div id="adminUsers" style="display: none;">
+                        <div class="column-card">
+                            <div class="card-header">
+                                <h2><i class="fa-solid fa-users text-primary"></i> Registered Users Directory</h2>
+                                <p class="text-muted" style="font-size: 13px; margin-top: 5px;">View and manage all customer, staff, and admin accounts.</p>
+                            </div>
+                            <div class="history-list" id="adminUsersList">
+                                <!-- Populated by JS -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 Smart Laundry Management. Designed for Final Year Android/Web Presentation.</p>
+    </footer>
+
+    <!-- Interactive script bindings -->
+    <script src="app.js"></script>
+</body>
+</html>

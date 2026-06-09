@@ -1,0 +1,136 @@
+{
+  "users": [
+    {
+      "userId": "usr_cust1",
+      "name": "Shaik Suhel Basha",
+      "email": "shaiksuhelbasha609@gmail.com",
+      "password": "123",
+      "phone": "9876543210",
+      "address": "123 Clean Street, Bubble Town",
+      "role": "customer"
+    },
+    {
+      "userId": "usr_staff1",
+      "name": "Bob Staff",
+      "email": "staff@laundry.com",
+      "password": "123",
+      "phone": "9876543211",
+      "address": "Laundry Depot Hub 4",
+      "role": "staff"
+    },
+    {
+      "userId": "usr_admin1",
+      "name": "Manager Admin",
+      "email": "admin@laundry.com",
+      "password": "123",
+      "phone": "9876543212",
+      "address": "Central Administration Office",
+      "role": "admin"
+    },
+    {
+      "userId": "usr_ag259ti9f",
+      "name": "charan",
+      "email": "login.done6565@gmail.com",
+      "password": "696969",
+      "phone": "8247859223",
+      "address": "Andhra pradesh grameena bank, opp police station, Mulakalacheruvu",
+      "role": "admin"
+    }
+  ],
+  "orders": [
+    {
+      "orderId": "ord_72xf3fhzj",
+      "userId": "usr_cust1",
+      "serviceType": "Standard Wash",
+      "fabricType": "saree",
+      "totalQuantity": 8,
+      "pickupDate": "2026-06-10",
+      "status": "Pickup Pending",
+      "totalPrice": 16,
+      "paymentStatus": "Pending",
+      "assignedStaffId": "",
+      "createdAt": 1781017278447
+    },
+    {
+      "orderId": "ord_zo8h2unpx",
+      "userId": "usr_cust1",
+      "serviceType": "Dry Cleaning",
+      "fabricType": "kurtas",
+      "totalQuantity": 1,
+      "pickupDate": "2026-06-12",
+      "status": "Pickup Pending",
+      "totalPrice": 3,
+      "paymentStatus": "Pending",
+      "assignedStaffId": "",
+      "createdAt": 1780995420285
+    },
+    {
+      "orderId": "ord_rbl17qsdw",
+      "userId": "usr_cust1",
+      "serviceType": "Standard Wash",
+      "fabricType": "saree",
+      "totalQuantity": 4,
+      "pickupDate": "2026-06-04",
+      "status": "Pickup Pending",
+      "totalPrice": 8,
+      "paymentStatus": "Pending",
+      "assignedStaffId": "",
+      "createdAt": 1780467135243
+    },
+    {
+      "orderId": "ord_uq82m22ee",
+      "userId": "usr_cust1",
+      "serviceType": "Standard Wash",
+      "fabricType": "saree",
+      "totalQuantity": 1,
+      "pickupDate": "2026-06-04",
+      "status": "Pickup Pending",
+      "totalPrice": 2,
+      "paymentStatus": "Pending",
+      "assignedStaffId": "",
+      "createdAt": 1780465384149
+    },
+    {
+      "orderId": "ord_mul3czata",
+      "userId": "usr_cust1",
+      "serviceType": "Standard Wash",
+      "fabricType": "cotton",
+      "totalQuantity": 1,
+      "pickupDate": "2026-06-03",
+      "status": "Pickup Pending",
+      "totalPrice": 2,
+      "paymentStatus": "Pending",
+      "assignedStaffId": "",
+      "createdAt": 1780416655959
+    },
+    {
+      "orderId": "ord_q06fqcwht",
+      "userId": "usr_cust1",
+      "serviceType": "Standard Wash",
+      "fabricType": "slik saree",
+      "totalQuantity": 1,
+      "pickupDate": "2026-06-03",
+      "status": "Pickup Pending",
+      "totalPrice": 2,
+      "paymentStatus": "Pending",
+      "assignedStaffId": "",
+      "createdAt": 1780401655093
+    },
+    {
+      "orderId": "ord_1",
+      "userId": "usr_cust1",
+      "serviceType": "Dry Cleaning",
+      "fabricType": "Silk Saree",
+      "totalQuantity": 3,
+      "pickupDate": "2026-06-03",
+      "status": "Washing",
+      "totalPrice": 9,
+      "paymentStatus": "Pending",
+      "assignedStaffId": "usr_staff1",
+      "createdAt": 1780396018444
+    }
+  ],
+  "pricing": {
+    "basePrice": 2
+  }
+}
