@@ -1,6 +1,8 @@
 const express = require('express');
 const path = require('path');
 const { createClient } = require('@supabase/supabase-js');
+const nodemailer = require('nodemailer');
+global.WebSocket = require('ws'); // Polyfill for Node 20
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -10,9 +12,140 @@ const supabaseUrl = process.env.SUPABASE_URL || 'https://mock.supabase.co';
 const supabaseKey = process.env.SUPABASE_KEY || 'mock_key';
 const supabase = createClient(supabaseUrl, supabaseKey);
 
+// Nodemailer Configuration (Using User Provided SMTP)
+const transporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: process.env.SMTP_USER || 'shaiksuhelbasha609@gmail.com',
+    pass: process.env.SMTP_PASS || 'wnxk xszg qlid onps'
+  }
+});
+
 // Middlewares
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
+
+// --- OTP / EMAIL ENDPOINTS ---
+
+// 1. Send OTP (For Registration or Forgot Password)
+app.post('/api/auth/send-otp', async (req, res) => {
+  const { email, purpose } = req.body;
+  
+  if (!email || !email.includes('@')) {
+    return res.status(400).json({ success: false, message: "Invalid email format" });
+  }
+
+  // Generate 6-digit OTP
+  const otpCode = Math.floor(100000 + Math.random() * 900000).toString();
+  const expiresAt = Date.now() + 10 * 60 * 1000; // 10 minutes
+
+  // Store in Supabase
+  const { error } = await supabase
+    .from('otps')
+    .insert([{
+      email,
+      otp_code: otpCode,
+      purpose: purpose || 'general',
+      created_at: Date.now(),
+      expires_at: expiresAt,
+      is_used: false
+    }]);
+
+  if (error) {
+    return res.status(500).json({ success: false, message: "Database error storing OTP. Make sure the otps table exists." });
+  }
+
+  // Send Email
+  try {
+    const mailOptions = {
+      from: '"Smart Laundry" <shaiksuhelbasha609@gmail.com>',
+      to: email,
+      subject: purpose === 'password_reset' ? 'Password Reset Code' : 'Your Verification Code',
+      text: `Your Smart Laundry verification code is: ${otpCode}\n\nThis code will expire in 10 minutes.`
+    };
+    await transporter.sendMail(mailOptions);
+    res.json({ success: true, message: "OTP sent successfully" });
+  } catch (err) {
+    console.error("Email send error:", err);
+    res.status(500).json({ success: false, message: "Failed to send email" });
+  }
+});
+
+// 2. Verify OTP
+app.post('/api/auth/verify-otp', async (req, res) => {
+  const { email, otp_code, purpose } = req.body;
+  
+  const { data, error } = await supabase
+    .from('otps')
+    .select('*')
+    .eq('email', email)
+    .eq('otp_code', otp_code)
+    .eq('purpose', purpose || 'general')
+    .eq('is_used', false)
+    .gte('expires_at', Date.now())
+    .order('created_at', { ascending: false })
+    .limit(1)
+    .single();
+
+  if (error || !data) {
+    return res.status(400).json({ success: false, message: "Invalid or expired OTP" });
+  }
+
+  // Mark as used
+  await supabase.from('otps').update({ is_used: true }).eq('id', data.id);
+
+  res.json({ success: true, message: "OTP verified successfully" });
+});
+
+// 3. Reset Password
+app.post('/api/auth/reset-password', async (req, res) => {
+  const { email, new_password, otp_code } = req.body;
+
+  // Verify OTP again just to be safe
+  const { data: otpData, error: otpError } = await supabase
+    .from('otps')
+    .select('*')
+    .eq('email', email)
+    .eq('otp_code', otp_code)
+    .eq('purpose', 'password_reset')
+    .eq('is_used', true) // It should have been marked used by verify-otp, or we can check unused and mark it here
+    .order('created_at', { ascending: false })
+    .limit(1)
+    .single();
+
+  // Or alternatively, just allow if they verified it recently. Let's just do a direct update if they provide the OTP in one shot.
+  // Actually, let's allow it if the OTP is valid and unused
+  const { data: validOtp } = await supabase
+    .from('otps')
+    .select('*')
+    .eq('email', email)
+    .eq('otp_code', otp_code)
+    .eq('purpose', 'password_reset')
+    .eq('is_used', false)
+    .gte('expires_at', Date.now())
+    .single();
+
+  if (!validOtp) {
+     return res.status(400).json({ success: false, message: "Invalid or expired OTP" });
+  }
+
+  // Mark used
+  await supabase.from('otps').update({ is_used: true }).eq('id', validOtp.id);
+
+  // Update User password
+  const { data, error } = await supabase
+    .from('users')
+    .update({ password: new_password })
+    .eq('email', email)
+    .select()
+    .single();
+
+  if (error || !data) {
+    return res.status(400).json({ success: false, message: "Failed to reset password. User might not exist." });
+  }
+
+  res.json({ success: true, message: "Password updated successfully" });
+});
 
 // --- REST API ENDPOINTS ---
 
@@ -40,10 +173,28 @@ app.post('/api/auth/login', async (req, res) => {
   }});
 });
 
-// Auth: Register
+// Auth: Register (Now requires verification)
 app.post('/api/auth/register', async (req, res) => {
-  const { name, email, password, phone, address, role } = req.body;
+  const { name, email, password, phone, address, role, otp_code } = req.body;
   
+  // Verify OTP
+  const { data: validOtp } = await supabase
+    .from('otps')
+    .select('*')
+    .eq('email', email)
+    .eq('otp_code', otp_code)
+    .eq('purpose', 'registration')
+    .eq('is_used', false)
+    .gte('expires_at', Date.now())
+    .single();
+
+  if (!validOtp) {
+    return res.status(400).json({ success: false, message: "Email verification failed. Invalid or expired OTP." });
+  }
+
+  // Mark OTP used
+  await supabase.from('otps').update({ is_used: true }).eq('id', validOtp.id);
+
   const userId = 'usr_' + Math.random().toString(36).substr(2, 9);
   
   const { data, error } = await supabase

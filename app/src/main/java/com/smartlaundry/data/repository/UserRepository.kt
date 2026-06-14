@@ -99,6 +99,36 @@ class UserRepository {
         }
     }
 
+    suspend fun sendOtp(email: String, purpose: String): Boolean {
+        return try {
+            val response = api.sendOtp(mapOf("email" to email, "purpose" to purpose))
+            response["success"] as? Boolean ?: false
+        } catch (e: Exception) {
+            e.printStackTrace()
+            false
+        }
+    }
+
+    suspend fun verifyOtp(email: String, otpCode: String, purpose: String): Boolean {
+        return try {
+            val response = api.verifyOtp(mapOf("email" to email, "otp_code" to otpCode, "purpose" to purpose))
+            response["success"] as? Boolean ?: false
+        } catch (e: Exception) {
+            e.printStackTrace()
+            false
+        }
+    }
+
+    suspend fun resetPassword(email: String, otpCode: String, newPassword: String): Boolean {
+        return try {
+            val response = api.resetPassword(mapOf("email" to email, "otp_code" to otpCode, "new_password" to newPassword))
+            response["success"] as? Boolean ?: false
+        } catch (e: Exception) {
+            e.printStackTrace()
+            false
+        }
+    }
+
     // Logout
     fun logout() {
         cachedUser = null

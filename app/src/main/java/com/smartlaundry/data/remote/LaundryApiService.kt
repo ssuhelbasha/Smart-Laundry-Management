@@ -11,6 +11,15 @@ interface LaundryApiService {
     @POST("api/auth/register")
     suspend fun register(@Body registrationDetails: Map<String, String>): Map<String, Any>
 
+    @POST("api/auth/send-otp")
+    suspend fun sendOtp(@Body requestBody: Map<String, String>): Map<String, Any>
+
+    @POST("api/auth/verify-otp")
+    suspend fun verifyOtp(@Body requestBody: Map<String, String>): Map<String, Any>
+
+    @POST("api/auth/reset-password")
+    suspend fun resetPassword(@Body requestBody: Map<String, String>): Map<String, Any>
+
     @GET("api/orders")
     suspend fun getOrders(
         @Query("userId") userId: String? = null,

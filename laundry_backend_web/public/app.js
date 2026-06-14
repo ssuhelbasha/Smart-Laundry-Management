@@ -87,8 +87,28 @@ function bindEvents() {
 
     // Submit actions
     document.getElementById('submitLogin').addEventListener('click', handleLogin);
-    document.getElementById('submitRegister').addEventListener('click', handleRegister);
+    document.getElementById('submitRegister').addEventListener('click', handleRegisterReqOtp);
     document.getElementById('btnLogOut').addEventListener('click', handleLogout);
+
+    // Forgot Password Flow
+    document.getElementById('linkForgotPassword').addEventListener('click', (e) => {
+        e.preventDefault();
+        document.getElementById('formLogin').style.display = 'none';
+        document.getElementById('formForgotPassword').style.display = 'block';
+    });
+    document.getElementById('btnCancelForgot').addEventListener('click', () => {
+        document.getElementById('formForgotPassword').style.display = 'none';
+        document.getElementById('formLogin').style.display = 'block';
+    });
+    document.getElementById('btnSendForgotOtp').addEventListener('click', handleForgotSendOtp);
+    document.getElementById('btnResetPassword').addEventListener('click', handleForgotResetPass);
+
+    // Registration OTP Verification Flow
+    document.getElementById('btnVerifyRegOtp').addEventListener('click', handleRegisterVerify);
+    document.getElementById('btnCancelRegOtp').addEventListener('click', () => {
+        document.getElementById('regOtpModal').style.display = 'none';
+        document.getElementById('overlayRegOtp').style.display = 'none';
+    });
 
     // Customer Service Chips selection
     document.querySelectorAll('.service-chip').forEach(chip => {
@@ -127,6 +147,8 @@ function bindEvents() {
 
 function toggleAuthTab(type) {
     document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+    document.getElementById('formForgotPassword').style.display = 'none';
+    
     if (type === 'login') {
         document.getElementById('tabLogin').classList.add('active');
         document.getElementById('formLogin').style.display = 'block';
@@ -135,6 +157,20 @@ function toggleAuthTab(type) {
         document.getElementById('tabRegister').classList.add('active');
         document.getElementById('formLogin').style.display = 'none';
         document.getElementById('formRegister').style.display = 'block';
+    }
+}
+
+// Password Visibility Toggle
+function togglePasswordVisibility(inputId, iconElement) {
+    const input = document.getElementById(inputId);
+    if (input.type === "password") {
+        input.type = "text";
+        iconElement.classList.remove("fa-eye-slash");
+        iconElement.classList.add("fa-eye");
+    } else {
+        input.type = "password";
+        iconElement.classList.remove("fa-eye");
+        iconElement.classList.add("fa-eye-slash");
     }
 }
 
@@ -168,36 +204,79 @@ async function handleLogin() {
     }
 }
 
-async function handleRegister() {
+// Globals to hold reg data temporarily
+let pendingRegData = null;
+
+async function handleRegisterReqOtp() {
     const name = document.getElementById('regName').value.trim();
     const email = document.getElementById('regEmail').value.trim();
     const phone = document.getElementById('regPhone').value.trim();
     const address = document.getElementById('regAddress').value.trim();
     const password = document.getElementById('regPassword').value.trim();
-    
-    // Checked role
     const role = document.querySelector('input[name="regRole"]:checked').value;
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     if (!name || !email || !phone || !address || !password) {
         alert("Please fill in all registration parameters.");
         return;
     }
 
-    if (password.length < 4) {
-        alert("Password must be at least 4 characters.");
+    if (!emailRegex.test(email)) {
+        alert("Please enter a valid email address.");
         return;
     }
+
+    if (password.length < 6) {
+        alert("Password must be at least 6 characters.");
+        return;
+    }
+
+    pendingRegData = { name, email, password, phone, address, role };
+
+    try {
+        const res = await fetch('/api/auth/send-otp', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email, purpose: 'registration' })
+        });
+        const data = await res.json();
+        
+        if (data.success) {
+            document.getElementById('overlayRegOtp').style.display = 'block';
+            document.getElementById('regOtpModal').style.display = 'block';
+        } else {
+            alert(data.message || "Failed to send OTP.");
+        }
+    } catch (e) {
+        alert("Connection to server failed.");
+    }
+}
+
+async function handleRegisterVerify() {
+    if (!pendingRegData) return;
+    const otpCode = document.getElementById('regOtpInput').value.trim();
+    
+    if (otpCode.length !== 6) {
+        alert("Please enter the 6-digit OTP");
+        return;
+    }
+
+    pendingRegData.otp_code = otpCode;
 
     try {
         const res = await fetch('/api/auth/register', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ name, email, password, phone, address, role })
+            body: JSON.stringify(pendingRegData)
         });
         const data = await res.json();
         
         if (data.success) {
-            alert("Registration successful! Please log in with your new credentials.");
+            alert("Registration successful! Email verified.");
+            document.getElementById('regOtpModal').style.display = 'none';
+            document.getElementById('overlayRegOtp').style.display = 'none';
+            document.getElementById('regOtpInput').value = '';
             
             // Clear inputs
             document.getElementById('regName').value = '';
@@ -206,13 +285,74 @@ async function handleRegister() {
             document.getElementById('regAddress').value = '';
             document.getElementById('regPassword').value = '';
             
-            // Switch to login tab
+            // Switch to login
             toggleAuthTab('login');
         } else {
-            alert(data.message || "Registration failed");
+            alert(data.message || "Registration failed or invalid OTP.");
         }
     } catch (e) {
-        alert("Failed to register account.");
+        alert("Failed to verify registration.");
+    }
+}
+
+async function handleForgotSendOtp() {
+    const email = document.getElementById('forgotEmail').value.trim();
+    if (!email) {
+        alert("Please enter your email."); return;
+    }
+    
+    try {
+        const res = await fetch('/api/auth/send-otp', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email, purpose: 'password_reset' })
+        });
+        const data = await res.json();
+        if (data.success) {
+            document.getElementById('forgotStep1').style.display = 'none';
+            document.getElementById('forgotStep2').style.display = 'block';
+        } else {
+            alert(data.message || "Failed to send reset code.");
+        }
+    } catch(e) {
+        alert("Server error.");
+    }
+}
+
+async function handleForgotResetPass() {
+    const email = document.getElementById('forgotEmail').value.trim();
+    const otp_code = document.getElementById('forgotOtp').value.trim();
+    const new_password = document.getElementById('forgotNewPassword').value.trim();
+    
+    if (!otp_code || !new_password) {
+        alert("Please enter the OTP and new password."); return;
+    }
+    if (new_password.length < 6) {
+        alert("Password must be at least 6 characters."); return;
+    }
+
+    try {
+        const res = await fetch('/api/auth/reset-password', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email, otp_code, new_password })
+        });
+        const data = await res.json();
+        if (data.success) {
+            alert("Password reset successfully! You can now log in.");
+            document.getElementById('forgotStep2').style.display = 'none';
+            document.getElementById('forgotStep1').style.display = 'block';
+            document.getElementById('formForgotPassword').style.display = 'none';
+            document.getElementById('formLogin').style.display = 'block';
+            
+            document.getElementById('forgotOtp').value = '';
+            document.getElementById('forgotNewPassword').value = '';
+            document.getElementById('forgotEmail').value = '';
+        } else {
+            alert(data.message || "Invalid OTP.");
+        }
+    } catch(e) {
+        alert("Server error.");
     }
 }
 
