@@ -55,7 +55,7 @@ class UserRepository {
     }
  
     // Register a new user through Express REST API (with offline fallback)
-    suspend fun register(user: User, password: String): Boolean {
+    suspend fun register(user: User, password: String, otpCode: String): Boolean {
         return try {
             val details = mapOf(
                 "name" to user.name,
@@ -63,7 +63,8 @@ class UserRepository {
                 "phone" to user.phone,
                 "address" to user.address,
                 "role" to user.role,
-                "password" to password
+                "password" to password,
+                "otpCode" to otpCode
             )
             val response = api.register(details)
             val success = response["success"] as? Boolean ?: false

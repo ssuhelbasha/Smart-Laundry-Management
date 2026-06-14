@@ -40,15 +40,30 @@ class AuthViewModel(private val repository: UserRepository = UserRepository()) :
         }
     }
 
-    fun registerUser(user: User, password: String) {
+    fun sendOtpForRegistration(email: String, onResult: (Boolean) -> Unit) {
         _authState.value = AuthState.Loading
         viewModelScope.launch {
             try {
-                val success = repository.register(user, password)
+                val success = repository.sendOtp(email, "registration")
+                _authState.value = AuthState.Idle // Reset state after sending
+                onResult(success)
+            } catch (e: Exception) {
+                e.printStackTrace()
+                _authState.value = AuthState.Idle
+                onResult(false)
+            }
+        }
+    }
+
+    fun registerUser(user: User, password: String, otpCode: String) {
+        _authState.value = AuthState.Loading
+        viewModelScope.launch {
+            try {
+                val success = repository.register(user, password, otpCode)
                 if (success) {
                     _authState.value = AuthState.Success(user)
                 } else {
-                    _authState.value = AuthState.Error("Registration failed. Please try again.")
+                    _authState.value = AuthState.Error("Registration failed. Please check the OTP and try again.")
                 }
             } catch (e: Exception) {
                 e.printStackTrace()
@@ -64,6 +79,7 @@ class AuthViewModel(private val repository: UserRepository = UserRepository()) :
     }
 
     sealed class AuthState {
+        object Idle : AuthState()
         object Loading : AuthState()
         data class Success(val user: User) : AuthState()
         data class Error(val message: String) : AuthState()

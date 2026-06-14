@@ -72,12 +72,43 @@ class RegisterActivity : AppCompatActivity() {
                 role = role
             )
 
-            viewModel.registerUser(user, password)
+            // Step 1: Request OTP
+            viewModel.sendOtpForRegistration(email) { success ->
+                if (success) {
+                    showOtpDialog(user, password)
+                } else {
+                    Toast.makeText(this, "Failed to send OTP. Try again.", Toast.LENGTH_SHORT).show()
+                }
+            }
         }
 
         binding.tvLoginLink.setOnClickListener {
             finish()
         }
+    }
+
+    private fun showOtpDialog(user: User, password: String) {
+        val input = android.widget.EditText(this)
+        input.inputType = android.text.InputType.TYPE_CLASS_NUMBER
+        input.hint = "Enter 6-digit OTP"
+        
+        android.app.AlertDialog.Builder(this)
+            .setTitle("Verify Email")
+            .setMessage("We've sent an OTP to ${user.email}. Please enter it below:")
+            .setView(input)
+            .setPositiveButton("Verify") { dialog, _ ->
+                val otpCode = input.text.toString().trim()
+                if (otpCode.length == 6) {
+                    viewModel.registerUser(user, password, otpCode)
+                } else {
+                    Toast.makeText(this, "Invalid OTP format", Toast.LENGTH_SHORT).show()
+                }
+                dialog.dismiss()
+            }
+            .setNegativeButton("Cancel") { dialog, _ ->
+                dialog.cancel()
+            }
+            .show()
     }
 
     private fun routeUserByRole(role: String) {
