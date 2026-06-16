@@ -47,7 +47,10 @@ const AuthView = ({ onLogin }) => {
       } else {
         const res = await axios.post('/api/auth/register', formData);
         if (res.data.success) {
-          onLogin(res.data.user);
+          alert('Registration successful! Please sign in with your new credentials.');
+          setIsLogin(true);
+          setOtpSent(false);
+          setFormData({ ...formData, password: '', otp_code: '' });
         }
       }
     } catch (err) {
