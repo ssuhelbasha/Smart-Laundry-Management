@@ -5,7 +5,7 @@ import { Mail, Lock, User, Phone, MapPin, Eye, EyeOff } from 'lucide-react';
 const AuthView = ({ onLogin }) => {
   const [isLogin, setIsLogin] = useState(true);
   const [formData, setFormData] = useState({
-    name: '', email: '', password: '', phone: '', address: '', otp_code: ''
+    name: '', email: '', password: '', phone: '', address: '', otp_code: '', role: 'customer'
   });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
@@ -118,6 +118,17 @@ const AuthView = ({ onLogin }) => {
               <div className="input-with-icon">
                 <MapPin className="absolute left-4 text-gray-400 w-5 h-5" />
                 <input type="text" name="address" placeholder="Full Address" value={formData.address} onChange={handleChange} required className="w-full pl-12 pr-4 py-3 bg-white border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary transition-all" />
+              </div>
+              <div className="flex gap-6 mt-2 p-2 rounded-xl bg-gray-50 border border-gray-100">
+                <span className="text-sm font-semibold text-gray-500">Account Type:</span>
+                <label className="flex items-center gap-2 text-sm text-gray-800 font-medium cursor-pointer">
+                  <input type="radio" name="role" value="customer" checked={formData.role === 'customer'} onChange={handleChange} className="accent-primary w-4 h-4 cursor-pointer" />
+                  Customer
+                </label>
+                <label className="flex items-center gap-2 text-sm text-gray-800 font-medium cursor-pointer">
+                  <input type="radio" name="role" value="staff" checked={formData.role === 'staff'} onChange={handleChange} className="accent-primary w-4 h-4 cursor-pointer" />
+                  Staff
+                </label>
               </div>
             </>
           )}
