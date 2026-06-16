@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { Mail, Lock, User, Phone, MapPin } from 'lucide-react';
+import { Mail, Lock, User, Phone, MapPin, Eye, EyeOff } from 'lucide-react';
 
 const AuthView = ({ onLogin }) => {
   const [isLogin, setIsLogin] = useState(true);
@@ -10,6 +10,7 @@ const AuthView = ({ onLogin }) => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [otpSent, setOtpSent] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -100,9 +101,12 @@ const AuthView = ({ onLogin }) => {
             </div>
           )}
 
-          <div className="input-with-icon">
-            <Lock className="absolute left-4 text-gray-400 w-5 h-5" />
-            <input type="password" name="password" placeholder="Password" value={formData.password} onChange={handleChange} required className="w-full pl-12 pr-4 py-3 bg-white border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary transition-all" />
+          <div className="input-with-icon relative">
+            <Lock className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 w-5 h-5" />
+            <input type={showPassword ? "text" : "password"} name="password" placeholder="Password" value={formData.password} onChange={handleChange} required className="w-full pl-12 pr-12 py-3 bg-white border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary transition-all" />
+            <button type="button" onClick={() => setShowPassword(!showPassword)} className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 focus:outline-none">
+              {showPassword ? <EyeOff className="w-5 h-5" /> : <Eye className="w-5 h-5" />}
+            </button>
           </div>
 
           {!isLogin && (
