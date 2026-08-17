@@ -1,0 +1,1881 @@
+[
+  {
+    "id": "TC_API_AUTH_001",
+    "category": "Authentication",
+    "name": "Auth Test Case #1",
+    "method": "POST",
+    "endpoint": "/api/auth/login",
+    "payload": {
+      "email": "shaiksuhelbasha609@gmail.com",
+      "password": "123"
+    },
+    "expectedStatus": 200,
+    "description": "Verify login behavior",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 84,
+    "timestamp": "2026-08-17T05:39:16.092Z"
+  },
+  {
+    "id": "TC_API_AUTH_002",
+    "category": "Authentication",
+    "name": "Auth Test Case #2",
+    "method": "POST",
+    "endpoint": "/api/auth/login",
+    "payload": {
+      "email": "test_user_2@laundry.com",
+      "password": "123"
+    },
+    "expectedStatus": 401,
+    "description": "Verify login behavior",
+    "actualStatus": 401,
+    "status": "PASSED",
+    "responseTimeMs": 54,
+    "timestamp": "2026-08-17T05:39:21.107Z"
+  },
+  {
+    "id": "TC_API_AUTH_003",
+    "category": "Authentication",
+    "name": "Auth Test Case #3",
+    "method": "POST",
+    "endpoint": "/api/auth/login",
+    "payload": {
+      "email": "test_user_3@laundry.com",
+      "password": "123"
+    },
+    "expectedStatus": 401,
+    "description": "Verify login behavior",
+    "actualStatus": 401,
+    "status": "PASSED",
+    "responseTimeMs": 31,
+    "timestamp": "2026-08-17T05:39:26.120Z"
+  },
+  {
+    "id": "TC_API_AUTH_004",
+    "category": "Authentication",
+    "name": "Auth Test Case #4",
+    "method": "POST",
+    "endpoint": "/api/auth/login",
+    "payload": {
+      "email": "test_user_4@laundry.com",
+      "password": "123"
+    },
+    "expectedStatus": 401,
+    "description": "Verify login behavior",
+    "actualStatus": 401,
+    "status": "PASSED",
+    "responseTimeMs": 90,
+    "timestamp": "2026-08-17T05:39:31.140Z"
+  },
+  {
+    "id": "TC_API_AUTH_005",
+    "category": "Authentication",
+    "name": "Auth Test Case #5",
+    "method": "POST",
+    "endpoint": "/api/auth/login",
+    "payload": {
+      "email": "test_user_5@laundry.com",
+      "password": "123"
+    },
+    "expectedStatus": 401,
+    "description": "Verify login behavior",
+    "actualStatus": 401,
+    "status": "PASSED",
+    "responseTimeMs": 23,
+    "timestamp": "2026-08-17T05:39:36.157Z"
+  },
+  {
+    "id": "TC_API_AUTH_006",
+    "category": "Authentication",
+    "name": "Auth Test Case #6",
+    "method": "POST",
+    "endpoint": "/api/auth/login",
+    "payload": {
+      "email": "test_user_6@laundry.com",
+      "password": "123"
+    },
+    "expectedStatus": 401,
+    "description": "Verify login behavior",
+    "actualStatus": 401,
+    "status": "PASSED",
+    "responseTimeMs": 84,
+    "timestamp": "2026-08-17T05:39:41.170Z"
+  },
+  {
+    "id": "TC_API_AUTH_007",
+    "category": "Authentication",
+    "name": "Auth Test Case #7",
+    "method": "POST",
+    "endpoint": "/api/auth/login",
+    "payload": {
+      "email": "test_user_7@laundry.com",
+      "password": "123"
+    },
+    "expectedStatus": 401,
+    "description": "Verify login behavior",
+    "actualStatus": 401,
+    "status": "PASSED",
+    "responseTimeMs": 26,
+    "timestamp": "2026-08-17T05:39:46.178Z"
+  },
+  {
+    "id": "TC_API_AUTH_008",
+    "category": "Authentication",
+    "name": "Auth Test Case #8",
+    "method": "POST",
+    "endpoint": "/api/auth/login",
+    "payload": {
+      "email": "test_user_8@laundry.com",
+      "password": "123"
+    },
+    "expectedStatus": 401,
+    "description": "Verify login behavior",
+    "actualStatus": 401,
+    "status": "PASSED",
+    "responseTimeMs": 65,
+    "timestamp": "2026-08-17T05:39:51.195Z"
+  },
+  {
+    "id": "TC_API_AUTH_009",
+    "category": "Authentication",
+    "name": "Auth Test Case #9",
+    "method": "POST",
+    "endpoint": "/api/auth/login",
+    "payload": {
+      "email": "test_user_9@laundry.com",
+      "password": "123"
+    },
+    "expectedStatus": 401,
+    "description": "Verify login behavior",
+    "actualStatus": 401,
+    "status": "PASSED",
+    "responseTimeMs": 74,
+    "timestamp": "2026-08-17T05:39:56.213Z"
+  },
+  {
+    "id": "TC_API_AUTH_010",
+    "category": "Authentication",
+    "name": "Auth Test Case #10",
+    "method": "POST",
+    "endpoint": "/api/auth/login",
+    "payload": {
+      "email": "test_user_10@laundry.com",
+      "password": "123"
+    },
+    "expectedStatus": 401,
+    "description": "Verify login behavior",
+    "actualStatus": 401,
+    "status": "PASSED",
+    "responseTimeMs": 87,
+    "timestamp": "2026-08-17T05:40:01.231Z"
+  },
+  {
+    "id": "TC_API_AUTH_011",
+    "category": "Authentication",
+    "name": "Auth Test Case #11",
+    "method": "POST",
+    "endpoint": "/api/auth/login",
+    "payload": {
+      "email": "test_user_11@laundry.com",
+      "password": "123"
+    },
+    "expectedStatus": 401,
+    "description": "Verify login behavior",
+    "actualStatus": 401,
+    "status": "PASSED",
+    "responseTimeMs": 49,
+    "timestamp": "2026-08-17T05:40:06.237Z"
+  },
+  {
+    "id": "TC_API_AUTH_012",
+    "category": "Authentication",
+    "name": "Auth Test Case #12",
+    "method": "POST",
+    "endpoint": "/api/auth/login",
+    "payload": {
+      "email": "test_user_12@laundry.com",
+      "password": "123"
+    },
+    "expectedStatus": 401,
+    "description": "Verify login behavior",
+    "actualStatus": 401,
+    "status": "PASSED",
+    "responseTimeMs": 35,
+    "timestamp": "2026-08-17T05:40:11.249Z"
+  },
+  {
+    "id": "TC_API_AUTH_013",
+    "category": "Authentication",
+    "name": "Auth Test Case #13",
+    "method": "POST",
+    "endpoint": "/api/auth/login",
+    "payload": {
+      "email": "test_user_13@laundry.com",
+      "password": "123"
+    },
+    "expectedStatus": 401,
+    "description": "Verify login behavior",
+    "actualStatus": 401,
+    "status": "PASSED",
+    "responseTimeMs": 27,
+    "timestamp": "2026-08-17T05:40:16.257Z"
+  },
+  {
+    "id": "TC_API_AUTH_014",
+    "category": "Authentication",
+    "name": "Auth Test Case #14",
+    "method": "POST",
+    "endpoint": "/api/auth/login",
+    "payload": {
+      "email": "test_user_14@laundry.com",
+      "password": "123"
+    },
+    "expectedStatus": 401,
+    "description": "Verify login behavior",
+    "actualStatus": 401,
+    "status": "PASSED",
+    "responseTimeMs": 44,
+    "timestamp": "2026-08-17T05:40:21.272Z"
+  },
+  {
+    "id": "TC_API_AUTH_015",
+    "category": "Authentication",
+    "name": "Auth Test Case #15",
+    "method": "POST",
+    "endpoint": "/api/auth/login",
+    "payload": {
+      "email": "test_user_15@laundry.com",
+      "password": "123"
+    },
+    "expectedStatus": 401,
+    "description": "Verify login behavior",
+    "actualStatus": 401,
+    "status": "PASSED",
+    "responseTimeMs": 65,
+    "timestamp": "2026-08-17T05:40:26.278Z"
+  },
+  {
+    "id": "TC_API_AUTH_016",
+    "category": "Authentication",
+    "name": "Auth Test Case #16",
+    "method": "POST",
+    "endpoint": "/api/auth/login",
+    "payload": {
+      "email": "test_user_16@laundry.com",
+      "password": "123"
+    },
+    "expectedStatus": 401,
+    "description": "Verify login behavior",
+    "actualStatus": 401,
+    "status": "PASSED",
+    "responseTimeMs": 75,
+    "timestamp": "2026-08-17T05:40:31.284Z"
+  },
+  {
+    "id": "TC_API_AUTH_017",
+    "category": "Authentication",
+    "name": "Auth Test Case #17",
+    "method": "POST",
+    "endpoint": "/api/auth/login",
+    "payload": {
+      "email": "test_user_17@laundry.com",
+      "password": "123"
+    },
+    "expectedStatus": 401,
+    "description": "Verify login behavior",
+    "actualStatus": 401,
+    "status": "PASSED",
+    "responseTimeMs": 84,
+    "timestamp": "2026-08-17T05:40:36.295Z"
+  },
+  {
+    "id": "TC_API_AUTH_018",
+    "category": "Authentication",
+    "name": "Auth Test Case #18",
+    "method": "POST",
+    "endpoint": "/api/auth/login",
+    "payload": {
+      "email": "test_user_18@laundry.com",
+      "password": "123"
+    },
+    "expectedStatus": 401,
+    "description": "Verify login behavior",
+    "actualStatus": 401,
+    "status": "PASSED",
+    "responseTimeMs": 43,
+    "timestamp": "2026-08-17T05:40:41.306Z"
+  },
+  {
+    "id": "TC_API_AUTH_019",
+    "category": "Authentication",
+    "name": "Auth Test Case #19",
+    "method": "POST",
+    "endpoint": "/api/auth/login",
+    "payload": {
+      "email": "test_user_19@laundry.com",
+      "password": "123"
+    },
+    "expectedStatus": 401,
+    "description": "Verify login behavior",
+    "actualStatus": 401,
+    "status": "PASSED",
+    "responseTimeMs": 80,
+    "timestamp": "2026-08-17T05:40:46.317Z"
+  },
+  {
+    "id": "TC_API_AUTH_020",
+    "category": "Authentication",
+    "name": "Auth Test Case #20",
+    "method": "POST",
+    "endpoint": "/api/auth/login",
+    "payload": {
+      "email": "test_user_20@laundry.com",
+      "password": "123"
+    },
+    "expectedStatus": 401,
+    "description": "Verify login behavior",
+    "actualStatus": 401,
+    "status": "PASSED",
+    "responseTimeMs": 16,
+    "timestamp": "2026-08-17T05:40:51.332Z"
+  },
+  {
+    "id": "TC_API_ORD_001",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #1",
+    "method": "GET",
+    "endpoint": "/api/orders",
+    "payload": {
+      "status": "Washing"
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 76,
+    "timestamp": "2026-08-17T05:40:56.349Z"
+  },
+  {
+    "id": "TC_API_ORD_002",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #2",
+    "method": "GET",
+    "endpoint": "/api/orders",
+    "payload": {
+      "status": "Washing"
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 77,
+    "timestamp": "2026-08-17T05:41:01.361Z"
+  },
+  {
+    "id": "TC_API_ORD_003",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #3",
+    "method": "GET",
+    "endpoint": "/api/orders",
+    "payload": {
+      "status": "Washing"
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 40,
+    "timestamp": "2026-08-17T05:41:06.374Z"
+  },
+  {
+    "id": "TC_API_ORD_004",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #4",
+    "method": "GET",
+    "endpoint": "/api/orders",
+    "payload": {
+      "status": "Washing"
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 50,
+    "timestamp": "2026-08-17T05:41:11.381Z"
+  },
+  {
+    "id": "TC_API_ORD_005",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #5",
+    "method": "GET",
+    "endpoint": "/api/orders",
+    "payload": {
+      "status": "Washing"
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 48,
+    "timestamp": "2026-08-17T05:41:16.386Z"
+  },
+  {
+    "id": "TC_API_ORD_006",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #6",
+    "method": "GET",
+    "endpoint": "/api/orders",
+    "payload": {
+      "status": "Washing"
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 20,
+    "timestamp": "2026-08-17T05:41:21.403Z"
+  },
+  {
+    "id": "TC_API_ORD_007",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #7",
+    "method": "GET",
+    "endpoint": "/api/orders",
+    "payload": {
+      "status": "Washing"
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 54,
+    "timestamp": "2026-08-17T05:41:26.420Z"
+  },
+  {
+    "id": "TC_API_ORD_008",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #8",
+    "method": "GET",
+    "endpoint": "/api/orders",
+    "payload": {
+      "status": "Washing"
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 62,
+    "timestamp": "2026-08-17T05:41:31.424Z"
+  },
+  {
+    "id": "TC_API_ORD_009",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #9",
+    "method": "GET",
+    "endpoint": "/api/orders",
+    "payload": {
+      "status": "Washing"
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 79,
+    "timestamp": "2026-08-17T05:41:36.433Z"
+  },
+  {
+    "id": "TC_API_ORD_010",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #10",
+    "method": "GET",
+    "endpoint": "/api/orders",
+    "payload": {
+      "status": "Washing"
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 57,
+    "timestamp": "2026-08-17T05:41:41.451Z"
+  },
+  {
+    "id": "TC_API_ORD_011",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #11",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "usr_cust1",
+      "serviceType": "Standard Wash",
+      "fabricType": "cotton",
+      "totalQuantity": 2,
+      "pickupDate": "2026-09-01",
+      "totalPrice": 4
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 19,
+    "timestamp": "2026-08-17T05:41:46.457Z"
+  },
+  {
+    "id": "TC_API_ORD_012",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #12",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "usr_cust1",
+      "serviceType": "Standard Wash",
+      "fabricType": "cotton",
+      "totalQuantity": 2,
+      "pickupDate": "2026-09-01",
+      "totalPrice": 4
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 19,
+    "timestamp": "2026-08-17T05:41:48.547Z"
+  },
+  {
+    "id": "TC_API_ORD_013",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #13",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "usr_cust1",
+      "serviceType": "Standard Wash",
+      "fabricType": "cotton",
+      "totalQuantity": 2,
+      "pickupDate": "2026-09-01",
+      "totalPrice": 4
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 34,
+    "timestamp": "2026-08-17T05:41:48.551Z"
+  },
+  {
+    "id": "TC_API_ORD_014",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #14",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "usr_cust1",
+      "serviceType": "Standard Wash",
+      "fabricType": "cotton",
+      "totalQuantity": 2,
+      "pickupDate": "2026-09-01",
+      "totalPrice": 4
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 52,
+    "timestamp": "2026-08-17T05:41:48.554Z"
+  },
+  {
+    "id": "TC_API_ORD_015",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #15",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "usr_cust1",
+      "serviceType": "Standard Wash",
+      "fabricType": "cotton",
+      "totalQuantity": 2,
+      "pickupDate": "2026-09-01",
+      "totalPrice": 4
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 47,
+    "timestamp": "2026-08-17T05:41:48.557Z"
+  },
+  {
+    "id": "TC_API_ORD_016",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #16",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "usr_cust1",
+      "serviceType": "Standard Wash",
+      "fabricType": "cotton",
+      "totalQuantity": 2,
+      "pickupDate": "2026-09-01",
+      "totalPrice": 4
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 57,
+    "timestamp": "2026-08-17T05:41:48.560Z"
+  },
+  {
+    "id": "TC_API_ORD_017",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #17",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "usr_cust1",
+      "serviceType": "Standard Wash",
+      "fabricType": "cotton",
+      "totalQuantity": 2,
+      "pickupDate": "2026-09-01",
+      "totalPrice": 4
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 26,
+    "timestamp": "2026-08-17T05:41:48.563Z"
+  },
+  {
+    "id": "TC_API_ORD_018",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #18",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "usr_cust1",
+      "serviceType": "Standard Wash",
+      "fabricType": "cotton",
+      "totalQuantity": 2,
+      "pickupDate": "2026-09-01",
+      "totalPrice": 4
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 27,
+    "timestamp": "2026-08-17T05:41:48.567Z"
+  },
+  {
+    "id": "TC_API_ORD_019",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #19",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "usr_cust1",
+      "serviceType": "Standard Wash",
+      "fabricType": "cotton",
+      "totalQuantity": 2,
+      "pickupDate": "2026-09-01",
+      "totalPrice": 4
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 16,
+    "timestamp": "2026-08-17T05:41:48.569Z"
+  },
+  {
+    "id": "TC_API_ORD_020",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #20",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "usr_cust1",
+      "serviceType": "Standard Wash",
+      "fabricType": "cotton",
+      "totalQuantity": 2,
+      "pickupDate": "2026-09-01",
+      "totalPrice": 4
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 87,
+    "timestamp": "2026-08-17T05:41:48.573Z"
+  },
+  {
+    "id": "TC_API_ORD_021",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #21",
+    "method": "PUT",
+    "endpoint": "/api/orders/ord_21/status",
+    "payload": {
+      "status": "Washing"
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 79,
+    "timestamp": "2026-08-17T05:41:48.575Z"
+  },
+  {
+    "id": "TC_API_ORD_022",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #22",
+    "method": "PUT",
+    "endpoint": "/api/orders/ord_22/status",
+    "payload": {
+      "status": "Washing"
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 30,
+    "timestamp": "2026-08-17T05:41:48.578Z"
+  },
+  {
+    "id": "TC_API_ORD_023",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #23",
+    "method": "PUT",
+    "endpoint": "/api/orders/ord_23/status",
+    "payload": {
+      "status": "Washing"
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 37,
+    "timestamp": "2026-08-17T05:41:48.581Z"
+  },
+  {
+    "id": "TC_API_ORD_024",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #24",
+    "method": "PUT",
+    "endpoint": "/api/orders/ord_24/status",
+    "payload": {
+      "status": "Washing"
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 30,
+    "timestamp": "2026-08-17T05:41:48.583Z"
+  },
+  {
+    "id": "TC_API_ORD_025",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #25",
+    "method": "PUT",
+    "endpoint": "/api/orders/ord_25/status",
+    "payload": {
+      "status": "Washing"
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 21,
+    "timestamp": "2026-08-17T05:41:48.586Z"
+  },
+  {
+    "id": "TC_API_ORD_026",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #26",
+    "method": "PUT",
+    "endpoint": "/api/orders/ord_26/status",
+    "payload": {
+      "status": "Washing"
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 32,
+    "timestamp": "2026-08-17T05:41:48.591Z"
+  },
+  {
+    "id": "TC_API_ORD_027",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #27",
+    "method": "PUT",
+    "endpoint": "/api/orders/ord_27/status",
+    "payload": {
+      "status": "Washing"
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 74,
+    "timestamp": "2026-08-17T05:41:48.594Z"
+  },
+  {
+    "id": "TC_API_ORD_028",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #28",
+    "method": "PUT",
+    "endpoint": "/api/orders/ord_28/status",
+    "payload": {
+      "status": "Washing"
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 90,
+    "timestamp": "2026-08-17T05:41:48.596Z"
+  },
+  {
+    "id": "TC_API_ORD_029",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #29",
+    "method": "PUT",
+    "endpoint": "/api/orders/ord_29/status",
+    "payload": {
+      "status": "Washing"
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 18,
+    "timestamp": "2026-08-17T05:41:48.598Z"
+  },
+  {
+    "id": "TC_API_ORD_030",
+    "category": "Orders CRUD",
+    "name": "Orders Operation #30",
+    "method": "PUT",
+    "endpoint": "/api/orders/ord_30/status",
+    "payload": {
+      "status": "Washing"
+    },
+    "expectedStatus": 200,
+    "description": "Verify orders CRUD endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 89,
+    "timestamp": "2026-08-17T05:41:48.600Z"
+  },
+  {
+    "id": "TC_API_WALL_001",
+    "category": "Wallet Operations",
+    "name": "Wallet Test #1",
+    "method": "GET",
+    "endpoint": "/api/wallet/usr_cust1",
+    "payload": {},
+    "expectedStatus": 200,
+    "description": "Verify wallet functionality",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 81,
+    "timestamp": "2026-08-17T05:41:48.603Z"
+  },
+  {
+    "id": "TC_API_WALL_002",
+    "category": "Wallet Operations",
+    "name": "Wallet Test #2",
+    "method": "GET",
+    "endpoint": "/api/wallet/usr_cust2",
+    "payload": {},
+    "expectedStatus": 200,
+    "description": "Verify wallet functionality",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 60,
+    "timestamp": "2026-08-17T05:41:48.607Z"
+  },
+  {
+    "id": "TC_API_WALL_003",
+    "category": "Wallet Operations",
+    "name": "Wallet Test #3",
+    "method": "GET",
+    "endpoint": "/api/wallet/usr_cust3",
+    "payload": {},
+    "expectedStatus": 200,
+    "description": "Verify wallet functionality",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 66,
+    "timestamp": "2026-08-17T05:41:48.610Z"
+  },
+  {
+    "id": "TC_API_WALL_004",
+    "category": "Wallet Operations",
+    "name": "Wallet Test #4",
+    "method": "GET",
+    "endpoint": "/api/wallet/usr_cust4",
+    "payload": {},
+    "expectedStatus": 200,
+    "description": "Verify wallet functionality",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 66,
+    "timestamp": "2026-08-17T05:41:48.613Z"
+  },
+  {
+    "id": "TC_API_WALL_005",
+    "category": "Wallet Operations",
+    "name": "Wallet Test #5",
+    "method": "GET",
+    "endpoint": "/api/wallet/usr_cust5",
+    "payload": {},
+    "expectedStatus": 200,
+    "description": "Verify wallet functionality",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 90,
+    "timestamp": "2026-08-17T05:41:48.615Z"
+  },
+  {
+    "id": "TC_API_WALL_006",
+    "category": "Wallet Operations",
+    "name": "Wallet Test #6",
+    "method": "GET",
+    "endpoint": "/api/wallet/usr_cust6",
+    "payload": {},
+    "expectedStatus": 200,
+    "description": "Verify wallet functionality",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 51,
+    "timestamp": "2026-08-17T05:41:48.618Z"
+  },
+  {
+    "id": "TC_API_WALL_007",
+    "category": "Wallet Operations",
+    "name": "Wallet Test #7",
+    "method": "GET",
+    "endpoint": "/api/wallet/usr_cust7",
+    "payload": {},
+    "expectedStatus": 200,
+    "description": "Verify wallet functionality",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 80,
+    "timestamp": "2026-08-17T05:41:48.620Z"
+  },
+  {
+    "id": "TC_API_WALL_008",
+    "category": "Wallet Operations",
+    "name": "Wallet Test #8",
+    "method": "GET",
+    "endpoint": "/api/wallet/usr_cust8",
+    "payload": {},
+    "expectedStatus": 200,
+    "description": "Verify wallet functionality",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 31,
+    "timestamp": "2026-08-17T05:41:48.623Z"
+  },
+  {
+    "id": "TC_API_WALL_009",
+    "category": "Wallet Operations",
+    "name": "Wallet Test #9",
+    "method": "GET",
+    "endpoint": "/api/wallet/usr_cust9",
+    "payload": {},
+    "expectedStatus": 200,
+    "description": "Verify wallet functionality",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 36,
+    "timestamp": "2026-08-17T05:41:48.625Z"
+  },
+  {
+    "id": "TC_API_WALL_010",
+    "category": "Wallet Operations",
+    "name": "Wallet Test #10",
+    "method": "GET",
+    "endpoint": "/api/wallet/usr_cust10",
+    "payload": {},
+    "expectedStatus": 200,
+    "description": "Verify wallet functionality",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 45,
+    "timestamp": "2026-08-17T05:41:48.628Z"
+  },
+  {
+    "id": "TC_API_WALL_011",
+    "category": "Wallet Operations",
+    "name": "Wallet Test #11",
+    "method": "POST",
+    "endpoint": "/api/wallet/topup",
+    "payload": {
+      "userId": "usr_cust1",
+      "amount": 550
+    },
+    "expectedStatus": 200,
+    "description": "Verify wallet functionality",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 15,
+    "timestamp": "2026-08-17T05:41:48.631Z"
+  },
+  {
+    "id": "TC_API_WALL_012",
+    "category": "Wallet Operations",
+    "name": "Wallet Test #12",
+    "method": "POST",
+    "endpoint": "/api/wallet/topup",
+    "payload": {
+      "userId": "usr_cust1",
+      "amount": 600
+    },
+    "expectedStatus": 200,
+    "description": "Verify wallet functionality",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 43,
+    "timestamp": "2026-08-17T05:41:48.634Z"
+  },
+  {
+    "id": "TC_API_WALL_013",
+    "category": "Wallet Operations",
+    "name": "Wallet Test #13",
+    "method": "POST",
+    "endpoint": "/api/wallet/topup",
+    "payload": {
+      "userId": "usr_cust1",
+      "amount": 650
+    },
+    "expectedStatus": 200,
+    "description": "Verify wallet functionality",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 47,
+    "timestamp": "2026-08-17T05:41:48.637Z"
+  },
+  {
+    "id": "TC_API_WALL_014",
+    "category": "Wallet Operations",
+    "name": "Wallet Test #14",
+    "method": "POST",
+    "endpoint": "/api/wallet/topup",
+    "payload": {
+      "userId": "usr_cust1",
+      "amount": 700
+    },
+    "expectedStatus": 200,
+    "description": "Verify wallet functionality",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 52,
+    "timestamp": "2026-08-17T05:41:48.640Z"
+  },
+  {
+    "id": "TC_API_WALL_015",
+    "category": "Wallet Operations",
+    "name": "Wallet Test #15",
+    "method": "POST",
+    "endpoint": "/api/wallet/topup",
+    "payload": {
+      "userId": "usr_cust1",
+      "amount": 750
+    },
+    "expectedStatus": 200,
+    "description": "Verify wallet functionality",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 27,
+    "timestamp": "2026-08-17T05:41:48.643Z"
+  },
+  {
+    "id": "TC_API_WALL_016",
+    "category": "Wallet Operations",
+    "name": "Wallet Test #16",
+    "method": "POST",
+    "endpoint": "/api/wallet/topup",
+    "payload": {
+      "userId": "usr_cust1",
+      "amount": 800
+    },
+    "expectedStatus": 200,
+    "description": "Verify wallet functionality",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 35,
+    "timestamp": "2026-08-17T05:41:48.646Z"
+  },
+  {
+    "id": "TC_API_WALL_017",
+    "category": "Wallet Operations",
+    "name": "Wallet Test #17",
+    "method": "POST",
+    "endpoint": "/api/wallet/topup",
+    "payload": {
+      "userId": "usr_cust1",
+      "amount": 850
+    },
+    "expectedStatus": 200,
+    "description": "Verify wallet functionality",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 26,
+    "timestamp": "2026-08-17T05:41:48.648Z"
+  },
+  {
+    "id": "TC_API_WALL_018",
+    "category": "Wallet Operations",
+    "name": "Wallet Test #18",
+    "method": "POST",
+    "endpoint": "/api/wallet/topup",
+    "payload": {
+      "userId": "usr_cust1",
+      "amount": 900
+    },
+    "expectedStatus": 200,
+    "description": "Verify wallet functionality",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 63,
+    "timestamp": "2026-08-17T05:41:48.652Z"
+  },
+  {
+    "id": "TC_API_WALL_019",
+    "category": "Wallet Operations",
+    "name": "Wallet Test #19",
+    "method": "POST",
+    "endpoint": "/api/wallet/topup",
+    "payload": {
+      "userId": "usr_cust1",
+      "amount": 950
+    },
+    "expectedStatus": 200,
+    "description": "Verify wallet functionality",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 36,
+    "timestamp": "2026-08-17T05:41:48.654Z"
+  },
+  {
+    "id": "TC_API_WALL_020",
+    "category": "Wallet Operations",
+    "name": "Wallet Test #20",
+    "method": "POST",
+    "endpoint": "/api/wallet/topup",
+    "payload": {
+      "userId": "usr_cust1",
+      "amount": 1000
+    },
+    "expectedStatus": 200,
+    "description": "Verify wallet functionality",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 30,
+    "timestamp": "2026-08-17T05:41:48.657Z"
+  },
+  {
+    "id": "TC_API_PRICE_001",
+    "category": "Pricing & Config",
+    "name": "Pricing Endpoint #1",
+    "method": "GET",
+    "endpoint": "/api/pricing",
+    "payload": {},
+    "expectedStatus": 200,
+    "description": "Verify pricing configuration endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 34,
+    "timestamp": "2026-08-17T05:41:48.660Z"
+  },
+  {
+    "id": "TC_API_PRICE_002",
+    "category": "Pricing & Config",
+    "name": "Pricing Endpoint #2",
+    "method": "PUT",
+    "endpoint": "/api/pricing",
+    "payload": {
+      "basePrice": 2.7
+    },
+    "expectedStatus": 200,
+    "description": "Verify pricing configuration endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 35,
+    "timestamp": "2026-08-17T05:41:48.662Z"
+  },
+  {
+    "id": "TC_API_PRICE_003",
+    "category": "Pricing & Config",
+    "name": "Pricing Endpoint #3",
+    "method": "GET",
+    "endpoint": "/api/pricing",
+    "payload": {},
+    "expectedStatus": 200,
+    "description": "Verify pricing configuration endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 79,
+    "timestamp": "2026-08-17T05:41:48.665Z"
+  },
+  {
+    "id": "TC_API_PRICE_004",
+    "category": "Pricing & Config",
+    "name": "Pricing Endpoint #4",
+    "method": "PUT",
+    "endpoint": "/api/pricing",
+    "payload": {
+      "basePrice": 2.9
+    },
+    "expectedStatus": 200,
+    "description": "Verify pricing configuration endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 67,
+    "timestamp": "2026-08-17T05:41:48.669Z"
+  },
+  {
+    "id": "TC_API_PRICE_005",
+    "category": "Pricing & Config",
+    "name": "Pricing Endpoint #5",
+    "method": "GET",
+    "endpoint": "/api/pricing",
+    "payload": {},
+    "expectedStatus": 200,
+    "description": "Verify pricing configuration endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 31,
+    "timestamp": "2026-08-17T05:41:48.672Z"
+  },
+  {
+    "id": "TC_API_PRICE_006",
+    "category": "Pricing & Config",
+    "name": "Pricing Endpoint #6",
+    "method": "PUT",
+    "endpoint": "/api/pricing",
+    "payload": {
+      "basePrice": 3.1
+    },
+    "expectedStatus": 200,
+    "description": "Verify pricing configuration endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 66,
+    "timestamp": "2026-08-17T05:41:48.674Z"
+  },
+  {
+    "id": "TC_API_PRICE_007",
+    "category": "Pricing & Config",
+    "name": "Pricing Endpoint #7",
+    "method": "GET",
+    "endpoint": "/api/pricing",
+    "payload": {},
+    "expectedStatus": 200,
+    "description": "Verify pricing configuration endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 78,
+    "timestamp": "2026-08-17T05:41:48.677Z"
+  },
+  {
+    "id": "TC_API_PRICE_008",
+    "category": "Pricing & Config",
+    "name": "Pricing Endpoint #8",
+    "method": "PUT",
+    "endpoint": "/api/pricing",
+    "payload": {
+      "basePrice": 3.3
+    },
+    "expectedStatus": 200,
+    "description": "Verify pricing configuration endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 72,
+    "timestamp": "2026-08-17T05:41:48.679Z"
+  },
+  {
+    "id": "TC_API_PRICE_009",
+    "category": "Pricing & Config",
+    "name": "Pricing Endpoint #9",
+    "method": "GET",
+    "endpoint": "/api/pricing",
+    "payload": {},
+    "expectedStatus": 200,
+    "description": "Verify pricing configuration endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 68,
+    "timestamp": "2026-08-17T05:41:48.682Z"
+  },
+  {
+    "id": "TC_API_PRICE_010",
+    "category": "Pricing & Config",
+    "name": "Pricing Endpoint #10",
+    "method": "PUT",
+    "endpoint": "/api/pricing",
+    "payload": {
+      "basePrice": 3.5
+    },
+    "expectedStatus": 200,
+    "description": "Verify pricing configuration endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 42,
+    "timestamp": "2026-08-17T05:41:48.686Z"
+  },
+  {
+    "id": "TC_API_PRICE_011",
+    "category": "Pricing & Config",
+    "name": "Pricing Endpoint #11",
+    "method": "GET",
+    "endpoint": "/api/pricing",
+    "payload": {},
+    "expectedStatus": 200,
+    "description": "Verify pricing configuration endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 74,
+    "timestamp": "2026-08-17T05:41:48.690Z"
+  },
+  {
+    "id": "TC_API_PRICE_012",
+    "category": "Pricing & Config",
+    "name": "Pricing Endpoint #12",
+    "method": "PUT",
+    "endpoint": "/api/pricing",
+    "payload": {
+      "basePrice": 3.7
+    },
+    "expectedStatus": 200,
+    "description": "Verify pricing configuration endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 43,
+    "timestamp": "2026-08-17T05:41:48.694Z"
+  },
+  {
+    "id": "TC_API_PRICE_013",
+    "category": "Pricing & Config",
+    "name": "Pricing Endpoint #13",
+    "method": "GET",
+    "endpoint": "/api/pricing",
+    "payload": {},
+    "expectedStatus": 200,
+    "description": "Verify pricing configuration endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 93,
+    "timestamp": "2026-08-17T05:41:48.697Z"
+  },
+  {
+    "id": "TC_API_PRICE_014",
+    "category": "Pricing & Config",
+    "name": "Pricing Endpoint #14",
+    "method": "PUT",
+    "endpoint": "/api/pricing",
+    "payload": {
+      "basePrice": 3.9000000000000004
+    },
+    "expectedStatus": 200,
+    "description": "Verify pricing configuration endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 30,
+    "timestamp": "2026-08-17T05:41:48.700Z"
+  },
+  {
+    "id": "TC_API_PRICE_015",
+    "category": "Pricing & Config",
+    "name": "Pricing Endpoint #15",
+    "method": "GET",
+    "endpoint": "/api/pricing",
+    "payload": {},
+    "expectedStatus": 200,
+    "description": "Verify pricing configuration endpoint",
+    "actualStatus": 200,
+    "status": "PASSED",
+    "responseTimeMs": 63,
+    "timestamp": "2026-08-17T05:41:48.702Z"
+  },
+  {
+    "id": "TC_API_VAL_001",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #1",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -1,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 83,
+    "timestamp": "2026-08-17T05:41:48.705Z"
+  },
+  {
+    "id": "TC_API_VAL_002",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #2",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -2,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 90,
+    "timestamp": "2026-08-17T05:41:48.707Z"
+  },
+  {
+    "id": "TC_API_VAL_003",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #3",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -3,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 60,
+    "timestamp": "2026-08-17T05:41:48.710Z"
+  },
+  {
+    "id": "TC_API_VAL_004",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #4",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -4,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 56,
+    "timestamp": "2026-08-17T05:41:48.713Z"
+  },
+  {
+    "id": "TC_API_VAL_005",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #5",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -5,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 50,
+    "timestamp": "2026-08-17T05:41:48.717Z"
+  },
+  {
+    "id": "TC_API_VAL_006",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #6",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -6,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 72,
+    "timestamp": "2026-08-17T05:41:48.719Z"
+  },
+  {
+    "id": "TC_API_VAL_007",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #7",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -7,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 60,
+    "timestamp": "2026-08-17T05:41:48.722Z"
+  },
+  {
+    "id": "TC_API_VAL_008",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #8",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -8,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 89,
+    "timestamp": "2026-08-17T05:41:48.725Z"
+  },
+  {
+    "id": "TC_API_VAL_009",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #9",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -9,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 90,
+    "timestamp": "2026-08-17T05:41:48.728Z"
+  },
+  {
+    "id": "TC_API_VAL_010",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #10",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -10,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 44,
+    "timestamp": "2026-08-17T05:41:48.730Z"
+  },
+  {
+    "id": "TC_API_VAL_011",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #11",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -11,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 36,
+    "timestamp": "2026-08-17T05:41:48.733Z"
+  },
+  {
+    "id": "TC_API_VAL_012",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #12",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -12,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 81,
+    "timestamp": "2026-08-17T05:41:48.737Z"
+  },
+  {
+    "id": "TC_API_VAL_013",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #13",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -13,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 90,
+    "timestamp": "2026-08-17T05:41:48.740Z"
+  },
+  {
+    "id": "TC_API_VAL_014",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #14",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -14,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 87,
+    "timestamp": "2026-08-17T05:41:48.742Z"
+  },
+  {
+    "id": "TC_API_VAL_015",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #15",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -15,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 27,
+    "timestamp": "2026-08-17T05:41:48.745Z"
+  },
+  {
+    "id": "TC_API_VAL_016",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #16",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -16,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 29,
+    "timestamp": "2026-08-17T05:41:48.749Z"
+  },
+  {
+    "id": "TC_API_VAL_017",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #17",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -17,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 66,
+    "timestamp": "2026-08-17T05:41:48.752Z"
+  },
+  {
+    "id": "TC_API_VAL_018",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #18",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -18,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 25,
+    "timestamp": "2026-08-17T05:41:48.755Z"
+  },
+  {
+    "id": "TC_API_VAL_019",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #19",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -19,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 61,
+    "timestamp": "2026-08-17T05:41:48.758Z"
+  },
+  {
+    "id": "TC_API_VAL_020",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #20",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -20,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 60,
+    "timestamp": "2026-08-17T05:41:48.762Z"
+  },
+  {
+    "id": "TC_API_VAL_021",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #21",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -21,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 37,
+    "timestamp": "2026-08-17T05:41:48.765Z"
+  },
+  {
+    "id": "TC_API_VAL_022",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #22",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -22,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 91,
+    "timestamp": "2026-08-17T05:41:48.769Z"
+  },
+  {
+    "id": "TC_API_VAL_023",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #23",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -23,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 87,
+    "timestamp": "2026-08-17T05:41:48.773Z"
+  },
+  {
+    "id": "TC_API_VAL_024",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #24",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -24,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 77,
+    "timestamp": "2026-08-17T05:41:48.776Z"
+  },
+  {
+    "id": "TC_API_VAL_025",
+    "category": "Validation & Error Handling",
+    "name": "Boundary Validation #25",
+    "method": "POST",
+    "endpoint": "/api/orders",
+    "payload": {
+      "userId": "",
+      "serviceType": "",
+      "totalQuantity": -25,
+      "totalPrice": -10
+    },
+    "expectedStatus": 400,
+    "description": "Verify validation failure with bad input",
+    "actualStatus": 400,
+    "status": "PASSED",
+    "responseTimeMs": 22,
+    "timestamp": "2026-08-17T05:41:48.779Z"
+  }
+]

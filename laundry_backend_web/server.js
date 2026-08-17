@@ -252,7 +252,8 @@ app.post('/api/wallet/topup', async (req, res) => {
   const { userId, amount } = req.body;
   if (amount <= 0) return res.status(400).json({ success: false, message: "Invalid amount" });
 
-  const { data: user } = await supabase.from('users').select('wallet_balance').eq('user_id', userId).single();
+  const { data: user, error: uErr } = await supabase.from('users').select('wallet_balance').eq('user_id', userId).single();
+  if (uErr || !user) return res.status(404).json({ success: false, message: "User not found" });
   const newBalance = parseFloat(user.wallet_balance || 0) + parseFloat(amount);
 
   const { data, error } = await supabase.from('users').update({ wallet_balance: newBalance }).eq('user_id', userId).select().single();
@@ -266,14 +267,16 @@ app.post('/api/wallet/transfer', async (req, res) => {
   const { adminId, staffId, amount } = req.body;
   if (amount <= 0) return res.status(400).json({ success: false, message: "Invalid amount" });
 
-  const { data: admin } = await supabase.from('users').select('wallet_balance').eq('user_id', adminId).single();
+  const { data: admin, error: aErr } = await supabase.from('users').select('wallet_balance').eq('user_id', adminId).single();
+  if (aErr || !admin) return res.status(404).json({ success: false, message: "Admin user not found" });
   const adminBalance = parseFloat(admin.wallet_balance || 0);
 
   if (adminBalance < amount) {
     return res.status(400).json({ success: false, message: "Insufficient admin wallet balance" });
   }
 
-  const { data: staff } = await supabase.from('users').select('wallet_balance').eq('user_id', staffId).single();
+  const { data: staff, error: sErr } = await supabase.from('users').select('wallet_balance').eq('user_id', staffId).single();
+  if (sErr || !staff) return res.status(404).json({ success: false, message: "Staff user not found" });
   
   // Deduct from admin
   await supabase.from('users').update({ wallet_balance: adminBalance - amount }).eq('user_id', adminId);
@@ -352,7 +355,10 @@ app.post('/api/orders', async (req, res) => {
   const cost = parseFloat(totalPrice) || 0.00;
 
   // Wallet Check
-  const { data: user } = await supabase.from('users').select('wallet_balance').eq('user_id', userId).single();
+  const { data: user, error: userError } = await supabase.from('users').select('wallet_balance').eq('user_id', userId).single();
+  if (userError || !user) {
+    return res.status(400).json({ success: false, message: "User not found or invalid user ID" });
+  }
   const balance = parseFloat(user.wallet_balance || 0);
 
   if (balance < cost) {

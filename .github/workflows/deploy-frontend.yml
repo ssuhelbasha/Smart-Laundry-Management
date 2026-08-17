@@ -1,0 +1,44 @@
+name: 🚀 Deploy Frontend to GitHub Pages
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  deploy-frontend:
+    name: Build & Deploy React App
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: laundry_frontend_react/package-lock.json
+
+      - name: 📦 Install Dependencies
+        working-directory: laundry_frontend_react
+        run: npm ci --legacy-peer-deps
+
+      - name: 🔨 Build Application
+        working-directory: laundry_frontend_react
+        run: npm run build
+
+      - name: 🚀 Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./laundry_frontend_react/dist
+          keep_files: true

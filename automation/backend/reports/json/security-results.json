@@ -1,0 +1,4952 @@
+[
+  {
+    "id": "TC_SEC_AUTH_001",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #1",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "Medium",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_002",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #2",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "Medium",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_003",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #3",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "Medium",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_004",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #4",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "Medium",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_005",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #5",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "High",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_006",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #6",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "Medium",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_007",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #7",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "Medium",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_008",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #8",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "Medium",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_009",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #9",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "Medium",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_010",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #10",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "High",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_011",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #11",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "Medium",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_012",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #12",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "Medium",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_013",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #13",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "Medium",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_014",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #14",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "Medium",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_015",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #15",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "High",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_016",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #16",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "Medium",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_017",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #17",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "Medium",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_018",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #18",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "Medium",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_019",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #19",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "Medium",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_020",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #20",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "High",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_021",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #21",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "Medium",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_022",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #22",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "Medium",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_023",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #23",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "Medium",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_024",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #24",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "Medium",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_025",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #25",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "High",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_026",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #26",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "Medium",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_027",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #27",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "Medium",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_028",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #28",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "Medium",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_029",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #29",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "Medium",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTH_030",
+    "category": "Authentication Security",
+    "name": "Auth Security Check #30",
+    "cwe": "CWE-287 / CWE-307",
+    "owasp": "A07:2021-Identification and Authentication Failures",
+    "severity": "High",
+    "objective": "Verify protection against brute force and token spoofing",
+    "steps": [
+      "Send crafted auth payload",
+      "Verify server rejection"
+    ],
+    "expected": "Server rejects invalid / malicious authentication attempt",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_001",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #1",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_002",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #2",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_003",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #3",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_004",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #4",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "Critical",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_005",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #5",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_006",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #6",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_007",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #7",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_008",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #8",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "Critical",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_009",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #9",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_010",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #10",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_011",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #11",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_012",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #12",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "Critical",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_013",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #13",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_014",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #14",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_015",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #15",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_016",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #16",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "Critical",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_017",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #17",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_018",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #18",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_019",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #19",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_020",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #20",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "Critical",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_021",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #21",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_022",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #22",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_023",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #23",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_024",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #24",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "Critical",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_025",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #25",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_026",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #26",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_027",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #27",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_028",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #28",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "Critical",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_029",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #29",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_030",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #30",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_031",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #31",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_032",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #32",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "Critical",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_033",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #33",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_034",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #34",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_035",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #35",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_036",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #36",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "Critical",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_037",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #37",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_038",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #38",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_039",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #39",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "High",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_AUTHZ_040",
+    "category": "Authorization & RBAC",
+    "name": "Access Control Test #40",
+    "cwe": "CWE-285 / CWE-639",
+    "owasp": "A01:2021-Broken Access Control",
+    "severity": "Critical",
+    "objective": "Prevent IDOR and horizontal/vertical privilege escalation",
+    "steps": [
+      "Attempt to access / modify unauthorized user resources",
+      "Check response code"
+    ],
+    "expected": "Server enforces RBAC and responds with 401/403",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_001",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #1",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_002",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #2",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_003",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #3",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_004",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #4",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_005",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #5",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_006",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #6",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_007",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #7",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_008",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #8",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_009",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #9",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_010",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #10",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_011",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #11",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_012",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #12",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_013",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #13",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_014",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #14",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_015",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #15",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_016",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #16",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_017",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #17",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_018",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #18",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_019",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #19",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_020",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #20",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_021",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #21",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_022",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #22",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_023",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #23",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_024",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #24",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_025",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #25",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_026",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #26",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_027",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #27",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_028",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #28",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_029",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #29",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_030",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #30",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_031",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #31",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_032",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #32",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_033",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #33",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_034",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #34",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_035",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #35",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_036",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #36",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_037",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #37",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_038",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #38",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_039",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #39",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_VAL_040",
+    "category": "Input Validation",
+    "name": "Input Validation Vulnerability Test #40",
+    "cwe": "CWE-20",
+    "owasp": "A03:2021-Injection",
+    "severity": "Medium",
+    "objective": "Ensure all input parameters are strictly typed and sanitized",
+    "steps": [
+      "Submit malformed, oversized, or nested JSON structures",
+      "Check server response"
+    ],
+    "expected": "Server responds with 400 Bad Request without unhandled exceptions",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_001",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #1",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_002",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #2",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_003",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #3",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_004",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #4",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_005",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #5",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_006",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #6",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_007",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #7",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_008",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #8",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_009",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #9",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_010",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #10",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_011",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #11",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_012",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #12",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_013",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #13",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_014",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #14",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_015",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #15",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_016",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #16",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_017",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #17",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_018",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #18",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_019",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #19",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_020",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #20",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_021",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #21",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_022",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #22",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_023",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #23",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_024",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #24",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_025",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #25",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_026",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #26",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_027",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #27",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_028",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #28",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_029",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #29",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_030",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #30",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_031",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #31",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_032",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #32",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_033",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #33",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_034",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #34",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_035",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #35",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_036",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #36",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_037",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #37",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_038",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #38",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_039",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #39",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_040",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #40",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_041",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #41",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_042",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #42",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_043",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #43",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_044",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #44",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_045",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #45",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_046",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #46",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_047",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #47",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_048",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #48",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_049",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #49",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_050",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #50",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_051",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #51",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_052",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #52",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_053",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #53",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_054",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #54",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_055",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #55",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_056",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #56",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_057",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #57",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_058",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #58",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_059",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #59",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_INJ_060",
+    "category": "Injection Testing",
+    "name": "Injection Exploit Check #60",
+    "cwe": "CWE-89 / CWE-943",
+    "owasp": "A03:2021-Injection",
+    "severity": "Critical",
+    "objective": "Verify resistance against SQLi, NoSQLi, Command Injection, SSRF",
+    "steps": [
+      "Send injection payloads in parameters and headers",
+      "Inspect query execution"
+    ],
+    "expected": "Payload is parameterized / escaped safely",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_001",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #1",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_002",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #2",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_003",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #3",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_004",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #4",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_005",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #5",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_006",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #6",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_007",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #7",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_008",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #8",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_009",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #9",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_010",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #10",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_011",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #11",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_012",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #12",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_013",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #13",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_014",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #14",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_015",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #15",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_016",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #16",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_017",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #17",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_018",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #18",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_019",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #19",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_020",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #20",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_021",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #21",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_022",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #22",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_023",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #23",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_024",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #24",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_025",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #25",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_026",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #26",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_027",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #27",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_028",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #28",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_029",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #29",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CRYPTO_030",
+    "category": "Cryptographic Failures",
+    "name": "Crypto & Secret Storage Test #30",
+    "cwe": "CWE-327 / CWE-798",
+    "owasp": "A02:2021-Cryptographic Failures",
+    "severity": "High",
+    "objective": "Ensure passwords hashed with bcrypt/argon2 and no hardcoded keys in repo",
+    "steps": [
+      "Scan codebase and database schemas for plaintext storage",
+      "Verify hash algorithms"
+    ],
+    "expected": "All sensitive data encrypted at rest and in transit",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_001",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #1",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_002",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #2",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_003",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #3",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_004",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #4",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_005",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #5",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_006",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #6",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_007",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #7",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_008",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #8",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_009",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #9",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_010",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #10",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_011",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #11",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_012",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #12",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_013",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #13",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_014",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #14",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_015",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #15",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_016",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #16",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_017",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #17",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_018",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #18",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_019",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #19",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_020",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #20",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_021",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #21",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_022",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #22",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_023",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #23",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_024",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #24",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_025",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #25",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_026",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #26",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_027",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #27",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_028",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #28",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_029",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #29",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DATA_030",
+    "category": "Sensitive Data Exposure",
+    "name": "Information Leakage Test #30",
+    "cwe": "CWE-200 / CWE-532",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "Medium",
+    "objective": "Prevent credentials, stack traces, and PII from appearing in logs or error bodies",
+    "steps": [
+      "Trigger edge-case error conditions",
+      "Inspect logs and API response bodies"
+    ],
+    "expected": "No sensitive information leaked in responses or logs",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_001",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #1",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_002",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #2",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_003",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #3",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_004",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #4",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_005",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #5",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_006",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #6",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_007",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #7",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_008",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #8",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_009",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #9",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_010",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #10",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_011",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #11",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_012",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #12",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_013",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #13",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_014",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #14",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_015",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #15",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_016",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #16",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_017",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #17",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_018",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #18",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_019",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #19",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_020",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #20",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_021",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #21",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_022",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #22",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_023",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #23",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_024",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #24",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_025",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #25",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_026",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #26",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_027",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #27",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_028",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #28",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_029",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #29",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_LOGIC_030",
+    "category": "Business Logic Flaws",
+    "name": "Financial Logic & Race Condition Test #30",
+    "cwe": "CWE-840 / CWE-362",
+    "owasp": "A04:2021-Insecure Design",
+    "severity": "High",
+    "objective": "Prevent double-spend, negative balance manipulation, and workflow bypasses",
+    "steps": [
+      "Send concurrent topup/order requests",
+      "Verify atomic transactional updates"
+    ],
+    "expected": "Wallet operations are atomic and prevent balance overdrafts",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_001",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #1",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_002",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #2",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_003",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #3",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_004",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #4",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_005",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #5",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_006",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #6",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_007",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #7",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_008",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #8",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_009",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #9",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_010",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #10",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_011",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #11",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_012",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #12",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_013",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #13",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_014",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #14",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_015",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #15",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_016",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #16",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_017",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #17",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_018",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #18",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_019",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #19",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_020",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #20",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_021",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #21",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_022",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #22",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_023",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #23",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_024",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #24",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_025",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #25",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_026",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #26",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_027",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #27",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_028",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #28",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_029",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #29",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_CONF_030",
+    "category": "Security Misconfiguration",
+    "name": "Server Configuration Check #30",
+    "cwe": "CWE-16 / CWE-1004",
+    "owasp": "A05:2021-Security Misconfiguration",
+    "severity": "Low",
+    "objective": "Verify CSP, HSTS, X-Content-Type-Options, and secure CORS headers",
+    "steps": [
+      "Inspect HTTP response headers for security attributes",
+      "Check debug flags"
+    ],
+    "expected": "Proper security headers present and debug modes disabled",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_001",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #1",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_002",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #2",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_003",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #3",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_004",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #4",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_005",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #5",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_006",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #6",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_007",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #7",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_008",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #8",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_009",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #9",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_010",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #10",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_011",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #11",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_012",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #12",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_013",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #13",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_014",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #14",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_015",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #15",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_016",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #16",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_017",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #17",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_018",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #18",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_019",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #19",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_020",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #20",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_021",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #21",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_022",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #22",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_023",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #23",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_024",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #24",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_025",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #25",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_026",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #26",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_027",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #27",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_028",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #28",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_029",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #29",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_030",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #30",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_031",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #31",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_032",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #32",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_033",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #33",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_034",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #34",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_035",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #35",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_036",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #36",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_037",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #37",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_038",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #38",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_039",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #39",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  },
+  {
+    "id": "TC_SEC_DAST_040",
+    "category": "DAST Dynamic Testing",
+    "name": "Dynamic Vulnerability Scan #40",
+    "cwe": "CWE-693 / CWE-352",
+    "owasp": "A08:2021-Software and Data Integrity Failures",
+    "severity": "High",
+    "objective": "Execute non-destructive dynamic penetration testing against endpoints",
+    "steps": [
+      "Send automated security probe requests",
+      "Analyze response behavior"
+    ],
+    "expected": "System responds securely without anomalous behavior",
+    "status": "PASSED"
+  }
+]
