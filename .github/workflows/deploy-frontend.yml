@@ -29,7 +29,7 @@ jobs:
 
       - name: 📦 Install Dependencies
         working-directory: laundry_frontend_react
-        run: npm ci --legacy-peer-deps
+        run: npm install --legacy-peer-deps
 
       - name: 🔨 Build Application
         working-directory: laundry_frontend_react

@@ -46,7 +46,7 @@ jobs:
 
       - name: 📦 Stage 3 – Install Dependencies
         working-directory: laundry_frontend_react
-        run: npm ci --legacy-peer-deps
+        run: npm install --legacy-peer-deps
 
       - name: 🔨 Stage 4 – Build Application
         working-directory: laundry_frontend_react
