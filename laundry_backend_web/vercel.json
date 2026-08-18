@@ -1,15 +1,14 @@
 {
   "version": 2,
   "buildCommand": "npm run build",
-  "builds": [
-    {
-      "src": "server.js",
-      "use": "@vercel/node",
-      "config": {
-        "includeFiles": "public/**"
-      }
+  "installCommand": "npm install",
+  "functions": {
+    "server.js": {
+      "memory": 1024,
+      "maxDuration": 30,
+      "includeFiles": "public/**"
     }
-  ],
+  },
   "routes": [
     {
       "src": "/(.*)",
