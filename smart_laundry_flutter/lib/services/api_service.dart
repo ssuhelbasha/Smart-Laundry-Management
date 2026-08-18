@@ -31,16 +31,54 @@ class ApiService {
     }
   }
 
-  static Future<Map<String, dynamic>> register(String email, String password, String role) async {
+  static Future<Map<String, dynamic>> register(String email, String password, String role, String otpCode, {String? phone, String? address}) async {
+    final body = {
+      'email': email,
+      'password': password,
+      'role': role,
+      'otp_code': otpCode,
+    };
+    if (phone != null) body['phone'] = phone;
+    if (address != null) body['address'] = address;
+    
     final response = await http.post(
       Uri.parse('$baseUrl/auth/register'),
       headers: {'Content-Type': 'application/json'},
-      body: jsonEncode({'email': email, 'password': password, 'role': role}),
+      body: jsonEncode(body),
     );
     if (response.statusCode == 200 || response.statusCode == 201) {
       return jsonDecode(response.body);
     } else {
-      throw Exception('Failed to register');
+      final errorMsg = jsonDecode(response.body)['message'] ?? 'Failed to register';
+      throw Exception(errorMsg);
+    }
+  }
+
+  static Future<Map<String, dynamic>> sendOtp(String email, String purpose) async {
+    final response = await http.post(
+      Uri.parse('$baseUrl/auth/send-otp'),
+      headers: {'Content-Type': 'application/json'},
+      body: jsonEncode({'email': email, 'purpose': purpose}),
+    );
+    if (response.statusCode == 200) {
+      return jsonDecode(response.body);
+    } else {
+      final errorMsg = jsonDecode(response.body)['message'] ?? 'Failed to send OTP';
+      throw Exception(errorMsg);
+    }
+  }
+
+  static Future<Map<String, dynamic>> resetPassword(String email, String otpCode, String newPassword) async {
+    final response = await http.post(
+      Uri.parse('$baseUrl/auth/reset-password'),
+      headers: {'Content-Type': 'application/json'},
+      body: jsonEncode({'email': email, 'otp_code': otpCode, 'new_password': newPassword}),
+    );
+    if (response.statusCode == 200) {
+      return jsonDecode(response.body);
+    } else {
+      final errorMsg = jsonDecode(response.body)['message'] ?? 'Failed to reset password';
+      throw Exception(errorMsg);
     }
   }
 

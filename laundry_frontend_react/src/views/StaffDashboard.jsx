@@ -7,6 +7,11 @@ const StaffDashboard = ({ user }) => {
   const [loading, setLoading] = useState(true);
   const [walletBalance, setWalletBalance] = useState(user.walletBalance || 0);
 
+  const [deliveryModal, setDeliveryModal] = useState({ isOpen: false, orderId: null });
+  const [otpCode, setOtpCode] = useState('');
+  const [otpCooldown, setOtpCooldown] = useState(0);
+  const [otpLoading, setOtpLoading] = useState(false);
+
   const fetchData = async () => {
     try {
       const [ordersRes, walletRes] = await Promise.all([
@@ -28,19 +33,49 @@ const StaffDashboard = ({ user }) => {
     return () => clearInterval(interval);
   }, []);
 
-  const updateStatus = async (orderId, newStatus) => {
+  useEffect(() => {
+    let timer;
+    if (otpCooldown > 0) {
+      timer = setInterval(() => setOtpCooldown(prev => prev - 1), 1000);
+    }
+    return () => clearInterval(timer);
+  }, [otpCooldown]);
+
+  const handleInitiateDelivery = async (orderId) => {
+    try {
+      await axios.post(`/api/orders/${orderId}/request-delivery-otp`);
+      setDeliveryModal({ isOpen: true, orderId });
+      setOtpCooldown(30);
+    } catch (err) {
+      alert(err.response?.data?.message || "Failed to request delivery OTP");
+      if (err.response?.status === 429) {
+          setDeliveryModal({ isOpen: true, orderId });
+      }
+    }
+  };
+
+  const updateStatus = async (orderId, newStatus, submittedOtpCode = null) => {
     // If accepting a pending task, confirm they want to assign it to themselves
     if (newStatus === 'Picked Up' && !window.confirm("Confirm you want to pick up this order?")) return;
     if (newStatus === 'Rejected' && !window.confirm("Are you sure you want to reject this order? It will be refunded to the customer.")) return;
 
+    if (newStatus === 'Delivered') setOtpLoading(true);
     try {
-      await axios.put(`/api/orders/${orderId}/status`, {
-        status: newStatus,
-        staffId: user.userId
-      });
+      const payload = { status: newStatus, staffId: user.userId };
+      if (submittedOtpCode) payload.otpCode = submittedOtpCode;
+
+      await axios.put(`/api/orders/${orderId}/status`, payload);
+      
+      if (newStatus === 'Delivered') {
+        alert("Delivery verified successfully.\nOrder marked as Delivered.");
+        setDeliveryModal({ isOpen: false, orderId: null });
+        setOtpCode('');
+      }
       fetchData();
     } catch (err) {
-      alert("Failed to update status");
+      alert(err.response?.data?.message || "Failed to update status");
+    } finally {
+      if (newStatus === 'Delivered') setOtpLoading(false);
     }
   };
 
@@ -118,7 +153,7 @@ const StaffDashboard = ({ user }) => {
                   <div className="flex items-start gap-3">
                     <MapPin className="text-primary w-5 h-5 mt-0.5" />
                     <div className="text-sm">
-                      <p className="font-bold text-gray-700">Customer ID: {order.userId.substring(0,8)}</p>
+                      <p className="font-bold text-gray-700">Customer: {order.customerName || order.userId.substring(0,8)}</p>
                       <p className="text-gray-500 mt-1">Ready for {order.status === 'Pending' ? 'pickup' : 'delivery'}</p>
                     </div>
                   </div>
@@ -153,7 +188,7 @@ const StaffDashboard = ({ user }) => {
                     </button>
                   )}
                   {order.status === 'Drying' && (
-                    <button onClick={() => updateStatus(order.orderId, 'Delivered')} className="flex-1 py-3 px-4 rounded-xl text-sm font-bold bg-green-500 hover:bg-green-600 text-white transition-colors shadow-md">
+                    <button onClick={() => handleInitiateDelivery(order.orderId)} className="flex-1 py-3 px-4 rounded-xl text-sm font-bold bg-green-500 hover:bg-green-600 text-white transition-colors shadow-md">
                       <CheckSquare size={16} className="inline mr-2 -mt-1"/> Mark as Delivered
                     </button>
                   )}
@@ -161,6 +196,52 @@ const StaffDashboard = ({ user }) => {
               </div>
             );
           })}
+        </div>
+      )}
+
+      {deliveryModal.isOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fade-in">
+          <div className="bg-white rounded-2xl w-full max-w-md p-6 shadow-2xl relative">
+            <button onClick={() => setDeliveryModal({ isOpen: false, orderId: null })} className="absolute top-4 right-4 text-gray-400 hover:text-red-500 transition-colors">
+              <XCircle size={24} />
+            </button>
+            <div className="text-center mb-6">
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Truck className="w-8 h-8 text-blue-600" />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900">Customer Delivery Verification</h3>
+              <p className="text-gray-500 mt-2 text-sm">Please enter the 6-digit OTP provided by the customer to complete this delivery.</p>
+            </div>
+            
+            <div className="space-y-4">
+              <div>
+                <input 
+                  type="text" 
+                  maxLength={6}
+                  placeholder="• • • • • •"
+                  className="w-full text-center text-3xl font-bold tracking-[0.5em] py-4 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 outline-none transition-shadow"
+                  value={otpCode}
+                  onChange={e => setOtpCode(e.target.value.replace(/\D/g, ''))}
+                />
+              </div>
+              
+              <button 
+                onClick={() => updateStatus(deliveryModal.orderId, 'Delivered', otpCode)}
+                disabled={otpCode.length !== 6 || otpLoading}
+                className="w-full py-4 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl shadow-md transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex justify-center items-center gap-2"
+              >
+                {otpLoading ? 'Verifying...' : 'Verify OTP & Mark Delivered'}
+              </button>
+              
+              <button 
+                onClick={() => handleInitiateDelivery(deliveryModal.orderId)}
+                disabled={otpCooldown > 0}
+                className="w-full py-3 text-sm font-bold text-blue-600 hover:text-blue-800 disabled:text-gray-400 transition-colors"
+              >
+                {otpCooldown > 0 ? `Resend OTP in ${otpCooldown}s` : 'Resend OTP'}
+              </button>
+            </div>
+          </div>
         </div>
       )}
     </div>
