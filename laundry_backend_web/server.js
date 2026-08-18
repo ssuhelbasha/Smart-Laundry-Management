@@ -155,11 +155,27 @@ return res.status(404).json({ success: false, message: "No account found with th
 const otpPurpose = purpose || 'general';
 const key = `${lowerEmail}_${otpPurpose}`;
 
-// --- PRIMARY: Local SMTP (User is on Mobile Hotspot, ports are unblocked) ---
-// We explicitly disable Supabase Auth because of their strict rate limits and Google security blocks.
+// --- PRIMARY: Supabase Auth OTP (works on Vercel, uses Supabase email service) ---
 let usedSupabaseAuth = false;
+if (isSupabaseConfigured && supabase) {
+  try {
+    const { error } = await supabase.auth.signInWithOtp({
+      email: lowerEmail,
+      options: { shouldCreateUser: true }
+    });
+    if (!error) {
+      usedSupabaseAuth = true;
+      otpStore.set(key, { otpCode: null, expiresAt: Date.now() + 10 * 60 * 1000, used: false, via: 'supabase_auth', attempts: 0 });
+      console.log(`✅ Supabase Auth OTP sent to ${lowerEmail}`);
+    } else {
+      console.warn(`Supabase Auth OTP error: ${error.message}`);
+    }
+  } catch (err) {
+    console.warn(`Supabase Auth OTP exception: ${err.message}`);
+  }
+}
 
-// --- FALLBACK: Generate our own OTP + Gmail SMTP ---
+// --- FALLBACK: Generate our own OTP + Gmail SMTP (local dev only) ---
 if (!usedSupabaseAuth) {
 const otpCode = Math.floor(100000 + Math.random() * 900000).toString();
 const expiresAt = Date.now() + 10 * 60 * 1000;
@@ -193,10 +209,11 @@ text: `Your Smart Laundry verification code is: ${otpCode}\n\nExpires in 10 minu
 
 // OTP is NEVER included in the API response
 res.json({ 
-success: true, 
-message: `Verification code sent to ${lowerEmail}. Please check your inbox and spam folder.`
+  success: true, 
+  message: `Verification code sent to ${lowerEmail}. Please check your inbox and spam folder.`
 });
 });
+
 
 // Helper to verify OTP — routes to correct verifier based on how OTP was sent
 async function checkOtpValid(email, otpCode, purpose, consume = true) {
