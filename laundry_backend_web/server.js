@@ -76,10 +76,12 @@ console.error("Local db write error:", err);
 }
 }
 
-// In-memory OTP storage fallback
 const otpStore = new Map();
 
-// Middlewares - Support large payloads for base64 photo uploads
+// Middlewares
+const cors = require('cors');
+app.use(cors()); // Allow all origins for production compatibility
+// Support large payloads for base64 photo uploads
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 app.use(express.static(path.join(__dirname, 'public')));
