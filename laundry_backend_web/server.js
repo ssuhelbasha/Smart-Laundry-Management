@@ -21,10 +21,17 @@ process.env.SUPABASE_URL && !process.env.SUPABASE_URL.includes('mock.supabase.co
 );
 const supabase = isSupabaseConfigured ? createClient(supabaseUrl, supabaseKey) : null;
 
-// --- Gmail SMTP via App Password (from .env) ---
+const { Resend } = require('resend');
+
+// --- Email Setup ---
+// Production: Resend API (works on Vercel, uses HTTPS not SMTP)
+// Local fallback: Gmail SMTP via App Password
 const SMTP_USER = process.env.SMTP_USER || 'shaiksuhelbasha609@gmail.com';
 const SMTP_PASS = process.env.SMTP_PASS || 'wnxk xszg qlid onps';
 const ADMIN_EMAIL = process.env.ADMIN_NOTIFY_EMAIL || 'shaiksuhelbasha609@gmail.com';
+const RESEND_API_KEY = process.env.RESEND_API_KEY;
+
+const resendClient = RESEND_API_KEY ? new Resend(RESEND_API_KEY) : null;
 
 const smtpTransporter = nodemailer.createTransport({
 service: 'gmail',
@@ -32,27 +39,40 @@ auth: { user: SMTP_USER, pass: SMTP_PASS }
 });
 
 /**
-* Sends email via Gmail SMTP using App Password from .env.
-* Accepts either { to, subject, html, text } or a full mailOptions object.
-* OTP is NEVER returned in API responses — only sent to user's inbox.
-* Errors are caught — a failed email never crashes the server.
-*/
+ * Sends email via Resend API (production) or Gmail SMTP (local fallback).
+ * OTP is NEVER returned in API responses — only sent to user's inbox.
+ * Errors are caught — a failed email never crashes the server.
+ */
 async function sendEmail(mailOptions) {
-const opts = {
-from: `"Smart Laundry" <${SMTP_USER}>`,
-to: mailOptions.to,
-subject: mailOptions.subject,
-html: mailOptions.html,
-text: mailOptions.text
-};
-try {
-await smtpTransporter.sendMail(opts);
-console.log(`✅ Email sent to ${opts.to}`);
-} catch (err) {
-console.error(`❌ Email failed to ${opts.to}:`, err.message);
-// Re-throw so callers that want to handle it can, but server stays up
-throw err;
-}
+  const from = `Smart Laundry <onboarding@resend.dev>`;
+  try {
+    if (resendClient) {
+      // Production: use Resend API (works on Vercel)
+      const { error } = await resendClient.emails.send({
+        from,
+        to: mailOptions.to,
+        subject: mailOptions.subject,
+        html: mailOptions.html,
+        text: mailOptions.text
+      });
+      if (error) throw new Error(error.message);
+      console.log(`✅ Email sent via Resend to ${mailOptions.to}`);
+    } else {
+      // Local fallback: Gmail SMTP
+      await smtpTransporter.sendMail({
+        from: `"Smart Laundry" <${SMTP_USER}>`,
+        to: mailOptions.to,
+        subject: mailOptions.subject,
+        html: mailOptions.html,
+        text: mailOptions.text
+      });
+      console.log(`✅ Email sent via SMTP to ${mailOptions.to}`);
+    }
+
+  } catch (err) {
+    console.error(`❌ Email failed to ${mailOptions.to}:`, err.message);
+    throw err;
+  }
 }
 
 // Local storage helper for resilient fallback & extended metadata (photos, etc.)
