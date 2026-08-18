@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "build": "cd ../laundry_frontend_react && npm install --legacy-peer-deps && npm run build"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.108.1",
