@@ -673,7 +673,11 @@ Please log in to the <strong>Admin Dashboard &gt; Staff Approvals</strong> tab t
 `,
 text: `New Staff Application:\nName: ${name}\nEmail: ${lowerEmail}\nPhone: ${phone}\nAddress: ${address}\nLocation: ${location_details}\n\nPlease visit the Admin Dashboard to review and approve.`
 };
-sendEmail(mailOptions).catch(e => console.error("Admin notification mail error:", e.message));
+try {
+  await sendEmail(mailOptions);
+} catch (e) {
+  console.error("Admin notification mail error:", e.message);
+}
 }
 
 res.json({ 
@@ -1136,10 +1140,31 @@ app.get('/api/orders', async (req, res) => {
     }
   }
 
-  // Populate customer names
+  // Populate customer details
+  let allUsersMap = new Map();
+  if (localDb.users) {
+      localDb.users.forEach(u => allUsersMap.set(u.userId || u.user_id, { name: u.name, email: u.email, phone: u.phone }));
+  }
+  
+  if (isSupabaseConfigured && supabase) {
+      try {
+          const { data } = await supabase.from('users').select('user_id, name, email, phone');
+          if (data) {
+              data.forEach(u => allUsersMap.set(u.user_id, { name: u.name, email: u.email, phone: u.phone }));
+          }
+      } catch (err) {
+          console.warn("Failed to fetch users for order mapping:", err.message);
+      }
+  }
+
   const populatedOrders = orders.map(o => {
-      const user = localDb.users?.find(u => u.userId === o.userId || u.user_id === o.userId);
-      return { ...o, customerName: user?.name || "Unknown Customer" };
+      const user = allUsersMap.get(o.userId) || {};
+      return { 
+          ...o, 
+          customerName: user.name || "Unknown Customer",
+          customerEmail: user.email || "Unknown Email",
+          customerPhone: user.phone || "Unknown Phone"
+      };
   });
 
   res.json(populatedOrders);
