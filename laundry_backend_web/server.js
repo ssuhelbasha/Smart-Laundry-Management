@@ -614,13 +614,8 @@ email: lowerEmail,
 password: hashPassword(password),
 phone,
 address,
-role: selectedRole,
-wallet_balance: 0.00,
-status,
-staff_photo: staff_photo || null,
-machines_photo: machines_photo || null,
-utilities_photo: utilities_photo || null,
-location_details: location_details || null
+role: selectedRole === 'staff' ? 'pending_staff' : selectedRole,
+wallet_balance: 0.00
 }]);
 } catch (err) {
 console.warn("Supabase insert exception:", err.message);
