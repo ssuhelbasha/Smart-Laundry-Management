@@ -26,17 +26,17 @@ const { Resend } = require('resend');
 // --- Email Setup ---
 // Production: Resend API (works on Vercel, uses HTTPS not SMTP)
 // Local fallback: Gmail SMTP via App Password
-const SMTP_USER = process.env.SMTP_USER || 'shaiksuhelbasha609@gmail.com';
-const SMTP_PASS = process.env.SMTP_PASS || 'wnxk xszg qlid onps';
-const ADMIN_EMAIL = process.env.ADMIN_NOTIFY_EMAIL || 'shaiksuhelbasha609@gmail.com';
+const SMTP_USER = process.env.SMTP_USER;
+const SMTP_PASS = process.env.SMTP_PASS;
+const ADMIN_EMAIL = process.env.ADMIN_NOTIFY_EMAIL || '';
 const RESEND_API_KEY = process.env.RESEND_API_KEY;
 
 const resendClient = RESEND_API_KEY ? new Resend(RESEND_API_KEY) : null;
 
-const smtpTransporter = nodemailer.createTransport({
-service: 'gmail',
-auth: { user: SMTP_USER, pass: SMTP_PASS }
-});
+const smtpTransporter = (SMTP_USER && SMTP_PASS) ? nodemailer.createTransport({
+  service: 'gmail',
+  auth: { user: SMTP_USER, pass: SMTP_PASS }
+}) : null;
 
 /**
  * Sends email via Resend API (production) or Gmail SMTP (local fallback).
@@ -57,8 +57,8 @@ async function sendEmail(mailOptions) {
       });
       if (error) throw new Error(error.message);
       console.log(`✅ Email sent via Resend to ${mailOptions.to}`);
-    } else {
-      // Local fallback: Gmail SMTP
+    } else if (smtpTransporter) {
+      // Local/fallback: Gmail SMTP
       await smtpTransporter.sendMail({
         from: `"Smart Laundry" <${SMTP_USER}>`,
         to: mailOptions.to,
@@ -67,6 +67,8 @@ async function sendEmail(mailOptions) {
         text: mailOptions.text
       });
       console.log(`✅ Email sent via SMTP to ${mailOptions.to}`);
+    } else {
+      throw new Error('No email transport configured. Set RESEND_API_KEY or SMTP_USER/SMTP_PASS environment variables.');
     }
 
   } catch (err) {
@@ -76,7 +78,8 @@ async function sendEmail(mailOptions) {
 }
 
 // Local storage helper for resilient fallback & extended metadata (photos, etc.)
-const DB_PATH = path.join(__dirname, 'db.json');
+const isVercel = !!process.env.VERCEL;
+const DB_PATH = isVercel ? path.join('/tmp', 'db.json') : path.join(__dirname, 'db.json');
 function readLocalDb() {
 try {
 if (fs.existsSync(DB_PATH)) {
@@ -97,6 +100,68 @@ console.error("Local db write error:", err);
 }
 
 const otpStore = new Map();
+
+// --- Persistent OTP Storage (Supabase for production, in-memory Map for local dev) ---
+async function storeOtp(key, data) {
+  otpStore.set(key, data);
+  if (isSupabaseConfigured && supabase) {
+    try {
+      await supabase.from('otp_codes').upsert({
+        otp_key: key,
+        otp_code: data.otpCode || null,
+        expires_at: data.expiresAt,
+        used: data.used || false,
+        via: data.via || 'email',
+        attempts: data.attempts || 0
+      }, { onConflict: 'otp_key' });
+    } catch (err) {
+      console.error('OTP persist error:', err.message);
+    }
+  }
+}
+
+async function getOtp(key) {
+  let cached = otpStore.get(key);
+  if (!cached && isSupabaseConfigured && supabase) {
+    try {
+      const { data, error } = await supabase
+        .from('otp_codes')
+        .select('*')
+        .eq('otp_key', key)
+        .single();
+      if (!error && data) {
+        cached = {
+          otpCode: data.otp_code,
+          expiresAt: data.expires_at,
+          used: data.used,
+          via: data.via,
+          attempts: data.attempts || 0
+        };
+        otpStore.set(key, cached);
+      }
+    } catch (err) {
+      console.error('OTP read error:', err.message);
+    }
+  }
+  return cached || null;
+}
+
+async function updateOtp(key, updates) {
+  const cached = otpStore.get(key);
+  if (cached) Object.assign(cached, updates);
+  if (isSupabaseConfigured && supabase) {
+    try {
+      const dbUpdates = {};
+      if ('used' in updates) dbUpdates.used = updates.used;
+      if ('attempts' in updates) dbUpdates.attempts = updates.attempts;
+      if (Object.keys(dbUpdates).length > 0) {
+        await supabase.from('otp_codes').update(dbUpdates).eq('otp_key', key);
+      }
+    } catch (err) {
+      console.error('OTP update error:', err.message);
+    }
+  }
+}
 
 // Middlewares
 const cors = require('cors');
@@ -155,33 +220,15 @@ return res.status(404).json({ success: false, message: "No account found with th
 const otpPurpose = purpose || 'general';
 const key = `${lowerEmail}_${otpPurpose}`;
 
-// --- PRIMARY: Supabase Auth OTP (works on Vercel, uses Supabase email service) ---
-let usedSupabaseAuth = false;
-if (isSupabaseConfigured && supabase) {
-  try {
-    const { error } = await supabase.auth.signInWithOtp({
-      email: lowerEmail,
-      options: { shouldCreateUser: true }
-    });
-    if (!error) {
-      usedSupabaseAuth = true;
-      otpStore.set(key, { otpCode: null, expiresAt: Date.now() + 10 * 60 * 1000, used: false, via: 'supabase_auth', attempts: 0 });
-      console.log(`✅ Supabase Auth OTP sent to ${lowerEmail}`);
-    } else {
-      console.warn(`Supabase Auth OTP error: ${error.message}`);
-    }
-  } catch (err) {
-    console.warn(`Supabase Auth OTP exception: ${err.message}`);
-  }
-}
-
-// --- FALLBACK: Generate our own OTP + Gmail SMTP (local dev only) ---
-if (!usedSupabaseAuth) {
+// --- Generate OTP and send via configured email transport ---
 const otpCode = Math.floor(100000 + Math.random() * 900000).toString();
 const expiresAt = Date.now() + 10 * 60 * 1000;
-otpStore.set(key, { otpCode, expiresAt, used: false, via: 'smtp', attempts: 0 });
+await storeOtp(key, { otpCode, expiresAt, used: false, via: 'email', attempts: 0 });
 
-console.log(`\n[DEV MODE] Generated OTP for ${lowerEmail}: ${otpCode}\n`);
+if (process.env.NODE_ENV !== 'production') {
+  console.log(`\n[DEV MODE] Generated OTP for ${lowerEmail}: ${otpCode}\n`);
+}
+console.log(`📧 Sending OTP email to ${lowerEmail} via ${resendClient ? 'Resend' : (smtpTransporter ? 'SMTP' : 'NONE')}`);
 
 const isReset = otpPurpose === 'password_reset';
 const emailHtml = `
@@ -204,8 +251,7 @@ to: lowerEmail,
 subject: isReset ? 'Smart Laundry - Password Reset Code' : 'Smart Laundry - Email Verification Code',
 html: emailHtml,
 text: `Your Smart Laundry verification code is: ${otpCode}\n\nExpires in 10 minutes.`
-}).catch(err => console.error(`❌ SMTP OTP failed for ${lowerEmail}:`, err.message));
-}
+}).catch(err => console.error(`❌ OTP email failed for ${lowerEmail}:`, err.message));
 
 // OTP is NEVER included in the API response
 res.json({ 
@@ -217,7 +263,7 @@ res.json({
 
 // Helper to verify OTP — routes to correct verifier based on how OTP was sent
 async function checkOtpValid(email, otpCode, purpose, consume = true) {
-console.log('checkOtpValid start:', {email, otpCode, purpose, consume});
+console.log('checkOtpValid start:', {email, purpose, consume});
 const lowerEmail = email.toLowerCase().trim();
 const key = `${lowerEmail}_${purpose}`;
 const cleanOtpCode = String(otpCode).trim();
@@ -227,55 +273,19 @@ if (cleanOtpCode === '123456' && process.env.NODE_ENV !== 'production') {
 return true;
 }
 
-const cached = otpStore.get(key);
-console.log('cached:', cached);
-  if (cached && cached.attempts >= 3) return false;
+const cached = await getOtp(key);
+console.log('OTP record found:', !!cached);
+if (!cached) return false;
+if (cached.attempts >= 3) return false;
 
-// --- PATH A: Supabase Auth sent the OTP — verify via supabase.auth.verifyOtp() ---
-if (cached?.via === 'supabase_auth' && cached.expiresAt >= Date.now()) {
-if (isSupabaseConfigured && supabase) {
-try {
-let { data, error } = await supabase.auth.verifyOtp({
-email: lowerEmail,
-token: cleanOtpCode,
-type: 'email'
-});
-
-// If email type fails (common for new user signups), try 'signup' type
-if (error) {
-const res2 = await supabase.auth.verifyOtp({
-email: lowerEmail,
-token: cleanOtpCode,
-type: 'signup'
-});
-data = res2.data;
-error = res2.error;
-}
-
-if (!error && data?.user) {
-if(consume) cached.used = true;
-console.log(`✅ Supabase Auth OTP verified for ${lowerEmail}`);
-return true;
-} else if (error) {
-cached.attempts = (cached.attempts || 0) + 1;
-console.warn(`Supabase verifyOtp error: ${error.message}`);
-}
-} catch (err) {
-cached.attempts = (cached.attempts || 0) + 1;
-console.warn(`Supabase verifyOtp exception: ${err.message}`);
-}
-}
-return false; // Supabase was sender, only Supabase can verify
-}
-
-// --- PATH B: SMTP sent the OTP — verify via in-memory store ---
-if (cached && cached.expiresAt >= Date.now()) {
+// Verify OTP code matches stored value
+if (cached.expiresAt >= Date.now()) {
 if (cached.used) return false;
 if (cached.otpCode === cleanOtpCode) {
-if(consume) cached.used = true;
+if (consume) await updateOtp(key, { used: true });
 return true;
 } else {
-cached.attempts = (cached.attempts || 0) + 1;
+await updateOtp(key, { attempts: (cached.attempts || 0) + 1 });
 }
 }
 
@@ -1131,9 +1141,11 @@ app.post('/api/orders/:id/request-delivery-otp', async (req, res) => {
   const expiresAt = Date.now() + 10 * 60 * 1000;
   
   const key = `delivery_${orderId}`;
-  otpStore.set(key, { otpCode, expiresAt, used: false, via: 'smtp', attempts: 0 });
+  await storeOtp(key, { otpCode, expiresAt, used: false, via: 'email', attempts: 0 });
 
-  console.log(`\n[DEV MODE] Generated Delivery OTP for Order ${orderId} (${lowerEmail}): ${otpCode}\n`);
+  if (process.env.NODE_ENV !== 'production') {
+    console.log(`\n[DEV MODE] Generated Delivery OTP for Order ${orderId} (${lowerEmail}): ${otpCode}\n`);
+  }
 
   const emailHtml = `
 <div style="font-family: Arial, sans-serif; max-width: 500px; margin: 0 auto; padding: 20px; border: 1px solid #e0e0e0; border-radius: 10px;">
@@ -1168,7 +1180,7 @@ app.put('/api/orders/:id/status', async (req, res) => {
   
   if (status === "Delivered") {
       const key = `delivery_${orderId}`;
-      const cached = otpStore.get(key);
+      const cached = await getOtp(key);
       if (!cached) {
           return res.status(400).json({ success: false, message: "Delivery OTP is required. Please request an OTP first." });
       }
@@ -1179,13 +1191,13 @@ app.put('/api/orders/:id/status', async (req, res) => {
           return res.status(400).json({ success: false, message: "Too many incorrect attempts. Please request a new OTP." });
       }
       if (cached.otpCode !== otpCode) {
-          cached.attempts += 1;
+          await updateOtp(key, { attempts: (cached.attempts || 0) + 1 });
           return res.status(400).json({ success: false, message: "Invalid delivery OTP. Please enter the OTP provided by the customer." });
       }
       if (cached.used) {
           return res.status(400).json({ success: false, message: "This OTP has already been used." });
       }
-      cached.used = true;
+      await updateOtp(key, { used: true });
   }
   
   const localDb = readLocalDb();
