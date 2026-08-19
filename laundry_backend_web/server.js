@@ -46,8 +46,18 @@ const smtpTransporter = (SMTP_USER && SMTP_PASS) ? nodemailer.createTransport({
 async function sendEmail(mailOptions) {
   const from = `Smart Laundry <onboarding@resend.dev>`;
   try {
-    if (resendClient) {
-      // Production: use Resend API (works on Vercel)
+    if (smtpTransporter) {
+      // Primary: Gmail SMTP (allows sending to any address without domain verification)
+      await smtpTransporter.sendMail({
+        from: `"Smart Laundry" <${SMTP_USER}>`,
+        to: mailOptions.to,
+        subject: mailOptions.subject,
+        html: mailOptions.html,
+        text: mailOptions.text
+      });
+      console.log(`✅ Email sent via SMTP to ${mailOptions.to}`);
+    } else if (resendClient) {
+      // Fallback: Resend API (requires verified domain for non-owner emails)
       const { error } = await resendClient.emails.send({
         from,
         to: mailOptions.to,
@@ -57,18 +67,8 @@ async function sendEmail(mailOptions) {
       });
       if (error) throw new Error(error.message);
       console.log(`✅ Email sent via Resend to ${mailOptions.to}`);
-    } else if (smtpTransporter) {
-      // Local/fallback: Gmail SMTP
-      await smtpTransporter.sendMail({
-        from: `"Smart Laundry" <${SMTP_USER}>`,
-        to: mailOptions.to,
-        subject: mailOptions.subject,
-        html: mailOptions.html,
-        text: mailOptions.text
-      });
-      console.log(`✅ Email sent via SMTP to ${mailOptions.to}`);
     } else {
-      throw new Error('No email transport configured. Set RESEND_API_KEY or SMTP_USER/SMTP_PASS environment variables.');
+      throw new Error('No email transport configured. Set SMTP_USER/SMTP_PASS or RESEND_API_KEY environment variables.');
     }
 
   } catch (err) {
@@ -233,7 +233,7 @@ await storeOtp(key, { otpCode, expiresAt, used: false, via: 'email', attempts: 0
 if (process.env.NODE_ENV !== 'production') {
   console.log(`\n[DEV MODE] Generated OTP for ${lowerEmail}: ${otpCode}\n`);
 }
-console.log(`📧 Sending OTP email to ${lowerEmail} via ${resendClient ? 'Resend' : (smtpTransporter ? 'SMTP' : 'NONE')}`);
+console.log(`📧 Sending OTP email to ${lowerEmail} via ${smtpTransporter ? 'SMTP' : (resendClient ? 'Resend' : 'NONE')}`);
 
 const isReset = otpPurpose === 'password_reset';
 const emailHtml = `
