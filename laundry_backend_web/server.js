@@ -1277,11 +1277,32 @@ app.post('/api/orders', async (req, res) => {
 app.post('/api/orders/:id/request-delivery-otp', async (req, res) => {
   const orderId = req.params.id;
   const localDb = readLocalDb();
-  const order = localDb.orders?.find(o => o.orderId === orderId || o.order_id === orderId);
+  let order = localDb.orders?.find(o => o.orderId === orderId || o.order_id === orderId);
+  let customer = null;
+
+  // FETCH FROM SUPABASE IF NOT IN LOCAL DB
+  if (isSupabaseConfigured && supabase) {
+      if (!order) {
+          try {
+              const { data } = await supabase.from('orders').select('*').eq('order_id', orderId).single();
+              if (data) order = { userId: data.user_id }; // Just need userId for customer fetch
+          } catch (err) {}
+      }
+      
+      if (order) {
+          customer = localDb.users?.find(u => u.userId === order.userId || u.user_id === order.userId);
+          if (!customer || !customer.email) {
+              try {
+                  const { data } = await supabase.from('users').select('name, email').eq('user_id', order.userId).single();
+                  if (data) customer = { name: data.name, email: data.email };
+              } catch (err) {}
+          }
+      }
+  } else {
+      customer = localDb.users?.find(u => u.userId === order?.userId || u.user_id === order?.userId);
+  }
   
   if (!order) return res.status(404).json({ success: false, message: "Order not found" });
-
-  const customer = localDb.users?.find(u => u.userId === order.userId || u.user_id === order.userId);
   if (!customer || !customer.email) return res.status(400).json({ success: false, message: "Customer email not found" });
 
   const lowerEmail = customer.email.toLowerCase().trim();
