@@ -1365,8 +1365,35 @@ app.put('/api/orders/:id/status', async (req, res) => {
   }
   
   const localDb = readLocalDb();
-  const orderIdx = localDb.orders?.findIndex(o => o.orderId === orderId || o.order_id === orderId);
+  let orderIdx = localDb.orders?.findIndex(o => o.orderId === orderId || o.order_id === orderId);
   let order = null;
+
+  // FETCH FROM SUPABASE FIRST IF NOT IN LOCAL DB TO PREVENT SERVERLESS DESYNC
+  if (isSupabaseConfigured && supabase && (orderIdx === -1 || !localDb.orders)) {
+      try {
+          const { data } = await supabase.from('orders').select('*').eq('order_id', orderId).single();
+          if (data) {
+              if (!localDb.orders) localDb.orders = [];
+              const mappedOrder = {
+                  orderId: data.order_id,
+                  userId: data.user_id,
+                  serviceType: data.service_type,
+                  fabricType: data.fabric_type,
+                  totalQuantity: data.total_quantity,
+                  pickupDate: data.pickup_date,
+                  status: data.status,
+                  totalPrice: data.total_price,
+                  paymentStatus: data.payment_status,
+                  assignedStaffId: data.assigned_staff_id,
+                  createdAt: data.created_at
+              };
+              localDb.orders.push(mappedOrder);
+              orderIdx = localDb.orders.length - 1;
+          }
+      } catch (err) {
+          console.error("Supabase order fetch error:", err.message);
+      }
+  }
 
   if (orderIdx !== -1 && localDb.orders) {
       const oldStatus = localDb.orders[orderIdx].status;
