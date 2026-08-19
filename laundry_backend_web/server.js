@@ -1345,129 +1345,97 @@ app.put('/api/orders/:id/status', async (req, res) => {
   if (status === "Delivered") {
       const key = `delivery_${orderId}`;
       const cached = await getOtp(key);
-      if (!cached) {
-          return res.status(400).json({ success: false, message: "Delivery OTP is required. Please request an OTP first." });
-      }
-      if (cached.expiresAt < Date.now()) {
-          return res.status(400).json({ success: false, message: "Delivery OTP has expired. Please request a new OTP." });
-      }
-      if (cached.attempts >= 3) {
-          return res.status(400).json({ success: false, message: "Too many incorrect attempts. Please request a new OTP." });
-      }
+      if (!cached) return res.status(400).json({ success: false, message: "Delivery OTP is required. Please request an OTP first." });
+      if (cached.expiresAt < Date.now()) return res.status(400).json({ success: false, message: "Delivery OTP has expired. Please request a new OTP." });
+      if (cached.attempts >= 3) return res.status(400).json({ success: false, message: "Too many incorrect attempts. Please request a new OTP." });
       if (cached.otpCode !== otpCode) {
           await updateOtp(key, { attempts: (cached.attempts || 0) + 1 });
           return res.status(400).json({ success: false, message: "Invalid delivery OTP. Please enter the OTP provided by the customer." });
       }
-      if (cached.used) {
-          return res.status(400).json({ success: false, message: "This OTP has already been used." });
-      }
+      if (cached.used) return res.status(400).json({ success: false, message: "This OTP has already been used." });
       await updateOtp(key, { used: true });
   }
-  
-  const localDb = readLocalDb();
-  let orderIdx = localDb.orders?.findIndex(o => o.orderId === orderId || o.order_id === orderId);
-  let order = null;
 
-  // FETCH FROM SUPABASE FIRST IF NOT IN LOCAL DB TO PREVENT SERVERLESS DESYNC
-  if (isSupabaseConfigured && supabase && (orderIdx === -1 || !localDb.orders)) {
+  let order = null;
+  const localDb = readLocalDb();
+
+  // BULLETPROOF: Always prioritize Supabase
+  if (isSupabaseConfigured && supabase) {
       try {
           const { data } = await supabase.from('orders').select('*').eq('order_id', orderId).single();
           if (data) {
-              if (!localDb.orders) localDb.orders = [];
-              const mappedOrder = {
+              order = {
                   orderId: data.order_id,
                   userId: data.user_id,
                   serviceType: data.service_type,
                   fabricType: data.fabric_type,
                   totalQuantity: data.total_quantity,
                   pickupDate: data.pickup_date,
-                  status: data.status,
+                  status: status || data.status,
                   totalPrice: data.total_price,
                   paymentStatus: data.payment_status,
-                  assignedStaffId: data.assigned_staff_id,
+                  assignedStaffId: staffId || data.assigned_staff_id,
                   createdAt: data.created_at
               };
-              localDb.orders.push(mappedOrder);
-              orderIdx = localDb.orders.length - 1;
+              
+              // Update Supabase Order
+              let updateData = {};
+              if (status) updateData.status = status;
+              if (staffId) updateData.assigned_staff_id = staffId;
+              if (status === "Rejected") updateData.payment_status = "Refunded";
+              await supabase.from('orders').update(updateData).eq('order_id', orderId);
+              
+              // Update Supabase Wallets if needed
+              if (status === "Rejected" && data.payment_status === "Paid") {
+                  const refundAmount = parseFloat(data.total_price || 0);
+                  const { data: userRow } = await supabase.from('users').select('wallet_balance').eq('user_id', data.user_id).single();
+                  if (userRow) {
+                      await supabase.from('users').update({ wallet_balance: parseFloat(userRow.wallet_balance || 0) + refundAmount }).eq('user_id', data.user_id);
+                  }
+              }
+              
+              if (status === "Delivered" && data.payment_status === "Paid") {
+                  const orderAmount = parseFloat(data.total_price || 0);
+                  const { data: adminRow } = await supabase.from('users').select('user_id, wallet_balance').eq('role', 'admin').limit(1).single();
+                  if (adminRow) {
+                      await supabase.from('users').update({ wallet_balance: parseFloat(adminRow.wallet_balance || 0) + orderAmount }).eq('user_id', adminRow.user_id);
+                  }
+              }
           }
       } catch (err) {
-          console.error("Supabase order fetch error:", err.message);
+          console.error("Bulletproof Supabase Order update error:", err.message);
       }
   }
 
+  // Fallback / Sync localDb
+  let orderIdx = localDb.orders?.findIndex(o => o.orderId === orderId || o.order_id === orderId);
   if (orderIdx !== -1 && localDb.orders) {
       const oldStatus = localDb.orders[orderIdx].status;
-      
       if (status) localDb.orders[orderIdx].status = status;
       if (staffId) localDb.orders[orderIdx].assignedStaffId = staffId;
-      order = localDb.orders[orderIdx];
+      if (!order) order = localDb.orders[orderIdx]; // fallback if supabase failed
       
-      if (status === "Rejected" && order.paymentStatus === "Paid") {
-          let refundAmount = parseFloat(order.totalPrice || 0);
-          
-          if (isSupabaseConfigured && supabase) {
-              try {
-                  const { data } = await supabase.from('users').select('wallet_balance').eq('user_id', order.userId).single();
-                  if (data) {
-                      const currentBal = parseFloat(data.wallet_balance || 0);
-                      await supabase.from('users').update({ wallet_balance: currentBal + refundAmount }).eq('user_id', order.userId);
-                  }
-              } catch (err) {
-                  console.error("Supabase refund error:", err.message);
-              }
-          }
-          
-          const userIdx = localDb.users?.findIndex(u => u.userId === order.userId || u.user_id === order.userId);
-          if (userIdx !== -1) {
-              localDb.users[userIdx].walletBalance = parseFloat(localDb.users[userIdx].walletBalance || 0) + refundAmount;
-          }
+      if (status === "Rejected" && localDb.orders[orderIdx].paymentStatus === "Paid") {
+          const uIdx = localDb.users?.findIndex(u => u.userId === localDb.orders[orderIdx].userId || u.user_id === localDb.orders[orderIdx].userId);
+          if (uIdx !== -1) localDb.users[uIdx].walletBalance = parseFloat(localDb.users[uIdx].walletBalance || 0) + parseFloat(localDb.orders[orderIdx].totalPrice || 0);
           localDb.orders[orderIdx].paymentStatus = "Refunded";
           localDb.orders[orderIdx].assignedStaffId = null;
       }
-
-
-
-
-
-
-
-
-      if (status === "Delivered" && order.paymentStatus === "Paid") {
-          let orderAmount = parseFloat(order.totalPrice || 0);
-          
-          if (isSupabaseConfigured && supabase) {
-              try {
-                  const { data: admin } = await supabase.from('users').select('user_id, wallet_balance').eq('role', 'admin').limit(1).single();
-                  if (admin) {
-                      const currentBal = parseFloat(admin.wallet_balance || 0);
-                      await supabase.from('users').update({ wallet_balance: currentBal + orderAmount }).eq('user_id', admin.user_id);
-                  }
-              } catch (err) {
-                  console.error("Supabase admin wallet update error:", err.message);
-              }
-          }
-          
+      
+      if (status === "Delivered" && localDb.orders[orderIdx].paymentStatus === "Paid") {
           const adminIdx = localDb.users?.findIndex(u => u.role === 'admin');
-          if (adminIdx !== -1) {
-              localDb.users[adminIdx].walletBalance = parseFloat(localDb.users[adminIdx].walletBalance || 0) + orderAmount;
-          }
+          if (adminIdx !== -1) localDb.users[adminIdx].walletBalance = parseFloat(localDb.users[adminIdx].walletBalance || 0) + parseFloat(localDb.orders[orderIdx].totalPrice || 0);
       }
-
-
-
-
-
       writeLocalDb(localDb);
 
-      // Notify Customer of Status Change (if changed)
+      // Email customer if changed
       if (status && oldStatus !== status) {
-          const customer = localDb.users?.find(u => u.userId === order.userId || u.user_id === order.userId);
+          const customer = localDb.users?.find(u => u.userId === localDb.orders[orderIdx].userId || u.user_id === localDb.orders[orderIdx].userId);
           if (customer && customer.email) {
               const statusHtml = getStandardEmailTemplate(
                   customer.name || 'Customer',
                   `Your Laundry Order #${orderId} is now <strong>${status}</strong>.`,
-                  { id: orderId, status: status, date: order.pickupDate || order.pickup_date, total: `₹${order.totalPrice || order.total_price}` },
-                  `Previous Status: ${oldStatus}<br>Updated Time: ${new Date().toLocaleString()}`
+                  { id: orderId, status: status, date: localDb.orders[orderIdx].pickupDate || localDb.orders[orderIdx].pickup_date, total: `₹${localDb.orders[orderIdx].totalPrice || localDb.orders[orderIdx].total_price}` }
               );
               
               let subject = `Laundry Order Status Update — #${orderId}`;
@@ -1475,25 +1443,15 @@ app.put('/api/orders/:id/status', async (req, res) => {
               else if (status === 'Delivered') subject = `Laundry Order Delivered — #${orderId}`;
               else if (status === 'Cancelled' || status === 'Rejected') subject = `Laundry Order Cancelled — #${orderId}`;
 
-              sendEmail({
-                  to: customer.email,
-                  subject,
-                  html: statusHtml
-              }).catch(err => console.error("Status update email error:", err.message));
+              sendEmail({ to: customer.email, subject, html: statusHtml }).catch(e => {});
           }
       }
-  }
-
-  if (isSupabaseConfigured && supabase) {
-      let updateData = {};
-      if (status) updateData.status = status;
-      if (staffId) updateData.assigned_staff_id = staffId;
-      await supabase.from('orders').update(updateData).eq('order_id', orderId);
   }
 
   if (!order) return res.status(404).json({ success: false, message: "Order not found" });
   res.json({ success: true, order });
 });
+
 // Admin Email Test Endpoint
 app.post('/api/admin/email/test', async (req, res) => {
   const { email } = req.body;
