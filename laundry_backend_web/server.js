@@ -182,8 +182,8 @@ async function storeOtp(key, data) {
 }
 
 async function getOtp(key) {
-  let cached = otpStore.get(key);
-  if (!cached && isSupabaseConfigured && supabase) {
+  let cached = null;
+  if (isSupabaseConfigured && supabase) {
     try {
       const { data, error } = await supabase
         .from('otp_codes')
@@ -207,7 +207,7 @@ async function getOtp(key) {
       console.error('OTP read exception:', err.message);
     }
   }
-  return cached || null;
+  return cached || otpStore.get(key) || null;
 }
 
 async function updateOtp(key, updates) {
