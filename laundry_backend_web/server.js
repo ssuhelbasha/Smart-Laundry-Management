@@ -106,7 +106,7 @@ async function storeOtp(key, data) {
   otpStore.set(key, data);
   if (isSupabaseConfigured && supabase) {
     try {
-      await supabase.from('otp_codes').upsert({
+      const { error } = await supabase.from('otp_codes').upsert({
         otp_key: key,
         otp_code: data.otpCode || null,
         expires_at: data.expiresAt,
@@ -114,8 +114,9 @@ async function storeOtp(key, data) {
         via: data.via || 'email',
         attempts: data.attempts || 0
       }, { onConflict: 'otp_key' });
+      if (error) console.error('Supabase upsert error:', error);
     } catch (err) {
-      console.error('OTP persist error:', err.message);
+      console.error('OTP persist exception:', err.message);
     }
   }
 }
@@ -129,6 +130,9 @@ async function getOtp(key) {
         .select('*')
         .eq('otp_key', key)
         .single();
+      if (error && error.code !== 'PGRST116') { // Ignore "no rows returned" error
+          console.error('Supabase select error:', error);
+      }
       if (!error && data) {
         cached = {
           otpCode: data.otp_code,
@@ -140,7 +144,7 @@ async function getOtp(key) {
         otpStore.set(key, cached);
       }
     } catch (err) {
-      console.error('OTP read error:', err.message);
+      console.error('OTP read exception:', err.message);
     }
   }
   return cached || null;
@@ -155,10 +159,11 @@ async function updateOtp(key, updates) {
       if ('used' in updates) dbUpdates.used = updates.used;
       if ('attempts' in updates) dbUpdates.attempts = updates.attempts;
       if (Object.keys(dbUpdates).length > 0) {
-        await supabase.from('otp_codes').update(dbUpdates).eq('otp_key', key);
+        const { error } = await supabase.from('otp_codes').update(dbUpdates).eq('otp_key', key);
+        if (error) console.error('Supabase update error:', error);
       }
     } catch (err) {
-      console.error('OTP update error:', err.message);
+      console.error('OTP update exception:', err.message);
     }
   }
 }
@@ -246,18 +251,27 @@ ${otpCode}
 <p style="font-size: 13px; color: #888; text-align: center;">Expires in 10 minutes. Do not share with anyone.</p>
 </div>
 `;
-sendEmail({
-to: lowerEmail,
-subject: isReset ? 'Smart Laundry - Password Reset Code' : 'Smart Laundry - Email Verification Code',
-html: emailHtml,
-text: `Your Smart Laundry verification code is: ${otpCode}\n\nExpires in 10 minutes.`
-}).catch(err => console.error(`❌ OTP email failed for ${lowerEmail}:`, err.message));
+try {
+  await sendEmail({
+    to: lowerEmail,
+    subject: isReset ? 'Smart Laundry - Password Reset Code' : 'Smart Laundry - Email Verification Code',
+    html: emailHtml,
+    text: `Your Smart Laundry verification code is: ${otpCode}\n\nExpires in 10 minutes.`
+  });
 
-// OTP is NEVER included in the API response
-res.json({ 
-  success: true, 
-  message: `Verification code sent to ${lowerEmail}. Please check your inbox and spam folder.`
-});
+  // OTP is NEVER included in the API response
+  res.json({ 
+    success: true, 
+    message: `Verification code sent to ${lowerEmail}. Please check your inbox and spam folder.`
+  });
+} catch (err) {
+  res.status(500).json({
+    success: false,
+    message: err.message.includes('validation_error') 
+      ? "Email delivery failed: Resend Free Tier requires verified domains. Please test with your verified email address."
+      : "Failed to send email: " + err.message
+  });
+}
 });
 
 
@@ -1165,13 +1179,21 @@ ${otpCode}
 <p style="font-size: 14px; color: #333; text-align: center;">Please provide this OTP to the delivery staff when your order is delivered. Do not share this OTP before receiving your order.</p>
 </div>
 `;
-  sendEmail({
-    to: lowerEmail,
-    subject: "Delivery OTP - Smart Laundry",
-    html: emailHtml
-  }).catch(err => console.error("Failed to send delivery OTP email:", err));
-
-  res.json({ success: true, message: "OTP generated for customer" });
+  try {
+    await sendEmail({
+      to: lowerEmail,
+      subject: "Delivery OTP - Smart Laundry",
+      html: emailHtml
+    });
+    res.json({ success: true, message: "OTP generated for customer" });
+  } catch (err) {
+    res.status(500).json({
+      success: false,
+      message: err.message.includes('validation_error') 
+        ? "Email delivery failed: Resend Free Tier requires verified domains. Please test with your verified email address."
+        : "Failed to send email: " + err.message
+    });
+  }
 });
 
 app.put('/api/orders/:id/status', async (req, res) => {
