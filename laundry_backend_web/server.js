@@ -694,76 +694,57 @@ walletBalance: 0.00
 });
 
 // Get Users (Admin)
+// 12. List All Users (Admin)
 app.get('/api/users', async (req, res) => {
   const localDb = readLocalDb();
   let usersMap = new Map();
 
-  // Load from local DB
   if (localDb.users) {
-    localDb.users.forEach(u => {
-      const uid = u.userId || u.user_id;
-      usersMap.set(uid, {
-        userId: uid,
-        name: u.name,
-        email: u.email,
-        phone: u.phone,
-        address: u.address,
-        role: u.role,
-        status: u.status || (u.role === 'staff' ? 'pending' : 'approved'),
-        walletBalance: parseFloat(u.walletBalance || u.wallet_balance || 0),
-        staffPhoto: u.staffPhoto || u.staff_photo,
-        machinesPhoto: u.machinesPhoto || u.machines_photo,
-        utilitiesPhoto: u.utilitiesPhoto || u.utilities_photo,
-        locationDetails: u.locationDetails || u.location_details
-      });
-    });
+      localDb.users.forEach(u => usersMap.set(u.userId || u.user_id, u));
   }
 
-  // Merge with Supabase if configured
   if (isSupabaseConfigured && supabase) {
-    try {
-      const { data, error } = await supabase
-        .from('users')
-        .select('user_id, name, email, phone, address, role, wallet_balance, status, staff_photo, machines_photo, utilities_photo, location_details');
-
-      if (!error && data) {
-        data.forEach(u => {
-          const existing = usersMap.get(u.user_id) || {};
-          usersMap.set(u.user_id, {
-            userId: u.user_id,
-            name: u.name,
-            email: u.email,
-            phone: u.phone,
-            address: u.address,
-            role: u.role,
-            status: u.status || existing.status || (u.role === 'staff' ? 'pending' : 'approved'),
-            walletBalance: parseFloat(u.wallet_balance || existing.walletBalance || 0),
-            staffPhoto: u.staff_photo || existing.staffPhoto,
-            machinesPhoto: u.machines_photo || existing.machinesPhoto,
-            utilitiesPhoto: u.utilities_photo || existing.utilitiesPhoto,
-            locationDetails: u.location_details || existing.locationDetails
-          });
-        });
-      } else if (error) {
-        console.warn("Supabase fetch users error:", error.message);
+      try {
+          const { data, error } = await supabase.from('users').select('*');
+          if (!error && data) {
+              data.forEach(u => {
+                  const uid = u.user_id;
+                  const existing = usersMap.get(uid) || {};
+                  usersMap.set(uid, {
+                      userId: uid,
+                      name: u.name,
+                      email: u.email,
+                      phone: u.phone,
+                      address: u.address,
+                      role: u.role === 'pending_staff' || u.role === 'rejected_staff' ? 'staff' : u.role,
+                      status: u.status || (u.role === 'pending_staff' ? 'pending' : (u.role === 'rejected_staff' ? 'rejected' : 'approved')),
+                      walletBalance: parseFloat(u.wallet_balance || existing.walletBalance || 0),
+                      staffPhoto: u.staff_photo || existing.staffPhoto,
+                      machinesPhoto: u.machines_photo || existing.machinesPhoto,
+                      utilitiesPhoto: u.utilities_photo || existing.utilitiesPhoto,
+                      locationDetails: u.location_details || existing.locationDetails || u.address,
+                      createdAt: u.created_at || existing.createdAt || Date.now()
+                  });
+              });
+          }
+      } catch (err) {
+          console.warn("Supabase fetch users notice:", err.message);
       }
-    } catch (err) {
-      console.warn("Supabase fetch users notice:", err.message);
-    }
   }
 
   let result = Array.from(usersMap.values());
   const { role, status } = req.query;
   
   if (role) {
-    result = result.filter(u => u.role === role);
+      result = result.filter(u => u.role === role);
   }
   if (status) {
-    result = result.filter(u => u.status === status);
+      result = result.filter(u => u.status === status);
   }
 
   res.json(result);
 });
+
 
 // --- STAFF APPLICATION & APPROVAL ENDPOINTS (ADMIN) ---
 
