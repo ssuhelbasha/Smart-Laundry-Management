@@ -33,10 +33,33 @@ const RESEND_API_KEY = process.env.RESEND_API_KEY;
 
 const resendClient = RESEND_API_KEY ? new Resend(RESEND_API_KEY) : null;
 
+const SMTP_HOST = process.env.SMTP_HOST || 'smtp.gmail.com';
+const SMTP_PORT = process.env.SMTP_PORT || 465;
+const SMTP_SECURE = process.env.SMTP_SECURE === 'true' || true;
+const SMTP_FROM = process.env.SMTP_FROM || SMTP_USER;
+
 const smtpTransporter = (SMTP_USER && SMTP_PASS) ? nodemailer.createTransport({
-  service: 'gmail',
+  host: SMTP_HOST,
+  port: Number(SMTP_PORT),
+  secure: SMTP_SECURE,
   auth: { user: SMTP_USER, pass: SMTP_PASS }
 }) : null;
+
+// SMTP Startup Verification
+if (smtpTransporter && process.env.NODE_ENV !== 'test') {
+  smtpTransporter.verify().then(() => {
+    console.log(`\n[EMAIL SERVICE]`);
+    console.log(`Provider: Gmail SMTP`);
+    console.log(`Host: ${SMTP_HOST}`);
+    console.log(`Port: ${SMTP_PORT}`);
+    console.log(`User: configured`);
+    console.log(`Password: configured`);
+    console.log(`Connection: VERIFIED`);
+    console.log(`Mode: REAL EMAIL\n`);
+  }).catch(err => {
+    console.error(`\n[EMAIL SERVICE] Connection FAILED: ${err.message}\n`);
+  });
+}
 
 /**
  * Sends email via Resend API (production) or Gmail SMTP (local fallback).
@@ -76,6 +99,43 @@ async function sendEmail(mailOptions) {
     throw err;
   }
 }
+
+/**
+ * Standard reusable HTML email template
+ */
+function getStandardEmailTemplate(customerName, message, orderDetails = null, additionalDetails = '') {
+  let orderSection = '';
+  if (orderDetails) {
+    orderSection = `
+      <h3 style="color: #1d4ed8; border-bottom: 1px solid #e0e0e0; padding-bottom: 10px;">Order Details</h3>
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+        <tr><td style="padding: 8px 0; border-bottom: 1px solid #f0f0f0;"><strong>Order ID:</strong></td><td style="padding: 8px 0; border-bottom: 1px solid #f0f0f0; text-align: right;">#${orderDetails.id}</td></tr>
+        <tr><td style="padding: 8px 0; border-bottom: 1px solid #f0f0f0;"><strong>Status:</strong></td><td style="padding: 8px 0; border-bottom: 1px solid #f0f0f0; text-align: right;">${orderDetails.status}</td></tr>
+        <tr><td style="padding: 8px 0; border-bottom: 1px solid #f0f0f0;"><strong>Date:</strong></td><td style="padding: 8px 0; border-bottom: 1px solid #f0f0f0; text-align: right;">${orderDetails.date}</td></tr>
+        <tr><td style="padding: 8px 0; font-weight: bold; color: #15803d;"><strong>Total:</strong></td><td style="padding: 8px 0; font-weight: bold; color: #15803d; text-align: right;">${orderDetails.total}</td></tr>
+      </table>
+    `;
+  }
+
+  return `
+    <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e0e0e0; border-radius: 10px; background-color: #ffffff;">
+      <div style="text-align: center; margin-bottom: 20px;">
+        <h2 style="color: #2563eb; margin: 0;">SMART LAUNDRY MANAGEMENT SYSTEM</h2>
+      </div>
+      <div style="color: #333; line-height: 1.6; font-size: 15px;">
+        <p>Hello ${customerName},</p>
+        <p>${message}</p>
+        ${orderSection}
+        ${additionalDetails ? `<p>${additionalDetails}</p>` : ''}
+      </div>
+      <div style="margin-top: 30px; padding-top: 20px; border-top: 1px dashed #e0e0e0; text-align: center; font-size: 13px; color: #888;">
+        <p style="margin: 5px 0;">Thank you for using</p>
+        <p style="margin: 5px 0; font-weight: bold;">Smart Laundry Management System</p>
+      </div>
+    </div>
+  `;
+}
+
 
 // Local storage helper for resilient fallback & extended metadata (photos, etc.)
 const isVercel = !!process.env.VERCEL;
@@ -1130,6 +1190,34 @@ app.post('/api/orders', async (req, res) => {
       }]);
   }
 
+  // Send Order Notifications
+  const customer = localDb.users?.find(u => u.userId === userId || u.user_id === userId);
+  if (customer && customer.email) {
+      const confirmHtml = getStandardEmailTemplate(
+          customer.name || 'Customer', 
+          'Your laundry order has been successfully placed and confirmed.',
+          { id: orderId, status: "Pending", date: pickupDate, total: `₹${cost}` },
+          'We will process your order shortly and keep you updated on its status.'
+      );
+      sendEmail({
+          to: customer.email,
+          subject: `Laundry Order Confirmed — #${orderId}`,
+          html: confirmHtml
+      }).catch(err => console.error("Customer confirmation email error:", err.message));
+  }
+  if (ADMIN_EMAIL) {
+      const adminHtml = getStandardEmailTemplate(
+          "Admin", 
+          `A new laundry order (#${orderId}) has been placed.`,
+          { id: orderId, status: "Pending", date: pickupDate, total: `₹${cost}` }
+      );
+      sendEmail({
+          to: ADMIN_EMAIL,
+          subject: `New Laundry Order — #${orderId}`,
+          html: adminHtml
+      }).catch(err => console.error("Admin order notification error:", err.message));
+  }
+
   res.json({ success: true, order });
 });
 app.post('/api/orders/:id/request-delivery-otp', async (req, res) => {
@@ -1227,6 +1315,8 @@ app.put('/api/orders/:id/status', async (req, res) => {
   let order = null;
 
   if (orderIdx !== -1 && localDb.orders) {
+      const oldStatus = localDb.orders[orderIdx].status;
+      
       if (status) localDb.orders[orderIdx].status = status;
       if (staffId) localDb.orders[orderIdx].assignedStaffId = staffId;
       order = localDb.orders[orderIdx];
@@ -1247,6 +1337,30 @@ app.put('/api/orders/:id/status', async (req, res) => {
           }
       }
       writeLocalDb(localDb);
+
+      // Notify Customer of Status Change (if changed)
+      if (status && oldStatus !== status) {
+          const customer = localDb.users?.find(u => u.userId === order.userId || u.user_id === order.userId);
+          if (customer && customer.email) {
+              const statusHtml = getStandardEmailTemplate(
+                  customer.name || 'Customer',
+                  `Your Laundry Order #${orderId} is now <strong>${status}</strong>.`,
+                  { id: orderId, status: status, date: order.pickupDate || order.pickup_date, total: `₹${order.totalPrice || order.total_price}` },
+                  `Previous Status: ${oldStatus}<br>Updated Time: ${new Date().toLocaleString()}`
+              );
+              
+              let subject = `Laundry Order Status Update — #${orderId}`;
+              if (status === 'Out for Delivery') subject = `Your Laundry Order is Out for Delivery — #${orderId}`;
+              else if (status === 'Delivered') subject = `Laundry Order Delivered — #${orderId}`;
+              else if (status === 'Cancelled' || status === 'Rejected') subject = `Laundry Order Cancelled — #${orderId}`;
+
+              sendEmail({
+                  to: customer.email,
+                  subject,
+                  html: statusHtml
+              }).catch(err => console.error("Status update email error:", err.message));
+          }
+      }
   }
 
   if (isSupabaseConfigured && supabase) {
@@ -1259,6 +1373,23 @@ app.put('/api/orders/:id/status', async (req, res) => {
   if (!order) return res.status(404).json({ success: false, message: "Order not found" });
   res.json({ success: true, order });
 });
+// Admin Email Test Endpoint
+app.post('/api/admin/email/test', async (req, res) => {
+  const { email } = req.body;
+  if (!email) return res.status(400).json({ success: false, message: "Email required" });
+  
+  try {
+    await sendEmail({
+      to: email,
+      subject: "Smart Laundry SMTP Test",
+      text: "This is a test email from the Smart Laundry Management System.",
+      html: getStandardEmailTemplate("Admin", "This is a test email from the Smart Laundry Management System.")
+    });
+    res.json({ success: true, message: "Test email sent successfully. Check your inbox." });
+  } catch (err) {
+    res.status(500).json({ success: false, message: "Failed to send test email: " + err.message });
+  }
+});
 
 // Catch-All HTML routing
 app.get('*', (req, res) => {
@@ -1268,10 +1399,10 @@ app.get('*', (req, res) => {
 // Start Server locally
 if (process.env.NODE_ENV !== 'production') {
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`===================================================`);
+    console.log('===================================================');
     console.log(` Smart Laundry Web Application Server Running`);
     console.log(` Web Dashboard URL: http://localhost:${PORT}`);
-    console.log(`===================================================`);
+    console.log('===================================================');
   });
 }
 

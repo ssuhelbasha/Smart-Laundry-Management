@@ -1,0 +1,1 @@
+TOOL: multi_replace_file_content - Remove photo validation checks and update the admin email template in server.js for staff registration.
