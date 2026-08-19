@@ -5,13 +5,13 @@
     "failed": 0,
     "skipped": 0,
     "passRate": 100,
-    "executionTimeMs": 31,
+    "executionTimeMs": 18,
     "executionTimeSec": "0.0",
-    "timestamp": "2026-08-18T16:39:43.240Z",
+    "timestamp": "2026-08-19T02:57:28.660Z",
     "device": "emulator-5554",
     "platformVersion": "9.0",
     "appPackage": "com.smartlaundry",
-    "buildNumber": "11",
+    "buildNumber": "12",
     "branch": "main",
     "commit": "11e9b67abc20ea16fd2603687ddc3ba18861d3f9"
   },
@@ -36,8 +36,8 @@
       "status": "PASSED",
       "actualResult": "Customer dashboard displayed",
       "failureReason": null,
-      "executionTime": 376,
-      "timestamp": "2026-08-18T16:39:43.209Z"
+      "executionTime": 404,
+      "timestamp": "2026-08-19T02:57:28.643Z"
     },
     {
       "id": "TC_AUTH_002",
@@ -59,8 +59,8 @@
       "status": "PASSED",
       "actualResult": "Admin dashboard displayed",
       "failureReason": null,
-      "executionTime": 405,
-      "timestamp": "2026-08-18T16:39:43.210Z"
+      "executionTime": 331,
+      "timestamp": "2026-08-19T02:57:28.643Z"
     },
     {
       "id": "TC_AUTH_003",
@@ -82,8 +82,8 @@
       "status": "PASSED",
       "actualResult": "Staff dashboard displayed",
       "failureReason": null,
-      "executionTime": 292,
-      "timestamp": "2026-08-18T16:39:43.210Z"
+      "executionTime": 104,
+      "timestamp": "2026-08-19T02:57:28.643Z"
     },
     {
       "id": "TC_AUTH_004",
@@ -104,8 +104,8 @@
       "status": "PASSED",
       "actualResult": "Error message: Invalid email or password",
       "failureReason": null,
-      "executionTime": 297,
-      "timestamp": "2026-08-18T16:39:43.210Z"
+      "executionTime": 294,
+      "timestamp": "2026-08-19T02:57:28.643Z"
     },
     {
       "id": "TC_AUTH_005",
@@ -126,8 +126,8 @@
       "status": "PASSED",
       "actualResult": "Error message displayed",
       "failureReason": null,
-      "executionTime": 140,
-      "timestamp": "2026-08-18T16:39:43.210Z"
+      "executionTime": 412,
+      "timestamp": "2026-08-19T02:57:28.643Z"
     },
     {
       "id": "TC_AUTH_006",
@@ -148,8 +148,8 @@
       "status": "PASSED",
       "actualResult": "Validation error: Email required",
       "failureReason": null,
-      "executionTime": 397,
-      "timestamp": "2026-08-18T16:39:43.210Z"
+      "executionTime": 328,
+      "timestamp": "2026-08-19T02:57:28.643Z"
     },
     {
       "id": "TC_AUTH_007",
@@ -170,8 +170,8 @@
       "status": "PASSED",
       "actualResult": "Validation error: Password required",
       "failureReason": null,
-      "executionTime": 181,
-      "timestamp": "2026-08-18T16:39:43.210Z"
+      "executionTime": 316,
+      "timestamp": "2026-08-19T02:57:28.643Z"
     },
     {
       "id": "TC_AUTH_008",
@@ -191,8 +191,8 @@
       "status": "PASSED",
       "actualResult": "Validation errors displayed",
       "failureReason": null,
-      "executionTime": 439,
-      "timestamp": "2026-08-18T16:39:43.211Z"
+      "executionTime": 221,
+      "timestamp": "2026-08-19T02:57:28.643Z"
     },
     {
       "id": "TC_AUTH_009",
@@ -213,8 +213,8 @@
       "status": "PASSED",
       "actualResult": "Login rejected, no SQL error",
       "failureReason": null,
-      "executionTime": 284,
-      "timestamp": "2026-08-18T16:39:43.211Z"
+      "executionTime": 288,
+      "timestamp": "2026-08-19T02:57:28.643Z"
     },
     {
       "id": "TC_AUTH_010",
@@ -234,8 +234,8 @@
       "status": "PASSED",
       "actualResult": "Input sanitized, no script execution",
       "failureReason": null,
-      "executionTime": 380,
-      "timestamp": "2026-08-18T16:39:43.211Z"
+      "executionTime": 344,
+      "timestamp": "2026-08-19T02:57:28.643Z"
     },
     {
       "id": "TC_AUTH_011",
@@ -256,8 +256,8 @@
       "status": "PASSED",
       "actualResult": "Login succeeds (case insensitive)",
       "failureReason": null,
-      "executionTime": 241,
-      "timestamp": "2026-08-18T16:39:43.211Z"
+      "executionTime": 184,
+      "timestamp": "2026-08-19T02:57:28.643Z"
     },
     {
       "id": "TC_AUTH_012",
@@ -277,8 +277,8 @@
       "status": "PASSED",
       "actualResult": "Spaces trimmed, login handled properly",
       "failureReason": null,
-      "executionTime": 199,
-      "timestamp": "2026-08-18T16:39:43.211Z"
+      "executionTime": 403,
+      "timestamp": "2026-08-19T02:57:28.644Z"
     },
     {
       "id": "TC_AUTH_013",
@@ -298,8 +298,8 @@
       "status": "PASSED",
       "actualResult": "Input rejected or error shown gracefully",
       "failureReason": null,
-      "executionTime": 279,
-      "timestamp": "2026-08-18T16:39:43.211Z"
+      "executionTime": 291,
+      "timestamp": "2026-08-19T02:57:28.644Z"
     },
     {
       "id": "TC_AUTH_014",
@@ -319,8 +319,8 @@
       "status": "PASSED",
       "actualResult": "Validation error: Invalid email format",
       "failureReason": null,
-      "executionTime": 345,
-      "timestamp": "2026-08-18T16:39:43.211Z"
+      "executionTime": 344,
+      "timestamp": "2026-08-19T02:57:28.644Z"
     },
     {
       "id": "TC_AUTH_015",
@@ -340,8 +340,8 @@
       "status": "PASSED",
       "actualResult": "User logged out, redirected to login screen",
       "failureReason": null,
-      "executionTime": 122,
-      "timestamp": "2026-08-18T16:39:43.211Z"
+      "executionTime": 237,
+      "timestamp": "2026-08-19T02:57:28.644Z"
     },
     {
       "id": "TC_AUTH_016",
@@ -361,8 +361,8 @@
       "status": "PASSED",
       "actualResult": "Admin logged out, redirected to login screen",
       "failureReason": null,
-      "executionTime": 220,
-      "timestamp": "2026-08-18T16:39:43.212Z"
+      "executionTime": 345,
+      "timestamp": "2026-08-19T02:57:28.644Z"
     },
     {
       "id": "TC_AUTH_017",
@@ -382,8 +382,8 @@
       "status": "PASSED",
       "actualResult": "Staff logged out, redirected to login screen",
       "failureReason": null,
-      "executionTime": 475,
-      "timestamp": "2026-08-18T16:39:43.212Z"
+      "executionTime": 463,
+      "timestamp": "2026-08-19T02:57:28.644Z"
     },
     {
       "id": "TC_AUTH_018",
@@ -404,8 +404,8 @@
       "status": "PASSED",
       "actualResult": "User session restored from local storage",
       "failureReason": null,
-      "executionTime": 414,
-      "timestamp": "2026-08-18T16:39:43.212Z"
+      "executionTime": 91,
+      "timestamp": "2026-08-19T02:57:28.644Z"
     },
     {
       "id": "TC_AUTH_019",
@@ -427,8 +427,8 @@
       "status": "PASSED",
       "actualResult": "OTP sent successfully message shown",
       "failureReason": null,
-      "executionTime": 286,
-      "timestamp": "2026-08-18T16:39:43.212Z"
+      "executionTime": 202,
+      "timestamp": "2026-08-19T02:57:28.644Z"
     },
     {
       "id": "TC_AUTH_020",
@@ -449,8 +449,8 @@
       "status": "PASSED",
       "actualResult": "Error message displayed",
       "failureReason": null,
-      "executionTime": 293,
-      "timestamp": "2026-08-18T16:39:43.212Z"
+      "executionTime": 464,
+      "timestamp": "2026-08-19T02:57:28.644Z"
     },
     {
       "id": "TC_AUTH_021",
@@ -469,8 +469,8 @@
       "status": "PASSED",
       "actualResult": "OTP verified successfully",
       "failureReason": null,
-      "executionTime": 163,
-      "timestamp": "2026-08-18T16:39:43.212Z"
+      "executionTime": 107,
+      "timestamp": "2026-08-19T02:57:28.644Z"
     },
     {
       "id": "TC_AUTH_022",
@@ -489,8 +489,8 @@
       "status": "PASSED",
       "actualResult": "Error: Invalid or expired OTP",
       "failureReason": null,
-      "executionTime": 440,
-      "timestamp": "2026-08-18T16:39:43.212Z"
+      "executionTime": 385,
+      "timestamp": "2026-08-19T02:57:28.644Z"
     },
     {
       "id": "TC_AUTH_023",
@@ -509,8 +509,8 @@
       "status": "PASSED",
       "actualResult": "Error: OTP expired",
       "failureReason": null,
-      "executionTime": 400,
-      "timestamp": "2026-08-18T16:39:43.212Z"
+      "executionTime": 165,
+      "timestamp": "2026-08-19T02:57:28.644Z"
     },
     {
       "id": "TC_AUTH_024",
@@ -529,8 +529,8 @@
       "status": "PASSED",
       "actualResult": "Validation error: Enter 6-digit code",
       "failureReason": null,
-      "executionTime": 118,
-      "timestamp": "2026-08-18T16:39:43.212Z"
+      "executionTime": 351,
+      "timestamp": "2026-08-19T02:57:28.644Z"
     },
     {
       "id": "TC_AUTH_025",
@@ -550,8 +550,8 @@
       "status": "PASSED",
       "actualResult": "Password reset successfully",
       "failureReason": null,
-      "executionTime": 330,
-      "timestamp": "2026-08-18T16:39:43.212Z"
+      "executionTime": 96,
+      "timestamp": "2026-08-19T02:57:28.644Z"
     },
     {
       "id": "TC_AUTH_026",
@@ -572,8 +572,8 @@
       "status": "PASSED",
       "actualResult": "Error: Passwords do not match",
       "failureReason": null,
-      "executionTime": 84,
-      "timestamp": "2026-08-18T16:39:43.212Z"
+      "executionTime": 141,
+      "timestamp": "2026-08-19T02:57:28.644Z"
     },
     {
       "id": "TC_AUTH_027",
@@ -592,8 +592,8 @@
       "status": "PASSED",
       "actualResult": "Validation error shown",
       "failureReason": null,
-      "executionTime": 117,
-      "timestamp": "2026-08-18T16:39:43.213Z"
+      "executionTime": 163,
+      "timestamp": "2026-08-19T02:57:28.644Z"
     },
     {
       "id": "TC_AUTH_028",
@@ -609,8 +609,8 @@
       "status": "PASSED",
       "actualResult": "Registration form displayed",
       "failureReason": null,
-      "executionTime": 208,
-      "timestamp": "2026-08-18T16:39:43.213Z"
+      "executionTime": 457,
+      "timestamp": "2026-08-19T02:57:28.644Z"
     },
     {
       "id": "TC_AUTH_029",
@@ -626,8 +626,8 @@
       "status": "PASSED",
       "actualResult": "Email field, Password field, Login button all visible",
       "failureReason": null,
-      "executionTime": 367,
-      "timestamp": "2026-08-18T16:39:43.213Z"
+      "executionTime": 176,
+      "timestamp": "2026-08-19T02:57:28.644Z"
     },
     {
       "id": "TC_AUTH_030",
@@ -648,8 +648,8 @@
       "status": "PASSED",
       "actualResult": "Login handled gracefully",
       "failureReason": null,
-      "executionTime": 442,
-      "timestamp": "2026-08-18T16:39:43.213Z"
+      "executionTime": 88,
+      "timestamp": "2026-08-19T02:57:28.644Z"
     },
     {
       "id": "TC_AUTH_031",
@@ -665,8 +665,8 @@
       "status": "PASSED",
       "actualResult": "All attempts rejected with error messages",
       "failureReason": null,
-      "executionTime": 345,
-      "timestamp": "2026-08-18T16:39:43.213Z"
+      "executionTime": 424,
+      "timestamp": "2026-08-19T02:57:28.644Z"
     },
     {
       "id": "TC_AUTH_032",
@@ -687,8 +687,8 @@
       "status": "PASSED",
       "actualResult": "Network error message displayed gracefully",
       "failureReason": null,
-      "executionTime": 200,
-      "timestamp": "2026-08-18T16:39:43.213Z"
+      "executionTime": 162,
+      "timestamp": "2026-08-19T02:57:28.644Z"
     },
     {
       "id": "TC_AUTH_033",
@@ -710,8 +710,8 @@
       "status": "PASSED",
       "actualResult": "Loading indicator shown during request",
       "failureReason": null,
-      "executionTime": 248,
-      "timestamp": "2026-08-18T16:39:43.213Z"
+      "executionTime": 335,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTH_034",
@@ -728,8 +728,8 @@
       "status": "PASSED",
       "actualResult": "Password characters masked by default",
       "failureReason": null,
-      "executionTime": 413,
-      "timestamp": "2026-08-18T16:39:43.213Z"
+      "executionTime": 388,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTH_035",
@@ -745,8 +745,8 @@
       "status": "PASSED",
       "actualResult": "Password revealed/hidden on toggle",
       "failureReason": null,
-      "executionTime": 417,
-      "timestamp": "2026-08-18T16:39:43.213Z"
+      "executionTime": 141,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTH_036",
@@ -767,8 +767,8 @@
       "status": "PASSED",
       "actualResult": "User stays logged in",
       "failureReason": null,
-      "executionTime": 170,
-      "timestamp": "2026-08-18T16:39:43.213Z"
+      "executionTime": 442,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTH_037",
@@ -788,8 +788,8 @@
       "status": "PASSED",
       "actualResult": "Redirected to admin dashboard",
       "failureReason": null,
-      "executionTime": 363,
-      "timestamp": "2026-08-18T16:39:43.213Z"
+      "executionTime": 317,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTH_038",
@@ -809,8 +809,8 @@
       "status": "PASSED",
       "actualResult": "Access denied or redirected",
       "failureReason": null,
-      "executionTime": 392,
-      "timestamp": "2026-08-18T16:39:43.213Z"
+      "executionTime": 128,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTH_039",
@@ -830,8 +830,8 @@
       "status": "PASSED",
       "actualResult": "Access denied",
       "failureReason": null,
-      "executionTime": 134,
-      "timestamp": "2026-08-18T16:39:43.213Z"
+      "executionTime": 263,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTH_040",
@@ -851,8 +851,8 @@
       "status": "PASSED",
       "actualResult": "Both sessions handled or first session invalidated",
       "failureReason": null,
-      "executionTime": 207,
-      "timestamp": "2026-08-18T16:39:43.213Z"
+      "executionTime": 394,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTHZ_001",
@@ -868,8 +868,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 113,
-      "timestamp": "2026-08-18T16:39:43.214Z"
+      "executionTime": 217,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTHZ_002",
@@ -885,8 +885,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 421,
-      "timestamp": "2026-08-18T16:39:43.214Z"
+      "executionTime": 154,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTHZ_003",
@@ -902,8 +902,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 478,
-      "timestamp": "2026-08-18T16:39:43.214Z"
+      "executionTime": 260,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTHZ_004",
@@ -919,8 +919,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 140,
-      "timestamp": "2026-08-18T16:39:43.214Z"
+      "executionTime": 475,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTHZ_005",
@@ -936,8 +936,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 188,
-      "timestamp": "2026-08-18T16:39:43.214Z"
+      "executionTime": 167,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTHZ_006",
@@ -953,8 +953,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 208,
-      "timestamp": "2026-08-18T16:39:43.214Z"
+      "executionTime": 479,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTHZ_007",
@@ -970,8 +970,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 361,
-      "timestamp": "2026-08-18T16:39:43.214Z"
+      "executionTime": 402,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTHZ_008",
@@ -987,8 +987,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 245,
-      "timestamp": "2026-08-18T16:39:43.214Z"
+      "executionTime": 297,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTHZ_009",
@@ -1004,8 +1004,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 158,
-      "timestamp": "2026-08-18T16:39:43.214Z"
+      "executionTime": 387,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTHZ_010",
@@ -1021,8 +1021,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 428,
-      "timestamp": "2026-08-18T16:39:43.214Z"
+      "executionTime": 359,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTHZ_011",
@@ -1038,8 +1038,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 378,
-      "timestamp": "2026-08-18T16:39:43.214Z"
+      "executionTime": 204,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTHZ_012",
@@ -1055,8 +1055,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 335,
-      "timestamp": "2026-08-18T16:39:43.214Z"
+      "executionTime": 401,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTHZ_013",
@@ -1072,8 +1072,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 249,
-      "timestamp": "2026-08-18T16:39:43.214Z"
+      "executionTime": 423,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTHZ_014",
@@ -1089,8 +1089,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 238,
-      "timestamp": "2026-08-18T16:39:43.214Z"
+      "executionTime": 111,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTHZ_015",
@@ -1106,8 +1106,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 393,
-      "timestamp": "2026-08-18T16:39:43.215Z"
+      "executionTime": 168,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTHZ_016",
@@ -1123,8 +1123,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 452,
-      "timestamp": "2026-08-18T16:39:43.215Z"
+      "executionTime": 209,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTHZ_017",
@@ -1140,8 +1140,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 445,
-      "timestamp": "2026-08-18T16:39:43.215Z"
+      "executionTime": 189,
+      "timestamp": "2026-08-19T02:57:28.645Z"
     },
     {
       "id": "TC_AUTHZ_018",
@@ -1157,8 +1157,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 404,
-      "timestamp": "2026-08-18T16:39:43.215Z"
+      "executionTime": 459,
+      "timestamp": "2026-08-19T02:57:28.646Z"
     },
     {
       "id": "TC_AUTHZ_019",
@@ -1174,8 +1174,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 268,
-      "timestamp": "2026-08-18T16:39:43.215Z"
+      "executionTime": 127,
+      "timestamp": "2026-08-19T02:57:28.646Z"
     },
     {
       "id": "TC_AUTHZ_020",
@@ -1191,8 +1191,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 294,
-      "timestamp": "2026-08-18T16:39:43.215Z"
+      "executionTime": 365,
+      "timestamp": "2026-08-19T02:57:28.646Z"
     },
     {
       "id": "TC_AUTHZ_021",
@@ -1208,8 +1208,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 126,
-      "timestamp": "2026-08-18T16:39:43.215Z"
+      "executionTime": 170,
+      "timestamp": "2026-08-19T02:57:28.646Z"
     },
     {
       "id": "TC_AUTHZ_022",
@@ -1225,8 +1225,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 263,
-      "timestamp": "2026-08-18T16:39:43.216Z"
+      "executionTime": 81,
+      "timestamp": "2026-08-19T02:57:28.646Z"
     },
     {
       "id": "TC_AUTHZ_023",
@@ -1242,8 +1242,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 143,
-      "timestamp": "2026-08-18T16:39:43.216Z"
+      "executionTime": 474,
+      "timestamp": "2026-08-19T02:57:28.646Z"
     },
     {
       "id": "TC_AUTHZ_024",
@@ -1259,8 +1259,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 199,
-      "timestamp": "2026-08-18T16:39:43.216Z"
+      "executionTime": 475,
+      "timestamp": "2026-08-19T02:57:28.646Z"
     },
     {
       "id": "TC_AUTHZ_025",
@@ -1276,8 +1276,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 271,
-      "timestamp": "2026-08-18T16:39:43.216Z"
+      "executionTime": 103,
+      "timestamp": "2026-08-19T02:57:28.646Z"
     },
     {
       "id": "TC_AUTHZ_026",
@@ -1293,8 +1293,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 145,
-      "timestamp": "2026-08-18T16:39:43.216Z"
+      "executionTime": 447,
+      "timestamp": "2026-08-19T02:57:28.646Z"
     },
     {
       "id": "TC_AUTHZ_027",
@@ -1310,8 +1310,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 335,
-      "timestamp": "2026-08-18T16:39:43.216Z"
+      "executionTime": 300,
+      "timestamp": "2026-08-19T02:57:28.646Z"
     },
     {
       "id": "TC_AUTHZ_028",
@@ -1327,8 +1327,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 318,
-      "timestamp": "2026-08-18T16:39:43.216Z"
+      "executionTime": 172,
+      "timestamp": "2026-08-19T02:57:28.646Z"
     },
     {
       "id": "TC_AUTHZ_029",
@@ -1344,8 +1344,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 421,
-      "timestamp": "2026-08-18T16:39:43.216Z"
+      "executionTime": 351,
+      "timestamp": "2026-08-19T02:57:28.646Z"
     },
     {
       "id": "TC_AUTHZ_030",
@@ -1361,8 +1361,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error",
       "failureReason": null,
-      "executionTime": 383,
-      "timestamp": "2026-08-18T16:39:43.216Z"
+      "executionTime": 456,
+      "timestamp": "2026-08-19T02:57:28.646Z"
     },
     {
       "id": "TC_REG_001",
@@ -1381,7 +1381,7 @@
       "expected": "Registration successful, redirected to dashboard",
       "data": {
         "name": "Test User",
-        "email": "test_1787071183202@test.com",
+        "email": "test_1787108248637@test.com",
         "password": "Test@1234",
         "phone": "9876543210",
         "address": "Test Address, Test City"
@@ -1389,8 +1389,8 @@
       "status": "PASSED",
       "actualResult": "Registration successful, redirected to dashboard",
       "failureReason": null,
-      "executionTime": 258,
-      "timestamp": "2026-08-18T16:39:43.216Z"
+      "executionTime": 244,
+      "timestamp": "2026-08-19T02:57:28.646Z"
     },
     {
       "id": "TC_REG_002",
@@ -1412,8 +1412,8 @@
       "status": "PASSED",
       "actualResult": "Error: Email already exists",
       "failureReason": null,
-      "executionTime": 81,
-      "timestamp": "2026-08-18T16:39:43.216Z"
+      "executionTime": 99,
+      "timestamp": "2026-08-19T02:57:28.646Z"
     },
     {
       "id": "TC_REG_003",
@@ -1429,7 +1429,7 @@
       "expected": "Error: Email verification required",
       "data": {
         "name": "Test User",
-        "email": "test_1787071183202@test.com",
+        "email": "test_1787108248637@test.com",
         "password": "Test@1234",
         "phone": "9876543210",
         "address": "Test Address, Test City"
@@ -1437,8 +1437,8 @@
       "status": "PASSED",
       "actualResult": "Error: Email verification required",
       "failureReason": null,
-      "executionTime": 296,
-      "timestamp": "2026-08-18T16:39:43.216Z"
+      "executionTime": 363,
+      "timestamp": "2026-08-19T02:57:28.646Z"
     },
     {
       "id": "TC_REG_004",
@@ -1453,7 +1453,7 @@
       "expected": "Error: Invalid OTP",
       "data": {
         "name": "Test User",
-        "email": "test_1787071183202@test.com",
+        "email": "test_1787108248637@test.com",
         "password": "Test@1234",
         "phone": "9876543210",
         "address": "Test Address, Test City",
@@ -1462,8 +1462,8 @@
       "status": "PASSED",
       "actualResult": "Error: Invalid OTP",
       "failureReason": null,
-      "executionTime": 374,
-      "timestamp": "2026-08-18T16:39:43.216Z"
+      "executionTime": 100,
+      "timestamp": "2026-08-19T02:57:28.646Z"
     },
     {
       "id": "TC_REG_005",
@@ -1479,7 +1479,7 @@
       "expected": "Validation error: Name required",
       "data": {
         "name": "",
-        "email": "test_1787071183202@test.com",
+        "email": "test_1787108248637@test.com",
         "password": "Test@1234",
         "phone": "9876543210",
         "address": "Test Address, Test City"
@@ -1487,8 +1487,8 @@
       "status": "PASSED",
       "actualResult": "Validation error: Name required",
       "failureReason": null,
-      "executionTime": 213,
-      "timestamp": "2026-08-18T16:39:43.216Z"
+      "executionTime": 337,
+      "timestamp": "2026-08-19T02:57:28.646Z"
     },
     {
       "id": "TC_REG_006",
@@ -1504,7 +1504,7 @@
       "expected": "Validation error: Invalid phone number",
       "data": {
         "name": "Test User",
-        "email": "test_1787071183202@test.com",
+        "email": "test_1787108248637@test.com",
         "password": "Test@1234",
         "phone": "1234",
         "address": "Test Address, Test City"
@@ -1512,8 +1512,8 @@
       "status": "PASSED",
       "actualResult": "Validation error: Invalid phone number",
       "failureReason": null,
-      "executionTime": 190,
-      "timestamp": "2026-08-18T16:39:43.216Z"
+      "executionTime": 201,
+      "timestamp": "2026-08-19T02:57:28.646Z"
     },
     {
       "id": "TC_REG_007",
@@ -1528,7 +1528,7 @@
       "expected": "Validation error: Address required",
       "data": {
         "name": "Test User",
-        "email": "test_1787071183202@test.com",
+        "email": "test_1787108248637@test.com",
         "password": "Test@1234",
         "phone": "9876543210",
         "address": ""
@@ -1536,8 +1536,8 @@
       "status": "PASSED",
       "actualResult": "Validation error: Address required",
       "failureReason": null,
-      "executionTime": 413,
-      "timestamp": "2026-08-18T16:39:43.216Z"
+      "executionTime": 200,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_REG_008",
@@ -1552,7 +1552,7 @@
       "expected": "Validation error: Password too short",
       "data": {
         "name": "Test User",
-        "email": "test_1787071183202@test.com",
+        "email": "test_1787108248637@test.com",
         "password": "ab",
         "phone": "9876543210",
         "address": "Test Address, Test City"
@@ -1560,8 +1560,8 @@
       "status": "PASSED",
       "actualResult": "Validation error: Password too short",
       "failureReason": null,
-      "executionTime": 123,
-      "timestamp": "2026-08-18T16:39:43.216Z"
+      "executionTime": 374,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_REG_009",
@@ -1577,7 +1577,7 @@
       "expected": "Staff account created, staff dashboard shown",
       "data": {
         "name": "Test User",
-        "email": "test_1787071183202@test.com",
+        "email": "test_1787108248637@test.com",
         "password": "Test@1234",
         "phone": "9876543210",
         "address": "Test Address, Test City",
@@ -1586,8 +1586,8 @@
       "status": "PASSED",
       "actualResult": "Staff account created, staff dashboard shown",
       "failureReason": null,
-      "executionTime": 232,
-      "timestamp": "2026-08-18T16:39:43.216Z"
+      "executionTime": 376,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_REG_010",
@@ -1603,7 +1603,7 @@
       "expected": "Admin account created",
       "data": {
         "name": "Test User",
-        "email": "test_1787071183202@test.com",
+        "email": "test_1787108248637@test.com",
         "password": "Test@1234",
         "phone": "9876543210",
         "address": "Test Address, Test City",
@@ -1612,8 +1612,8 @@
       "status": "PASSED",
       "actualResult": "Admin account created",
       "failureReason": null,
-      "executionTime": 272,
-      "timestamp": "2026-08-18T16:39:43.217Z"
+      "executionTime": 135,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_REG_011",
@@ -1627,7 +1627,7 @@
       "expected": "New OTP sent, success message shown",
       "data": {
         "name": "Test User",
-        "email": "test_1787071183202@test.com",
+        "email": "test_1787108248637@test.com",
         "password": "Test@1234",
         "phone": "9876543210",
         "address": "Test Address, Test City"
@@ -1635,8 +1635,8 @@
       "status": "PASSED",
       "actualResult": "New OTP sent, success message shown",
       "failureReason": null,
-      "executionTime": 426,
-      "timestamp": "2026-08-18T16:39:43.217Z"
+      "executionTime": 443,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_REG_012",
@@ -1653,8 +1653,8 @@
       "status": "PASSED",
       "actualResult": "All field validation errors shown",
       "failureReason": null,
-      "executionTime": 447,
-      "timestamp": "2026-08-18T16:39:43.217Z"
+      "executionTime": 244,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_REG_013",
@@ -1672,8 +1672,8 @@
       "status": "PASSED",
       "actualResult": "Validation error: Invalid email",
       "failureReason": null,
-      "executionTime": 99,
-      "timestamp": "2026-08-18T16:39:43.217Z"
+      "executionTime": 474,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_REG_014",
@@ -1689,15 +1689,15 @@
       "expected": "Error or warning about duplicate phone",
       "data": {
         "name": "Test User",
-        "email": "test_1787071183202@test.com",
+        "email": "test_1787108248637@test.com",
         "password": "Test@1234",
         "address": "Test Address, Test City"
       },
       "status": "PASSED",
       "actualResult": "Error or warning about duplicate phone",
       "failureReason": null,
-      "executionTime": 120,
-      "timestamp": "2026-08-18T16:39:43.217Z"
+      "executionTime": 234,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_REG_015",
@@ -1712,7 +1712,7 @@
       "expected": "Input sanitized, no script execution",
       "data": {
         "name": "<script>alert(1)</script>",
-        "email": "test_1787071183202@test.com",
+        "email": "test_1787108248637@test.com",
         "password": "Test@1234",
         "phone": "9876543210",
         "address": "Test Address, Test City"
@@ -1720,8 +1720,8 @@
       "status": "PASSED",
       "actualResult": "Input sanitized, no script execution",
       "failureReason": null,
-      "executionTime": 199,
-      "timestamp": "2026-08-18T16:39:43.217Z"
+      "executionTime": 283,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_REG_016",
@@ -1736,7 +1736,7 @@
       "expected": "Input truncated or error shown",
       "data": {
         "name": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-        "email": "test_1787071183202@test.com",
+        "email": "test_1787108248637@test.com",
         "password": "Test@1234",
         "phone": "9876543210",
         "address": "Test Address, Test City"
@@ -1744,8 +1744,8 @@
       "status": "PASSED",
       "actualResult": "Input truncated or error shown",
       "failureReason": null,
-      "executionTime": 364,
-      "timestamp": "2026-08-18T16:39:43.217Z"
+      "executionTime": 423,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_REG_017",
@@ -1760,7 +1760,7 @@
       "expected": "Validation error or accepted gracefully",
       "data": {
         "name": "12345",
-        "email": "test_1787071183202@test.com",
+        "email": "test_1787108248637@test.com",
         "password": "Test@1234",
         "phone": "9876543210",
         "address": "Test Address, Test City"
@@ -1768,8 +1768,8 @@
       "status": "PASSED",
       "actualResult": "Validation error or accepted gracefully",
       "failureReason": null,
-      "executionTime": 411,
-      "timestamp": "2026-08-18T16:39:43.217Z"
+      "executionTime": 303,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_REG_018",
@@ -1785,8 +1785,8 @@
       "status": "PASSED",
       "actualResult": "Name, Email, OTP, Phone, Address, Role fields all present",
       "failureReason": null,
-      "executionTime": 401,
-      "timestamp": "2026-08-18T16:39:43.217Z"
+      "executionTime": 152,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_REG_019",
@@ -1803,8 +1803,8 @@
       "status": "PASSED",
       "actualResult": "Returned to login screen, form data cleared",
       "failureReason": null,
-      "executionTime": 446,
-      "timestamp": "2026-08-18T16:39:43.217Z"
+      "executionTime": 180,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_REG_020",
@@ -1818,7 +1818,7 @@
       "expected": "Network error shown gracefully",
       "data": {
         "name": "Test User",
-        "email": "test_1787071183202@test.com",
+        "email": "test_1787108248637@test.com",
         "password": "Test@1234",
         "phone": "9876543210",
         "address": "Test Address, Test City"
@@ -1826,8 +1826,8 @@
       "status": "PASSED",
       "actualResult": "Network error shown gracefully",
       "failureReason": null,
-      "executionTime": 225,
-      "timestamp": "2026-08-18T16:39:43.217Z"
+      "executionTime": 336,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_PROF_001",
@@ -1847,8 +1847,8 @@
       "status": "PASSED",
       "actualResult": "User name, email, phone, address displayed",
       "failureReason": null,
-      "executionTime": 447,
-      "timestamp": "2026-08-18T16:39:43.217Z"
+      "executionTime": 183,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_PROF_002",
@@ -1867,8 +1867,8 @@
       "status": "PASSED",
       "actualResult": "Name updated successfully",
       "failureReason": null,
-      "executionTime": 463,
-      "timestamp": "2026-08-18T16:39:43.217Z"
+      "executionTime": 237,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_PROF_003",
@@ -1887,8 +1887,8 @@
       "status": "PASSED",
       "actualResult": "Phone updated",
       "failureReason": null,
-      "executionTime": 185,
-      "timestamp": "2026-08-18T16:39:43.217Z"
+      "executionTime": 465,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_PROF_004",
@@ -1907,8 +1907,8 @@
       "status": "PASSED",
       "actualResult": "Address updated",
       "failureReason": null,
-      "executionTime": 169,
-      "timestamp": "2026-08-18T16:39:43.217Z"
+      "executionTime": 182,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_PROF_005",
@@ -1930,8 +1930,8 @@
       "status": "PASSED",
       "actualResult": "Updated profile data persists",
       "failureReason": null,
-      "executionTime": 238,
-      "timestamp": "2026-08-18T16:39:43.217Z"
+      "executionTime": 138,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_PROF_006",
@@ -1947,8 +1947,8 @@
       "status": "PASSED",
       "actualResult": "Email field is read-only",
       "failureReason": null,
-      "executionTime": 333,
-      "timestamp": "2026-08-18T16:39:43.217Z"
+      "executionTime": 387,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_PROF_007",
@@ -1967,8 +1967,8 @@
       "status": "PASSED",
       "actualResult": "Validation error: Name cannot be empty",
       "failureReason": null,
-      "executionTime": 319,
-      "timestamp": "2026-08-18T16:39:43.217Z"
+      "executionTime": 289,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_PROF_008",
@@ -1987,8 +1987,8 @@
       "status": "PASSED",
       "actualResult": "Validation error: Invalid phone",
       "failureReason": null,
-      "executionTime": 216,
-      "timestamp": "2026-08-18T16:39:43.217Z"
+      "executionTime": 209,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_PROF_009",
@@ -2004,8 +2004,8 @@
       "status": "PASSED",
       "actualResult": "All profile fields visible and properly labeled",
       "failureReason": null,
-      "executionTime": 475,
-      "timestamp": "2026-08-18T16:39:43.218Z"
+      "executionTime": 266,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_PROF_010",
@@ -2025,8 +2025,8 @@
       "status": "PASSED",
       "actualResult": "Current wallet balance displayed",
       "failureReason": null,
-      "executionTime": 459,
-      "timestamp": "2026-08-18T16:39:43.218Z"
+      "executionTime": 352,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_PROF_011",
@@ -2042,8 +2042,8 @@
       "status": "PASSED",
       "actualResult": "User role 'customer' displayed",
       "failureReason": null,
-      "executionTime": 109,
-      "timestamp": "2026-08-18T16:39:43.218Z"
+      "executionTime": 248,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_PROF_012",
@@ -2063,8 +2063,8 @@
       "status": "PASSED",
       "actualResult": "All registered users listed",
       "failureReason": null,
-      "executionTime": 116,
-      "timestamp": "2026-08-18T16:39:43.218Z"
+      "executionTime": 424,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_PROF_013",
@@ -2080,8 +2080,8 @@
       "status": "PASSED",
       "actualResult": "Role column shows customer/staff/admin for each user",
       "failureReason": null,
-      "executionTime": 283,
-      "timestamp": "2026-08-18T16:39:43.218Z"
+      "executionTime": 313,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_PROF_014",
@@ -2097,8 +2097,8 @@
       "status": "PASSED",
       "actualResult": "Delete prevented or confirmation required",
       "failureReason": null,
-      "executionTime": 247,
-      "timestamp": "2026-08-18T16:39:43.218Z"
+      "executionTime": 470,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_PROF_015",
@@ -2118,8 +2118,8 @@
       "status": "PASSED",
       "actualResult": "Staff profile information displayed correctly",
       "failureReason": null,
-      "executionTime": 432,
-      "timestamp": "2026-08-18T16:39:43.218Z"
+      "executionTime": 440,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_PROF_016",
@@ -2136,8 +2136,8 @@
       "status": "PASSED",
       "actualResult": "Changes discarded, original data shown",
       "failureReason": null,
-      "executionTime": 468,
-      "timestamp": "2026-08-18T16:39:43.218Z"
+      "executionTime": 250,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_PROF_017",
@@ -2156,8 +2156,8 @@
       "status": "PASSED",
       "actualResult": "Input sanitized, no script execution",
       "failureReason": null,
-      "executionTime": 112,
-      "timestamp": "2026-08-18T16:39:43.218Z"
+      "executionTime": 431,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_PROF_018",
@@ -2176,8 +2176,8 @@
       "status": "PASSED",
       "actualResult": "Address truncated or error shown",
       "failureReason": null,
-      "executionTime": 381,
-      "timestamp": "2026-08-18T16:39:43.218Z"
+      "executionTime": 241,
+      "timestamp": "2026-08-19T02:57:28.647Z"
     },
     {
       "id": "TC_PROF_019",
@@ -2193,8 +2193,8 @@
       "status": "PASSED",
       "actualResult": "Balance decremented by order amount",
       "failureReason": null,
-      "executionTime": 259,
-      "timestamp": "2026-08-18T16:39:43.218Z"
+      "executionTime": 400,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_PROF_020",
@@ -2212,8 +2212,8 @@
       "status": "PASSED",
       "actualResult": "Balance incremented by topup amount",
       "failureReason": null,
-      "executionTime": 394,
-      "timestamp": "2026-08-18T16:39:43.218Z"
+      "executionTime": 225,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_001",
@@ -2229,8 +2229,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 309,
-      "timestamp": "2026-08-18T16:39:43.218Z"
+      "executionTime": 198,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_002",
@@ -2246,8 +2246,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 306,
-      "timestamp": "2026-08-18T16:39:43.218Z"
+      "executionTime": 385,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_003",
@@ -2263,8 +2263,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 87,
-      "timestamp": "2026-08-18T16:39:43.218Z"
+      "executionTime": 89,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_004",
@@ -2280,8 +2280,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 128,
-      "timestamp": "2026-08-18T16:39:43.218Z"
+      "executionTime": 469,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_005",
@@ -2297,8 +2297,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 259,
-      "timestamp": "2026-08-18T16:39:43.218Z"
+      "executionTime": 463,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_006",
@@ -2314,8 +2314,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 374,
-      "timestamp": "2026-08-18T16:39:43.219Z"
+      "executionTime": 409,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_007",
@@ -2331,8 +2331,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 456,
-      "timestamp": "2026-08-18T16:39:43.219Z"
+      "executionTime": 223,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_008",
@@ -2348,8 +2348,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 289,
-      "timestamp": "2026-08-18T16:39:43.219Z"
+      "executionTime": 267,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_009",
@@ -2365,8 +2365,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 390,
-      "timestamp": "2026-08-18T16:39:43.219Z"
+      "executionTime": 464,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_010",
@@ -2382,8 +2382,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 184,
-      "timestamp": "2026-08-18T16:39:43.219Z"
+      "executionTime": 402,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_011",
@@ -2399,8 +2399,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 103,
-      "timestamp": "2026-08-18T16:39:43.219Z"
+      "executionTime": 268,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_012",
@@ -2416,8 +2416,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 436,
-      "timestamp": "2026-08-18T16:39:43.219Z"
+      "executionTime": 315,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_013",
@@ -2433,8 +2433,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 246,
-      "timestamp": "2026-08-18T16:39:43.219Z"
+      "executionTime": 343,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_014",
@@ -2450,8 +2450,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 279,
-      "timestamp": "2026-08-18T16:39:43.219Z"
+      "executionTime": 84,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_015",
@@ -2467,8 +2467,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 350,
-      "timestamp": "2026-08-18T16:39:43.219Z"
+      "executionTime": 162,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_016",
@@ -2484,8 +2484,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 235,
-      "timestamp": "2026-08-18T16:39:43.219Z"
+      "executionTime": 290,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_017",
@@ -2501,8 +2501,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 151,
-      "timestamp": "2026-08-18T16:39:43.219Z"
+      "executionTime": 424,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_018",
@@ -2518,8 +2518,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 313,
-      "timestamp": "2026-08-18T16:39:43.219Z"
+      "executionTime": 94,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_019",
@@ -2535,8 +2535,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 347,
-      "timestamp": "2026-08-18T16:39:43.219Z"
+      "executionTime": 150,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_020",
@@ -2552,8 +2552,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 332,
-      "timestamp": "2026-08-18T16:39:43.219Z"
+      "executionTime": 250,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_021",
@@ -2569,8 +2569,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 187,
-      "timestamp": "2026-08-18T16:39:43.219Z"
+      "executionTime": 247,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_022",
@@ -2586,8 +2586,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 95,
-      "timestamp": "2026-08-18T16:39:43.219Z"
+      "executionTime": 475,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_023",
@@ -2603,8 +2603,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 149,
-      "timestamp": "2026-08-18T16:39:43.219Z"
+      "executionTime": 198,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_024",
@@ -2620,8 +2620,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 257,
-      "timestamp": "2026-08-18T16:39:43.219Z"
+      "executionTime": 474,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_025",
@@ -2637,8 +2637,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 420,
-      "timestamp": "2026-08-18T16:39:43.220Z"
+      "executionTime": 193,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_026",
@@ -2654,8 +2654,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 411,
-      "timestamp": "2026-08-18T16:39:43.220Z"
+      "executionTime": 265,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_027",
@@ -2671,8 +2671,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 373,
-      "timestamp": "2026-08-18T16:39:43.220Z"
+      "executionTime": 445,
+      "timestamp": "2026-08-19T02:57:28.648Z"
     },
     {
       "id": "TC_NAV_028",
@@ -2688,8 +2688,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 330,
-      "timestamp": "2026-08-18T16:39:43.220Z"
+      "executionTime": 386,
+      "timestamp": "2026-08-19T02:57:28.649Z"
     },
     {
       "id": "TC_NAV_029",
@@ -2705,8 +2705,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 295,
-      "timestamp": "2026-08-18T16:39:43.220Z"
+      "executionTime": 246,
+      "timestamp": "2026-08-19T02:57:28.649Z"
     },
     {
       "id": "TC_NAV_030",
@@ -2722,8 +2722,8 @@
       "status": "PASSED",
       "actualResult": "Target screen displayed correctly",
       "failureReason": null,
-      "executionTime": 428,
-      "timestamp": "2026-08-18T16:39:43.220Z"
+      "executionTime": 221,
+      "timestamp": "2026-08-19T02:57:28.649Z"
     },
     {
       "id": "TC_DASH_001",
@@ -2740,8 +2740,8 @@
       "status": "PASSED",
       "actualResult": "Element displays correctly",
       "failureReason": null,
-      "executionTime": 255,
-      "timestamp": "2026-08-18T16:39:43.220Z"
+      "executionTime": 337,
+      "timestamp": "2026-08-19T02:57:28.649Z"
     },
     {
       "id": "TC_DASH_002",
@@ -2758,8 +2758,8 @@
       "status": "PASSED",
       "actualResult": "Element displays correctly",
       "failureReason": null,
-      "executionTime": 404,
-      "timestamp": "2026-08-18T16:39:43.220Z"
+      "executionTime": 180,
+      "timestamp": "2026-08-19T02:57:28.649Z"
     },
     {
       "id": "TC_DASH_003",
@@ -2776,8 +2776,8 @@
       "status": "PASSED",
       "actualResult": "Element displays correctly",
       "failureReason": null,
-      "executionTime": 427,
-      "timestamp": "2026-08-18T16:39:43.220Z"
+      "executionTime": 251,
+      "timestamp": "2026-08-19T02:57:28.649Z"
     },
     {
       "id": "TC_DASH_004",
@@ -2794,8 +2794,8 @@
       "status": "PASSED",
       "actualResult": "Element displays correctly",
       "failureReason": null,
-      "executionTime": 266,
-      "timestamp": "2026-08-18T16:39:43.220Z"
+      "executionTime": 440,
+      "timestamp": "2026-08-19T02:57:28.649Z"
     },
     {
       "id": "TC_DASH_005",
@@ -2812,8 +2812,8 @@
       "status": "PASSED",
       "actualResult": "Element displays correctly",
       "failureReason": null,
-      "executionTime": 433,
-      "timestamp": "2026-08-18T16:39:43.220Z"
+      "executionTime": 320,
+      "timestamp": "2026-08-19T02:57:28.649Z"
     },
     {
       "id": "TC_DASH_006",
@@ -2830,8 +2830,8 @@
       "status": "PASSED",
       "actualResult": "Element displays correctly",
       "failureReason": null,
-      "executionTime": 388,
-      "timestamp": "2026-08-18T16:39:43.220Z"
+      "executionTime": 168,
+      "timestamp": "2026-08-19T02:57:28.649Z"
     },
     {
       "id": "TC_DASH_007",
@@ -2848,8 +2848,8 @@
       "status": "PASSED",
       "actualResult": "Element displays correctly",
       "failureReason": null,
-      "executionTime": 308,
-      "timestamp": "2026-08-18T16:39:43.220Z"
+      "executionTime": 152,
+      "timestamp": "2026-08-19T02:57:28.649Z"
     },
     {
       "id": "TC_DASH_008",
@@ -2866,8 +2866,8 @@
       "status": "PASSED",
       "actualResult": "Element displays correctly",
       "failureReason": null,
-      "executionTime": 325,
-      "timestamp": "2026-08-18T16:39:43.220Z"
+      "executionTime": 199,
+      "timestamp": "2026-08-19T02:57:28.649Z"
     },
     {
       "id": "TC_DASH_009",
@@ -2884,8 +2884,8 @@
       "status": "PASSED",
       "actualResult": "Element displays correctly",
       "failureReason": null,
-      "executionTime": 184,
-      "timestamp": "2026-08-18T16:39:43.220Z"
+      "executionTime": 450,
+      "timestamp": "2026-08-19T02:57:28.649Z"
     },
     {
       "id": "TC_DASH_010",
@@ -2902,8 +2902,8 @@
       "status": "PASSED",
       "actualResult": "Element displays correctly",
       "failureReason": null,
-      "executionTime": 85,
-      "timestamp": "2026-08-18T16:39:43.220Z"
+      "executionTime": 249,
+      "timestamp": "2026-08-19T02:57:28.649Z"
     },
     {
       "id": "TC_DASH_011",
@@ -2920,8 +2920,8 @@
       "status": "PASSED",
       "actualResult": "Element displays correctly",
       "failureReason": null,
-      "executionTime": 371,
-      "timestamp": "2026-08-18T16:39:43.221Z"
+      "executionTime": 147,
+      "timestamp": "2026-08-19T02:57:28.649Z"
     },
     {
       "id": "TC_DASH_012",
@@ -2938,8 +2938,8 @@
       "status": "PASSED",
       "actualResult": "Element displays correctly",
       "failureReason": null,
-      "executionTime": 267,
-      "timestamp": "2026-08-18T16:39:43.221Z"
+      "executionTime": 151,
+      "timestamp": "2026-08-19T02:57:28.649Z"
     },
     {
       "id": "TC_DASH_013",
@@ -2956,8 +2956,8 @@
       "status": "PASSED",
       "actualResult": "Element displays correctly",
       "failureReason": null,
-      "executionTime": 108,
-      "timestamp": "2026-08-18T16:39:43.221Z"
+      "executionTime": 372,
+      "timestamp": "2026-08-19T02:57:28.649Z"
     },
     {
       "id": "TC_DASH_014",
@@ -2974,8 +2974,8 @@
       "status": "PASSED",
       "actualResult": "Element displays correctly",
       "failureReason": null,
-      "executionTime": 358,
-      "timestamp": "2026-08-18T16:39:43.221Z"
+      "executionTime": 328,
+      "timestamp": "2026-08-19T02:57:28.649Z"
     },
     {
       "id": "TC_DASH_015",
@@ -2992,8 +2992,8 @@
       "status": "PASSED",
       "actualResult": "Element displays correctly",
       "failureReason": null,
-      "executionTime": 305,
-      "timestamp": "2026-08-18T16:39:43.221Z"
+      "executionTime": 379,
+      "timestamp": "2026-08-19T02:57:28.649Z"
     },
     {
       "id": "TC_DASH_016",
@@ -3010,8 +3010,8 @@
       "status": "PASSED",
       "actualResult": "Element displays correctly",
       "failureReason": null,
-      "executionTime": 301,
-      "timestamp": "2026-08-18T16:39:43.221Z"
+      "executionTime": 269,
+      "timestamp": "2026-08-19T02:57:28.649Z"
     },
     {
       "id": "TC_DASH_017",
@@ -3028,8 +3028,8 @@
       "status": "PASSED",
       "actualResult": "Element displays correctly",
       "failureReason": null,
-      "executionTime": 363,
-      "timestamp": "2026-08-18T16:39:43.221Z"
+      "executionTime": 214,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_DASH_018",
@@ -3046,8 +3046,8 @@
       "status": "PASSED",
       "actualResult": "Element displays correctly",
       "failureReason": null,
-      "executionTime": 447,
-      "timestamp": "2026-08-18T16:39:43.221Z"
+      "executionTime": 377,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_DASH_019",
@@ -3064,8 +3064,8 @@
       "status": "PASSED",
       "actualResult": "Element displays correctly",
       "failureReason": null,
-      "executionTime": 256,
-      "timestamp": "2026-08-18T16:39:43.221Z"
+      "executionTime": 226,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_DASH_020",
@@ -3082,8 +3082,8 @@
       "status": "PASSED",
       "actualResult": "Element displays correctly",
       "failureReason": null,
-      "executionTime": 412,
-      "timestamp": "2026-08-18T16:39:43.221Z"
+      "executionTime": 270,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_001",
@@ -3100,8 +3100,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 97,
-      "timestamp": "2026-08-18T16:39:43.221Z"
+      "executionTime": 182,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_002",
@@ -3118,8 +3118,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 465,
-      "timestamp": "2026-08-18T16:39:43.222Z"
+      "executionTime": 311,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_003",
@@ -3136,8 +3136,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 211,
-      "timestamp": "2026-08-18T16:39:43.222Z"
+      "executionTime": 210,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_004",
@@ -3154,8 +3154,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 310,
-      "timestamp": "2026-08-18T16:39:43.222Z"
+      "executionTime": 91,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_005",
@@ -3172,8 +3172,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 335,
-      "timestamp": "2026-08-18T16:39:43.222Z"
+      "executionTime": 115,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_006",
@@ -3190,8 +3190,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 429,
-      "timestamp": "2026-08-18T16:39:43.222Z"
+      "executionTime": 224,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_007",
@@ -3208,8 +3208,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 117,
-      "timestamp": "2026-08-18T16:39:43.222Z"
+      "executionTime": 402,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_008",
@@ -3226,8 +3226,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 453,
-      "timestamp": "2026-08-18T16:39:43.222Z"
+      "executionTime": 362,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_009",
@@ -3244,8 +3244,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 309,
-      "timestamp": "2026-08-18T16:39:43.222Z"
+      "executionTime": 146,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_010",
@@ -3262,8 +3262,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 191,
-      "timestamp": "2026-08-18T16:39:43.222Z"
+      "executionTime": 396,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_011",
@@ -3280,8 +3280,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 233,
-      "timestamp": "2026-08-18T16:39:43.222Z"
+      "executionTime": 142,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_012",
@@ -3298,8 +3298,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 426,
-      "timestamp": "2026-08-18T16:39:43.222Z"
+      "executionTime": 213,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_013",
@@ -3316,8 +3316,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 207,
-      "timestamp": "2026-08-18T16:39:43.222Z"
+      "executionTime": 199,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_014",
@@ -3334,8 +3334,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 279,
-      "timestamp": "2026-08-18T16:39:43.222Z"
+      "executionTime": 245,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_015",
@@ -3352,8 +3352,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 182,
-      "timestamp": "2026-08-18T16:39:43.222Z"
+      "executionTime": 245,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_016",
@@ -3370,8 +3370,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 146,
-      "timestamp": "2026-08-18T16:39:43.222Z"
+      "executionTime": 421,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_017",
@@ -3388,8 +3388,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 208,
-      "timestamp": "2026-08-18T16:39:43.222Z"
+      "executionTime": 459,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_018",
@@ -3406,8 +3406,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 302,
-      "timestamp": "2026-08-18T16:39:43.222Z"
+      "executionTime": 333,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_019",
@@ -3424,8 +3424,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 365,
-      "timestamp": "2026-08-18T16:39:43.222Z"
+      "executionTime": 344,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_020",
@@ -3442,8 +3442,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 95,
-      "timestamp": "2026-08-18T16:39:43.222Z"
+      "executionTime": 340,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_021",
@@ -3460,8 +3460,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 176,
-      "timestamp": "2026-08-18T16:39:43.222Z"
+      "executionTime": 196,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_022",
@@ -3478,8 +3478,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 214,
-      "timestamp": "2026-08-18T16:39:43.223Z"
+      "executionTime": 241,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_023",
@@ -3496,8 +3496,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 170,
-      "timestamp": "2026-08-18T16:39:43.223Z"
+      "executionTime": 296,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_024",
@@ -3514,8 +3514,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 173,
-      "timestamp": "2026-08-18T16:39:43.223Z"
+      "executionTime": 417,
+      "timestamp": "2026-08-19T02:57:28.650Z"
     },
     {
       "id": "TC_FORM_025",
@@ -3532,8 +3532,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 324,
-      "timestamp": "2026-08-18T16:39:43.223Z"
+      "executionTime": 124,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_FORM_026",
@@ -3550,8 +3550,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 419,
-      "timestamp": "2026-08-18T16:39:43.223Z"
+      "executionTime": 389,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_FORM_027",
@@ -3568,8 +3568,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 382,
-      "timestamp": "2026-08-18T16:39:43.223Z"
+      "executionTime": 178,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_FORM_028",
@@ -3586,8 +3586,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 91,
-      "timestamp": "2026-08-18T16:39:43.223Z"
+      "executionTime": 329,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_FORM_029",
@@ -3604,8 +3604,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 417,
-      "timestamp": "2026-08-18T16:39:43.223Z"
+      "executionTime": 404,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_FORM_030",
@@ -3622,8 +3622,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 156,
-      "timestamp": "2026-08-18T16:39:43.223Z"
+      "executionTime": 153,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_FORM_031",
@@ -3640,8 +3640,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 128,
-      "timestamp": "2026-08-18T16:39:43.223Z"
+      "executionTime": 233,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_FORM_032",
@@ -3658,8 +3658,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 364,
-      "timestamp": "2026-08-18T16:39:43.223Z"
+      "executionTime": 393,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_FORM_033",
@@ -3676,8 +3676,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 470,
-      "timestamp": "2026-08-18T16:39:43.223Z"
+      "executionTime": 463,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_FORM_034",
@@ -3694,8 +3694,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 308,
-      "timestamp": "2026-08-18T16:39:43.223Z"
+      "executionTime": 287,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_FORM_035",
@@ -3712,8 +3712,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 260,
-      "timestamp": "2026-08-18T16:39:43.223Z"
+      "executionTime": 353,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_FORM_036",
@@ -3730,8 +3730,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 449,
-      "timestamp": "2026-08-18T16:39:43.223Z"
+      "executionTime": 314,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_FORM_037",
@@ -3748,8 +3748,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 134,
-      "timestamp": "2026-08-18T16:39:43.223Z"
+      "executionTime": 464,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_FORM_038",
@@ -3766,8 +3766,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 383,
-      "timestamp": "2026-08-18T16:39:43.223Z"
+      "executionTime": 155,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_FORM_039",
@@ -3784,8 +3784,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 413,
-      "timestamp": "2026-08-18T16:39:43.223Z"
+      "executionTime": 293,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_FORM_040",
@@ -3802,8 +3802,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 172,
-      "timestamp": "2026-08-18T16:39:43.223Z"
+      "executionTime": 221,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_ORD_001",
@@ -3825,8 +3825,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 112,
-      "timestamp": "2026-08-18T16:39:43.223Z"
+      "executionTime": 130,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_ORD_002",
@@ -3848,8 +3848,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 229,
-      "timestamp": "2026-08-18T16:39:43.223Z"
+      "executionTime": 436,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_ORD_003",
@@ -3871,8 +3871,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 444,
-      "timestamp": "2026-08-18T16:39:43.223Z"
+      "executionTime": 357,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_ORD_004",
@@ -3894,8 +3894,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 242,
-      "timestamp": "2026-08-18T16:39:43.224Z"
+      "executionTime": 444,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_ORD_005",
@@ -3917,8 +3917,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 296,
-      "timestamp": "2026-08-18T16:39:43.224Z"
+      "executionTime": 468,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_ORD_006",
@@ -3940,8 +3940,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 234,
-      "timestamp": "2026-08-18T16:39:43.224Z"
+      "executionTime": 299,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_ORD_007",
@@ -3963,8 +3963,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 339,
-      "timestamp": "2026-08-18T16:39:43.224Z"
+      "executionTime": 192,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_ORD_008",
@@ -3986,8 +3986,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 272,
-      "timestamp": "2026-08-18T16:39:43.224Z"
+      "executionTime": 133,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_ORD_009",
@@ -4009,8 +4009,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 147,
-      "timestamp": "2026-08-18T16:39:43.224Z"
+      "executionTime": 164,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_ORD_010",
@@ -4032,8 +4032,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 117,
-      "timestamp": "2026-08-18T16:39:43.224Z"
+      "executionTime": 381,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_ORD_011",
@@ -4055,8 +4055,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 192,
-      "timestamp": "2026-08-18T16:39:43.224Z"
+      "executionTime": 247,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_ORD_012",
@@ -4078,8 +4078,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 100,
-      "timestamp": "2026-08-18T16:39:43.224Z"
+      "executionTime": 324,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_ORD_013",
@@ -4101,8 +4101,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 235,
-      "timestamp": "2026-08-18T16:39:43.224Z"
+      "executionTime": 165,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_ORD_014",
@@ -4124,8 +4124,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 167,
-      "timestamp": "2026-08-18T16:39:43.224Z"
+      "executionTime": 355,
+      "timestamp": "2026-08-19T02:57:28.651Z"
     },
     {
       "id": "TC_ORD_015",
@@ -4147,8 +4147,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 298,
-      "timestamp": "2026-08-18T16:39:43.224Z"
+      "executionTime": 106,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_016",
@@ -4170,8 +4170,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 419,
-      "timestamp": "2026-08-18T16:39:43.224Z"
+      "executionTime": 186,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_017",
@@ -4193,8 +4193,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 334,
-      "timestamp": "2026-08-18T16:39:43.224Z"
+      "executionTime": 200,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_018",
@@ -4216,8 +4216,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 340,
-      "timestamp": "2026-08-18T16:39:43.224Z"
+      "executionTime": 289,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_019",
@@ -4239,8 +4239,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 245,
-      "timestamp": "2026-08-18T16:39:43.224Z"
+      "executionTime": 147,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_020",
@@ -4262,8 +4262,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 296,
-      "timestamp": "2026-08-18T16:39:43.224Z"
+      "executionTime": 161,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_021",
@@ -4285,8 +4285,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 319,
-      "timestamp": "2026-08-18T16:39:43.224Z"
+      "executionTime": 168,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_022",
@@ -4308,8 +4308,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 382,
-      "timestamp": "2026-08-18T16:39:43.224Z"
+      "executionTime": 262,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_023",
@@ -4331,8 +4331,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 82,
-      "timestamp": "2026-08-18T16:39:43.224Z"
+      "executionTime": 252,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_024",
@@ -4354,8 +4354,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 186,
-      "timestamp": "2026-08-18T16:39:43.224Z"
+      "executionTime": 172,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_025",
@@ -4377,8 +4377,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 208,
-      "timestamp": "2026-08-18T16:39:43.224Z"
+      "executionTime": 165,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_026",
@@ -4400,8 +4400,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 338,
-      "timestamp": "2026-08-18T16:39:43.224Z"
+      "executionTime": 431,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_027",
@@ -4424,7 +4424,7 @@
       "actualResult": "Action completed successfully",
       "failureReason": null,
       "executionTime": 130,
-      "timestamp": "2026-08-18T16:39:43.225Z"
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_028",
@@ -4446,8 +4446,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 402,
-      "timestamp": "2026-08-18T16:39:43.225Z"
+      "executionTime": 106,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_029",
@@ -4469,8 +4469,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 372,
-      "timestamp": "2026-08-18T16:39:43.225Z"
+      "executionTime": 154,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_030",
@@ -4492,8 +4492,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 143,
-      "timestamp": "2026-08-18T16:39:43.225Z"
+      "executionTime": 247,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_031",
@@ -4515,8 +4515,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 103,
-      "timestamp": "2026-08-18T16:39:43.225Z"
+      "executionTime": 174,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_032",
@@ -4538,8 +4538,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 391,
-      "timestamp": "2026-08-18T16:39:43.225Z"
+      "executionTime": 456,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_033",
@@ -4561,8 +4561,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 151,
-      "timestamp": "2026-08-18T16:39:43.225Z"
+      "executionTime": 280,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_034",
@@ -4584,8 +4584,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 425,
-      "timestamp": "2026-08-18T16:39:43.225Z"
+      "executionTime": 466,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_035",
@@ -4607,8 +4607,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 410,
-      "timestamp": "2026-08-18T16:39:43.225Z"
+      "executionTime": 107,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_036",
@@ -4630,8 +4630,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 232,
-      "timestamp": "2026-08-18T16:39:43.225Z"
+      "executionTime": 167,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_037",
@@ -4653,8 +4653,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 360,
-      "timestamp": "2026-08-18T16:39:43.225Z"
+      "executionTime": 462,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_038",
@@ -4676,8 +4676,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 220,
-      "timestamp": "2026-08-18T16:39:43.225Z"
+      "executionTime": 201,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_039",
@@ -4699,8 +4699,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 80,
-      "timestamp": "2026-08-18T16:39:43.225Z"
+      "executionTime": 306,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_ORD_040",
@@ -4722,8 +4722,8 @@
       "status": "PASSED",
       "actualResult": "Action completed successfully",
       "failureReason": null,
-      "executionTime": 214,
-      "timestamp": "2026-08-18T16:39:43.225Z"
+      "executionTime": 427,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_SRCH_001",
@@ -4740,8 +4740,8 @@
       "status": "PASSED",
       "actualResult": "Search returns correct results",
       "failureReason": null,
-      "executionTime": 213,
-      "timestamp": "2026-08-18T16:39:43.225Z"
+      "executionTime": 123,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_SRCH_002",
@@ -4758,8 +4758,8 @@
       "status": "PASSED",
       "actualResult": "Search returns correct results",
       "failureReason": null,
-      "executionTime": 436,
-      "timestamp": "2026-08-18T16:39:43.225Z"
+      "executionTime": 262,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_SRCH_003",
@@ -4776,8 +4776,8 @@
       "status": "PASSED",
       "actualResult": "Search returns correct results",
       "failureReason": null,
-      "executionTime": 235,
-      "timestamp": "2026-08-18T16:39:43.225Z"
+      "executionTime": 464,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_SRCH_004",
@@ -4794,8 +4794,8 @@
       "status": "PASSED",
       "actualResult": "Search returns correct results",
       "failureReason": null,
-      "executionTime": 415,
-      "timestamp": "2026-08-18T16:39:43.225Z"
+      "executionTime": 366,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_SRCH_005",
@@ -4812,8 +4812,8 @@
       "status": "PASSED",
       "actualResult": "Search returns correct results",
       "failureReason": null,
-      "executionTime": 419,
-      "timestamp": "2026-08-18T16:39:43.225Z"
+      "executionTime": 475,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_SRCH_006",
@@ -4830,8 +4830,8 @@
       "status": "PASSED",
       "actualResult": "Search returns correct results",
       "failureReason": null,
-      "executionTime": 450,
-      "timestamp": "2026-08-18T16:39:43.225Z"
+      "executionTime": 97,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_SRCH_007",
@@ -4848,8 +4848,8 @@
       "status": "PASSED",
       "actualResult": "Search returns correct results",
       "failureReason": null,
-      "executionTime": 351,
-      "timestamp": "2026-08-18T16:39:43.225Z"
+      "executionTime": 411,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_SRCH_008",
@@ -4866,8 +4866,8 @@
       "status": "PASSED",
       "actualResult": "Search returns correct results",
       "failureReason": null,
-      "executionTime": 378,
-      "timestamp": "2026-08-18T16:39:43.225Z"
+      "executionTime": 217,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_SRCH_009",
@@ -4884,8 +4884,8 @@
       "status": "PASSED",
       "actualResult": "Search returns correct results",
       "failureReason": null,
-      "executionTime": 282,
-      "timestamp": "2026-08-18T16:39:43.225Z"
+      "executionTime": 145,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_SRCH_010",
@@ -4902,8 +4902,8 @@
       "status": "PASSED",
       "actualResult": "Search returns correct results",
       "failureReason": null,
-      "executionTime": 330,
-      "timestamp": "2026-08-18T16:39:43.226Z"
+      "executionTime": 371,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_SRCH_011",
@@ -4920,8 +4920,8 @@
       "status": "PASSED",
       "actualResult": "Search returns correct results",
       "failureReason": null,
-      "executionTime": 235,
-      "timestamp": "2026-08-18T16:39:43.226Z"
+      "executionTime": 242,
+      "timestamp": "2026-08-19T02:57:28.652Z"
     },
     {
       "id": "TC_SRCH_012",
@@ -4938,8 +4938,8 @@
       "status": "PASSED",
       "actualResult": "Search returns correct results",
       "failureReason": null,
-      "executionTime": 344,
-      "timestamp": "2026-08-18T16:39:43.226Z"
+      "executionTime": 402,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_SRCH_013",
@@ -4956,8 +4956,8 @@
       "status": "PASSED",
       "actualResult": "Search returns correct results",
       "failureReason": null,
-      "executionTime": 259,
-      "timestamp": "2026-08-18T16:39:43.226Z"
+      "executionTime": 174,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_SRCH_014",
@@ -4974,8 +4974,8 @@
       "status": "PASSED",
       "actualResult": "Search returns correct results",
       "failureReason": null,
-      "executionTime": 299,
-      "timestamp": "2026-08-18T16:39:43.226Z"
+      "executionTime": 91,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_SRCH_015",
@@ -4992,8 +4992,8 @@
       "status": "PASSED",
       "actualResult": "Search returns correct results",
       "failureReason": null,
-      "executionTime": 194,
-      "timestamp": "2026-08-18T16:39:43.226Z"
+      "executionTime": 117,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_SRCH_016",
@@ -5010,8 +5010,8 @@
       "status": "PASSED",
       "actualResult": "Search returns correct results",
       "failureReason": null,
-      "executionTime": 161,
-      "timestamp": "2026-08-18T16:39:43.226Z"
+      "executionTime": 148,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_SRCH_017",
@@ -5028,8 +5028,8 @@
       "status": "PASSED",
       "actualResult": "Search returns correct results",
       "failureReason": null,
-      "executionTime": 378,
-      "timestamp": "2026-08-18T16:39:43.226Z"
+      "executionTime": 430,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_SRCH_018",
@@ -5046,8 +5046,8 @@
       "status": "PASSED",
       "actualResult": "Search returns correct results",
       "failureReason": null,
-      "executionTime": 211,
-      "timestamp": "2026-08-18T16:39:43.226Z"
+      "executionTime": 350,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_SRCH_019",
@@ -5064,8 +5064,8 @@
       "status": "PASSED",
       "actualResult": "Search returns correct results",
       "failureReason": null,
-      "executionTime": 261,
-      "timestamp": "2026-08-18T16:39:43.226Z"
+      "executionTime": 425,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_SRCH_020",
@@ -5082,8 +5082,8 @@
       "status": "PASSED",
       "actualResult": "Search returns correct results",
       "failureReason": null,
-      "executionTime": 140,
-      "timestamp": "2026-08-18T16:39:43.226Z"
+      "executionTime": 399,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_FILT_001",
@@ -5099,8 +5099,8 @@
       "status": "PASSED",
       "actualResult": "Filtered results match criteria",
       "failureReason": null,
-      "executionTime": 235,
-      "timestamp": "2026-08-18T16:39:43.226Z"
+      "executionTime": 113,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_FILT_002",
@@ -5116,8 +5116,8 @@
       "status": "PASSED",
       "actualResult": "Filtered results match criteria",
       "failureReason": null,
-      "executionTime": 89,
-      "timestamp": "2026-08-18T16:39:43.226Z"
+      "executionTime": 293,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_FILT_003",
@@ -5133,8 +5133,8 @@
       "status": "PASSED",
       "actualResult": "Filtered results match criteria",
       "failureReason": null,
-      "executionTime": 347,
-      "timestamp": "2026-08-18T16:39:43.226Z"
+      "executionTime": 410,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_FILT_004",
@@ -5150,8 +5150,8 @@
       "status": "PASSED",
       "actualResult": "Filtered results match criteria",
       "failureReason": null,
-      "executionTime": 191,
-      "timestamp": "2026-08-18T16:39:43.226Z"
+      "executionTime": 356,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_FILT_005",
@@ -5167,8 +5167,8 @@
       "status": "PASSED",
       "actualResult": "Filtered results match criteria",
       "failureReason": null,
-      "executionTime": 422,
-      "timestamp": "2026-08-18T16:39:43.226Z"
+      "executionTime": 226,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_FILT_006",
@@ -5184,8 +5184,8 @@
       "status": "PASSED",
       "actualResult": "Filtered results match criteria",
       "failureReason": null,
-      "executionTime": 410,
-      "timestamp": "2026-08-18T16:39:43.226Z"
+      "executionTime": 428,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_FILT_007",
@@ -5201,8 +5201,8 @@
       "status": "PASSED",
       "actualResult": "Filtered results match criteria",
       "failureReason": null,
-      "executionTime": 257,
-      "timestamp": "2026-08-18T16:39:43.226Z"
+      "executionTime": 450,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_FILT_008",
@@ -5218,8 +5218,8 @@
       "status": "PASSED",
       "actualResult": "Filtered results match criteria",
       "failureReason": null,
-      "executionTime": 416,
-      "timestamp": "2026-08-18T16:39:43.226Z"
+      "executionTime": 312,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_FILT_009",
@@ -5235,8 +5235,8 @@
       "status": "PASSED",
       "actualResult": "Filtered results match criteria",
       "failureReason": null,
-      "executionTime": 267,
-      "timestamp": "2026-08-18T16:39:43.226Z"
+      "executionTime": 150,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_FILT_010",
@@ -5252,8 +5252,8 @@
       "status": "PASSED",
       "actualResult": "Filtered results match criteria",
       "failureReason": null,
-      "executionTime": 95,
-      "timestamp": "2026-08-18T16:39:43.226Z"
+      "executionTime": 307,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_FILT_011",
@@ -5269,8 +5269,8 @@
       "status": "PASSED",
       "actualResult": "Filtered results match criteria",
       "failureReason": null,
-      "executionTime": 359,
-      "timestamp": "2026-08-18T16:39:43.226Z"
+      "executionTime": 145,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_FILT_012",
@@ -5286,8 +5286,8 @@
       "status": "PASSED",
       "actualResult": "Filtered results match criteria",
       "failureReason": null,
-      "executionTime": 177,
-      "timestamp": "2026-08-18T16:39:43.226Z"
+      "executionTime": 279,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_FILT_013",
@@ -5303,8 +5303,8 @@
       "status": "PASSED",
       "actualResult": "Filtered results match criteria",
       "failureReason": null,
-      "executionTime": 438,
-      "timestamp": "2026-08-18T16:39:43.227Z"
+      "executionTime": 160,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_FILT_014",
@@ -5320,8 +5320,8 @@
       "status": "PASSED",
       "actualResult": "Filtered results match criteria",
       "failureReason": null,
-      "executionTime": 185,
-      "timestamp": "2026-08-18T16:39:43.227Z"
+      "executionTime": 433,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_FILT_015",
@@ -5337,8 +5337,8 @@
       "status": "PASSED",
       "actualResult": "Filtered results match criteria",
       "failureReason": null,
-      "executionTime": 304,
-      "timestamp": "2026-08-18T16:39:43.227Z"
+      "executionTime": 97,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_FILT_016",
@@ -5354,8 +5354,8 @@
       "status": "PASSED",
       "actualResult": "Filtered results match criteria",
       "failureReason": null,
-      "executionTime": 475,
-      "timestamp": "2026-08-18T16:39:43.227Z"
+      "executionTime": 369,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_FILT_017",
@@ -5371,8 +5371,8 @@
       "status": "PASSED",
       "actualResult": "Filtered results match criteria",
       "failureReason": null,
-      "executionTime": 390,
-      "timestamp": "2026-08-18T16:39:43.227Z"
+      "executionTime": 295,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_FILT_018",
@@ -5388,8 +5388,8 @@
       "status": "PASSED",
       "actualResult": "Filtered results match criteria",
       "failureReason": null,
-      "executionTime": 318,
-      "timestamp": "2026-08-18T16:39:43.227Z"
+      "executionTime": 239,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_FILT_019",
@@ -5405,8 +5405,8 @@
       "status": "PASSED",
       "actualResult": "Filtered results match criteria",
       "failureReason": null,
-      "executionTime": 252,
-      "timestamp": "2026-08-18T16:39:43.227Z"
+      "executionTime": 433,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_FILT_020",
@@ -5422,8 +5422,8 @@
       "status": "PASSED",
       "actualResult": "Filtered results match criteria",
       "failureReason": null,
-      "executionTime": 253,
-      "timestamp": "2026-08-18T16:39:43.227Z"
+      "executionTime": 140,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_VAL_001",
@@ -5440,8 +5440,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 461,
-      "timestamp": "2026-08-18T16:39:43.227Z"
+      "executionTime": 223,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_VAL_002",
@@ -5458,8 +5458,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 439,
-      "timestamp": "2026-08-18T16:39:43.227Z"
+      "executionTime": 325,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_VAL_003",
@@ -5476,8 +5476,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 352,
-      "timestamp": "2026-08-18T16:39:43.227Z"
+      "executionTime": 346,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_VAL_004",
@@ -5494,8 +5494,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 283,
-      "timestamp": "2026-08-18T16:39:43.227Z"
+      "executionTime": 165,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_VAL_005",
@@ -5512,8 +5512,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 124,
-      "timestamp": "2026-08-18T16:39:43.227Z"
+      "executionTime": 388,
+      "timestamp": "2026-08-19T02:57:28.653Z"
     },
     {
       "id": "TC_VAL_006",
@@ -5530,8 +5530,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 304,
-      "timestamp": "2026-08-18T16:39:43.227Z"
+      "executionTime": 99,
+      "timestamp": "2026-08-19T02:57:28.654Z"
     },
     {
       "id": "TC_VAL_007",
@@ -5548,8 +5548,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 403,
-      "timestamp": "2026-08-18T16:39:43.227Z"
+      "executionTime": 288,
+      "timestamp": "2026-08-19T02:57:28.654Z"
     },
     {
       "id": "TC_VAL_008",
@@ -5566,8 +5566,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 192,
-      "timestamp": "2026-08-18T16:39:43.227Z"
+      "executionTime": 394,
+      "timestamp": "2026-08-19T02:57:28.654Z"
     },
     {
       "id": "TC_VAL_009",
@@ -5584,8 +5584,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 428,
-      "timestamp": "2026-08-18T16:39:43.227Z"
+      "executionTime": 210,
+      "timestamp": "2026-08-19T02:57:28.654Z"
     },
     {
       "id": "TC_VAL_010",
@@ -5602,8 +5602,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 377,
-      "timestamp": "2026-08-18T16:39:43.228Z"
+      "executionTime": 186,
+      "timestamp": "2026-08-19T02:57:28.654Z"
     },
     {
       "id": "TC_VAL_011",
@@ -5620,8 +5620,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 453,
-      "timestamp": "2026-08-18T16:39:43.228Z"
+      "executionTime": 112,
+      "timestamp": "2026-08-19T02:57:28.654Z"
     },
     {
       "id": "TC_VAL_012",
@@ -5638,8 +5638,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 298,
-      "timestamp": "2026-08-18T16:39:43.228Z"
+      "executionTime": 336,
+      "timestamp": "2026-08-19T02:57:28.654Z"
     },
     {
       "id": "TC_VAL_013",
@@ -5656,8 +5656,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 119,
-      "timestamp": "2026-08-18T16:39:43.228Z"
+      "executionTime": 97,
+      "timestamp": "2026-08-19T02:57:28.654Z"
     },
     {
       "id": "TC_VAL_014",
@@ -5674,8 +5674,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 316,
-      "timestamp": "2026-08-18T16:39:43.228Z"
+      "executionTime": 195,
+      "timestamp": "2026-08-19T02:57:28.654Z"
     },
     {
       "id": "TC_VAL_015",
@@ -5692,8 +5692,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 115,
-      "timestamp": "2026-08-18T16:39:43.228Z"
+      "executionTime": 339,
+      "timestamp": "2026-08-19T02:57:28.654Z"
     },
     {
       "id": "TC_VAL_016",
@@ -5710,8 +5710,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 135,
-      "timestamp": "2026-08-18T16:39:43.228Z"
+      "executionTime": 286,
+      "timestamp": "2026-08-19T02:57:28.654Z"
     },
     {
       "id": "TC_VAL_017",
@@ -5728,8 +5728,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 243,
-      "timestamp": "2026-08-18T16:39:43.228Z"
+      "executionTime": 176,
+      "timestamp": "2026-08-19T02:57:28.654Z"
     },
     {
       "id": "TC_VAL_018",
@@ -5746,8 +5746,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 147,
-      "timestamp": "2026-08-18T16:39:43.228Z"
+      "executionTime": 390,
+      "timestamp": "2026-08-19T02:57:28.654Z"
     },
     {
       "id": "TC_VAL_019",
@@ -5765,7 +5765,7 @@
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
       "executionTime": 194,
-      "timestamp": "2026-08-18T16:39:43.228Z"
+      "timestamp": "2026-08-19T02:57:28.654Z"
     },
     {
       "id": "TC_VAL_020",
@@ -5782,8 +5782,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 264,
-      "timestamp": "2026-08-18T16:39:43.228Z"
+      "executionTime": 374,
+      "timestamp": "2026-08-19T02:57:28.654Z"
     },
     {
       "id": "TC_VAL_021",
@@ -5800,8 +5800,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 280,
-      "timestamp": "2026-08-18T16:39:43.228Z"
+      "executionTime": 127,
+      "timestamp": "2026-08-19T02:57:28.654Z"
     },
     {
       "id": "TC_VAL_022",
@@ -5818,8 +5818,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 358,
-      "timestamp": "2026-08-18T16:39:43.228Z"
+      "executionTime": 87,
+      "timestamp": "2026-08-19T02:57:28.654Z"
     },
     {
       "id": "TC_VAL_023",
@@ -5836,8 +5836,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 445,
-      "timestamp": "2026-08-18T16:39:43.228Z"
+      "executionTime": 87,
+      "timestamp": "2026-08-19T02:57:28.654Z"
     },
     {
       "id": "TC_VAL_024",
@@ -5854,8 +5854,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 243,
-      "timestamp": "2026-08-18T16:39:43.228Z"
+      "executionTime": 413,
+      "timestamp": "2026-08-19T02:57:28.654Z"
     },
     {
       "id": "TC_VAL_025",
@@ -5872,8 +5872,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 391,
-      "timestamp": "2026-08-18T16:39:43.228Z"
+      "executionTime": 138,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_VAL_026",
@@ -5890,8 +5890,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 254,
-      "timestamp": "2026-08-18T16:39:43.228Z"
+      "executionTime": 114,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_VAL_027",
@@ -5908,8 +5908,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 369,
-      "timestamp": "2026-08-18T16:39:43.228Z"
+      "executionTime": 434,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_VAL_028",
@@ -5926,8 +5926,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 122,
-      "timestamp": "2026-08-18T16:39:43.228Z"
+      "executionTime": 217,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_VAL_029",
@@ -5944,8 +5944,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 231,
-      "timestamp": "2026-08-18T16:39:43.229Z"
+      "executionTime": 387,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_VAL_030",
@@ -5962,8 +5962,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 85,
-      "timestamp": "2026-08-18T16:39:43.229Z"
+      "executionTime": 260,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_VAL_031",
@@ -5980,8 +5980,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 421,
-      "timestamp": "2026-08-18T16:39:43.229Z"
+      "executionTime": 251,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_VAL_032",
@@ -5998,8 +5998,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 462,
-      "timestamp": "2026-08-18T16:39:43.229Z"
+      "executionTime": 454,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_VAL_033",
@@ -6016,8 +6016,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 302,
-      "timestamp": "2026-08-18T16:39:43.229Z"
+      "executionTime": 196,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_VAL_034",
@@ -6034,8 +6034,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 112,
-      "timestamp": "2026-08-18T16:39:43.229Z"
+      "executionTime": 371,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_VAL_035",
@@ -6052,8 +6052,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 402,
-      "timestamp": "2026-08-18T16:39:43.229Z"
+      "executionTime": 137,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_VAL_036",
@@ -6070,8 +6070,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 113,
-      "timestamp": "2026-08-18T16:39:43.229Z"
+      "executionTime": 183,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_VAL_037",
@@ -6088,8 +6088,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 284,
-      "timestamp": "2026-08-18T16:39:43.229Z"
+      "executionTime": 246,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_VAL_038",
@@ -6106,8 +6106,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 332,
-      "timestamp": "2026-08-18T16:39:43.229Z"
+      "executionTime": 175,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_VAL_039",
@@ -6124,8 +6124,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 464,
-      "timestamp": "2026-08-18T16:39:43.229Z"
+      "executionTime": 203,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_VAL_040",
@@ -6142,8 +6142,8 @@
       "status": "PASSED",
       "actualResult": "Appropriate validation error displayed",
       "failureReason": null,
-      "executionTime": 225,
-      "timestamp": "2026-08-18T16:39:43.230Z"
+      "executionTime": 175,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_ERR_001",
@@ -6159,8 +6159,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 122,
-      "timestamp": "2026-08-18T16:39:43.230Z"
+      "executionTime": 238,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_ERR_002",
@@ -6176,8 +6176,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 326,
-      "timestamp": "2026-08-18T16:39:43.230Z"
+      "executionTime": 247,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_ERR_003",
@@ -6193,8 +6193,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 299,
-      "timestamp": "2026-08-18T16:39:43.230Z"
+      "executionTime": 151,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_ERR_004",
@@ -6210,8 +6210,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 391,
-      "timestamp": "2026-08-18T16:39:43.230Z"
+      "executionTime": 374,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_ERR_005",
@@ -6227,8 +6227,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 201,
-      "timestamp": "2026-08-18T16:39:43.230Z"
+      "executionTime": 361,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_ERR_006",
@@ -6244,8 +6244,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 360,
-      "timestamp": "2026-08-18T16:39:43.230Z"
+      "executionTime": 266,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_ERR_007",
@@ -6261,8 +6261,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 347,
-      "timestamp": "2026-08-18T16:39:43.230Z"
+      "executionTime": 293,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_ERR_008",
@@ -6278,8 +6278,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 462,
-      "timestamp": "2026-08-18T16:39:43.230Z"
+      "executionTime": 302,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_ERR_009",
@@ -6295,8 +6295,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 467,
-      "timestamp": "2026-08-18T16:39:43.230Z"
+      "executionTime": 167,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_ERR_010",
@@ -6312,8 +6312,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 215,
-      "timestamp": "2026-08-18T16:39:43.230Z"
+      "executionTime": 180,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_ERR_011",
@@ -6329,8 +6329,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 443,
-      "timestamp": "2026-08-18T16:39:43.230Z"
+      "executionTime": 239,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_ERR_012",
@@ -6346,8 +6346,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 146,
-      "timestamp": "2026-08-18T16:39:43.230Z"
+      "executionTime": 472,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_ERR_013",
@@ -6363,8 +6363,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 374,
-      "timestamp": "2026-08-18T16:39:43.230Z"
+      "executionTime": 305,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_ERR_014",
@@ -6380,8 +6380,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 471,
-      "timestamp": "2026-08-18T16:39:43.230Z"
+      "executionTime": 192,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_ERR_015",
@@ -6397,8 +6397,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 208,
-      "timestamp": "2026-08-18T16:39:43.230Z"
+      "executionTime": 380,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_ERR_016",
@@ -6414,8 +6414,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 305,
-      "timestamp": "2026-08-18T16:39:43.230Z"
+      "executionTime": 473,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_ERR_017",
@@ -6431,8 +6431,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 474,
-      "timestamp": "2026-08-18T16:39:43.230Z"
+      "executionTime": 252,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_ERR_018",
@@ -6448,8 +6448,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 139,
-      "timestamp": "2026-08-18T16:39:43.230Z"
+      "executionTime": 228,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_ERR_019",
@@ -6465,8 +6465,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 310,
-      "timestamp": "2026-08-18T16:39:43.230Z"
+      "executionTime": 335,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_ERR_020",
@@ -6482,8 +6482,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 476,
-      "timestamp": "2026-08-18T16:39:43.231Z"
+      "executionTime": 223,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_SESS_001",
@@ -6499,8 +6499,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly and securely",
       "failureReason": null,
-      "executionTime": 214,
-      "timestamp": "2026-08-18T16:39:43.231Z"
+      "executionTime": 399,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_SESS_002",
@@ -6516,8 +6516,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly and securely",
       "failureReason": null,
-      "executionTime": 394,
-      "timestamp": "2026-08-18T16:39:43.231Z"
+      "executionTime": 160,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_SESS_003",
@@ -6533,8 +6533,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly and securely",
       "failureReason": null,
-      "executionTime": 403,
-      "timestamp": "2026-08-18T16:39:43.231Z"
+      "executionTime": 93,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_SESS_004",
@@ -6550,8 +6550,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly and securely",
       "failureReason": null,
-      "executionTime": 363,
-      "timestamp": "2026-08-18T16:39:43.231Z"
+      "executionTime": 195,
+      "timestamp": "2026-08-19T02:57:28.655Z"
     },
     {
       "id": "TC_SESS_005",
@@ -6568,7 +6568,7 @@
       "actualResult": "Session managed correctly and securely",
       "failureReason": null,
       "executionTime": 190,
-      "timestamp": "2026-08-18T16:39:43.231Z"
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_SESS_006",
@@ -6584,8 +6584,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly and securely",
       "failureReason": null,
-      "executionTime": 184,
-      "timestamp": "2026-08-18T16:39:43.231Z"
+      "executionTime": 476,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_SESS_007",
@@ -6601,8 +6601,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly and securely",
       "failureReason": null,
-      "executionTime": 371,
-      "timestamp": "2026-08-18T16:39:43.231Z"
+      "executionTime": 154,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_SESS_008",
@@ -6618,8 +6618,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly and securely",
       "failureReason": null,
-      "executionTime": 239,
-      "timestamp": "2026-08-18T16:39:43.231Z"
+      "executionTime": 419,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_SESS_009",
@@ -6635,8 +6635,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly and securely",
       "failureReason": null,
-      "executionTime": 400,
-      "timestamp": "2026-08-18T16:39:43.231Z"
+      "executionTime": 393,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_SESS_010",
@@ -6652,8 +6652,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly and securely",
       "failureReason": null,
-      "executionTime": 117,
-      "timestamp": "2026-08-18T16:39:43.231Z"
+      "executionTime": 278,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_SESS_011",
@@ -6669,8 +6669,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly and securely",
       "failureReason": null,
-      "executionTime": 448,
-      "timestamp": "2026-08-18T16:39:43.231Z"
+      "executionTime": 93,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_SESS_012",
@@ -6686,8 +6686,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly and securely",
       "failureReason": null,
-      "executionTime": 152,
-      "timestamp": "2026-08-18T16:39:43.231Z"
+      "executionTime": 453,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_SESS_013",
@@ -6703,8 +6703,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly and securely",
       "failureReason": null,
-      "executionTime": 254,
-      "timestamp": "2026-08-18T16:39:43.231Z"
+      "executionTime": 269,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_SESS_014",
@@ -6720,8 +6720,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly and securely",
       "failureReason": null,
-      "executionTime": 132,
-      "timestamp": "2026-08-18T16:39:43.231Z"
+      "executionTime": 305,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_SESS_015",
@@ -6737,8 +6737,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly and securely",
       "failureReason": null,
-      "executionTime": 192,
-      "timestamp": "2026-08-18T16:39:43.231Z"
+      "executionTime": 469,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_SESS_016",
@@ -6754,8 +6754,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly and securely",
       "failureReason": null,
-      "executionTime": 83,
-      "timestamp": "2026-08-18T16:39:43.231Z"
+      "executionTime": 116,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_SESS_017",
@@ -6771,8 +6771,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly and securely",
       "failureReason": null,
-      "executionTime": 328,
-      "timestamp": "2026-08-18T16:39:43.231Z"
+      "executionTime": 430,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_SESS_018",
@@ -6788,8 +6788,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly and securely",
       "failureReason": null,
-      "executionTime": 472,
-      "timestamp": "2026-08-18T16:39:43.231Z"
+      "executionTime": 163,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_SESS_019",
@@ -6805,8 +6805,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly and securely",
       "failureReason": null,
-      "executionTime": 138,
-      "timestamp": "2026-08-18T16:39:43.231Z"
+      "executionTime": 248,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_SESS_020",
@@ -6822,8 +6822,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly and securely",
       "failureReason": null,
-      "executionTime": 414,
-      "timestamp": "2026-08-18T16:39:43.231Z"
+      "executionTime": 406,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_NOTIF_001",
@@ -6839,8 +6839,8 @@
       "status": "PASSED",
       "actualResult": "Notification received and displayed correctly",
       "failureReason": null,
-      "executionTime": 83,
-      "timestamp": "2026-08-18T16:39:43.232Z"
+      "executionTime": 199,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_NOTIF_002",
@@ -6856,8 +6856,8 @@
       "status": "PASSED",
       "actualResult": "Notification received and displayed correctly",
       "failureReason": null,
-      "executionTime": 276,
-      "timestamp": "2026-08-18T16:39:43.232Z"
+      "executionTime": 225,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_NOTIF_003",
@@ -6873,8 +6873,8 @@
       "status": "PASSED",
       "actualResult": "Notification received and displayed correctly",
       "failureReason": null,
-      "executionTime": 196,
-      "timestamp": "2026-08-18T16:39:43.232Z"
+      "executionTime": 319,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_NOTIF_004",
@@ -6890,8 +6890,8 @@
       "status": "PASSED",
       "actualResult": "Notification received and displayed correctly",
       "failureReason": null,
-      "executionTime": 100,
-      "timestamp": "2026-08-18T16:39:43.232Z"
+      "executionTime": 436,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_NOTIF_005",
@@ -6907,8 +6907,8 @@
       "status": "PASSED",
       "actualResult": "Notification received and displayed correctly",
       "failureReason": null,
-      "executionTime": 167,
-      "timestamp": "2026-08-18T16:39:43.232Z"
+      "executionTime": 258,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_NOTIF_006",
@@ -6924,8 +6924,8 @@
       "status": "PASSED",
       "actualResult": "Notification received and displayed correctly",
       "failureReason": null,
-      "executionTime": 346,
-      "timestamp": "2026-08-18T16:39:43.232Z"
+      "executionTime": 448,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_NOTIF_007",
@@ -6941,8 +6941,8 @@
       "status": "PASSED",
       "actualResult": "Notification received and displayed correctly",
       "failureReason": null,
-      "executionTime": 236,
-      "timestamp": "2026-08-18T16:39:43.232Z"
+      "executionTime": 159,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_NOTIF_008",
@@ -6958,8 +6958,8 @@
       "status": "PASSED",
       "actualResult": "Notification received and displayed correctly",
       "failureReason": null,
-      "executionTime": 254,
-      "timestamp": "2026-08-18T16:39:43.232Z"
+      "executionTime": 269,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_NOTIF_009",
@@ -6975,8 +6975,8 @@
       "status": "PASSED",
       "actualResult": "Notification received and displayed correctly",
       "failureReason": null,
-      "executionTime": 239,
-      "timestamp": "2026-08-18T16:39:43.232Z"
+      "executionTime": 388,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_NOTIF_010",
@@ -6992,8 +6992,8 @@
       "status": "PASSED",
       "actualResult": "Notification received and displayed correctly",
       "failureReason": null,
-      "executionTime": 120,
-      "timestamp": "2026-08-18T16:39:43.232Z"
+      "executionTime": 388,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_NOTIF_011",
@@ -7009,8 +7009,8 @@
       "status": "PASSED",
       "actualResult": "Notification received and displayed correctly",
       "failureReason": null,
-      "executionTime": 323,
-      "timestamp": "2026-08-18T16:39:43.232Z"
+      "executionTime": 405,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_NOTIF_012",
@@ -7026,8 +7026,8 @@
       "status": "PASSED",
       "actualResult": "Notification received and displayed correctly",
       "failureReason": null,
-      "executionTime": 247,
-      "timestamp": "2026-08-18T16:39:43.232Z"
+      "executionTime": 263,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_NOTIF_013",
@@ -7043,8 +7043,8 @@
       "status": "PASSED",
       "actualResult": "Notification received and displayed correctly",
       "failureReason": null,
-      "executionTime": 317,
-      "timestamp": "2026-08-18T16:39:43.232Z"
+      "executionTime": 430,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_NOTIF_014",
@@ -7060,8 +7060,8 @@
       "status": "PASSED",
       "actualResult": "Notification received and displayed correctly",
       "failureReason": null,
-      "executionTime": 141,
-      "timestamp": "2026-08-18T16:39:43.232Z"
+      "executionTime": 429,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_NOTIF_015",
@@ -7077,8 +7077,8 @@
       "status": "PASSED",
       "actualResult": "Notification received and displayed correctly",
       "failureReason": null,
-      "executionTime": 277,
-      "timestamp": "2026-08-18T16:39:43.232Z"
+      "executionTime": 363,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_NOTIF_016",
@@ -7094,8 +7094,8 @@
       "status": "PASSED",
       "actualResult": "Notification received and displayed correctly",
       "failureReason": null,
-      "executionTime": 150,
-      "timestamp": "2026-08-18T16:39:43.232Z"
+      "executionTime": 390,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_NOTIF_017",
@@ -7111,8 +7111,8 @@
       "status": "PASSED",
       "actualResult": "Notification received and displayed correctly",
       "failureReason": null,
-      "executionTime": 419,
-      "timestamp": "2026-08-18T16:39:43.232Z"
+      "executionTime": 129,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_NOTIF_018",
@@ -7128,8 +7128,8 @@
       "status": "PASSED",
       "actualResult": "Notification received and displayed correctly",
       "failureReason": null,
-      "executionTime": 171,
-      "timestamp": "2026-08-18T16:39:43.232Z"
+      "executionTime": 387,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_NOTIF_019",
@@ -7145,8 +7145,8 @@
       "status": "PASSED",
       "actualResult": "Notification received and displayed correctly",
       "failureReason": null,
-      "executionTime": 470,
-      "timestamp": "2026-08-18T16:39:43.232Z"
+      "executionTime": 157,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_NOTIF_020",
@@ -7162,8 +7162,8 @@
       "status": "PASSED",
       "actualResult": "Notification received and displayed correctly",
       "failureReason": null,
-      "executionTime": 120,
-      "timestamp": "2026-08-18T16:39:43.232Z"
+      "executionTime": 150,
+      "timestamp": "2026-08-19T02:57:28.656Z"
     },
     {
       "id": "TC_OFF_001",
@@ -7179,8 +7179,8 @@
       "status": "PASSED",
       "actualResult": "App handles offline gracefully with appropriate messaging",
       "failureReason": null,
-      "executionTime": 298,
-      "timestamp": "2026-08-18T16:39:43.232Z"
+      "executionTime": 205,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_OFF_002",
@@ -7196,8 +7196,8 @@
       "status": "PASSED",
       "actualResult": "App handles offline gracefully with appropriate messaging",
       "failureReason": null,
-      "executionTime": 382,
-      "timestamp": "2026-08-18T16:39:43.233Z"
+      "executionTime": 247,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_OFF_003",
@@ -7213,8 +7213,8 @@
       "status": "PASSED",
       "actualResult": "App handles offline gracefully with appropriate messaging",
       "failureReason": null,
-      "executionTime": 134,
-      "timestamp": "2026-08-18T16:39:43.233Z"
+      "executionTime": 475,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_OFF_004",
@@ -7230,8 +7230,8 @@
       "status": "PASSED",
       "actualResult": "App handles offline gracefully with appropriate messaging",
       "failureReason": null,
-      "executionTime": 372,
-      "timestamp": "2026-08-18T16:39:43.233Z"
+      "executionTime": 82,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_OFF_005",
@@ -7247,8 +7247,8 @@
       "status": "PASSED",
       "actualResult": "App handles offline gracefully with appropriate messaging",
       "failureReason": null,
-      "executionTime": 197,
-      "timestamp": "2026-08-18T16:39:43.233Z"
+      "executionTime": 453,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_OFF_006",
@@ -7264,8 +7264,8 @@
       "status": "PASSED",
       "actualResult": "App handles offline gracefully with appropriate messaging",
       "failureReason": null,
-      "executionTime": 100,
-      "timestamp": "2026-08-18T16:39:43.233Z"
+      "executionTime": 106,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_OFF_007",
@@ -7281,8 +7281,8 @@
       "status": "PASSED",
       "actualResult": "App handles offline gracefully with appropriate messaging",
       "failureReason": null,
-      "executionTime": 317,
-      "timestamp": "2026-08-18T16:39:43.233Z"
+      "executionTime": 120,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_OFF_008",
@@ -7298,8 +7298,8 @@
       "status": "PASSED",
       "actualResult": "App handles offline gracefully with appropriate messaging",
       "failureReason": null,
-      "executionTime": 348,
-      "timestamp": "2026-08-18T16:39:43.233Z"
+      "executionTime": 449,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_OFF_009",
@@ -7315,8 +7315,8 @@
       "status": "PASSED",
       "actualResult": "App handles offline gracefully with appropriate messaging",
       "failureReason": null,
-      "executionTime": 212,
-      "timestamp": "2026-08-18T16:39:43.233Z"
+      "executionTime": 386,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_OFF_010",
@@ -7332,8 +7332,8 @@
       "status": "PASSED",
       "actualResult": "App handles offline gracefully with appropriate messaging",
       "failureReason": null,
-      "executionTime": 251,
-      "timestamp": "2026-08-18T16:39:43.233Z"
+      "executionTime": 236,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_ACC_001",
@@ -7350,8 +7350,8 @@
       "status": "PASSED",
       "actualResult": "Screen reader correctly announces elements",
       "failureReason": null,
-      "executionTime": 148,
-      "timestamp": "2026-08-18T16:39:43.233Z"
+      "executionTime": 239,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_ACC_002",
@@ -7368,8 +7368,8 @@
       "status": "PASSED",
       "actualResult": "Screen reader correctly announces elements",
       "failureReason": null,
-      "executionTime": 267,
-      "timestamp": "2026-08-18T16:39:43.233Z"
+      "executionTime": 329,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_ACC_003",
@@ -7386,8 +7386,8 @@
       "status": "PASSED",
       "actualResult": "Screen reader correctly announces elements",
       "failureReason": null,
-      "executionTime": 195,
-      "timestamp": "2026-08-18T16:39:43.233Z"
+      "executionTime": 337,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_ACC_004",
@@ -7404,8 +7404,8 @@
       "status": "PASSED",
       "actualResult": "Screen reader correctly announces elements",
       "failureReason": null,
-      "executionTime": 433,
-      "timestamp": "2026-08-18T16:39:43.233Z"
+      "executionTime": 289,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_ACC_005",
@@ -7422,8 +7422,8 @@
       "status": "PASSED",
       "actualResult": "Screen reader correctly announces elements",
       "failureReason": null,
-      "executionTime": 405,
-      "timestamp": "2026-08-18T16:39:43.233Z"
+      "executionTime": 270,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_ACC_006",
@@ -7440,8 +7440,8 @@
       "status": "PASSED",
       "actualResult": "Screen reader correctly announces elements",
       "failureReason": null,
-      "executionTime": 338,
-      "timestamp": "2026-08-18T16:39:43.233Z"
+      "executionTime": 411,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_ACC_007",
@@ -7458,8 +7458,8 @@
       "status": "PASSED",
       "actualResult": "Screen reader correctly announces elements",
       "failureReason": null,
-      "executionTime": 95,
-      "timestamp": "2026-08-18T16:39:43.233Z"
+      "executionTime": 139,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_ACC_008",
@@ -7476,8 +7476,8 @@
       "status": "PASSED",
       "actualResult": "Screen reader correctly announces elements",
       "failureReason": null,
-      "executionTime": 352,
-      "timestamp": "2026-08-18T16:39:43.233Z"
+      "executionTime": 300,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_ACC_009",
@@ -7494,8 +7494,8 @@
       "status": "PASSED",
       "actualResult": "Screen reader correctly announces elements",
       "failureReason": null,
-      "executionTime": 386,
-      "timestamp": "2026-08-18T16:39:43.233Z"
+      "executionTime": 298,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_ACC_010",
@@ -7512,8 +7512,8 @@
       "status": "PASSED",
       "actualResult": "Screen reader correctly announces elements",
       "failureReason": null,
-      "executionTime": 370,
-      "timestamp": "2026-08-18T16:39:43.233Z"
+      "executionTime": 141,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_ACC_011",
@@ -7530,8 +7530,8 @@
       "status": "PASSED",
       "actualResult": "Screen reader correctly announces elements",
       "failureReason": null,
-      "executionTime": 355,
-      "timestamp": "2026-08-18T16:39:43.233Z"
+      "executionTime": 378,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_ACC_012",
@@ -7548,8 +7548,8 @@
       "status": "PASSED",
       "actualResult": "Screen reader correctly announces elements",
       "failureReason": null,
-      "executionTime": 409,
-      "timestamp": "2026-08-18T16:39:43.234Z"
+      "executionTime": 158,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_ACC_013",
@@ -7566,8 +7566,8 @@
       "status": "PASSED",
       "actualResult": "Screen reader correctly announces elements",
       "failureReason": null,
-      "executionTime": 273,
-      "timestamp": "2026-08-18T16:39:43.234Z"
+      "executionTime": 334,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_ACC_014",
@@ -7584,8 +7584,8 @@
       "status": "PASSED",
       "actualResult": "Screen reader correctly announces elements",
       "failureReason": null,
-      "executionTime": 374,
-      "timestamp": "2026-08-18T16:39:43.234Z"
+      "executionTime": 373,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_ACC_015",
@@ -7602,8 +7602,8 @@
       "status": "PASSED",
       "actualResult": "Screen reader correctly announces elements",
       "failureReason": null,
-      "executionTime": 156,
-      "timestamp": "2026-08-18T16:39:43.234Z"
+      "executionTime": 476,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_ACC_016",
@@ -7620,8 +7620,8 @@
       "status": "PASSED",
       "actualResult": "Screen reader correctly announces elements",
       "failureReason": null,
-      "executionTime": 248,
-      "timestamp": "2026-08-18T16:39:43.234Z"
+      "executionTime": 224,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_ACC_017",
@@ -7638,8 +7638,8 @@
       "status": "PASSED",
       "actualResult": "Screen reader correctly announces elements",
       "failureReason": null,
-      "executionTime": 400,
-      "timestamp": "2026-08-18T16:39:43.234Z"
+      "executionTime": 271,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_ACC_018",
@@ -7656,8 +7656,8 @@
       "status": "PASSED",
       "actualResult": "Screen reader correctly announces elements",
       "failureReason": null,
-      "executionTime": 182,
-      "timestamp": "2026-08-18T16:39:43.234Z"
+      "executionTime": 120,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_ACC_019",
@@ -7674,8 +7674,8 @@
       "status": "PASSED",
       "actualResult": "Screen reader correctly announces elements",
       "failureReason": null,
-      "executionTime": 379,
-      "timestamp": "2026-08-18T16:39:43.234Z"
+      "executionTime": 361,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_ACC_020",
@@ -7692,8 +7692,8 @@
       "status": "PASSED",
       "actualResult": "Screen reader correctly announces elements",
       "failureReason": null,
-      "executionTime": 283,
-      "timestamp": "2026-08-18T16:39:43.234Z"
+      "executionTime": 168,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_RESP_001",
@@ -7710,8 +7710,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly to screen size",
       "failureReason": null,
-      "executionTime": 330,
-      "timestamp": "2026-08-18T16:39:43.234Z"
+      "executionTime": 225,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_RESP_002",
@@ -7728,8 +7728,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly to screen size",
       "failureReason": null,
-      "executionTime": 273,
-      "timestamp": "2026-08-18T16:39:43.234Z"
+      "executionTime": 379,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_RESP_003",
@@ -7746,8 +7746,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly to screen size",
       "failureReason": null,
-      "executionTime": 185,
-      "timestamp": "2026-08-18T16:39:43.234Z"
+      "executionTime": 218,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_RESP_004",
@@ -7764,8 +7764,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly to screen size",
       "failureReason": null,
-      "executionTime": 331,
-      "timestamp": "2026-08-18T16:39:43.234Z"
+      "executionTime": 138,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_RESP_005",
@@ -7782,8 +7782,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly to screen size",
       "failureReason": null,
-      "executionTime": 321,
-      "timestamp": "2026-08-18T16:39:43.234Z"
+      "executionTime": 377,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_RESP_006",
@@ -7800,8 +7800,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly to screen size",
       "failureReason": null,
-      "executionTime": 350,
-      "timestamp": "2026-08-18T16:39:43.234Z"
+      "executionTime": 184,
+      "timestamp": "2026-08-19T02:57:28.657Z"
     },
     {
       "id": "TC_RESP_007",
@@ -7818,8 +7818,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly to screen size",
       "failureReason": null,
-      "executionTime": 109,
-      "timestamp": "2026-08-18T16:39:43.234Z"
+      "executionTime": 362,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_RESP_008",
@@ -7836,8 +7836,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly to screen size",
       "failureReason": null,
-      "executionTime": 364,
-      "timestamp": "2026-08-18T16:39:43.234Z"
+      "executionTime": 226,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_RESP_009",
@@ -7854,8 +7854,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly to screen size",
       "failureReason": null,
-      "executionTime": 270,
-      "timestamp": "2026-08-18T16:39:43.234Z"
+      "executionTime": 371,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_RESP_010",
@@ -7872,8 +7872,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly to screen size",
       "failureReason": null,
-      "executionTime": 322,
-      "timestamp": "2026-08-18T16:39:43.235Z"
+      "executionTime": 362,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_PERF_001",
@@ -7890,8 +7890,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 171,
-      "timestamp": "2026-08-18T16:39:43.235Z"
+      "executionTime": 219,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_PERF_002",
@@ -7908,8 +7908,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 470,
-      "timestamp": "2026-08-18T16:39:43.235Z"
+      "executionTime": 162,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_PERF_003",
@@ -7926,8 +7926,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 360,
-      "timestamp": "2026-08-18T16:39:43.235Z"
+      "executionTime": 412,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_PERF_004",
@@ -7944,8 +7944,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 408,
-      "timestamp": "2026-08-18T16:39:43.235Z"
+      "executionTime": 315,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_PERF_005",
@@ -7962,8 +7962,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 336,
-      "timestamp": "2026-08-18T16:39:43.235Z"
+      "executionTime": 125,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_PERF_006",
@@ -7980,8 +7980,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 142,
-      "timestamp": "2026-08-18T16:39:43.235Z"
+      "executionTime": 249,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_PERF_007",
@@ -7998,8 +7998,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 261,
-      "timestamp": "2026-08-18T16:39:43.235Z"
+      "executionTime": 364,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_PERF_008",
@@ -8016,8 +8016,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 448,
-      "timestamp": "2026-08-18T16:39:43.235Z"
+      "executionTime": 372,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_PERF_009",
@@ -8034,8 +8034,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 180,
-      "timestamp": "2026-08-18T16:39:43.235Z"
+      "executionTime": 279,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_PERF_010",
@@ -8052,8 +8052,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 321,
-      "timestamp": "2026-08-18T16:39:43.235Z"
+      "executionTime": 244,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_PERF_011",
@@ -8070,8 +8070,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 438,
-      "timestamp": "2026-08-18T16:39:43.235Z"
+      "executionTime": 105,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_PERF_012",
@@ -8088,8 +8088,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 255,
-      "timestamp": "2026-08-18T16:39:43.235Z"
+      "executionTime": 135,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_PERF_013",
@@ -8106,8 +8106,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 413,
-      "timestamp": "2026-08-18T16:39:43.235Z"
+      "executionTime": 264,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_PERF_014",
@@ -8124,8 +8124,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 400,
-      "timestamp": "2026-08-18T16:39:43.235Z"
+      "executionTime": 246,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_PERF_015",
@@ -8142,8 +8142,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 297,
-      "timestamp": "2026-08-18T16:39:43.235Z"
+      "executionTime": 454,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_PERF_016",
@@ -8160,8 +8160,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 348,
-      "timestamp": "2026-08-18T16:39:43.235Z"
+      "executionTime": 195,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_PERF_017",
@@ -8178,8 +8178,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 325,
-      "timestamp": "2026-08-18T16:39:43.235Z"
+      "executionTime": 161,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_PERF_018",
@@ -8196,8 +8196,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 313,
-      "timestamp": "2026-08-18T16:39:43.235Z"
+      "executionTime": 216,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_PERF_019",
@@ -8214,8 +8214,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 214,
-      "timestamp": "2026-08-18T16:39:43.236Z"
+      "executionTime": 374,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_PERF_020",
@@ -8232,8 +8232,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 137,
-      "timestamp": "2026-08-18T16:39:43.236Z"
+      "executionTime": 83,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_WALL_001",
@@ -8252,8 +8252,8 @@
       "status": "PASSED",
       "actualResult": "Wallet operation completes correctly",
       "failureReason": null,
-      "executionTime": 148,
-      "timestamp": "2026-08-18T16:39:43.236Z"
+      "executionTime": 195,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_WALL_002",
@@ -8272,8 +8272,8 @@
       "status": "PASSED",
       "actualResult": "Wallet operation completes correctly",
       "failureReason": null,
-      "executionTime": 344,
-      "timestamp": "2026-08-18T16:39:43.236Z"
+      "executionTime": 293,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_WALL_003",
@@ -8292,8 +8292,8 @@
       "status": "PASSED",
       "actualResult": "Wallet operation completes correctly",
       "failureReason": null,
-      "executionTime": 408,
-      "timestamp": "2026-08-18T16:39:43.236Z"
+      "executionTime": 417,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_WALL_004",
@@ -8312,8 +8312,8 @@
       "status": "PASSED",
       "actualResult": "Wallet operation completes correctly",
       "failureReason": null,
-      "executionTime": 308,
-      "timestamp": "2026-08-18T16:39:43.236Z"
+      "executionTime": 219,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_WALL_005",
@@ -8332,8 +8332,8 @@
       "status": "PASSED",
       "actualResult": "Wallet operation completes correctly",
       "failureReason": null,
-      "executionTime": 361,
-      "timestamp": "2026-08-18T16:39:43.236Z"
+      "executionTime": 227,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_WALL_006",
@@ -8352,8 +8352,8 @@
       "status": "PASSED",
       "actualResult": "Wallet operation completes correctly",
       "failureReason": null,
-      "executionTime": 333,
-      "timestamp": "2026-08-18T16:39:43.236Z"
+      "executionTime": 475,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_WALL_007",
@@ -8372,8 +8372,8 @@
       "status": "PASSED",
       "actualResult": "Wallet operation completes correctly",
       "failureReason": null,
-      "executionTime": 158,
-      "timestamp": "2026-08-18T16:39:43.236Z"
+      "executionTime": 137,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_WALL_008",
@@ -8392,8 +8392,8 @@
       "status": "PASSED",
       "actualResult": "Wallet operation completes correctly",
       "failureReason": null,
-      "executionTime": 263,
-      "timestamp": "2026-08-18T16:39:43.236Z"
+      "executionTime": 412,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_WALL_009",
@@ -8412,8 +8412,8 @@
       "status": "PASSED",
       "actualResult": "Wallet operation completes correctly",
       "failureReason": null,
-      "executionTime": 94,
-      "timestamp": "2026-08-18T16:39:43.236Z"
+      "executionTime": 137,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_WALL_010",
@@ -8432,8 +8432,8 @@
       "status": "PASSED",
       "actualResult": "Wallet operation completes correctly",
       "failureReason": null,
-      "executionTime": 138,
-      "timestamp": "2026-08-18T16:39:43.236Z"
+      "executionTime": 246,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_WALL_011",
@@ -8452,8 +8452,8 @@
       "status": "PASSED",
       "actualResult": "Wallet operation completes correctly",
       "failureReason": null,
-      "executionTime": 176,
-      "timestamp": "2026-08-18T16:39:43.236Z"
+      "executionTime": 402,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_WALL_012",
@@ -8472,8 +8472,8 @@
       "status": "PASSED",
       "actualResult": "Wallet operation completes correctly",
       "failureReason": null,
-      "executionTime": 150,
-      "timestamp": "2026-08-18T16:39:43.236Z"
+      "executionTime": 425,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_WALL_013",
@@ -8492,8 +8492,8 @@
       "status": "PASSED",
       "actualResult": "Wallet operation completes correctly",
       "failureReason": null,
-      "executionTime": 159,
-      "timestamp": "2026-08-18T16:39:43.236Z"
+      "executionTime": 385,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_WALL_014",
@@ -8512,8 +8512,8 @@
       "status": "PASSED",
       "actualResult": "Wallet operation completes correctly",
       "failureReason": null,
-      "executionTime": 343,
-      "timestamp": "2026-08-18T16:39:43.236Z"
+      "executionTime": 353,
+      "timestamp": "2026-08-19T02:57:28.658Z"
     },
     {
       "id": "TC_WALL_015",
@@ -8532,8 +8532,8 @@
       "status": "PASSED",
       "actualResult": "Wallet operation completes correctly",
       "failureReason": null,
-      "executionTime": 310,
-      "timestamp": "2026-08-18T16:39:43.236Z"
+      "executionTime": 284,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_WALL_016",
@@ -8552,8 +8552,8 @@
       "status": "PASSED",
       "actualResult": "Wallet operation completes correctly",
       "failureReason": null,
-      "executionTime": 110,
-      "timestamp": "2026-08-18T16:39:43.237Z"
+      "executionTime": 185,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_WALL_017",
@@ -8572,8 +8572,8 @@
       "status": "PASSED",
       "actualResult": "Wallet operation completes correctly",
       "failureReason": null,
-      "executionTime": 198,
-      "timestamp": "2026-08-18T16:39:43.237Z"
+      "executionTime": 91,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_WALL_018",
@@ -8592,8 +8592,8 @@
       "status": "PASSED",
       "actualResult": "Wallet operation completes correctly",
       "failureReason": null,
-      "executionTime": 282,
-      "timestamp": "2026-08-18T16:39:43.237Z"
+      "executionTime": 137,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_WALL_019",
@@ -8612,8 +8612,8 @@
       "status": "PASSED",
       "actualResult": "Wallet operation completes correctly",
       "failureReason": null,
-      "executionTime": 102,
-      "timestamp": "2026-08-18T16:39:43.237Z"
+      "executionTime": 210,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_WALL_020",
@@ -8632,8 +8632,8 @@
       "status": "PASSED",
       "actualResult": "Wallet operation completes correctly",
       "failureReason": null,
-      "executionTime": 393,
-      "timestamp": "2026-08-18T16:39:43.237Z"
+      "executionTime": 348,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_001",
@@ -8649,8 +8649,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 453,
-      "timestamp": "2026-08-18T16:39:43.237Z"
+      "executionTime": 136,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_002",
@@ -8666,8 +8666,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 448,
-      "timestamp": "2026-08-18T16:39:43.237Z"
+      "executionTime": 475,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_003",
@@ -8683,8 +8683,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 319,
-      "timestamp": "2026-08-18T16:39:43.237Z"
+      "executionTime": 174,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_004",
@@ -8700,8 +8700,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 418,
-      "timestamp": "2026-08-18T16:39:43.237Z"
+      "executionTime": 217,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_005",
@@ -8717,8 +8717,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 202,
-      "timestamp": "2026-08-18T16:39:43.237Z"
+      "executionTime": 285,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_006",
@@ -8734,8 +8734,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 134,
-      "timestamp": "2026-08-18T16:39:43.237Z"
+      "executionTime": 414,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_007",
@@ -8751,8 +8751,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 397,
-      "timestamp": "2026-08-18T16:39:43.237Z"
+      "executionTime": 139,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_008",
@@ -8768,8 +8768,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 354,
-      "timestamp": "2026-08-18T16:39:43.237Z"
+      "executionTime": 396,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_009",
@@ -8785,8 +8785,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 464,
-      "timestamp": "2026-08-18T16:39:43.237Z"
+      "executionTime": 146,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_010",
@@ -8802,8 +8802,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 302,
-      "timestamp": "2026-08-18T16:39:43.237Z"
+      "executionTime": 431,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_011",
@@ -8819,8 +8819,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 110,
-      "timestamp": "2026-08-18T16:39:43.237Z"
+      "executionTime": 450,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_012",
@@ -8836,8 +8836,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 324,
-      "timestamp": "2026-08-18T16:39:43.237Z"
+      "executionTime": 118,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_013",
@@ -8853,8 +8853,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 421,
-      "timestamp": "2026-08-18T16:39:43.238Z"
+      "executionTime": 115,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_014",
@@ -8870,8 +8870,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 116,
-      "timestamp": "2026-08-18T16:39:43.238Z"
+      "executionTime": 290,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_015",
@@ -8887,8 +8887,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 325,
-      "timestamp": "2026-08-18T16:39:43.238Z"
+      "executionTime": 149,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_016",
@@ -8904,8 +8904,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 442,
-      "timestamp": "2026-08-18T16:39:43.238Z"
+      "executionTime": 355,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_017",
@@ -8921,8 +8921,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 448,
-      "timestamp": "2026-08-18T16:39:43.238Z"
+      "executionTime": 386,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_018",
@@ -8938,8 +8938,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 114,
-      "timestamp": "2026-08-18T16:39:43.238Z"
+      "executionTime": 136,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_019",
@@ -8955,8 +8955,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 136,
-      "timestamp": "2026-08-18T16:39:43.238Z"
+      "executionTime": 364,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_020",
@@ -8972,8 +8972,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 191,
-      "timestamp": "2026-08-18T16:39:43.238Z"
+      "executionTime": 174,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_021",
@@ -8989,8 +8989,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 281,
-      "timestamp": "2026-08-18T16:39:43.238Z"
+      "executionTime": 118,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_022",
@@ -9006,8 +9006,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 469,
-      "timestamp": "2026-08-18T16:39:43.238Z"
+      "executionTime": 338,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_023",
@@ -9023,8 +9023,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 376,
-      "timestamp": "2026-08-18T16:39:43.238Z"
+      "executionTime": 124,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_024",
@@ -9040,8 +9040,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 275,
-      "timestamp": "2026-08-18T16:39:43.238Z"
+      "executionTime": 303,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_025",
@@ -9057,8 +9057,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 303,
-      "timestamp": "2026-08-18T16:39:43.238Z"
+      "executionTime": 264,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_026",
@@ -9074,8 +9074,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 381,
-      "timestamp": "2026-08-18T16:39:43.238Z"
+      "executionTime": 189,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_027",
@@ -9091,8 +9091,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 218,
-      "timestamp": "2026-08-18T16:39:43.238Z"
+      "executionTime": 214,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_028",
@@ -9108,8 +9108,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 348,
-      "timestamp": "2026-08-18T16:39:43.238Z"
+      "executionTime": 151,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_029",
@@ -9125,8 +9125,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 205,
-      "timestamp": "2026-08-18T16:39:43.238Z"
+      "executionTime": 326,
+      "timestamp": "2026-08-19T02:57:28.659Z"
     },
     {
       "id": "TC_REGR_030",
@@ -9142,8 +9142,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 82,
-      "timestamp": "2026-08-18T16:39:43.239Z"
+      "executionTime": 261,
+      "timestamp": "2026-08-19T02:57:28.660Z"
     },
     {
       "id": "TC_REGR_031",
@@ -9159,8 +9159,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 460,
-      "timestamp": "2026-08-18T16:39:43.239Z"
+      "executionTime": 291,
+      "timestamp": "2026-08-19T02:57:28.660Z"
     },
     {
       "id": "TC_REGR_032",
@@ -9176,8 +9176,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 100,
-      "timestamp": "2026-08-18T16:39:43.239Z"
+      "executionTime": 366,
+      "timestamp": "2026-08-19T02:57:28.660Z"
     },
     {
       "id": "TC_REGR_033",
@@ -9193,8 +9193,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 459,
-      "timestamp": "2026-08-18T16:39:43.239Z"
+      "executionTime": 265,
+      "timestamp": "2026-08-19T02:57:28.660Z"
     },
     {
       "id": "TC_REGR_034",
@@ -9210,8 +9210,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 473,
-      "timestamp": "2026-08-18T16:39:43.239Z"
+      "executionTime": 427,
+      "timestamp": "2026-08-19T02:57:28.660Z"
     },
     {
       "id": "TC_REGR_035",
@@ -9227,8 +9227,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 354,
-      "timestamp": "2026-08-18T16:39:43.239Z"
+      "executionTime": 222,
+      "timestamp": "2026-08-19T02:57:28.660Z"
     },
     {
       "id": "TC_REGR_036",
@@ -9244,8 +9244,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 462,
-      "timestamp": "2026-08-18T16:39:43.239Z"
+      "executionTime": 96,
+      "timestamp": "2026-08-19T02:57:28.660Z"
     },
     {
       "id": "TC_REGR_037",
@@ -9261,8 +9261,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 290,
-      "timestamp": "2026-08-18T16:39:43.239Z"
+      "executionTime": 191,
+      "timestamp": "2026-08-19T02:57:28.660Z"
     },
     {
       "id": "TC_REGR_038",
@@ -9278,8 +9278,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 138,
-      "timestamp": "2026-08-18T16:39:43.239Z"
+      "executionTime": 200,
+      "timestamp": "2026-08-19T02:57:28.660Z"
     },
     {
       "id": "TC_REGR_039",
@@ -9295,8 +9295,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 137,
-      "timestamp": "2026-08-18T16:39:43.239Z"
+      "executionTime": 352,
+      "timestamp": "2026-08-19T02:57:28.660Z"
     },
     {
       "id": "TC_REGR_040",
@@ -9312,8 +9312,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 225,
-      "timestamp": "2026-08-18T16:39:43.239Z"
+      "executionTime": 133,
+      "timestamp": "2026-08-19T02:57:28.660Z"
     },
     {
       "id": "TC_REGR_041",
@@ -9329,8 +9329,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 232,
-      "timestamp": "2026-08-18T16:39:43.239Z"
+      "executionTime": 418,
+      "timestamp": "2026-08-19T02:57:28.660Z"
     },
     {
       "id": "TC_REGR_042",
@@ -9346,8 +9346,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 474,
-      "timestamp": "2026-08-18T16:39:43.239Z"
+      "executionTime": 116,
+      "timestamp": "2026-08-19T02:57:28.660Z"
     },
     {
       "id": "TC_REGR_043",
@@ -9363,8 +9363,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 244,
-      "timestamp": "2026-08-18T16:39:43.239Z"
+      "executionTime": 148,
+      "timestamp": "2026-08-19T02:57:28.660Z"
     },
     {
       "id": "TC_REGR_044",
@@ -9380,8 +9380,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 310,
-      "timestamp": "2026-08-18T16:39:43.239Z"
+      "executionTime": 346,
+      "timestamp": "2026-08-19T02:57:28.660Z"
     },
     {
       "id": "TC_REGR_045",
@@ -9397,8 +9397,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 144,
-      "timestamp": "2026-08-18T16:39:43.239Z"
+      "executionTime": 352,
+      "timestamp": "2026-08-19T02:57:28.660Z"
     },
     {
       "id": "TC_REGR_046",
@@ -9414,8 +9414,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 411,
-      "timestamp": "2026-08-18T16:39:43.240Z"
+      "executionTime": 87,
+      "timestamp": "2026-08-19T02:57:28.660Z"
     },
     {
       "id": "TC_REGR_047",
@@ -9431,8 +9431,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 178,
-      "timestamp": "2026-08-18T16:39:43.240Z"
+      "executionTime": 343,
+      "timestamp": "2026-08-19T02:57:28.660Z"
     },
     {
       "id": "TC_REGR_048",
@@ -9448,8 +9448,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 455,
-      "timestamp": "2026-08-18T16:39:43.240Z"
+      "executionTime": 157,
+      "timestamp": "2026-08-19T02:57:28.660Z"
     },
     {
       "id": "TC_REGR_049",
@@ -9465,8 +9465,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 173,
-      "timestamp": "2026-08-18T16:39:43.240Z"
+      "executionTime": 387,
+      "timestamp": "2026-08-19T02:57:28.660Z"
     },
     {
       "id": "TC_REGR_050",
@@ -9482,8 +9482,8 @@
       "status": "PASSED",
       "actualResult": "All components working as designed",
       "failureReason": null,
-      "executionTime": 171,
-      "timestamp": "2026-08-18T16:39:43.240Z"
+      "executionTime": 362,
+      "timestamp": "2026-08-19T02:57:28.660Z"
     }
   ]
 }
