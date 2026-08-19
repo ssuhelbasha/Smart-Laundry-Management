@@ -847,7 +847,7 @@ if (isSupabaseConfigured && supabase) {
 try {
 const { data } = await supabase
 .from('users')
-.update({ status: 'approved', rejection_reason: null })
+.update({ role: 'staff' })
 .eq('user_id', userId)
 .select()
 .single();
@@ -912,7 +912,7 @@ if (isSupabaseConfigured && supabase) {
 try {
 const { data } = await supabase
 .from('users')
-.update({ status: 'rejected', rejection_reason: rejectionReason })
+.update({ role: 'rejected_staff' })
 .eq('user_id', userId)
 .select()
 .single();
