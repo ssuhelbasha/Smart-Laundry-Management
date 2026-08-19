@@ -120,6 +120,26 @@ const AdminDashboard = ({ user }) => {
     }
   };
 
+  const [orderStaffSelections, setOrderStaffSelections] = useState({});
+
+  const handleAssignStaff = async (orderId) => {
+    const staffId = orderStaffSelections[orderId];
+    if (!staffId) return alert("Please select a staff member to assign.");
+    
+    setActionLoading(prev => ({ ...prev, [orderId]: true }));
+    try {
+      const res = await axios.put(`/api/orders/${orderId}/status`, { staffId });
+      if (res.data.success) {
+        alert("Order assigned successfully.");
+        await fetchData();
+      }
+    } catch (err) {
+      alert(err.response?.data?.message || "Failed to assign staff to order.");
+    } finally {
+      setActionLoading(prev => ({ ...prev, [orderId]: false }));
+    }
+  };
+
   const revenue = orders.reduce((sum, o) => o.status === 'Delivered' ? sum + (o.totalPrice || 0) : sum, 0);
   const pendingOrders = orders.filter(o => o.status !== 'Delivered' && o.status !== 'Rejected').length;
   
@@ -324,13 +344,20 @@ const AdminDashboard = ({ user }) => {
                       <th className="p-5">Status</th>
                       <th className="p-5">Amount</th>
                       <th className="p-5">Date</th>
+                      <th className="p-5">Assigned Staff</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-gray-100">
-                    {orders.map(order => (
-                      <tr key={order.orderId || order.order_id} className="hover:bg-blue-50/50 transition-colors">
+                    {orders.map(order => {
+                      const oId = order.orderId || order.order_id;
+                      const staffId = order.assignedStaffId || order.assigned_staff_id;
+                      const assignedStaff = staffId ? approvedStaffMembers.find(u => u.userId === staffId || u.user_id === staffId) : null;
+                      const staffName = assignedStaff ? assignedStaff.name : (staffId ? getUsername(staffId) : null);
+                      
+                      return (
+                      <tr key={oId} className="hover:bg-blue-50/50 transition-colors">
                         <td className="p-5">
-                           <p className="text-sm font-bold text-gray-900">#{(order.orderId || order.order_id || '').substring(0,8)}</p>
+                           <p className="text-sm font-bold text-gray-900">#{(oId || '').substring(0,8)}</p>
                            <p className="text-xs text-blue-600 font-semibold mt-1">{getUsername(order.userId || order.user_id)}</p>
                         </td>
                         <td className="p-5">
@@ -349,8 +376,38 @@ const AdminDashboard = ({ user }) => {
                         <td className="p-5 text-sm text-gray-500 font-medium">
                           {new Date(order.createdAt || order.created_at || Date.now()).toLocaleDateString()}
                         </td>
+                        <td className="p-5">
+                          {staffId ? (
+                            <div className="flex items-center gap-2">
+                              <span className="text-sm font-bold text-gray-800">{staffName}</span>
+                              <UserCheck size={16} className="text-green-500" />
+                            </div>
+                          ) : order.status === 'Pending' ? (
+                            <div className="flex flex-col gap-2">
+                              <select 
+                                className="text-xs p-1.5 rounded border border-gray-300 bg-white"
+                                value={orderStaffSelections[oId] || ''}
+                                onChange={e => setOrderStaffSelections(prev => ({ ...prev, [oId]: e.target.value }))}
+                              >
+                                <option value="">[ Select Staff ]</option>
+                                {approvedStaffMembers.map(s => (
+                                  <option key={s.userId} value={s.userId}>{s.name}</option>
+                                ))}
+                              </select>
+                              <button 
+                                onClick={() => handleAssignStaff(oId)}
+                                disabled={actionLoading[oId] || !orderStaffSelections[oId]}
+                                className="px-2 py-1 bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold rounded transition-colors disabled:opacity-50"
+                              >
+                                {actionLoading[oId] ? 'Assigning...' : 'Assign'}
+                              </button>
+                            </div>
+                          ) : (
+                            <span className="text-xs text-gray-400 font-medium italic">Unassigned</span>
+                          )}
+                        </td>
                       </tr>
-                    ))}
+                    )})}
                   </tbody>
                 </table>
               </div>

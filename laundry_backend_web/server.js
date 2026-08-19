@@ -1092,12 +1092,12 @@ app.get('/api/orders', async (req, res) => {
   let orders = localDb.orders || [];
 
   if (userId) orders = orders.filter(o => o.userId === userId);
-  else if (staffId) orders = orders.filter(o => o.assignedStaffId === staffId || o.status === "Pending" || o.assignedStaffId === null);
+  else if (staffId) orders = orders.filter(o => o.assignedStaffId === staffId);
 
   if (isSupabaseConfigured && supabase) {
     let query = supabase.from('orders').select('*').order('created_at', { ascending: false });
     if (userId) query = query.eq('user_id', userId);
-    else if (staffId) query = query.or(`assigned_staff_id.eq.${staffId},status.eq.Pending,assigned_staff_id.is.null`);
+    else if (staffId) query = query.eq('assigned_staff_id', staffId);
     const { data } = await query;
     if (data) {
         const supabaseOrders = data.map(o => ({

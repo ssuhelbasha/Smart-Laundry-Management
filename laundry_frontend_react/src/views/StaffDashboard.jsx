@@ -150,14 +150,21 @@ const StaffDashboard = ({ user }) => {
                 </div>
                 
                 <div className="bg-gray-50 rounded-xl p-4 mb-4 space-y-3 border border-gray-100">
-                  <div className="flex items-start gap-3">
-                    <MapPin className="text-primary w-5 h-5 mt-0.5" />
-                    <div className="text-sm">
-                      <p className="font-bold text-gray-700">Customer: {order.customerName || order.userId.substring(0,8)}</p>
-                      <p className="text-gray-500 mt-1">Ready for {order.status === 'Pending' ? 'pickup' : 'delivery'}</p>
+                  <div className="flex items-start gap-3 border-b border-gray-200 pb-3">
+                    <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold text-lg">
+                      {order.customerName ? order.customerName.charAt(0).toUpperCase() : 'C'}
+                    </div>
+                    <div className="flex-1">
+                      <p className="font-bold text-lg text-gray-800">{order.customerName || order.userId.substring(0,8)}</p>
+                      {order.customerPhone && (
+                        <p className="text-gray-500 font-medium text-sm flex items-center gap-1 mt-0.5">
+                          <Phone size={14} /> {order.customerPhone}
+                        </p>
+                      )}
                     </div>
                   </div>
-                  <div className="flex justify-between items-center text-sm font-medium">
+                  
+                  <div className="flex justify-between items-center text-sm font-medium pt-1">
                      <div className="flex items-center gap-3 text-gray-600">
                        <Clock className="text-primary w-5 h-5" />
                        <p>Scheduled: {new Date(order.pickupDate).toLocaleDateString()}</p>
