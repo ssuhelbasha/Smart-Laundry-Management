@@ -1172,10 +1172,41 @@ app.post('/api/orders', async (req, res) => {
   const localDb = readLocalDb();
   const userIdx = localDb.users?.findIndex(u => u.userId === userId || u.user_id === userId);
   
+  let currentBalance = 0;
+  
+  if (isSupabaseConfigured && supabase) {
+      try {
+          const { data, error } = await supabase.from('users').select('wallet_balance').eq('user_id', userId).single();
+          if (!error && data) {
+              currentBalance = parseFloat(data.wallet_balance || 0);
+          } else if (error) {
+              console.error("Supabase balance fetch error:", error.message);
+          }
+      } catch (err) {
+          console.error("Supabase balance exception:", err.message);
+      }
+  } else {
+      if (userIdx !== -1 && localDb.users) {
+          currentBalance = parseFloat(localDb.users[userIdx].walletBalance || localDb.users[userIdx].wallet_balance || 0);
+      }
+  }
+
+  if (currentBalance < cost) {
+      return res.status(400).json({ success: false, message: "Insufficient balance to place the order" });
+  }
+
+  const newBalance = currentBalance - cost;
+
+  if (isSupabaseConfigured && supabase) {
+      try {
+          await supabase.from('users').update({ wallet_balance: newBalance }).eq('user_id', userId);
+      } catch (err) {
+          console.error("Supabase balance update error:", err.message);
+      }
+  }
+
   if (userIdx !== -1 && localDb.users) {
-      const balance = parseFloat(localDb.users[userIdx].walletBalance || localDb.users[userIdx].wallet_balance || 0);
-      if (balance < cost) return res.status(400).json({ success: false, message: "Insufficient wallet balance." });
-      localDb.users[userIdx].walletBalance = balance - cost;
+      localDb.users[userIdx].walletBalance = newBalance;
   }
 
   const orderId = 'ord_' + Math.random().toString(36).substr(2, 9);
@@ -1345,20 +1376,60 @@ app.put('/api/orders/:id/status', async (req, res) => {
       order = localDb.orders[orderIdx];
       
       if (status === "Rejected" && order.paymentStatus === "Paid") {
+          let refundAmount = parseFloat(order.totalPrice || 0);
+          
+          if (isSupabaseConfigured && supabase) {
+              try {
+                  const { data } = await supabase.from('users').select('wallet_balance').eq('user_id', order.userId).single();
+                  if (data) {
+                      const currentBal = parseFloat(data.wallet_balance || 0);
+                      await supabase.from('users').update({ wallet_balance: currentBal + refundAmount }).eq('user_id', order.userId);
+                  }
+              } catch (err) {
+                  console.error("Supabase refund error:", err.message);
+              }
+          }
+          
           const userIdx = localDb.users?.findIndex(u => u.userId === order.userId || u.user_id === order.userId);
           if (userIdx !== -1) {
-              localDb.users[userIdx].walletBalance = parseFloat(localDb.users[userIdx].walletBalance || 0) + parseFloat(order.totalPrice);
+              localDb.users[userIdx].walletBalance = parseFloat(localDb.users[userIdx].walletBalance || 0) + refundAmount;
           }
           localDb.orders[orderIdx].paymentStatus = "Refunded";
           localDb.orders[orderIdx].assignedStaffId = null;
       }
-      
+
+
+
+
+
+
+
+
       if (status === "Delivered" && order.paymentStatus === "Paid") {
+          let orderAmount = parseFloat(order.totalPrice || 0);
+          
+          if (isSupabaseConfigured && supabase) {
+              try {
+                  const { data: admin } = await supabase.from('users').select('user_id, wallet_balance').eq('role', 'admin').limit(1).single();
+                  if (admin) {
+                      const currentBal = parseFloat(admin.wallet_balance || 0);
+                      await supabase.from('users').update({ wallet_balance: currentBal + orderAmount }).eq('user_id', admin.user_id);
+                  }
+              } catch (err) {
+                  console.error("Supabase admin wallet update error:", err.message);
+              }
+          }
+          
           const adminIdx = localDb.users?.findIndex(u => u.role === 'admin');
           if (adminIdx !== -1) {
-              localDb.users[adminIdx].walletBalance = parseFloat(localDb.users[adminIdx].walletBalance || 0) + parseFloat(order.totalPrice);
+              localDb.users[adminIdx].walletBalance = parseFloat(localDb.users[adminIdx].walletBalance || 0) + orderAmount;
           }
       }
+
+
+
+
+
       writeLocalDb(localDb);
 
       // Notify Customer of Status Change (if changed)
