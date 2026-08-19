@@ -779,7 +779,7 @@ let staffMap = new Map();
 
 // Load from local DB
 if (localDb.users) {
-localDb.users.filter(u => u.role === 'staff').forEach(u => {
+localDb.users.filter(u => u.role === 'staff' || u.role === 'pending_staff' || u.role === 'rejected_staff').forEach(u => {
 const uid = u.userId || u.user_id;
 staffMap.set(uid, {
 userId: uid,
@@ -806,7 +806,7 @@ try {
 const { data, error } = await supabase
 .from('users')
 .select('*')
-.eq('role', 'staff');
+.in('role', ['staff', 'pending_staff', 'rejected_staff']);
 
 if (!error && data) {
 data.forEach(u => {
@@ -818,7 +818,7 @@ email: u.email,
 phone: u.phone,
 address: u.address,
 role: 'staff',
-status: u.status || existing.status || 'pending',
+status: u.role === 'pending_staff' ? 'pending' : (u.role === 'rejected_staff' ? 'rejected' : 'approved'),
 rejectionReason: u.rejection_reason || existing.rejectionReason || '',
 walletBalance: parseFloat(u.wallet_balance || existing.walletBalance || 0),
 staffPhoto: u.staff_photo || existing.staffPhoto,
