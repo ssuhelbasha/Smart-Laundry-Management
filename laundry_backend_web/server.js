@@ -603,24 +603,30 @@ created_at: createdAt
 };
 
 // 1. Try writing to Supabase if configured
+// 1. Try writing to Supabase if configured
 if (isSupabaseConfigured && supabase) {
 try {
-await supabase
+const { data, error } = await supabase
 .from('users')
 .insert([{
 user_id: userId,
 name,
 email: lowerEmail,
 password: hashPassword(password),
-phone,
-address,
+phone: phone || '',
+address: address || '',
 role: selectedRole === 'staff' ? 'pending_staff' : selectedRole,
 wallet_balance: 0.00
 }]);
+if (error) {
+    console.error("Supabase insert error:", error);
+    return res.status(400).json({ success: false, message: "Registration failed: " + error.message });
+}
 } catch (err) {
 console.warn("Supabase insert exception:", err.message);
 }
 }
+
 
 // 2. Always persist full metadata to local db.json
 const localDb = readLocalDb();
