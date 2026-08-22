@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../services/api_service.dart';
-import 'dart:async';
 
 class AuthScreen extends StatefulWidget {
   const AuthScreen({super.key});
@@ -11,57 +10,28 @@ class AuthScreen extends StatefulWidget {
 }
 
 class _AuthScreenState extends State<AuthScreen> {
+  final _nameController = TextEditingController();
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
-  final _otpController = TextEditingController();
   final _phoneController = TextEditingController();
   final _addressController = TextEditingController();
+  final _otpController = TextEditingController();
   
-  // mode: 'login' | 'register' | 'forgot_password'
-  String _authMode = 'login';
+  bool _isLogin = true;
+  bool _otpSent = false;
   String _selectedRole = 'customer';
   bool _isLoading = false;
-  bool _otpSent = false;
-  
-  int _resendTimer = 0;
-  Timer? _timer;
 
-  @override
-  void dispose() {
-    _emailController.dispose();
-    _passwordController.dispose();
-    _otpController.dispose();
-    _phoneController.dispose();
-    _addressController.dispose();
-    _timer?.cancel();
-    super.dispose();
-  }
-
-  void _startResendTimer() {
-    setState(() => _resendTimer = 30);
-    _timer?.cancel();
-    _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
-      if (_resendTimer > 0) {
-        setState(() => _resendTimer--);
-      } else {
-        timer.cancel();
-      }
-    });
-  }
-
-  Future<void> _sendOtp(String purpose) async {
-    if (_emailController.text.isEmpty || !_emailController.text.contains('@')) {
-      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Please enter a valid email address.')));
+  Future<void> _sendOtp() async {
+    if (_emailController.text.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Please enter email first')));
       return;
     }
     setState(() => _isLoading = true);
     try {
-      final res = await ApiService.sendOtp(_emailController.text, purpose);
-      setState(() {
-        _otpSent = true;
-      });
-      _startResendTimer();
-      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(res['message'] ?? 'OTP sent to your email.')));
+      await ApiService.sendOtp(_emailController.text, 'registration');
+      setState(() => _otpSent = true);
+      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('OTP sent to email')));
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(e.toString())));
     } finally {
@@ -70,60 +40,27 @@ class _AuthScreenState extends State<AuthScreen> {
   }
 
   Future<void> _submit() async {
-    if (_emailController.text.isEmpty || _passwordController.text.isEmpty) {
-       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Please fill all required fields.')));
-       return;
-    }
-    
     setState(() => _isLoading = true);
     try {
-      if (_authMode == 'login') {
+      if (_isLogin) {
         final res = await ApiService.login(_emailController.text, _passwordController.text);
-        await _saveUserData(res['token'], res['user']['role']);
-        _navigateBasedOnRole(res['user']['role']);
-      } else if (_authMode == 'register') {
-        if (!_otpSent) {
-           ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Please verify your email with OTP first.')));
-           setState(() => _isLoading = false);
-           return;
-        }
-        if (_otpController.text.isEmpty) {
-           ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Please enter the OTP.')));
-           setState(() => _isLoading = false);
-           return;
-        }
+        final user = res['user'];
+        await _saveUserData(user['userId'], user['role']);
+        _navigateBasedOnRole(user['role']);
+      } else {
         await ApiService.register(
-           _emailController.text, 
-           _passwordController.text, 
-           _selectedRole,
-           _otpController.text,
-           phone: _phoneController.text.isEmpty ? null : _phoneController.text,
-           address: _addressController.text.isEmpty ? null : _addressController.text,
+          _emailController.text,
+          _passwordController.text,
+          _selectedRole,
+          _nameController.text,
+          _phoneController.text,
+          _addressController.text,
+          _otpController.text,
         );
         ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Registration successful. Please login.')));
         setState(() {
-           _authMode = 'login';
-           _otpSent = false;
-           _otpController.clear();
-        });
-      } else if (_authMode == 'forgot_password') {
-        if (!_otpSent) {
-           ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Please request a reset OTP first.')));
-           setState(() => _isLoading = false);
-           return;
-        }
-        if (_otpController.text.isEmpty) {
-           ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Please enter the OTP.')));
-           setState(() => _isLoading = false);
-           return;
-        }
-        final res = await ApiService.resetPassword(_emailController.text, _otpController.text, _passwordController.text);
-        ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(res['message'] ?? 'Password reset successfully.')));
-        setState(() {
-           _authMode = 'login';
-           _otpSent = false;
-           _otpController.clear();
-           _passwordController.clear();
+          _isLogin = true;
+          _otpSent = false;
         });
       }
     } catch (e) {
@@ -133,9 +70,9 @@ class _AuthScreenState extends State<AuthScreen> {
     }
   }
 
-  Future<void> _saveUserData(String token, String role) async {
+  Future<void> _saveUserData(String userId, String role) async {
     final prefs = await SharedPreferences.getInstance();
-    await prefs.setString('token', token);
+    await prefs.setString('userId', userId);
     await prefs.setString('role', role);
   }
 
@@ -156,27 +93,71 @@ class _AuthScreenState extends State<AuthScreen> {
               const Icon(Icons.local_laundry_service, size: 80, color: Colors.blueAccent),
               const SizedBox(height: 24),
               Text(
-                _authMode == 'login' ? 'Welcome Back' : _authMode == 'register' ? 'Create Account' : 'Reset Password',
+                _isLogin ? 'Welcome Back' : 'Create Account',
                 style: Theme.of(context).textTheme.headlineMedium,
                 textAlign: TextAlign.center,
               ),
               const SizedBox(height: 32),
               
+              if (!_isLogin)
+                TextField(
+                  controller: _nameController,
+                  decoration: const InputDecoration(labelText: 'Full Name', border: OutlineInputBorder()),
+                ),
+              if (!_isLogin) const SizedBox(height: 16),
+
               TextField(
                 controller: _emailController,
                 decoration: const InputDecoration(labelText: 'Email', border: OutlineInputBorder()),
                 keyboardType: TextInputType.emailAddress,
-                enabled: !_otpSent,
               ),
               const SizedBox(height: 16),
-              
-              if (_authMode == 'register' && !_otpSent)
+
+              if (!_isLogin && !_otpSent)
+                FilledButton.tonal(
+                  onPressed: _isLoading ? null : _sendOtp,
+                  child: const Text('Send OTP to Email'),
+                ),
+              if (!_isLogin && !_otpSent) const SizedBox(height: 16),
+
+              if (!_isLogin && _otpSent)
+                TextField(
+                  controller: _otpController,
+                  decoration: const InputDecoration(labelText: 'OTP Code', border: OutlineInputBorder()),
+                  keyboardType: TextInputType.number,
+                ),
+              if (!_isLogin && _otpSent) const SizedBox(height: 16),
+
+              TextField(
+                controller: _passwordController,
+                decoration: const InputDecoration(labelText: 'Password', border: OutlineInputBorder()),
+                obscureText: true,
+              ),
+              const SizedBox(height: 16),
+
+              if (!_isLogin)
+                TextField(
+                  controller: _phoneController,
+                  decoration: const InputDecoration(labelText: 'Phone', border: OutlineInputBorder()),
+                  keyboardType: TextInputType.phone,
+                ),
+              if (!_isLogin) const SizedBox(height: 16),
+
+              if (!_isLogin)
+                TextField(
+                  controller: _addressController,
+                  decoration: const InputDecoration(labelText: 'Address', border: OutlineInputBorder()),
+                ),
+              if (!_isLogin) const SizedBox(height: 16),
+
+              if (!_isLogin)
                 DropdownButtonFormField<String>(
                   value: _selectedRole,
                   decoration: const InputDecoration(labelText: 'Role', border: OutlineInputBorder()),
                   items: const [
                     DropdownMenuItem(value: 'customer', child: Text('Customer')),
                     DropdownMenuItem(value: 'staff', child: Text('Staff')),
+                    DropdownMenuItem(value: 'admin', child: Text('Admin')),
                   ],
                   onChanged: (value) {
                     setState(() {
@@ -184,95 +165,24 @@ class _AuthScreenState extends State<AuthScreen> {
                     });
                   },
                 ),
-              if (_authMode == 'register' && !_otpSent) const SizedBox(height: 16),
-
-              if (_authMode == 'register' && !_otpSent) ...[
-                TextField(
-                  controller: _phoneController,
-                  decoration: const InputDecoration(labelText: 'Phone (Optional)', border: OutlineInputBorder()),
-                  keyboardType: TextInputType.phone,
-                ),
-                const SizedBox(height: 16),
-                TextField(
-                  controller: _addressController,
-                  decoration: const InputDecoration(labelText: 'Address (Optional)', border: OutlineInputBorder()),
-                ),
-                const SizedBox(height: 16),
-              ],
-              
-              if ((_authMode == 'register' || _authMode == 'forgot_password') && !_otpSent)
-                ElevatedButton.icon(
-                  onPressed: _isLoading ? null : () => _sendOtp(_authMode == 'register' ? 'registration' : 'password_reset'),
-                  icon: const Icon(Icons.mail),
-                  label: Text(_authMode == 'register' ? 'Send Verification OTP' : 'Send Reset OTP'),
-                ),
-
-              if ((_authMode == 'register' || _authMode == 'forgot_password') && _otpSent) ...[
-                Row(
-                  children: [
-                    Expanded(
-                      child: TextField(
-                        controller: _otpController,
-                        decoration: const InputDecoration(labelText: '6-Digit OTP', border: OutlineInputBorder()),
-                        keyboardType: TextInputType.number,
-                        maxLength: 6,
-                      ),
+              const SizedBox(height: 24),
+              _isLoading
+                  ? const Center(child: CircularProgressIndicator())
+                  : FilledButton(
+                      onPressed: (_isLogin || _otpSent) ? _submit : null,
+                      child: Text(_isLogin ? 'Login' : 'Register'),
                     ),
-                    const SizedBox(width: 8),
-                    TextButton(
-                      onPressed: _resendTimer > 0 ? null : () => _sendOtp(_authMode == 'register' ? 'registration' : 'password_reset'),
-                      child: Text(_resendTimer > 0 ? 'Resend in ${_resendTimer}s' : 'Resend OTP'),
-                    ),
-                  ],
-                ),
-                const SizedBox(height: 8),
-              ],
-
-              if (_authMode == 'login' || (_authMode == 'register' && _otpSent) || (_authMode == 'forgot_password' && _otpSent)) ...[
-                TextField(
-                  controller: _passwordController,
-                  decoration: InputDecoration(
-                    labelText: _authMode == 'forgot_password' ? 'New Password' : 'Password', 
-                    border: const OutlineInputBorder()
-                  ),
-                  obscureText: true,
-                ),
-                const SizedBox(height: 24),
-                _isLoading
-                    ? const Center(child: CircularProgressIndicator())
-                    : FilledButton(
-                        onPressed: _submit,
-                        child: Text(_authMode == 'login' ? 'Login' : _authMode == 'register' ? 'Register' : 'Reset Password'),
-                      ),
-              ],
-
-              if (_authMode == 'login')
-                TextButton(
-                  onPressed: () {
-                    setState(() {
-                       _authMode = 'forgot_password';
-                       _otpSent = false;
-                       _passwordController.clear();
-                       _otpController.clear();
-                    });
-                  },
-                  child: const Text('Forgot Password?'),
-                ),
-
               TextButton(
-                onPressed: () {
-                  setState(() {
-                    _authMode = _authMode == 'login' ? 'register' : 'login';
-                    _otpSent = false;
-                    _passwordController.clear();
-                    _otpController.clear();
-                  });
-                },
-                child: Text(_authMode == 'login' ? 'Don\'t have an account? Register' : 'Already have an account? Login'),
+                onPressed: () => setState(() {
+                  _isLogin = !_isLogin;
+                  _otpSent = false;
+                }),
+                child: Text(_isLogin ? 'Don\'t have an account? Register' : 'Already have an account? Login'),
               ),
             ],
           ),
         ),
       ),
     );
+  }
 }

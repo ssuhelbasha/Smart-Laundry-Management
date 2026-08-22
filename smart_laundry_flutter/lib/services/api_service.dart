@@ -3,90 +3,94 @@ import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ApiService {
-  static const String baseUrl = 'https://smart-laundry-management.vercel.app/api';
+  // Production backend URL
+  static const String baseUrl = 'https://smart-laundry-backend-lkaysswj0-suhel-basha-shaik-s-projects.vercel.app/api';
 
-  static Future<String?> getToken() async {
+  static Future<String?> getUserId() async {
     final prefs = await SharedPreferences.getInstance();
-    return prefs.getString('token');
+    return prefs.getString('userId');
   }
 
-  static Future<Map<String, String>> _getHeaders() async {
-    final token = await getToken();
+  static Future<String?> getRole() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getString('role');
+  }
+
+  static Map<String, String> _getHeaders() {
     return {
       'Content-Type': 'application/json',
-      if (token != null) 'Authorization': 'Bearer $token',
     };
-  }
-
-  static Future<Map<String, dynamic>> login(String email, String password) async {
-    final response = await http.post(
-      Uri.parse('$baseUrl/auth/login'),
-      headers: {'Content-Type': 'application/json'},
-      body: jsonEncode({'email': email, 'password': password}),
-    );
-    if (response.statusCode == 200) {
-      return jsonDecode(response.body);
-    } else {
-      throw Exception('Failed to login');
-    }
-  }
-
-  static Future<Map<String, dynamic>> register(String email, String password, String role, String otpCode, {String? phone, String? address}) async {
-    final body = {
-      'email': email,
-      'password': password,
-      'role': role,
-      'otp_code': otpCode,
-    };
-    if (phone != null) body['phone'] = phone;
-    if (address != null) body['address'] = address;
-    
-    final response = await http.post(
-      Uri.parse('$baseUrl/auth/register'),
-      headers: {'Content-Type': 'application/json'},
-      body: jsonEncode(body),
-    );
-    if (response.statusCode == 200 || response.statusCode == 201) {
-      return jsonDecode(response.body);
-    } else {
-      final errorMsg = jsonDecode(response.body)['message'] ?? 'Failed to register';
-      throw Exception(errorMsg);
-    }
   }
 
   static Future<Map<String, dynamic>> sendOtp(String email, String purpose) async {
     final response = await http.post(
       Uri.parse('$baseUrl/auth/send-otp'),
-      headers: {'Content-Type': 'application/json'},
+      headers: _getHeaders(),
       body: jsonEncode({'email': email, 'purpose': purpose}),
     );
-    if (response.statusCode == 200) {
-      return jsonDecode(response.body);
+    final data = jsonDecode(response.body);
+    if (response.statusCode == 200 && data['success'] == true) {
+      return data;
     } else {
-      final errorMsg = jsonDecode(response.body)['message'] ?? 'Failed to send OTP';
-      throw Exception(errorMsg);
+      throw Exception(data['message'] ?? 'Failed to send OTP');
     }
   }
 
-  static Future<Map<String, dynamic>> resetPassword(String email, String otpCode, String newPassword) async {
+  static Future<Map<String, dynamic>> login(String email, String password) async {
     final response = await http.post(
-      Uri.parse('$baseUrl/auth/reset-password'),
-      headers: {'Content-Type': 'application/json'},
-      body: jsonEncode({'email': email, 'otp_code': otpCode, 'new_password': newPassword}),
+      Uri.parse('$baseUrl/auth/login'),
+      headers: _getHeaders(),
+      body: jsonEncode({'email': email, 'password': password}),
     );
-    if (response.statusCode == 200) {
-      return jsonDecode(response.body);
+    final data = jsonDecode(response.body);
+    if (response.statusCode == 200 && data['success'] == true) {
+      return data;
     } else {
-      final errorMsg = jsonDecode(response.body)['message'] ?? 'Failed to reset password';
-      throw Exception(errorMsg);
+      throw Exception(data['message'] ?? 'Failed to login');
+    }
+  }
+
+  static Future<Map<String, dynamic>> register(
+      String email, String password, String role, String name, String phone, String address, String otpCode) async {
+    final response = await http.post(
+      Uri.parse('$baseUrl/auth/register'),
+      headers: _getHeaders(),
+      body: jsonEncode({
+        'name': name,
+        'email': email,
+        'password': password,
+        'phone': phone,
+        'address': address,
+        'role': role,
+        'otp_code': otpCode,
+      }),
+    );
+    final data = jsonDecode(response.body);
+    if (response.statusCode == 200 && data['success'] == true) {
+      return data;
+    } else {
+      throw Exception(data['message'] ?? 'Failed to register');
     }
   }
 
   static Future<List<dynamic>> getOrders() async {
+    final userId = await getUserId();
+    final role = await getRole();
+    
+    if (userId == null) throw Exception('Not logged in');
+
+    String url = '$baseUrl/orders';
+    if (role == 'customer') {
+      url += '?userId=$userId';
+    } else if (role == 'staff') {
+      url += '?staffId=$userId';
+    }
+
     final response = await http.get(
-      Uri.parse('$baseUrl/orders'),
-      headers: await _getHeaders(),
+      Uri.parse(url),
+      headers: _getHeaders(),
     );
+    
     if (response.statusCode == 200) {
       return jsonDecode(response.body);
     } else {
@@ -95,28 +99,39 @@ class ApiService {
   }
 
   static Future<Map<String, dynamic>> createOrder(Map<String, dynamic> orderData) async {
+    final userId = await getUserId();
+    if (userId == null) throw Exception('Not logged in');
+    
+    // Ensure userId is in the payload
+    orderData['userId'] = userId;
+
     final response = await http.post(
       Uri.parse('$baseUrl/orders'),
-      headers: await _getHeaders(),
+      headers: _getHeaders(),
       body: jsonEncode(orderData),
     );
-    if (response.statusCode == 200 || response.statusCode == 201) {
-      return jsonDecode(response.body);
+    final data = jsonDecode(response.body);
+    if (response.statusCode == 200 && data['success'] == true) {
+      return data;
     } else {
-      throw Exception('Failed to create order');
+      throw Exception(data['message'] ?? 'Failed to create order');
     }
   }
 
   static Future<Map<String, dynamic>> updateOrderStatus(String id, String status) async {
+    final userId = await getUserId();
+    if (userId == null) throw Exception('Not logged in');
+
     final response = await http.put(
-      Uri.parse('$baseUrl/orders/$id'),
-      headers: await _getHeaders(),
-      body: jsonEncode({'status': status}),
+      Uri.parse('$baseUrl/orders/$id/status'),
+      headers: _getHeaders(),
+      body: jsonEncode({'status': status, 'staffId': userId}),
     );
-    if (response.statusCode == 200) {
-      return jsonDecode(response.body);
+    final data = jsonDecode(response.body);
+    if (response.statusCode == 200 && data['success'] == true) {
+      return data;
     } else {
-      throw Exception('Failed to update order status');
+      throw Exception(data['message'] ?? 'Failed to update order status');
     }
   }
 }

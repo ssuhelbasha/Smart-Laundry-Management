@@ -114,7 +114,7 @@ class _StaffScreenState extends State<StaffScreen> {
                       children: [
                         const SizedBox(height: 8),
                         Text('Order ID: ${order['orderId']}'),
-                        Text('Total: ₹${order['totalPrice']?.toStringAsFixed(2)}'),
+                        Text('Total: \$${(order['totalPrice'] as num?)?.toStringAsFixed(2)}'),
                         const SizedBox(height: 4),
                         Container(
                           padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),

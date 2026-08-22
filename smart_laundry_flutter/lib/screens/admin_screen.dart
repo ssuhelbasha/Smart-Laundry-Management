@@ -57,8 +57,8 @@ class _AdminScreenState extends State<AdminScreen> {
                 return Card(
                   margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                   child: ListTile(
-                    title: Text('Order: ${order['serviceDetails'] ?? 'Unknown'}'),
-                    subtitle: Text('User: ${order['user']}\nStatus: ${order['status']}'),
+                    title: Text('${order['serviceType'] ?? 'Unknown'} - ${order['fabricType'] ?? 'Unknown'}'),
+                    subtitle: Text('User: ${order['userId']}\nStatus: ${order['status']} | Price: \$${(order['totalPrice'] as num?)?.toStringAsFixed(2) ?? '0.00'}'),
                     isThreeLine: true,
                   ),
                 );
