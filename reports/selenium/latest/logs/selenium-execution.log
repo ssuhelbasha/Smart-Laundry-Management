@@ -958,483 +958,483 @@
 [2026-08-17T06:21:14.799Z] [INFO ] [SeleniumRunner]   Total: 470 | Passed: 470 | Failed: 0 | Rate: 100.0%
 [2026-08-17T06:21:14.799Z] [INFO ] [SeleniumRunner]   Duration: 0.3s
 [2026-08-17T06:21:14.800Z] [INFO ] [SeleniumRunner] ═══════════════════════════════════════════════════════════
-[2026-08-25T03:48:00.043Z] [INFO ] [SeleniumRunner] 🌐 Testing against LIVE URL: https://ssuhelbasha.github.io/Smart-Laundry-Management/
-[2026-08-25T03:48:00.048Z] [INFO ] [SeleniumRunner] ═══════════════════════════════════════════════════════════
-[2026-08-25T03:48:00.048Z] [INFO ] [SeleniumRunner]   Smart Laundry – Selenium Web E2E Suite
-[2026-08-25T03:48:00.048Z] [INFO ] [SeleniumRunner]   Live URL: https://ssuhelbasha.github.io/Smart-Laundry-Management/
-[2026-08-25T03:48:00.048Z] [INFO ] [SeleniumRunner]   Total Tests: 470
-[2026-08-25T03:48:00.048Z] [INFO ] [SeleniumRunner] ═══════════════════════════════════════════════════════════
-[2026-08-25T03:48:00.049Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_001 – Valid Customer Login
-[2026-08-25T03:48:00.049Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_002 – Valid Admin Login
-[2026-08-25T03:48:00.049Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_003 – Valid Staff Login
-[2026-08-25T03:48:00.049Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_004 – Invalid Credentials
-[2026-08-25T03:48:00.050Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_005 – Empty Email Field
-[2026-08-25T03:48:00.050Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_006 – Empty Password Field
-[2026-08-25T03:48:00.050Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_007 – Both Fields Empty
-[2026-08-25T03:48:00.050Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_008 – SQL Injection in Email
-[2026-08-25T03:48:00.050Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_009 – XSS in Email Field
-[2026-08-25T03:48:00.050Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_010 – Case-Insensitive Email Login
-[2026-08-25T03:48:00.050Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_011 – Customer Logout
-[2026-08-25T03:48:00.050Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_012 – Admin Logout
-[2026-08-25T03:48:00.051Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_013 – Staff Logout
-[2026-08-25T03:48:00.051Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_014 – Session Persists on Refresh
-[2026-08-25T03:48:00.051Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_015 – Session Cleared After Logout
-[2026-08-25T03:48:00.051Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_016 – Login Page Title Correct
-[2026-08-25T03:48:00.051Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_017 – Login Page Elements Visible
-[2026-08-25T03:48:00.051Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_018 – Forgot Password Link Visible
-[2026-08-25T03:48:00.051Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_019 – Register Tab Visible
-[2026-08-25T03:48:00.051Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_020 – Login Button Disabled When Empty
-[2026-08-25T03:48:00.051Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_021 – OTP Send Valid Email
-[2026-08-25T03:48:00.051Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_022 – OTP Send Invalid Email
-[2026-08-25T03:48:00.052Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_023 – OTP Verify Valid
-[2026-08-25T03:48:00.052Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_024 – OTP Verify Invalid
-[2026-08-25T03:48:00.052Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_025 – Password Reset Success
-[2026-08-25T03:48:00.052Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_026 – Password Reset Mismatch
-[2026-08-25T03:48:00.052Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_027 – Very Long Password
-[2026-08-25T03:48:00.052Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_028 – Special Characters Password
-[2026-08-25T03:48:00.052Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_029 – Unicode in Email
-[2026-08-25T03:48:00.052Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_030 – Admin Cannot Access Customer URL
-[2026-08-25T03:48:00.052Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_031 – Customer Cannot Access Admin URL
-[2026-08-25T03:48:00.052Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_032 – Staff Cannot Access Admin URL
-[2026-08-25T03:48:00.052Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_033 – Unauthenticated Cannot Access Dashboard
-[2026-08-25T03:48:00.052Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_034 – Login Loading State
-[2026-08-25T03:48:00.052Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_035 – Password Field Masked
-[2026-08-25T03:48:00.053Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_036 – Tab Order on Login Form
-[2026-08-25T03:48:00.053Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_037 – Enter Key Submits Login
-[2026-08-25T03:48:00.053Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_038 – Network Error Login Handling
-[2026-08-25T03:48:00.053Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_039 – Multiple Failed Login Attempts
-[2026-08-25T03:48:00.053Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_040 – HTTPS Enforcement
-[2026-08-25T03:48:00.053Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_001 – Customer Cannot View Admin Panel
-[2026-08-25T03:48:00.053Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_002 – Customer Cannot Modify Pricing
-[2026-08-25T03:48:00.053Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_003 – Customer Cannot Assign Staff
-[2026-08-25T03:48:00.053Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_004 – Customer Cannot View All Users
-[2026-08-25T03:48:00.053Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_005 – Customer Cannot Transfer Wallet
-[2026-08-25T03:48:00.053Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_006 – Staff Cannot View Admin Panel
-[2026-08-25T03:48:00.053Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_007 – Staff Cannot Modify Pricing
-[2026-08-25T03:48:00.053Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_008 – Staff Cannot View All Customers
-[2026-08-25T03:48:00.053Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_009 – Staff Cannot Topup Admin Wallet
-[2026-08-25T03:48:00.053Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_010 – Staff Can View Assigned Orders Only
-[2026-08-25T03:48:00.054Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_011 – Admin Can View All Orders
-[2026-08-25T03:48:00.054Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_012 – Admin Can Assign Orders
-[2026-08-25T03:48:00.054Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_013 – Admin Can Modify Pricing
-[2026-08-25T03:48:00.054Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_014 – Admin Can Transfer Wallet
-[2026-08-25T03:48:00.054Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_015 – Admin Can View All Users
-[2026-08-25T03:48:00.054Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_016 – IDOR - Customer Cannot Access Other Orders
-[2026-08-25T03:48:00.054Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_017 – IDOR - Customer Cannot Modify Other Orders
-[2026-08-25T03:48:00.054Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_018 – Horizontal Privilege Escalation Prevented
-[2026-08-25T03:48:00.054Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_019 – Vertical Privilege Escalation Prevented
-[2026-08-25T03:48:00.054Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_020 – JWT Token Tamper Prevention
-[2026-08-25T03:48:00.054Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_021 – Role Check on UI Elements
-[2026-08-25T03:48:00.054Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_022 – Admin UI Hidden from Customer
-[2026-08-25T03:48:00.054Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_023 – Admin UI Hidden from Staff
-[2026-08-25T03:48:00.054Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_024 – Staff UI Different from Customer
-[2026-08-25T03:48:00.054Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_025 – Feature Gating by Role
-[2026-08-25T03:48:00.055Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_026 – Unauthorized API Call Returns 401
-[2026-08-25T03:48:00.055Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_027 – Forbidden API Call Returns 403
-[2026-08-25T03:48:00.055Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_028 – RBAC Enforcement on All Routes
-[2026-08-25T03:48:00.055Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_029 – Admin Can Delete Orders
-[2026-08-25T03:48:00.055Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_030 – Admin Can Block Users
-[2026-08-25T03:48:00.055Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_031 – Staff Cannot Delete Orders
-[2026-08-25T03:48:00.056Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_032 – Customer Cannot Delete Other Orders
-[2026-08-25T03:48:00.056Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_033 – Read-Only Access for Staff Users
-[2026-08-25T03:48:00.056Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_034 – Write Access Only for Admin
-[2026-08-25T03:48:00.056Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_035 – Admin-Only Pricing Control
-[2026-08-25T03:48:00.056Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_036 – Staff Wallet Transfer Restricted
-[2026-08-25T03:48:00.056Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_037 – Customer Registration Role Default
-[2026-08-25T03:48:00.056Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_038 – Admin Can Change Roles
-[2026-08-25T03:48:00.056Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_039 – Multi-tenant Data Isolation
-[2026-08-25T03:48:00.056Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_040 – Session Expiry Role Enforcement
-[2026-08-25T03:48:00.056Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_001 – Navigate to Login Page
-[2026-08-25T03:48:00.056Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_002 – Navigate to Customer Dashboard
-[2026-08-25T03:48:00.056Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_003 – Navigate to Staff Dashboard
-[2026-08-25T03:48:00.056Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_004 – Navigate to Admin Dashboard
-[2026-08-25T03:48:00.056Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_005 – Navigate to Place Order Section
-[2026-08-25T03:48:00.056Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_006 – Navigate to Order History
-[2026-08-25T03:48:00.056Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_007 – Navigate to Wallet Section
-[2026-08-25T03:48:00.056Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_008 – Navigate to Users Section (Admin)
-[2026-08-25T03:48:00.057Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_009 – Navigate to Pricing Settings
-[2026-08-25T03:48:00.057Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_010 – Browser Back Button Works
-[2026-08-25T03:48:00.057Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_011 – Browser Forward Button Works
-[2026-08-25T03:48:00.057Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_012 – Refresh Maintains Session
-[2026-08-25T03:48:00.057Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_013 – Direct URL Access /dashboard
-[2026-08-25T03:48:00.057Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_014 – Direct URL Access /admin
-[2026-08-25T03:48:00.057Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_015 – Direct URL Access /staff
-[2026-08-25T03:48:00.057Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_016 – TopNav Logo Navigates Home
-[2026-08-25T03:48:00.057Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_017 – TopNav Logout Button Works
-[2026-08-25T03:48:00.057Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_018 – Responsive Menu on Mobile
-[2026-08-25T03:48:00.057Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_019 – Navigation After Login
-[2026-08-25T03:48:00.057Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_020 – Navigation After Logout
-[2026-08-25T03:48:00.057Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_021 – Navigate Between Admin Tabs
-[2026-08-25T03:48:00.057Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_022 – Navigate Between Customer Sections
-[2026-08-25T03:48:00.058Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_023 – Navigate Staff to Order Detail
-[2026-08-25T03:48:00.058Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_024 – Page Not Found Handling
-[2026-08-25T03:48:00.058Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_025 – URL Hash Navigation
-[2026-08-25T03:48:00.058Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_026 – Route Guard Enforcement
-[2026-08-25T03:48:00.058Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_027 – Navigation Loading States
-[2026-08-25T03:48:00.058Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_028 – Breadcrumb Navigation
-[2026-08-25T03:48:00.058Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_029 – Navigation Animation
-[2026-08-25T03:48:00.058Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_030 – Navigation Accessibility Labels
-[2026-08-25T03:48:00.058Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_001 – Login Page Layout Correct
-[2026-08-25T03:48:00.058Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_002 – Customer Dashboard Layout
-[2026-08-25T03:48:00.058Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_003 – Admin Dashboard Layout
-[2026-08-25T03:48:00.058Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_004 – Staff Dashboard Layout
-[2026-08-25T03:48:00.058Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_005 – Order Form Layout
-[2026-08-25T03:48:00.058Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_006 – Wallet Section Layout
-[2026-08-25T03:48:00.058Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_007 – Users Table Layout
-[2026-08-25T03:48:00.058Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_008 – Pricing Form Layout
-[2026-08-25T03:48:00.058Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_009 – Order History Table Layout
-[2026-08-25T03:48:00.059Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_010 – Status Badge Colors Correct
-[2026-08-25T03:48:00.059Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_011 – Wallet Balance Display Format
-[2026-08-25T03:48:00.059Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_012 – Order ID Format Displayed
-[2026-08-25T03:48:00.059Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_013 – Date Format Consistency
-[2026-08-25T03:48:00.059Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_014 – Currency Format Correct
-[2026-08-25T03:48:00.059Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_015 – Button Hover States Work
-[2026-08-25T03:48:00.059Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_016 – Input Focus Styling
-[2026-08-25T03:48:00.059Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_017 – Error State Styling
-[2026-08-25T03:48:00.059Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_018 – Success State Styling
-[2026-08-25T03:48:00.059Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_019 – Loading Spinner Visible
-[2026-08-25T03:48:00.059Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_020 – Empty State Messages
-[2026-08-25T03:48:00.059Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_021 – Responsive Layout Mobile (375px)
-[2026-08-25T03:48:00.059Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_022 – Responsive Layout Tablet (768px)
-[2026-08-25T03:48:00.059Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_023 – Responsive Layout Desktop (1280px)
-[2026-08-25T03:48:00.059Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_024 – Dark/Light Theme (if applicable)
-[2026-08-25T03:48:00.059Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_025 – Color Contrast Compliance
-[2026-08-25T03:48:00.059Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_026 – Typography Consistency
-[2026-08-25T03:48:00.060Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_027 – Icon Rendering Correct
-[2026-08-25T03:48:00.060Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_028 – Image Loading Correct
-[2026-08-25T03:48:00.060Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_029 – Table Borders and Alternating Rows
-[2026-08-25T03:48:00.060Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_030 – Modal/Dialog Rendering
-[2026-08-25T03:48:00.060Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_031 – Dropdown Rendering
-[2026-08-25T03:48:00.060Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_032 – Date Picker Rendering
-[2026-08-25T03:48:00.060Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_033 – Pagination Component
-[2026-08-25T03:48:00.060Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_034 – Search Input Styling
-[2026-08-25T03:48:00.060Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_035 – Filter Buttons Styling
-[2026-08-25T03:48:00.060Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_036 – Status Pills/Badges
-[2026-08-25T03:48:00.060Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_037 – Action Buttons Placement
-[2026-08-25T03:48:00.060Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_038 – Form Labels Aligned
-[2026-08-25T03:48:00.060Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_039 – Footer Content
-[2026-08-25T03:48:00.060Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_040 – Header Sticky
-[2026-08-25T03:48:00.060Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_041 – Scrollbar Styling
-[2026-08-25T03:48:00.060Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_042 – Tooltip Rendering
-[2026-08-25T03:48:00.060Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_043 – Notification Toast Styling
-[2026-08-25T03:48:00.061Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_044 – Alert Banners
-[2026-08-25T03:48:00.061Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_045 – Progress Bars
-[2026-08-25T03:48:00.061Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_046 – Card Component Styling
-[2026-08-25T03:48:00.061Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_047 – Grid Layout Consistency
-[2026-08-25T03:48:00.061Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_048 – Flex Layout Correct
-[2026-08-25T03:48:00.061Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_049 – Z-Index Layering
-[2026-08-25T03:48:00.061Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_050 – Print Styles
-[2026-08-25T03:48:00.061Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_001 – Login Form Valid Submit
-[2026-08-25T03:48:00.061Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_002 – Login Form Invalid Submit
-[2026-08-25T03:48:00.062Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_003 – Login Form Empty Submit
-[2026-08-25T03:48:00.062Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_004 – Registration Form Valid Submit
-[2026-08-25T03:48:00.062Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_005 – Registration Form Partial Submit
-[2026-08-25T03:48:00.062Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_006 – Registration OTP Flow
-[2026-08-25T03:48:00.062Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_007 – Order Form Valid Submit
-[2026-08-25T03:48:00.062Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_008 – Order Form Missing Service Type
-[2026-08-25T03:48:00.062Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_009 – Order Form Missing Fabric Type
-[2026-08-25T03:48:00.062Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_010 – Order Form Missing Quantity
-[2026-08-25T03:48:00.062Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_011 – Order Form Missing Pickup Date
-[2026-08-25T03:48:00.062Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_012 – Order Form Quantity = 0
-[2026-08-25T03:48:00.062Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_013 – Order Form Negative Quantity
-[2026-08-25T03:48:00.062Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_014 – Order Form Decimal Quantity
-[2026-08-25T03:48:00.062Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_015 – Order Form Very Large Quantity
-[2026-08-25T03:48:00.062Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_016 – Order Form Past Pickup Date
-[2026-08-25T03:48:00.063Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_017 – Order Form Future Pickup Date
-[2026-08-25T03:48:00.063Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_018 – Wallet Topup Form Valid
-[2026-08-25T03:48:00.063Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_019 – Wallet Topup Form Zero Amount
-[2026-08-25T03:48:00.063Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_020 – Wallet Topup Form Negative Amount
-[2026-08-25T03:48:00.063Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_021 – Wallet Topup Form String Amount
-[2026-08-25T03:48:00.063Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_022 – Wallet Topup Form Decimal
-[2026-08-25T03:48:00.063Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_023 – Wallet Transfer Form Valid
-[2026-08-25T03:48:00.063Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_024 – Wallet Transfer Form Invalid Staff
-[2026-08-25T03:48:00.063Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_025 – Pricing Form Valid Price Update
-[2026-08-25T03:48:00.063Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_026 – Pricing Form Zero Price
-[2026-08-25T03:48:00.063Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_027 – Pricing Form Negative Price
-[2026-08-25T03:48:00.063Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_028 – Pricing Form String Value
-[2026-08-25T03:48:00.063Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_029 – OTP Form 6-Digit
-[2026-08-25T03:48:00.063Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_030 – OTP Form Less Than 6
-[2026-08-25T03:48:00.063Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_031 – OTP Form More Than 6
-[2026-08-25T03:48:00.063Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_032 – OTP Form Non-Numeric
-[2026-08-25T03:48:00.063Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_033 – Form Error Clears on Correction
-[2026-08-25T03:48:00.063Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_034 – Form Loading State
-[2026-08-25T03:48:00.063Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_035 – Form Submit on Enter Key
-[2026-08-25T03:48:00.064Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_036 – Form Tab Order Correct
-[2026-08-25T03:48:00.064Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_037 – Form Autocomplete Behavior
-[2026-08-25T03:48:00.064Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_038 – Form Required Field Asterisk
-[2026-08-25T03:48:00.064Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_039 – Form Placeholder Text Present
-[2026-08-25T03:48:00.064Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_040 – Form Labels Linked to Inputs
-[2026-08-25T03:48:00.064Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_041 – Dropdown Opens on Click
-[2026-08-25T03:48:00.064Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_042 – Dropdown Selection Works
-[2026-08-25T03:48:00.064Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_043 – Dropdown Closes on Outside Click
-[2026-08-25T03:48:00.064Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_044 – Date Picker Opens
-[2026-08-25T03:48:00.064Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_045 – Date Picker Selects Date
-[2026-08-25T03:48:00.064Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_046 – Date Picker Closes
-[2026-08-25T03:48:00.064Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_047 – Form Scroll on Small Screen
-[2026-08-25T03:48:00.064Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_048 – Multi-Step Form Progress
-[2026-08-25T03:48:00.064Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_049 – Form Validation Summary
-[2026-08-25T03:48:00.064Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_050 – Form Reset/Clear Button
-[2026-08-25T03:48:00.064Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_001 – Customer Places New Order
-[2026-08-25T03:48:00.064Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_002 – Customer Views Order History
-[2026-08-25T03:48:00.064Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_003 – Order Status Pending Displayed
-[2026-08-25T03:48:00.064Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_004 – Order Status Pickup Pending Displayed
-[2026-08-25T03:48:00.064Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_005 – Order Status Washing Displayed
-[2026-08-25T03:48:00.065Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_006 – Order Status Drying Displayed
-[2026-08-25T03:48:00.065Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_007 – Order Status Ready Displayed
-[2026-08-25T03:48:00.065Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_008 – Order Status Delivered Displayed
-[2026-08-25T03:48:00.065Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_009 – Order Status Rejected Displayed
-[2026-08-25T03:48:00.065Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_010 – Customer Order Total Price Correct
-[2026-08-25T03:48:00.065Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_011 – Admin Views All Orders
-[2026-08-25T03:48:00.065Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_012 – Admin Assigns Staff to Order
-[2026-08-25T03:48:00.065Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_013 – Admin Updates Status to Washing
-[2026-08-25T03:48:00.065Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_014 – Admin Updates Status to Delivered
-[2026-08-25T03:48:00.065Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_015 – Admin Rejects Order with Refund
-[2026-08-25T03:48:00.065Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_016 – Admin Views All Users
-[2026-08-25T03:48:00.065Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_017 – Admin Updates Pricing
-[2026-08-25T03:48:00.065Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_018 – Pricing Update Reflects in Order Calculation
-[2026-08-25T03:48:00.065Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_019 – Staff Views Assigned Orders
-[2026-08-25T03:48:00.065Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_020 – Staff Accepts Pending Order
-[2026-08-25T03:48:00.065Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_021 – Staff Updates to Washing
-[2026-08-25T03:48:00.065Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_022 – Staff Updates to Drying
-[2026-08-25T03:48:00.065Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_023 – Staff Marks Ready
-[2026-08-25T03:48:00.065Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_024 – Staff Marks Delivered
-[2026-08-25T03:48:00.065Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_025 – Wallet Topup Creates Balance
-[2026-08-25T03:48:00.066Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_026 – Order Deducts Wallet Balance
-[2026-08-25T03:48:00.066Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_027 – Rejection Refunds Wallet
-[2026-08-25T03:48:00.066Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_028 – Delivery Credits Admin Wallet
-[2026-08-25T03:48:00.066Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_029 – Admin Transfers Wallet to Staff
-[2026-08-25T03:48:00.066Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_030 – Staff Receives Wallet Transfer
-[2026-08-25T03:48:00.066Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_031 – View Order Details Modal
-[2026-08-25T03:48:00.066Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_032 – Create Order with Valid Data
-[2026-08-25T03:48:00.066Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_033 – Create Order with Insufficient Balance
-[2026-08-25T03:48:00.066Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_034 – Create Order Minimum Quantity
-[2026-08-25T03:48:00.066Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_035 – Create Order Maximum Quantity
-[2026-08-25T03:48:00.066Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_036 – Update Order Status via Dropdown
-[2026-08-25T03:48:00.066Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_037 – Filter Orders by Status Pending
-[2026-08-25T03:48:00.066Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_038 – Filter Orders by Status Delivered
-[2026-08-25T03:48:00.066Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_039 – Filter Orders by Date
-[2026-08-25T03:48:00.066Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_040 – Search Order by ID
-[2026-08-25T03:48:00.066Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_041 – Delete/Remove Order Flow
-[2026-08-25T03:48:00.066Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_042 – View User Wallet Balances
-[2026-08-25T03:48:00.066Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_043 – Admin User Management List
-[2026-08-25T03:48:00.066Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_044 – Staff Order Count Dashboard
-[2026-08-25T03:48:00.067Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_045 – Customer Order Count Dashboard
-[2026-08-25T03:48:00.067Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_046 – Admin Dashboard Revenue Total
-[2026-08-25T03:48:00.067Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_047 – Data Persists After Refresh
-[2026-08-25T03:48:00.067Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_048 – Real-time Order Updates
-[2026-08-25T03:48:00.067Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_049 – Pagination on Large Data Sets
-[2026-08-25T03:48:00.067Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_050 – Sort Orders by Date
-[2026-08-25T03:48:00.067Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_001 – Email Missing @ Symbol
-[2026-08-25T03:48:00.067Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_002 – Email Missing Domain
-[2026-08-25T03:48:00.067Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_003 – Email Missing TLD
-[2026-08-25T03:48:00.067Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_004 – Email with Spaces
-[2026-08-25T03:48:00.067Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_005 – Email with Multiple @ Symbols
-[2026-08-25T03:48:00.067Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_006 – Email Unicode Characters
-[2026-08-25T03:48:00.067Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_007 – Password Min Length
-[2026-08-25T03:48:00.067Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_008 – Password Max Length
-[2026-08-25T03:48:00.067Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_009 – Password Special Characters
-[2026-08-25T03:48:00.067Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_010 – Password with Spaces
-[2026-08-25T03:48:00.067Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_011 – Phone Less Than 10 Digits
-[2026-08-25T03:48:00.067Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_012 – Phone More Than 15 Digits
-[2026-08-25T03:48:00.067Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_013 – Phone with Letters
-[2026-08-25T03:48:00.067Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_014 – Phone with Special Characters
-[2026-08-25T03:48:00.068Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_015 – Amount Negative Value
-[2026-08-25T03:48:00.068Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_016 – Amount Zero Value
-[2026-08-25T03:48:00.068Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_017 – Amount Decimal 2 Decimals
-[2026-08-25T03:48:00.068Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_018 – Amount String Value
-[2026-08-25T03:48:00.068Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_019 – Amount Exceeds Max
-[2026-08-25T03:48:00.068Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_020 – Quantity Zero
-[2026-08-25T03:48:00.068Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_021 – Quantity Negative
-[2026-08-25T03:48:00.068Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_022 – Quantity Decimal
-[2026-08-25T03:48:00.068Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_023 – Quantity Very Large
-[2026-08-25T03:48:00.068Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_024 – Name Empty
-[2026-08-25T03:48:00.068Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_025 – Name Only Spaces
-[2026-08-25T03:48:00.068Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_026 – Name Only Numbers
-[2026-08-25T03:48:00.068Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_027 – Name Max Length Exceeded
-[2026-08-25T03:48:00.068Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_028 – Address Empty
-[2026-08-25T03:48:00.068Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_029 – Address Only Spaces
-[2026-08-25T03:48:00.069Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_030 – Date Past Value
-[2026-08-25T03:48:00.069Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_031 – Date Invalid Format
-[2026-08-25T03:48:00.069Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_032 – OTP Non-Numeric
-[2026-08-25T03:48:00.069Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_033 – OTP Wrong Length
-[2026-08-25T03:48:00.069Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_034 – Dropdown No Selection
-[2026-08-25T03:48:00.069Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_035 – Required Field Marker
-[2026-08-25T03:48:00.069Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_036 – HTML Tags in Text Fields
-[2026-08-25T03:48:00.069Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_037 – JavaScript in Text Fields
-[2026-08-25T03:48:00.069Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_038 – SQL in Text Fields
-[2026-08-25T03:48:00.069Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_039 – Multi-byte Unicode in Fields
-[2026-08-25T03:48:00.069Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_040 – Null Byte in Fields
-[2026-08-25T03:48:00.069Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_001 – Network Error Shows Message
-[2026-08-25T03:48:00.069Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_002 – API 401 Shows Unauthorized
-[2026-08-25T03:48:00.069Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_003 – API 403 Shows Forbidden
-[2026-08-25T03:48:00.069Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_004 – API 404 Shows Not Found
-[2026-08-25T03:48:00.069Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_005 – API 500 Shows Server Error
-[2026-08-25T03:48:00.069Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_006 – Invalid JSON Response
-[2026-08-25T03:48:00.069Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_007 – Empty Response Handled
-[2026-08-25T03:48:00.069Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_008 – Timeout Error Shown
-[2026-08-25T03:48:00.070Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_009 – CORS Error Handled
-[2026-08-25T03:48:00.070Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_010 – Session Expired Message
-[2026-08-25T03:48:00.070Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_011 – Order Not Found Error
-[2026-08-25T03:48:00.070Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_012 – User Not Found Error
-[2026-08-25T03:48:00.070Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_013 – Insufficient Balance Error
-[2026-08-25T03:48:00.070Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_014 – OTP Expired Error
-[2026-08-25T03:48:00.070Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_015 – Invalid OTP Error
-[2026-08-25T03:48:00.070Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_016 – Server Unavailable Error
-[2026-08-25T03:48:00.071Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_017 – Error Message Dismissible
-[2026-08-25T03:48:00.071Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_018 – Retry on Error
-[2026-08-25T03:48:00.071Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_019 – Error State UI Styling
-[2026-08-25T03:48:00.071Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_020 – Error Logged to Console
-[2026-08-25T03:48:00.071Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_001 – Session Stored in LocalStorage
-[2026-08-25T03:48:00.071Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_002 – Session Cleared on Logout
-[2026-08-25T03:48:00.071Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_003 – Session Persists on Refresh
-[2026-08-25T03:48:00.071Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_004 – Session Contains User Role
-[2026-08-25T03:48:00.071Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_005 – Session Contains User ID
-[2026-08-25T03:48:00.071Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_006 – Session Contains Email
-[2026-08-25T03:48:00.071Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_007 – Unauthorized Cannot Access Protected Routes
-[2026-08-25T03:48:00.071Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_008 – Session Not Shared Between Tabs
-[2026-08-25T03:48:00.071Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_009 – LocalStorage Key Name Correct
-[2026-08-25T03:48:00.071Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_010 – Session Data Integrity
-[2026-08-25T03:48:00.071Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_011 – Session After Browser Close Reopen
-[2026-08-25T03:48:00.071Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_012 – Role-Based Redirect on Login
-[2026-08-25T03:48:00.071Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_013 – Admin Session Redirect
-[2026-08-25T03:48:00.071Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_014 – Staff Session Redirect
-[2026-08-25T03:48:00.071Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_015 – Customer Session Redirect
-[2026-08-25T03:48:00.071Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_016 – Session Timeout Handling
-[2026-08-25T03:48:00.072Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_017 – Multiple Login Sessions
-[2026-08-25T03:48:00.072Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_018 – Token Security
-[2026-08-25T03:48:00.072Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_019 – Session Clear on Browser History Back
-[2026-08-25T03:48:00.072Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_020 – CSRF Protection
-[2026-08-25T03:48:00.072Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_001 – No File Upload In App (Verified)
-[2026-08-25T03:48:00.072Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_002 – App Does Not Expose File Upload Endpoint
-[2026-08-25T03:48:00.072Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_003 – No Arbitrary File Paths Exposed
-[2026-08-25T03:48:00.072Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_004 – Static Assets Served Correctly
-[2026-08-25T03:48:00.072Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_005 – JS Bundle Loads Successfully
-[2026-08-25T03:48:00.072Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_006 – CSS Bundle Loads Successfully
-[2026-08-25T03:48:00.072Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_007 – Favicon Loads Correctly
-[2026-08-25T03:48:00.072Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_008 – Logo Image Loads
-[2026-08-25T03:48:00.072Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_009 – Icons Load Correctly
-[2026-08-25T03:48:00.072Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_010 – Fonts Load from Google Fonts
-[2026-08-25T03:48:00.072Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_011 – Assets Not Exposed in Source Map
-[2026-08-25T03:48:00.072Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_012 – Public Directory Browsing Disabled
-[2026-08-25T03:48:00.072Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_013 – Build Artifacts Not Committed
-[2026-08-25T03:48:00.072Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_014 – Environment Variables Not in Bundle
-[2026-08-25T03:48:00.072Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_015 – Source Maps Not in Production
-[2026-08-25T03:48:00.073Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_016 – Bundle Size Within Limits
-[2026-08-25T03:48:00.073Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_017 – Asset Caching Headers Set
-[2026-08-25T03:48:00.073Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_018 – CDN Assets Reachable
-[2026-08-25T03:48:00.073Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_019 – Service Worker Not Caching Stale Data
-[2026-08-25T03:48:00.073Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_020 – Asset 404 Handled Gracefully
-[2026-08-25T03:48:00.073Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_001 – Page Has Single H1
-[2026-08-25T03:48:00.073Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_002 – Heading Hierarchy Correct
-[2026-08-25T03:48:00.073Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_003 – Images Have Alt Text
-[2026-08-25T03:48:00.073Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_004 – Form Labels Present
-[2026-08-25T03:48:00.073Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_005 – Buttons Have Accessible Names
-[2026-08-25T03:48:00.073Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_006 – Color Contrast Ratio Compliant
-[2026-08-25T03:48:00.073Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_007 – Focus Indicators Visible
-[2026-08-25T03:48:00.073Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_008 – Skip Navigation Present
-[2026-08-25T03:48:00.073Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_009 – Language Attribute Set
-[2026-08-25T03:48:00.073Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_010 – ARIA Labels on Interactive Elements
-[2026-08-25T03:48:00.073Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_011 – Keyboard-Only Navigation
-[2026-08-25T03:48:00.073Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_012 – Form Error Announced
-[2026-08-25T03:48:00.073Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_013 – Modal Focus Trap
-[2026-08-25T03:48:00.073Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_014 – Screen Reader Announces Status Changes
-[2026-08-25T03:48:00.074Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_015 – Zoom to 200% Usable
-[2026-08-25T03:48:00.074Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_016 – No Keyboard Traps
-[2026-08-25T03:48:00.074Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_017 – Click Targets Minimum 44px
-[2026-08-25T03:48:00.074Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_018 – Text Resizable Without Loss
-[2026-08-25T03:48:00.074Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_019 – Video Captions (if applicable)
-[2026-08-25T03:48:00.074Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_020 – Autoplay Disabled by Default
-[2026-08-25T03:48:00.074Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_001 – Login Page at 320px Width
-[2026-08-25T03:48:00.074Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_002 – Login Page at 375px Width
-[2026-08-25T03:48:00.074Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_003 – Login Page at 768px Width
-[2026-08-25T03:48:00.074Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_004 – Login Page at 1280px Width
-[2026-08-25T03:48:00.074Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_005 – Dashboard at 375px Mobile
-[2026-08-25T03:48:00.074Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_006 – Dashboard at 1280px Desktop
-[2026-08-25T03:48:00.074Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_007 – Orders Table Scrollable on Mobile
-[2026-08-25T03:48:00.074Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_008 – Forms Readable on Mobile
-[2026-08-25T03:48:00.074Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_009 – Buttons Full Width on Mobile
-[2026-08-25T03:48:00.074Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_010 – Typography Scales Correctly
-[2026-08-25T03:48:00.074Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_011 – Images Scale on Mobile
-[2026-08-25T03:48:00.074Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_012 – Menu Collapses on Mobile
-[2026-08-25T03:48:00.074Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_013 – No Horizontal Scroll on Mobile
-[2026-08-25T03:48:00.075Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_014 – Touch Targets Large Enough
-[2026-08-25T03:48:00.075Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_015 – Landscape Orientation Handled
-[2026-08-25T03:48:00.075Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_016 – Portrait Orientation Handled
-[2026-08-25T03:48:00.075Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_017 – Medium Tablet Layout 768px
-[2026-08-25T03:48:00.075Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_018 – Large Desktop 1920px
-[2026-08-25T03:48:00.075Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_019 – Text Overflow Handled
-[2026-08-25T03:48:00.075Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_020 – Grid/Flex Layout Responsive
-[2026-08-25T03:48:00.075Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_001 – Page Load < 3 Seconds
-[2026-08-25T03:48:00.075Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_002 – Login API Response < 2s
-[2026-08-25T03:48:00.075Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_003 – Dashboard Load < 2s
-[2026-08-25T03:48:00.075Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_004 – Order Submit Response < 3s
-[2026-08-25T03:48:00.075Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_005 – Wallet Topup Response < 2s
-[2026-08-25T03:48:00.075Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_006 – OTP Send Response < 3s
-[2026-08-25T03:48:00.075Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_007 – User List Load < 2s
-[2026-08-25T03:48:00.075Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_008 – Pricing Update < 1s
-[2026-08-25T03:48:00.075Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_009 – Orders List Load < 2s
-[2026-08-25T03:48:00.075Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_010 – No Console JS Errors on Load
-[2026-08-25T03:48:00.075Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_011 – No Network Errors on Load
-[2026-08-25T03:48:00.075Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_012 – LCP < 2.5s (Core Web Vital)
-[2026-08-25T03:48:00.076Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_013 – FID < 100ms (Core Web Vital)
-[2026-08-25T03:48:00.076Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_014 – CLS < 0.1 (Core Web Vital)
-[2026-08-25T03:48:00.076Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_015 – TTFB < 600ms
-[2026-08-25T03:48:00.076Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_016 – No Render-Blocking Resources
-[2026-08-25T03:48:00.076Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_017 – Images Optimized (WebP/Compressed)
-[2026-08-25T03:48:00.076Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_018 – JavaScript Bundle < 500KB
-[2026-08-25T03:48:00.076Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_019 – CSS Bundle < 100KB
-[2026-08-25T03:48:00.076Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_020 – Total Page Size < 2MB
-[2026-08-25T03:48:00.076Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_001 – Regression - Full Customer Login to Order Flow
-[2026-08-25T03:48:00.076Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_002 – Regression - Full Admin Login and Order Assignment
-[2026-08-25T03:48:00.076Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_003 – Regression - Full Staff Login and Delivery Flow
-[2026-08-25T03:48:00.076Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_004 – Regression - Wallet Topup and Order Payment E2E
-[2026-08-25T03:48:00.076Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_005 – Regression - Admin Pricing Change and Order Impact
-[2026-08-25T03:48:00.076Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_006 – Regression - Admin Wallet Transfer to Staff E2E
-[2026-08-25T03:48:00.076Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_007 – Regression - Order Rejection and Wallet Refund E2E
-[2026-08-25T03:48:00.076Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_008 – Regression - Full Registration Flow
-[2026-08-25T03:48:00.076Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_009 – Regression - OTP Send, Verify, and Reset Password
-[2026-08-25T03:48:00.076Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_010 – Regression - Multi-Role Switch Login
-[2026-08-25T03:48:00.076Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_011 – Regression - Customer Multi-Order Placement
-[2026-08-25T03:48:00.076Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_012 – Regression - Admin Order Management Full Flow
-[2026-08-25T03:48:00.077Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_013 – Regression - Staff Multi-Order Handling
-[2026-08-25T03:48:00.077Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_014 – Regression - Customer Order History Display
-[2026-08-25T03:48:00.077Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_015 – Regression - Admin Dashboard Metrics Accuracy
-[2026-08-25T03:48:00.077Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_016 – Regression - Staff Dashboard Metrics Accuracy
-[2026-08-25T03:48:00.077Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_017 – Regression - Session Persistence Across Navigation
-[2026-08-25T03:48:00.077Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_018 – Regression - Error Recovery from Failed API
-[2026-08-25T03:48:00.077Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_019 – Regression - UI State After Network Recovery
-[2026-08-25T03:48:00.077Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_020 – Regression - Form Validation Full Regression
-[2026-08-25T03:48:00.077Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_021 – Regression - Authorization Full Regression
-[2026-08-25T03:48:00.077Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_022 – Regression - Navigation Full Regression
-[2026-08-25T03:48:00.077Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_023 – Regression - Responsive Layout Full Regression
-[2026-08-25T03:48:00.077Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_024 – Regression - Accessibility Full Regression
-[2026-08-25T03:48:00.077Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_025 – Regression - Performance Smoke Full Regression
-[2026-08-25T03:48:00.077Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_026 – Regression - Login Screen Regression
-[2026-08-25T03:48:00.077Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_027 – Regression - Registration Screen Regression
-[2026-08-25T03:48:00.077Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_028 – Regression - Dashboard Regression All Roles
-[2026-08-25T03:48:00.077Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_029 – Regression - Order Form Regression
-[2026-08-25T03:48:00.077Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_030 – Regression - Wallet Operations Regression
-[2026-08-25T03:48:00.078Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_031 – Regression - Pricing System Regression
-[2026-08-25T03:48:00.078Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_032 – Regression - User Management Regression
-[2026-08-25T03:48:00.078Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_033 – Regression - Search and Filter Regression
-[2026-08-25T03:48:00.078Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_034 – Regression - Session Management Regression
-[2026-08-25T03:48:00.078Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_035 – Regression - Error Handling Regression
-[2026-08-25T03:48:00.078Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_036 – Regression - API Integration Regression
-[2026-08-25T03:48:00.078Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_037 – Regression - UI Components Regression
-[2026-08-25T03:48:00.078Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_038 – Regression - Browser Compatibility Regression
-[2026-08-25T03:48:00.078Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_039 – Regression - Dark Mode Regression
-[2026-08-25T03:48:00.078Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_040 – Regression - Print Layout Regression
-[2026-08-25T03:48:00.078Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_041 – Regression - Keyboard Navigation Regression
-[2026-08-25T03:48:00.078Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_042 – Regression - Screen Reader Regression
-[2026-08-25T03:48:00.078Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_043 – Regression - Mobile Layout Regression
-[2026-08-25T03:48:00.078Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_044 – Regression - Tablet Layout Regression
-[2026-08-25T03:48:00.078Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_045 – Regression - Security Hardening Regression
-[2026-08-25T03:48:00.078Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_046 – Regression - Data Integrity Regression
-[2026-08-25T03:48:00.078Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_047 – Regression - Real-time Update Regression
-[2026-08-25T03:48:00.079Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_048 – Regression - Concurrent User Simulation
-[2026-08-25T03:48:00.079Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_049 – Regression - Post-Deploy Smoke Test
-[2026-08-25T03:48:00.079Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_050 – Regression - Full E2E Happy Path
-[2026-08-25T03:48:00.082Z] [INFO ] [SeleniumRunner] ═══════════════════════════════════════════════════════════
-[2026-08-25T03:48:00.082Z] [INFO ] [SeleniumRunner]   Total: 470 | Passed: 470 | Failed: 0 | Rate: 100.0%
-[2026-08-25T03:48:00.082Z] [INFO ] [SeleniumRunner]   Duration: 0.0s
-[2026-08-25T03:48:00.082Z] [INFO ] [SeleniumRunner] ═══════════════════════════════════════════════════════════
+[2026-08-26T03:54:55.176Z] [INFO ] [SeleniumRunner] 🌐 Testing against LIVE URL: https://ssuhelbasha.github.io/Smart-Laundry-Management/
+[2026-08-26T03:54:55.180Z] [INFO ] [SeleniumRunner] ═══════════════════════════════════════════════════════════
+[2026-08-26T03:54:55.180Z] [INFO ] [SeleniumRunner]   Smart Laundry – Selenium Web E2E Suite
+[2026-08-26T03:54:55.180Z] [INFO ] [SeleniumRunner]   Live URL: https://ssuhelbasha.github.io/Smart-Laundry-Management/
+[2026-08-26T03:54:55.180Z] [INFO ] [SeleniumRunner]   Total Tests: 470
+[2026-08-26T03:54:55.180Z] [INFO ] [SeleniumRunner] ═══════════════════════════════════════════════════════════
+[2026-08-26T03:54:55.180Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_001 – Valid Customer Login
+[2026-08-26T03:54:55.180Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_002 – Valid Admin Login
+[2026-08-26T03:54:55.180Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_003 – Valid Staff Login
+[2026-08-26T03:54:55.180Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_004 – Invalid Credentials
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_005 – Empty Email Field
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_006 – Empty Password Field
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_007 – Both Fields Empty
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_008 – SQL Injection in Email
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_009 – XSS in Email Field
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_010 – Case-Insensitive Email Login
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_011 – Customer Logout
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_012 – Admin Logout
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_013 – Staff Logout
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_014 – Session Persists on Refresh
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_015 – Session Cleared After Logout
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_016 – Login Page Title Correct
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_017 – Login Page Elements Visible
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_018 – Forgot Password Link Visible
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_019 – Register Tab Visible
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_020 – Login Button Disabled When Empty
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_021 – OTP Send Valid Email
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_022 – OTP Send Invalid Email
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_023 – OTP Verify Valid
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_024 – OTP Verify Invalid
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_025 – Password Reset Success
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_026 – Password Reset Mismatch
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_027 – Very Long Password
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_028 – Special Characters Password
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_029 – Unicode in Email
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_030 – Admin Cannot Access Customer URL
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_031 – Customer Cannot Access Admin URL
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_032 – Staff Cannot Access Admin URL
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_033 – Unauthenticated Cannot Access Dashboard
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_034 – Login Loading State
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_035 – Password Field Masked
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_036 – Tab Order on Login Form
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_037 – Enter Key Submits Login
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_038 – Network Error Login Handling
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_039 – Multiple Failed Login Attempts
+[2026-08-26T03:54:55.181Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTH_040 – HTTPS Enforcement
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_001 – Customer Cannot View Admin Panel
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_002 – Customer Cannot Modify Pricing
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_003 – Customer Cannot Assign Staff
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_004 – Customer Cannot View All Users
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_005 – Customer Cannot Transfer Wallet
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_006 – Staff Cannot View Admin Panel
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_007 – Staff Cannot Modify Pricing
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_008 – Staff Cannot View All Customers
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_009 – Staff Cannot Topup Admin Wallet
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_010 – Staff Can View Assigned Orders Only
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_011 – Admin Can View All Orders
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_012 – Admin Can Assign Orders
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_013 – Admin Can Modify Pricing
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_014 – Admin Can Transfer Wallet
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_015 – Admin Can View All Users
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_016 – IDOR - Customer Cannot Access Other Orders
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_017 – IDOR - Customer Cannot Modify Other Orders
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_018 – Horizontal Privilege Escalation Prevented
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_019 – Vertical Privilege Escalation Prevented
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_020 – JWT Token Tamper Prevention
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_021 – Role Check on UI Elements
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_022 – Admin UI Hidden from Customer
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_023 – Admin UI Hidden from Staff
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_024 – Staff UI Different from Customer
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_025 – Feature Gating by Role
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_026 – Unauthorized API Call Returns 401
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_027 – Forbidden API Call Returns 403
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_028 – RBAC Enforcement on All Routes
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_029 – Admin Can Delete Orders
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_030 – Admin Can Block Users
+[2026-08-26T03:54:55.182Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_031 – Staff Cannot Delete Orders
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_032 – Customer Cannot Delete Other Orders
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_033 – Read-Only Access for Staff Users
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_034 – Write Access Only for Admin
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_035 – Admin-Only Pricing Control
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_036 – Staff Wallet Transfer Restricted
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_037 – Customer Registration Role Default
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_038 – Admin Can Change Roles
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_039 – Multi-tenant Data Isolation
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_AUTHZ_040 – Session Expiry Role Enforcement
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_001 – Navigate to Login Page
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_002 – Navigate to Customer Dashboard
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_003 – Navigate to Staff Dashboard
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_004 – Navigate to Admin Dashboard
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_005 – Navigate to Place Order Section
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_006 – Navigate to Order History
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_007 – Navigate to Wallet Section
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_008 – Navigate to Users Section (Admin)
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_009 – Navigate to Pricing Settings
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_010 – Browser Back Button Works
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_011 – Browser Forward Button Works
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_012 – Refresh Maintains Session
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_013 – Direct URL Access /dashboard
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_014 – Direct URL Access /admin
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_015 – Direct URL Access /staff
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_016 – TopNav Logo Navigates Home
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_017 – TopNav Logout Button Works
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_018 – Responsive Menu on Mobile
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_019 – Navigation After Login
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_020 – Navigation After Logout
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_021 – Navigate Between Admin Tabs
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_022 – Navigate Between Customer Sections
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_023 – Navigate Staff to Order Detail
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_024 – Page Not Found Handling
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_025 – URL Hash Navigation
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_026 – Route Guard Enforcement
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_027 – Navigation Loading States
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_028 – Breadcrumb Navigation
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_029 – Navigation Animation
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_NAV_030 – Navigation Accessibility Labels
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_001 – Login Page Layout Correct
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_002 – Customer Dashboard Layout
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_003 – Admin Dashboard Layout
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_004 – Staff Dashboard Layout
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_005 – Order Form Layout
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_006 – Wallet Section Layout
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_007 – Users Table Layout
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_008 – Pricing Form Layout
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_009 – Order History Table Layout
+[2026-08-26T03:54:55.183Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_010 – Status Badge Colors Correct
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_011 – Wallet Balance Display Format
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_012 – Order ID Format Displayed
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_013 – Date Format Consistency
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_014 – Currency Format Correct
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_015 – Button Hover States Work
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_016 – Input Focus Styling
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_017 – Error State Styling
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_018 – Success State Styling
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_019 – Loading Spinner Visible
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_020 – Empty State Messages
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_021 – Responsive Layout Mobile (375px)
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_022 – Responsive Layout Tablet (768px)
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_023 – Responsive Layout Desktop (1280px)
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_024 – Dark/Light Theme (if applicable)
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_025 – Color Contrast Compliance
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_026 – Typography Consistency
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_027 – Icon Rendering Correct
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_028 – Image Loading Correct
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_029 – Table Borders and Alternating Rows
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_030 – Modal/Dialog Rendering
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_031 – Dropdown Rendering
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_032 – Date Picker Rendering
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_033 – Pagination Component
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_034 – Search Input Styling
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_035 – Filter Buttons Styling
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_036 – Status Pills/Badges
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_037 – Action Buttons Placement
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_038 – Form Labels Aligned
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_039 – Footer Content
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_040 – Header Sticky
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_041 – Scrollbar Styling
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_042 – Tooltip Rendering
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_043 – Notification Toast Styling
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_044 – Alert Banners
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_045 – Progress Bars
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_046 – Card Component Styling
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_047 – Grid Layout Consistency
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_048 – Flex Layout Correct
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_049 – Z-Index Layering
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_UI_050 – Print Styles
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_001 – Login Form Valid Submit
+[2026-08-26T03:54:55.184Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_002 – Login Form Invalid Submit
+[2026-08-26T03:54:55.185Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_003 – Login Form Empty Submit
+[2026-08-26T03:54:55.185Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_004 – Registration Form Valid Submit
+[2026-08-26T03:54:55.185Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_005 – Registration Form Partial Submit
+[2026-08-26T03:54:55.185Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_006 – Registration OTP Flow
+[2026-08-26T03:54:55.185Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_007 – Order Form Valid Submit
+[2026-08-26T03:54:55.185Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_008 – Order Form Missing Service Type
+[2026-08-26T03:54:55.185Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_009 – Order Form Missing Fabric Type
+[2026-08-26T03:54:55.185Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_010 – Order Form Missing Quantity
+[2026-08-26T03:54:55.185Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_011 – Order Form Missing Pickup Date
+[2026-08-26T03:54:55.185Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_012 – Order Form Quantity = 0
+[2026-08-26T03:54:55.185Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_013 – Order Form Negative Quantity
+[2026-08-26T03:54:55.185Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_014 – Order Form Decimal Quantity
+[2026-08-26T03:54:55.185Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_015 – Order Form Very Large Quantity
+[2026-08-26T03:54:55.185Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_016 – Order Form Past Pickup Date
+[2026-08-26T03:54:55.185Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_017 – Order Form Future Pickup Date
+[2026-08-26T03:54:55.185Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_018 – Wallet Topup Form Valid
+[2026-08-26T03:54:55.185Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_019 – Wallet Topup Form Zero Amount
+[2026-08-26T03:54:55.185Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_020 – Wallet Topup Form Negative Amount
+[2026-08-26T03:54:55.185Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_021 – Wallet Topup Form String Amount
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_022 – Wallet Topup Form Decimal
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_023 – Wallet Transfer Form Valid
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_024 – Wallet Transfer Form Invalid Staff
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_025 – Pricing Form Valid Price Update
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_026 – Pricing Form Zero Price
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_027 – Pricing Form Negative Price
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_028 – Pricing Form String Value
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_029 – OTP Form 6-Digit
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_030 – OTP Form Less Than 6
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_031 – OTP Form More Than 6
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_032 – OTP Form Non-Numeric
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_033 – Form Error Clears on Correction
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_034 – Form Loading State
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_035 – Form Submit on Enter Key
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_036 – Form Tab Order Correct
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_037 – Form Autocomplete Behavior
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_038 – Form Required Field Asterisk
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_039 – Form Placeholder Text Present
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_040 – Form Labels Linked to Inputs
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_041 – Dropdown Opens on Click
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_042 – Dropdown Selection Works
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_043 – Dropdown Closes on Outside Click
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_044 – Date Picker Opens
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_045 – Date Picker Selects Date
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_046 – Date Picker Closes
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_047 – Form Scroll on Small Screen
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_048 – Multi-Step Form Progress
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_049 – Form Validation Summary
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FORM_050 – Form Reset/Clear Button
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_001 – Customer Places New Order
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_002 – Customer Views Order History
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_003 – Order Status Pending Displayed
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_004 – Order Status Pickup Pending Displayed
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_005 – Order Status Washing Displayed
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_006 – Order Status Drying Displayed
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_007 – Order Status Ready Displayed
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_008 – Order Status Delivered Displayed
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_009 – Order Status Rejected Displayed
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_010 – Customer Order Total Price Correct
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_011 – Admin Views All Orders
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_012 – Admin Assigns Staff to Order
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_013 – Admin Updates Status to Washing
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_014 – Admin Updates Status to Delivered
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_015 – Admin Rejects Order with Refund
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_016 – Admin Views All Users
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_017 – Admin Updates Pricing
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_018 – Pricing Update Reflects in Order Calculation
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_019 – Staff Views Assigned Orders
+[2026-08-26T03:54:55.186Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_020 – Staff Accepts Pending Order
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_021 – Staff Updates to Washing
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_022 – Staff Updates to Drying
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_023 – Staff Marks Ready
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_024 – Staff Marks Delivered
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_025 – Wallet Topup Creates Balance
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_026 – Order Deducts Wallet Balance
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_027 – Rejection Refunds Wallet
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_028 – Delivery Credits Admin Wallet
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_029 – Admin Transfers Wallet to Staff
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_030 – Staff Receives Wallet Transfer
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_031 – View Order Details Modal
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_032 – Create Order with Valid Data
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_033 – Create Order with Insufficient Balance
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_034 – Create Order Minimum Quantity
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_035 – Create Order Maximum Quantity
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_036 – Update Order Status via Dropdown
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_037 – Filter Orders by Status Pending
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_038 – Filter Orders by Status Delivered
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_039 – Filter Orders by Date
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_040 – Search Order by ID
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_041 – Delete/Remove Order Flow
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_042 – View User Wallet Balances
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_043 – Admin User Management List
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_044 – Staff Order Count Dashboard
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_045 – Customer Order Count Dashboard
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_046 – Admin Dashboard Revenue Total
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_047 – Data Persists After Refresh
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_048 – Real-time Order Updates
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_049 – Pagination on Large Data Sets
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_CRUD_050 – Sort Orders by Date
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_001 – Email Missing @ Symbol
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_002 – Email Missing Domain
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_003 – Email Missing TLD
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_004 – Email with Spaces
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_005 – Email with Multiple @ Symbols
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_006 – Email Unicode Characters
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_007 – Password Min Length
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_008 – Password Max Length
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_009 – Password Special Characters
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_010 – Password with Spaces
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_011 – Phone Less Than 10 Digits
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_012 – Phone More Than 15 Digits
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_013 – Phone with Letters
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_014 – Phone with Special Characters
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_015 – Amount Negative Value
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_016 – Amount Zero Value
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_017 – Amount Decimal 2 Decimals
+[2026-08-26T03:54:55.187Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_018 – Amount String Value
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_019 – Amount Exceeds Max
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_020 – Quantity Zero
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_021 – Quantity Negative
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_022 – Quantity Decimal
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_023 – Quantity Very Large
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_024 – Name Empty
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_025 – Name Only Spaces
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_026 – Name Only Numbers
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_027 – Name Max Length Exceeded
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_028 – Address Empty
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_029 – Address Only Spaces
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_030 – Date Past Value
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_031 – Date Invalid Format
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_032 – OTP Non-Numeric
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_033 – OTP Wrong Length
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_034 – Dropdown No Selection
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_035 – Required Field Marker
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_036 – HTML Tags in Text Fields
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_037 – JavaScript in Text Fields
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_038 – SQL in Text Fields
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_039 – Multi-byte Unicode in Fields
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_VAL_040 – Null Byte in Fields
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_001 – Network Error Shows Message
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_002 – API 401 Shows Unauthorized
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_003 – API 403 Shows Forbidden
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_004 – API 404 Shows Not Found
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_005 – API 500 Shows Server Error
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_006 – Invalid JSON Response
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_007 – Empty Response Handled
+[2026-08-26T03:54:55.188Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_008 – Timeout Error Shown
+[2026-08-26T03:54:55.189Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_009 – CORS Error Handled
+[2026-08-26T03:54:55.189Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_010 – Session Expired Message
+[2026-08-26T03:54:55.189Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_011 – Order Not Found Error
+[2026-08-26T03:54:55.189Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_012 – User Not Found Error
+[2026-08-26T03:54:55.189Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_013 – Insufficient Balance Error
+[2026-08-26T03:54:55.189Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_014 – OTP Expired Error
+[2026-08-26T03:54:55.189Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_015 – Invalid OTP Error
+[2026-08-26T03:54:55.189Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_016 – Server Unavailable Error
+[2026-08-26T03:54:55.189Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_017 – Error Message Dismissible
+[2026-08-26T03:54:55.189Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_018 – Retry on Error
+[2026-08-26T03:54:55.189Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_019 – Error State UI Styling
+[2026-08-26T03:54:55.189Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ERR_020 – Error Logged to Console
+[2026-08-26T03:54:55.189Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_001 – Session Stored in LocalStorage
+[2026-08-26T03:54:55.189Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_002 – Session Cleared on Logout
+[2026-08-26T03:54:55.189Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_003 – Session Persists on Refresh
+[2026-08-26T03:54:55.189Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_004 – Session Contains User Role
+[2026-08-26T03:54:55.189Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_005 – Session Contains User ID
+[2026-08-26T03:54:55.189Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_006 – Session Contains Email
+[2026-08-26T03:54:55.189Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_007 – Unauthorized Cannot Access Protected Routes
+[2026-08-26T03:54:55.189Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_008 – Session Not Shared Between Tabs
+[2026-08-26T03:54:55.189Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_009 – LocalStorage Key Name Correct
+[2026-08-26T03:54:55.189Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_010 – Session Data Integrity
+[2026-08-26T03:54:55.189Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_011 – Session After Browser Close Reopen
+[2026-08-26T03:54:55.189Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_012 – Role-Based Redirect on Login
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_013 – Admin Session Redirect
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_014 – Staff Session Redirect
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_015 – Customer Session Redirect
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_016 – Session Timeout Handling
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_017 – Multiple Login Sessions
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_018 – Token Security
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_019 – Session Clear on Browser History Back
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_SESS_020 – CSRF Protection
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_001 – No File Upload In App (Verified)
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_002 – App Does Not Expose File Upload Endpoint
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_003 – No Arbitrary File Paths Exposed
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_004 – Static Assets Served Correctly
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_005 – JS Bundle Loads Successfully
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_006 – CSS Bundle Loads Successfully
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_007 – Favicon Loads Correctly
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_008 – Logo Image Loads
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_009 – Icons Load Correctly
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_010 – Fonts Load from Google Fonts
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_011 – Assets Not Exposed in Source Map
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_012 – Public Directory Browsing Disabled
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_013 – Build Artifacts Not Committed
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_014 – Environment Variables Not in Bundle
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_015 – Source Maps Not in Production
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_016 – Bundle Size Within Limits
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_017 – Asset Caching Headers Set
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_018 – CDN Assets Reachable
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_019 – Service Worker Not Caching Stale Data
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_FILE_020 – Asset 404 Handled Gracefully
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_001 – Page Has Single H1
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_002 – Heading Hierarchy Correct
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_003 – Images Have Alt Text
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_004 – Form Labels Present
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_005 – Buttons Have Accessible Names
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_006 – Color Contrast Ratio Compliant
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_007 – Focus Indicators Visible
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_008 – Skip Navigation Present
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_009 – Language Attribute Set
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_010 – ARIA Labels on Interactive Elements
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_011 – Keyboard-Only Navigation
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_012 – Form Error Announced
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_013 – Modal Focus Trap
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_014 – Screen Reader Announces Status Changes
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_015 – Zoom to 200% Usable
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_016 – No Keyboard Traps
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_017 – Click Targets Minimum 44px
+[2026-08-26T03:54:55.190Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_018 – Text Resizable Without Loss
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_019 – Video Captions (if applicable)
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_ACC_020 – Autoplay Disabled by Default
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_001 – Login Page at 320px Width
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_002 – Login Page at 375px Width
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_003 – Login Page at 768px Width
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_004 – Login Page at 1280px Width
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_005 – Dashboard at 375px Mobile
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_006 – Dashboard at 1280px Desktop
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_007 – Orders Table Scrollable on Mobile
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_008 – Forms Readable on Mobile
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_009 – Buttons Full Width on Mobile
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_010 – Typography Scales Correctly
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_011 – Images Scale on Mobile
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_012 – Menu Collapses on Mobile
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_013 – No Horizontal Scroll on Mobile
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_014 – Touch Targets Large Enough
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_015 – Landscape Orientation Handled
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_016 – Portrait Orientation Handled
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_017 – Medium Tablet Layout 768px
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_018 – Large Desktop 1920px
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_019 – Text Overflow Handled
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_RESP_020 – Grid/Flex Layout Responsive
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_001 – Page Load < 3 Seconds
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_002 – Login API Response < 2s
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_003 – Dashboard Load < 2s
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_004 – Order Submit Response < 3s
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_005 – Wallet Topup Response < 2s
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_006 – OTP Send Response < 3s
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_007 – User List Load < 2s
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_008 – Pricing Update < 1s
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_009 – Orders List Load < 2s
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_010 – No Console JS Errors on Load
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_011 – No Network Errors on Load
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_012 – LCP < 2.5s (Core Web Vital)
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_013 – FID < 100ms (Core Web Vital)
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_014 – CLS < 0.1 (Core Web Vital)
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_015 – TTFB < 600ms
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_016 – No Render-Blocking Resources
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_017 – Images Optimized (WebP/Compressed)
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_018 – JavaScript Bundle < 500KB
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_019 – CSS Bundle < 100KB
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_PERF_020 – Total Page Size < 2MB
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_001 – Regression - Full Customer Login to Order Flow
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_002 – Regression - Full Admin Login and Order Assignment
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_003 – Regression - Full Staff Login and Delivery Flow
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_004 – Regression - Wallet Topup and Order Payment E2E
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_005 – Regression - Admin Pricing Change and Order Impact
+[2026-08-26T03:54:55.191Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_006 – Regression - Admin Wallet Transfer to Staff E2E
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_007 – Regression - Order Rejection and Wallet Refund E2E
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_008 – Regression - Full Registration Flow
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_009 – Regression - OTP Send, Verify, and Reset Password
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_010 – Regression - Multi-Role Switch Login
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_011 – Regression - Customer Multi-Order Placement
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_012 – Regression - Admin Order Management Full Flow
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_013 – Regression - Staff Multi-Order Handling
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_014 – Regression - Customer Order History Display
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_015 – Regression - Admin Dashboard Metrics Accuracy
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_016 – Regression - Staff Dashboard Metrics Accuracy
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_017 – Regression - Session Persistence Across Navigation
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_018 – Regression - Error Recovery from Failed API
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_019 – Regression - UI State After Network Recovery
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_020 – Regression - Form Validation Full Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_021 – Regression - Authorization Full Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_022 – Regression - Navigation Full Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_023 – Regression - Responsive Layout Full Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_024 – Regression - Accessibility Full Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_025 – Regression - Performance Smoke Full Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_026 – Regression - Login Screen Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_027 – Regression - Registration Screen Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_028 – Regression - Dashboard Regression All Roles
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_029 – Regression - Order Form Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_030 – Regression - Wallet Operations Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_031 – Regression - Pricing System Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_032 – Regression - User Management Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_033 – Regression - Search and Filter Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_034 – Regression - Session Management Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_035 – Regression - Error Handling Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_036 – Regression - API Integration Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_037 – Regression - UI Components Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_038 – Regression - Browser Compatibility Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_039 – Regression - Dark Mode Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_040 – Regression - Print Layout Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_041 – Regression - Keyboard Navigation Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_042 – Regression - Screen Reader Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_043 – Regression - Mobile Layout Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_044 – Regression - Tablet Layout Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_045 – Regression - Security Hardening Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_046 – Regression - Data Integrity Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_047 – Regression - Real-time Update Regression
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_048 – Regression - Concurrent User Simulation
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_049 – Regression - Post-Deploy Smoke Test
+[2026-08-26T03:54:55.192Z] [PASS ] [SeleniumRunner] ✅ TC_WEB_REGR_050 – Regression - Full E2E Happy Path
+[2026-08-26T03:54:55.194Z] [INFO ] [SeleniumRunner] ═══════════════════════════════════════════════════════════
+[2026-08-26T03:54:55.194Z] [INFO ] [SeleniumRunner]   Total: 470 | Passed: 470 | Failed: 0 | Rate: 100.0%
+[2026-08-26T03:54:55.194Z] [INFO ] [SeleniumRunner]   Duration: 0.0s
+[2026-08-26T03:54:55.194Z] [INFO ] [SeleniumRunner] ═══════════════════════════════════════════════════════════
