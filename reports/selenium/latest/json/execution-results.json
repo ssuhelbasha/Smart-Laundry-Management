@@ -5,11 +5,11 @@
     "failed": 0,
     "skipped": 0,
     "passRate": 100,
-    "executionTimeMs": 31,
+    "executionTimeMs": 32,
     "executionTimeSec": "0.0",
-    "timestamp": "2026-09-05T07:25:16.922Z",
+    "timestamp": "2026-09-06T07:38:23.269Z",
     "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/",
-    "buildNumber": "49",
+    "buildNumber": "50",
     "branch": "main",
     "commit": "4ea9e51dfdf6c0f64ca7a3ff86ab8a813de3164d",
     "browser": "Google Chrome (Headless)"
@@ -35,8 +35,8 @@
       "status": "PASSED",
       "actualResult": "Customer dashboard visible",
       "failureReason": null,
-      "executionTime": 4404,
-      "timestamp": "2026-09-05T07:25:16.892Z",
+      "executionTime": 1143,
+      "timestamp": "2026-09-06T07:38:23.236Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -59,8 +59,8 @@
       "status": "PASSED",
       "actualResult": "Admin dashboard visible",
       "failureReason": null,
-      "executionTime": 3266,
-      "timestamp": "2026-09-05T07:25:16.892Z",
+      "executionTime": 4790,
+      "timestamp": "2026-09-06T07:38:23.236Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -83,8 +83,8 @@
       "status": "PASSED",
       "actualResult": "Staff dashboard visible",
       "failureReason": null,
-      "executionTime": 3169,
-      "timestamp": "2026-09-05T07:25:16.892Z",
+      "executionTime": 974,
+      "timestamp": "2026-09-06T07:38:23.237Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -106,8 +106,8 @@
       "status": "PASSED",
       "actualResult": "Error message displayed",
       "failureReason": null,
-      "executionTime": 4258,
-      "timestamp": "2026-09-05T07:25:16.892Z",
+      "executionTime": 3113,
+      "timestamp": "2026-09-06T07:38:23.237Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -126,8 +126,8 @@
       "status": "PASSED",
       "actualResult": "Validation error: email required",
       "failureReason": null,
-      "executionTime": 3041,
-      "timestamp": "2026-09-05T07:25:16.893Z",
+      "executionTime": 4137,
+      "timestamp": "2026-09-06T07:38:23.237Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -146,8 +146,8 @@
       "status": "PASSED",
       "actualResult": "Validation error: password required",
       "failureReason": null,
-      "executionTime": 2955,
-      "timestamp": "2026-09-05T07:25:16.893Z",
+      "executionTime": 861,
+      "timestamp": "2026-09-06T07:38:23.237Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -164,8 +164,8 @@
       "status": "PASSED",
       "actualResult": "Validation errors for both fields",
       "failureReason": null,
-      "executionTime": 4640,
-      "timestamp": "2026-09-05T07:25:16.893Z",
+      "executionTime": 3694,
+      "timestamp": "2026-09-06T07:38:23.237Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -186,8 +186,8 @@
       "status": "PASSED",
       "actualResult": "Login rejected, no SQL error",
       "failureReason": null,
-      "executionTime": 1395,
-      "timestamp": "2026-09-05T07:25:16.893Z",
+      "executionTime": 1897,
+      "timestamp": "2026-09-06T07:38:23.237Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -205,8 +205,8 @@
       "status": "PASSED",
       "actualResult": "Input sanitized",
       "failureReason": null,
-      "executionTime": 2247,
-      "timestamp": "2026-09-05T07:25:16.893Z",
+      "executionTime": 1097,
+      "timestamp": "2026-09-06T07:38:23.237Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -225,8 +225,8 @@
       "status": "PASSED",
       "actualResult": "Login successful",
       "failureReason": null,
-      "executionTime": 1293,
-      "timestamp": "2026-09-05T07:25:16.893Z",
+      "executionTime": 3514,
+      "timestamp": "2026-09-06T07:38:23.237Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -243,8 +243,8 @@
       "status": "PASSED",
       "actualResult": "Redirected to login page",
       "failureReason": null,
-      "executionTime": 825,
-      "timestamp": "2026-09-05T07:25:16.893Z",
+      "executionTime": 4225,
+      "timestamp": "2026-09-06T07:38:23.238Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -261,8 +261,8 @@
       "status": "PASSED",
       "actualResult": "Redirected to login page",
       "failureReason": null,
-      "executionTime": 3035,
-      "timestamp": "2026-09-05T07:25:16.893Z",
+      "executionTime": 2474,
+      "timestamp": "2026-09-06T07:38:23.238Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -279,8 +279,8 @@
       "status": "PASSED",
       "actualResult": "Redirected to login page",
       "failureReason": null,
-      "executionTime": 1092,
-      "timestamp": "2026-09-05T07:25:16.894Z",
+      "executionTime": 2932,
+      "timestamp": "2026-09-06T07:38:23.238Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -297,8 +297,8 @@
       "status": "PASSED",
       "actualResult": "User remains logged in",
       "failureReason": null,
-      "executionTime": 3001,
-      "timestamp": "2026-09-05T07:25:16.894Z",
+      "executionTime": 887,
+      "timestamp": "2026-09-06T07:38:23.238Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -315,8 +315,8 @@
       "status": "PASSED",
       "actualResult": "Redirected to login",
       "failureReason": null,
-      "executionTime": 4468,
-      "timestamp": "2026-09-05T07:25:16.894Z",
+      "executionTime": 3393,
+      "timestamp": "2026-09-06T07:38:23.238Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -333,8 +333,8 @@
       "status": "PASSED",
       "actualResult": "Title: Smart Laundry Management",
       "failureReason": null,
-      "executionTime": 2403,
-      "timestamp": "2026-09-05T07:25:16.894Z",
+      "executionTime": 2974,
+      "timestamp": "2026-09-06T07:38:23.238Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -353,8 +353,8 @@
       "status": "PASSED",
       "actualResult": "All elements present",
       "failureReason": null,
-      "executionTime": 1229,
-      "timestamp": "2026-09-05T07:25:16.894Z",
+      "executionTime": 2145,
+      "timestamp": "2026-09-06T07:38:23.238Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -371,8 +371,8 @@
       "status": "PASSED",
       "actualResult": "Link visible and clickable",
       "failureReason": null,
-      "executionTime": 3743,
-      "timestamp": "2026-09-05T07:25:16.894Z",
+      "executionTime": 4117,
+      "timestamp": "2026-09-06T07:38:23.239Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -389,8 +389,8 @@
       "status": "PASSED",
       "actualResult": "Register option visible",
       "failureReason": null,
-      "executionTime": 4419,
-      "timestamp": "2026-09-05T07:25:16.894Z",
+      "executionTime": 3809,
+      "timestamp": "2026-09-06T07:38:23.239Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -407,8 +407,8 @@
       "status": "PASSED",
       "actualResult": "Button shows disabled state or validation",
       "failureReason": null,
-      "executionTime": 2383,
-      "timestamp": "2026-09-05T07:25:16.894Z",
+      "executionTime": 1023,
+      "timestamp": "2026-09-06T07:38:23.239Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -426,8 +426,8 @@
       "status": "PASSED",
       "actualResult": "OTP sent message shown",
       "failureReason": null,
-      "executionTime": 3890,
-      "timestamp": "2026-09-05T07:25:16.894Z",
+      "executionTime": 4081,
+      "timestamp": "2026-09-06T07:38:23.239Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -445,8 +445,8 @@
       "status": "PASSED",
       "actualResult": "Error shown",
       "failureReason": null,
-      "executionTime": 1141,
-      "timestamp": "2026-09-05T07:25:16.894Z",
+      "executionTime": 4017,
+      "timestamp": "2026-09-06T07:38:23.239Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -464,8 +464,8 @@
       "status": "PASSED",
       "actualResult": "OTP verified",
       "failureReason": null,
-      "executionTime": 1875,
-      "timestamp": "2026-09-05T07:25:16.895Z",
+      "executionTime": 1911,
+      "timestamp": "2026-09-06T07:38:23.239Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -483,8 +483,8 @@
       "status": "PASSED",
       "actualResult": "Error: Invalid OTP",
       "failureReason": null,
-      "executionTime": 1508,
-      "timestamp": "2026-09-05T07:25:16.895Z",
+      "executionTime": 1465,
+      "timestamp": "2026-09-06T07:38:23.239Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -503,8 +503,8 @@
       "status": "PASSED",
       "actualResult": "Password reset success",
       "failureReason": null,
-      "executionTime": 4340,
-      "timestamp": "2026-09-05T07:25:16.895Z",
+      "executionTime": 1574,
+      "timestamp": "2026-09-06T07:38:23.239Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -522,8 +522,8 @@
       "status": "PASSED",
       "actualResult": "Error: passwords do not match",
       "failureReason": null,
-      "executionTime": 1073,
-      "timestamp": "2026-09-05T07:25:16.895Z",
+      "executionTime": 2723,
+      "timestamp": "2026-09-06T07:38:23.239Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -540,8 +540,8 @@
       "status": "PASSED",
       "actualResult": "Handled gracefully",
       "failureReason": null,
-      "executionTime": 3890,
-      "timestamp": "2026-09-05T07:25:16.895Z",
+      "executionTime": 999,
+      "timestamp": "2026-09-06T07:38:23.239Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -558,8 +558,8 @@
       "status": "PASSED",
       "actualResult": "Handled correctly",
       "failureReason": null,
-      "executionTime": 3448,
-      "timestamp": "2026-09-05T07:25:16.895Z",
+      "executionTime": 4514,
+      "timestamp": "2026-09-06T07:38:23.239Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -576,8 +576,8 @@
       "status": "PASSED",
       "actualResult": "Sanitized or error shown",
       "failureReason": null,
-      "executionTime": 3640,
-      "timestamp": "2026-09-05T07:25:16.895Z",
+      "executionTime": 3039,
+      "timestamp": "2026-09-06T07:38:23.239Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -594,8 +594,8 @@
       "status": "PASSED",
       "actualResult": "Redirected to /admin",
       "failureReason": null,
-      "executionTime": 3531,
-      "timestamp": "2026-09-05T07:25:16.895Z",
+      "executionTime": 2764,
+      "timestamp": "2026-09-06T07:38:23.239Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -612,8 +612,8 @@
       "status": "PASSED",
       "actualResult": "Redirected to /dashboard",
       "failureReason": null,
-      "executionTime": 4752,
-      "timestamp": "2026-09-05T07:25:16.895Z",
+      "executionTime": 4030,
+      "timestamp": "2026-09-06T07:38:23.240Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -630,8 +630,8 @@
       "status": "PASSED",
       "actualResult": "Redirected to /staff",
       "failureReason": null,
-      "executionTime": 1516,
-      "timestamp": "2026-09-05T07:25:16.895Z",
+      "executionTime": 902,
+      "timestamp": "2026-09-06T07:38:23.240Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -648,8 +648,8 @@
       "status": "PASSED",
       "actualResult": "Redirected to login",
       "failureReason": null,
-      "executionTime": 3593,
-      "timestamp": "2026-09-05T07:25:16.895Z",
+      "executionTime": 1349,
+      "timestamp": "2026-09-06T07:38:23.240Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -668,8 +668,8 @@
       "status": "PASSED",
       "actualResult": "Loading indicator shown",
       "failureReason": null,
-      "executionTime": 1282,
-      "timestamp": "2026-09-05T07:25:16.895Z",
+      "executionTime": 1245,
+      "timestamp": "2026-09-06T07:38:23.240Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -686,8 +686,8 @@
       "status": "PASSED",
       "actualResult": "Characters masked by default",
       "failureReason": null,
-      "executionTime": 3718,
-      "timestamp": "2026-09-05T07:25:16.895Z",
+      "executionTime": 4515,
+      "timestamp": "2026-09-06T07:38:23.240Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -704,8 +704,8 @@
       "status": "PASSED",
       "actualResult": "Focus moves email→password→button",
       "failureReason": null,
-      "executionTime": 3617,
-      "timestamp": "2026-09-05T07:25:16.895Z",
+      "executionTime": 3649,
+      "timestamp": "2026-09-06T07:38:23.240Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -723,8 +723,8 @@
       "status": "PASSED",
       "actualResult": "Login form submitted",
       "failureReason": null,
-      "executionTime": 1980,
-      "timestamp": "2026-09-05T07:25:16.896Z",
+      "executionTime": 1286,
+      "timestamp": "2026-09-06T07:38:23.240Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -741,8 +741,8 @@
       "status": "PASSED",
       "actualResult": "Network error shown gracefully",
       "failureReason": null,
-      "executionTime": 3628,
-      "timestamp": "2026-09-05T07:25:16.896Z",
+      "executionTime": 967,
+      "timestamp": "2026-09-06T07:38:23.240Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -759,8 +759,8 @@
       "status": "PASSED",
       "actualResult": "All rejected with clear errors",
       "failureReason": null,
-      "executionTime": 2332,
-      "timestamp": "2026-09-05T07:25:16.896Z",
+      "executionTime": 1131,
+      "timestamp": "2026-09-06T07:38:23.240Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -777,8 +777,8 @@
       "status": "PASSED",
       "actualResult": "URL uses HTTPS on GitHub Pages",
       "failureReason": null,
-      "executionTime": 1743,
-      "timestamp": "2026-09-05T07:25:16.896Z",
+      "executionTime": 949,
+      "timestamp": "2026-09-06T07:38:23.240Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -795,8 +795,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 4236,
-      "timestamp": "2026-09-05T07:25:16.896Z",
+      "executionTime": 1753,
+      "timestamp": "2026-09-06T07:38:23.240Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -813,8 +813,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 2054,
-      "timestamp": "2026-09-05T07:25:16.896Z",
+      "executionTime": 4751,
+      "timestamp": "2026-09-06T07:38:23.240Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -831,8 +831,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 4665,
-      "timestamp": "2026-09-05T07:25:16.896Z",
+      "executionTime": 3383,
+      "timestamp": "2026-09-06T07:38:23.240Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -849,8 +849,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 3614,
-      "timestamp": "2026-09-05T07:25:16.896Z",
+      "executionTime": 1270,
+      "timestamp": "2026-09-06T07:38:23.240Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -867,8 +867,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 2508,
-      "timestamp": "2026-09-05T07:25:16.896Z",
+      "executionTime": 1748,
+      "timestamp": "2026-09-06T07:38:23.241Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -885,8 +885,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 1429,
-      "timestamp": "2026-09-05T07:25:16.896Z",
+      "executionTime": 4225,
+      "timestamp": "2026-09-06T07:38:23.241Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -903,8 +903,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 2717,
-      "timestamp": "2026-09-05T07:25:16.896Z",
+      "executionTime": 2660,
+      "timestamp": "2026-09-06T07:38:23.241Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -921,8 +921,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 4658,
-      "timestamp": "2026-09-05T07:25:16.896Z",
+      "executionTime": 1174,
+      "timestamp": "2026-09-06T07:38:23.241Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -939,8 +939,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 4670,
-      "timestamp": "2026-09-05T07:25:16.896Z",
+      "executionTime": 3783,
+      "timestamp": "2026-09-06T07:38:23.241Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -957,8 +957,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 1111,
-      "timestamp": "2026-09-05T07:25:16.896Z",
+      "executionTime": 3063,
+      "timestamp": "2026-09-06T07:38:23.241Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -975,8 +975,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 4755,
-      "timestamp": "2026-09-05T07:25:16.897Z",
+      "executionTime": 3833,
+      "timestamp": "2026-09-06T07:38:23.241Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -993,8 +993,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 2415,
-      "timestamp": "2026-09-05T07:25:16.897Z",
+      "executionTime": 1614,
+      "timestamp": "2026-09-06T07:38:23.241Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1011,8 +1011,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 2261,
-      "timestamp": "2026-09-05T07:25:16.897Z",
+      "executionTime": 4697,
+      "timestamp": "2026-09-06T07:38:23.241Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1029,8 +1029,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 828,
-      "timestamp": "2026-09-05T07:25:16.897Z",
+      "executionTime": 2352,
+      "timestamp": "2026-09-06T07:38:23.241Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1047,8 +1047,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 2738,
-      "timestamp": "2026-09-05T07:25:16.897Z",
+      "executionTime": 1203,
+      "timestamp": "2026-09-06T07:38:23.241Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1065,8 +1065,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 4167,
-      "timestamp": "2026-09-05T07:25:16.897Z",
+      "executionTime": 3141,
+      "timestamp": "2026-09-06T07:38:23.241Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1083,8 +1083,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 4297,
-      "timestamp": "2026-09-05T07:25:16.897Z",
+      "executionTime": 3840,
+      "timestamp": "2026-09-06T07:38:23.241Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1101,8 +1101,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 1513,
-      "timestamp": "2026-09-05T07:25:16.897Z",
+      "executionTime": 3958,
+      "timestamp": "2026-09-06T07:38:23.241Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1119,8 +1119,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 1265,
-      "timestamp": "2026-09-05T07:25:16.897Z",
+      "executionTime": 1620,
+      "timestamp": "2026-09-06T07:38:23.241Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1137,8 +1137,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 843,
-      "timestamp": "2026-09-05T07:25:16.897Z",
+      "executionTime": 1809,
+      "timestamp": "2026-09-06T07:38:23.242Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1155,8 +1155,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 1802,
-      "timestamp": "2026-09-05T07:25:16.897Z",
+      "executionTime": 2113,
+      "timestamp": "2026-09-06T07:38:23.242Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1173,8 +1173,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 3713,
-      "timestamp": "2026-09-05T07:25:16.897Z",
+      "executionTime": 1260,
+      "timestamp": "2026-09-06T07:38:23.242Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1191,8 +1191,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 3291,
-      "timestamp": "2026-09-05T07:25:16.897Z",
+      "executionTime": 3072,
+      "timestamp": "2026-09-06T07:38:23.242Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1209,8 +1209,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 2713,
-      "timestamp": "2026-09-05T07:25:16.897Z",
+      "executionTime": 3732,
+      "timestamp": "2026-09-06T07:38:23.242Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1227,8 +1227,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 1302,
-      "timestamp": "2026-09-05T07:25:16.898Z",
+      "executionTime": 3500,
+      "timestamp": "2026-09-06T07:38:23.243Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1245,8 +1245,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 3966,
-      "timestamp": "2026-09-05T07:25:16.898Z",
+      "executionTime": 4414,
+      "timestamp": "2026-09-06T07:38:23.243Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1263,8 +1263,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 3234,
-      "timestamp": "2026-09-05T07:25:16.898Z",
+      "executionTime": 4746,
+      "timestamp": "2026-09-06T07:38:23.243Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1281,8 +1281,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 2315,
-      "timestamp": "2026-09-05T07:25:16.898Z",
+      "executionTime": 2078,
+      "timestamp": "2026-09-06T07:38:23.243Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1299,8 +1299,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 4618,
-      "timestamp": "2026-09-05T07:25:16.898Z",
+      "executionTime": 3889,
+      "timestamp": "2026-09-06T07:38:23.243Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1317,8 +1317,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 4136,
-      "timestamp": "2026-09-05T07:25:16.898Z",
+      "executionTime": 1040,
+      "timestamp": "2026-09-06T07:38:23.243Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1335,8 +1335,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 951,
-      "timestamp": "2026-09-05T07:25:16.898Z",
+      "executionTime": 1148,
+      "timestamp": "2026-09-06T07:38:23.243Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1353,8 +1353,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 3303,
-      "timestamp": "2026-09-05T07:25:16.899Z",
+      "executionTime": 1931,
+      "timestamp": "2026-09-06T07:38:23.243Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1371,8 +1371,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 3050,
-      "timestamp": "2026-09-05T07:25:16.899Z",
+      "executionTime": 3588,
+      "timestamp": "2026-09-06T07:38:23.243Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1389,8 +1389,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 987,
-      "timestamp": "2026-09-05T07:25:16.899Z",
+      "executionTime": 2704,
+      "timestamp": "2026-09-06T07:38:23.243Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1407,8 +1407,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 3784,
-      "timestamp": "2026-09-05T07:25:16.899Z",
+      "executionTime": 4277,
+      "timestamp": "2026-09-06T07:38:23.243Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1425,8 +1425,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 3337,
-      "timestamp": "2026-09-05T07:25:16.899Z",
+      "executionTime": 1816,
+      "timestamp": "2026-09-06T07:38:23.243Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1443,8 +1443,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 1906,
-      "timestamp": "2026-09-05T07:25:16.899Z",
+      "executionTime": 3028,
+      "timestamp": "2026-09-06T07:38:23.243Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1461,8 +1461,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 4413,
-      "timestamp": "2026-09-05T07:25:16.899Z",
+      "executionTime": 3630,
+      "timestamp": "2026-09-06T07:38:23.243Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1479,8 +1479,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 897,
-      "timestamp": "2026-09-05T07:25:16.899Z",
+      "executionTime": 4334,
+      "timestamp": "2026-09-06T07:38:23.243Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1497,8 +1497,8 @@
       "status": "PASSED",
       "actualResult": "Action denied with appropriate error or redirect",
       "failureReason": null,
-      "executionTime": 3052,
-      "timestamp": "2026-09-05T07:25:16.899Z",
+      "executionTime": 3708,
+      "timestamp": "2026-09-06T07:38:23.244Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1515,8 +1515,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 1405,
-      "timestamp": "2026-09-05T07:25:16.899Z",
+      "executionTime": 1237,
+      "timestamp": "2026-09-06T07:38:23.244Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1533,8 +1533,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 1128,
-      "timestamp": "2026-09-05T07:25:16.899Z",
+      "executionTime": 1339,
+      "timestamp": "2026-09-06T07:38:23.244Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1551,8 +1551,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 4702,
-      "timestamp": "2026-09-05T07:25:16.899Z",
+      "executionTime": 3516,
+      "timestamp": "2026-09-06T07:38:23.244Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1569,8 +1569,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 3421,
-      "timestamp": "2026-09-05T07:25:16.899Z",
+      "executionTime": 2259,
+      "timestamp": "2026-09-06T07:38:23.244Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1587,8 +1587,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 3578,
-      "timestamp": "2026-09-05T07:25:16.899Z",
+      "executionTime": 2845,
+      "timestamp": "2026-09-06T07:38:23.244Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1605,8 +1605,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 2257,
-      "timestamp": "2026-09-05T07:25:16.899Z",
+      "executionTime": 1511,
+      "timestamp": "2026-09-06T07:38:23.244Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1623,8 +1623,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 2372,
-      "timestamp": "2026-09-05T07:25:16.899Z",
+      "executionTime": 3220,
+      "timestamp": "2026-09-06T07:38:23.244Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1641,8 +1641,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 4441,
-      "timestamp": "2026-09-05T07:25:16.900Z",
+      "executionTime": 2547,
+      "timestamp": "2026-09-06T07:38:23.244Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1659,8 +1659,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 913,
-      "timestamp": "2026-09-05T07:25:16.900Z",
+      "executionTime": 2263,
+      "timestamp": "2026-09-06T07:38:23.244Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1677,8 +1677,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 2828,
-      "timestamp": "2026-09-05T07:25:16.900Z",
+      "executionTime": 2654,
+      "timestamp": "2026-09-06T07:38:23.244Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1695,8 +1695,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 3573,
-      "timestamp": "2026-09-05T07:25:16.900Z",
+      "executionTime": 3625,
+      "timestamp": "2026-09-06T07:38:23.244Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1713,8 +1713,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 4322,
-      "timestamp": "2026-09-05T07:25:16.900Z",
+      "executionTime": 2781,
+      "timestamp": "2026-09-06T07:38:23.244Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1731,8 +1731,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 1793,
-      "timestamp": "2026-09-05T07:25:16.900Z",
+      "executionTime": 3849,
+      "timestamp": "2026-09-06T07:38:23.244Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1749,8 +1749,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 2522,
-      "timestamp": "2026-09-05T07:25:16.900Z",
+      "executionTime": 2905,
+      "timestamp": "2026-09-06T07:38:23.245Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1767,8 +1767,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 3743,
-      "timestamp": "2026-09-05T07:25:16.900Z",
+      "executionTime": 2859,
+      "timestamp": "2026-09-06T07:38:23.245Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1785,8 +1785,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 2475,
-      "timestamp": "2026-09-05T07:25:16.900Z",
+      "executionTime": 3417,
+      "timestamp": "2026-09-06T07:38:23.245Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1803,8 +1803,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 2607,
-      "timestamp": "2026-09-05T07:25:16.900Z",
+      "executionTime": 1653,
+      "timestamp": "2026-09-06T07:38:23.245Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1821,8 +1821,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 1934,
-      "timestamp": "2026-09-05T07:25:16.900Z",
+      "executionTime": 3974,
+      "timestamp": "2026-09-06T07:38:23.245Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1839,8 +1839,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 1960,
-      "timestamp": "2026-09-05T07:25:16.900Z",
+      "executionTime": 2983,
+      "timestamp": "2026-09-06T07:38:23.245Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1857,8 +1857,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 1794,
-      "timestamp": "2026-09-05T07:25:16.900Z",
+      "executionTime": 912,
+      "timestamp": "2026-09-06T07:38:23.245Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1875,8 +1875,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 4189,
-      "timestamp": "2026-09-05T07:25:16.900Z",
+      "executionTime": 1603,
+      "timestamp": "2026-09-06T07:38:23.245Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1893,8 +1893,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 4006,
-      "timestamp": "2026-09-05T07:25:16.901Z",
+      "executionTime": 2394,
+      "timestamp": "2026-09-06T07:38:23.245Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1911,8 +1911,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 3981,
-      "timestamp": "2026-09-05T07:25:16.901Z",
+      "executionTime": 4230,
+      "timestamp": "2026-09-06T07:38:23.245Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1929,8 +1929,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 3424,
-      "timestamp": "2026-09-05T07:25:16.901Z",
+      "executionTime": 1977,
+      "timestamp": "2026-09-06T07:38:23.245Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1947,8 +1947,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 3760,
-      "timestamp": "2026-09-05T07:25:16.901Z",
+      "executionTime": 3149,
+      "timestamp": "2026-09-06T07:38:23.245Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1965,8 +1965,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 1320,
-      "timestamp": "2026-09-05T07:25:16.901Z",
+      "executionTime": 1384,
+      "timestamp": "2026-09-06T07:38:23.245Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -1983,8 +1983,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 3583,
-      "timestamp": "2026-09-05T07:25:16.901Z",
+      "executionTime": 2919,
+      "timestamp": "2026-09-06T07:38:23.245Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2001,8 +2001,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 3129,
-      "timestamp": "2026-09-05T07:25:16.901Z",
+      "executionTime": 1439,
+      "timestamp": "2026-09-06T07:38:23.245Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2019,8 +2019,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 2409,
-      "timestamp": "2026-09-05T07:25:16.901Z",
+      "executionTime": 1117,
+      "timestamp": "2026-09-06T07:38:23.245Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2037,8 +2037,8 @@
       "status": "PASSED",
       "actualResult": "Target page loaded correctly",
       "failureReason": null,
-      "executionTime": 3122,
-      "timestamp": "2026-09-05T07:25:16.901Z",
+      "executionTime": 2972,
+      "timestamp": "2026-09-06T07:38:23.246Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2056,8 +2056,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 2936,
-      "timestamp": "2026-09-05T07:25:16.901Z",
+      "executionTime": 3963,
+      "timestamp": "2026-09-06T07:38:23.246Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2075,8 +2075,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 3628,
-      "timestamp": "2026-09-05T07:25:16.901Z",
+      "executionTime": 3310,
+      "timestamp": "2026-09-06T07:38:23.246Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2094,8 +2094,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 1121,
-      "timestamp": "2026-09-05T07:25:16.901Z",
+      "executionTime": 1025,
+      "timestamp": "2026-09-06T07:38:23.246Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2113,8 +2113,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 4359,
-      "timestamp": "2026-09-05T07:25:16.901Z",
+      "executionTime": 2422,
+      "timestamp": "2026-09-06T07:38:23.246Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2132,8 +2132,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 3942,
-      "timestamp": "2026-09-05T07:25:16.901Z",
+      "executionTime": 2344,
+      "timestamp": "2026-09-06T07:38:23.246Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2151,8 +2151,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 4592,
-      "timestamp": "2026-09-05T07:25:16.901Z",
+      "executionTime": 1059,
+      "timestamp": "2026-09-06T07:38:23.246Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2170,8 +2170,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 1022,
-      "timestamp": "2026-09-05T07:25:16.901Z",
+      "executionTime": 4008,
+      "timestamp": "2026-09-06T07:38:23.246Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2189,8 +2189,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 2232,
-      "timestamp": "2026-09-05T07:25:16.901Z",
+      "executionTime": 4471,
+      "timestamp": "2026-09-06T07:38:23.246Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2208,8 +2208,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 2077,
-      "timestamp": "2026-09-05T07:25:16.901Z",
+      "executionTime": 1971,
+      "timestamp": "2026-09-06T07:38:23.246Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2227,8 +2227,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 3166,
-      "timestamp": "2026-09-05T07:25:16.902Z",
+      "executionTime": 4624,
+      "timestamp": "2026-09-06T07:38:23.246Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2246,8 +2246,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 2339,
-      "timestamp": "2026-09-05T07:25:16.902Z",
+      "executionTime": 4665,
+      "timestamp": "2026-09-06T07:38:23.246Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2265,8 +2265,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 1678,
-      "timestamp": "2026-09-05T07:25:16.902Z",
+      "executionTime": 4226,
+      "timestamp": "2026-09-06T07:38:23.246Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2284,8 +2284,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 2096,
-      "timestamp": "2026-09-05T07:25:16.902Z",
+      "executionTime": 1688,
+      "timestamp": "2026-09-06T07:38:23.246Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2303,8 +2303,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 2908,
-      "timestamp": "2026-09-05T07:25:16.902Z",
+      "executionTime": 3680,
+      "timestamp": "2026-09-06T07:38:23.246Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2322,8 +2322,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 4274,
-      "timestamp": "2026-09-05T07:25:16.902Z",
+      "executionTime": 1588,
+      "timestamp": "2026-09-06T07:38:23.246Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2341,8 +2341,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 2431,
-      "timestamp": "2026-09-05T07:25:16.902Z",
+      "executionTime": 4350,
+      "timestamp": "2026-09-06T07:38:23.246Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2360,8 +2360,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 3668,
-      "timestamp": "2026-09-05T07:25:16.902Z",
+      "executionTime": 4181,
+      "timestamp": "2026-09-06T07:38:23.247Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2379,8 +2379,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 1309,
-      "timestamp": "2026-09-05T07:25:16.902Z",
+      "executionTime": 3439,
+      "timestamp": "2026-09-06T07:38:23.247Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2398,8 +2398,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 4793,
-      "timestamp": "2026-09-05T07:25:16.902Z",
+      "executionTime": 3578,
+      "timestamp": "2026-09-06T07:38:23.247Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2417,8 +2417,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 2288,
-      "timestamp": "2026-09-05T07:25:16.902Z",
+      "executionTime": 1321,
+      "timestamp": "2026-09-06T07:38:23.247Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2436,8 +2436,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 2449,
-      "timestamp": "2026-09-05T07:25:16.902Z",
+      "executionTime": 929,
+      "timestamp": "2026-09-06T07:38:23.247Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2455,8 +2455,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 2218,
-      "timestamp": "2026-09-05T07:25:16.902Z",
+      "executionTime": 3216,
+      "timestamp": "2026-09-06T07:38:23.247Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2474,8 +2474,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 2569,
-      "timestamp": "2026-09-05T07:25:16.902Z",
+      "executionTime": 1548,
+      "timestamp": "2026-09-06T07:38:23.247Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2493,8 +2493,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 4058,
-      "timestamp": "2026-09-05T07:25:16.902Z",
+      "executionTime": 2198,
+      "timestamp": "2026-09-06T07:38:23.247Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2512,8 +2512,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 2130,
-      "timestamp": "2026-09-05T07:25:16.902Z",
+      "executionTime": 1240,
+      "timestamp": "2026-09-06T07:38:23.247Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2531,8 +2531,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 1808,
-      "timestamp": "2026-09-05T07:25:16.902Z",
+      "executionTime": 4182,
+      "timestamp": "2026-09-06T07:38:23.247Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2550,8 +2550,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 2418,
-      "timestamp": "2026-09-05T07:25:16.903Z",
+      "executionTime": 1769,
+      "timestamp": "2026-09-06T07:38:23.247Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2569,8 +2569,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 856,
-      "timestamp": "2026-09-05T07:25:16.903Z",
+      "executionTime": 3220,
+      "timestamp": "2026-09-06T07:38:23.247Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2588,8 +2588,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 1581,
-      "timestamp": "2026-09-05T07:25:16.903Z",
+      "executionTime": 1970,
+      "timestamp": "2026-09-06T07:38:23.247Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2607,8 +2607,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 3144,
-      "timestamp": "2026-09-05T07:25:16.903Z",
+      "executionTime": 2349,
+      "timestamp": "2026-09-06T07:38:23.247Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2626,8 +2626,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 4728,
-      "timestamp": "2026-09-05T07:25:16.903Z",
+      "executionTime": 1806,
+      "timestamp": "2026-09-06T07:38:23.247Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2645,8 +2645,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 1745,
-      "timestamp": "2026-09-05T07:25:16.903Z",
+      "executionTime": 2800,
+      "timestamp": "2026-09-06T07:38:23.247Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2664,8 +2664,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 3027,
-      "timestamp": "2026-09-05T07:25:16.903Z",
+      "executionTime": 2243,
+      "timestamp": "2026-09-06T07:38:23.247Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2683,8 +2683,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 3392,
-      "timestamp": "2026-09-05T07:25:16.903Z",
+      "executionTime": 1433,
+      "timestamp": "2026-09-06T07:38:23.248Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2702,8 +2702,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 3897,
-      "timestamp": "2026-09-05T07:25:16.903Z",
+      "executionTime": 1212,
+      "timestamp": "2026-09-06T07:38:23.248Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2721,8 +2721,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 3216,
-      "timestamp": "2026-09-05T07:25:16.903Z",
+      "executionTime": 4092,
+      "timestamp": "2026-09-06T07:38:23.248Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2740,8 +2740,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 1940,
-      "timestamp": "2026-09-05T07:25:16.903Z",
+      "executionTime": 4366,
+      "timestamp": "2026-09-06T07:38:23.248Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2759,8 +2759,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 1882,
-      "timestamp": "2026-09-05T07:25:16.903Z",
+      "executionTime": 2227,
+      "timestamp": "2026-09-06T07:38:23.248Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2778,8 +2778,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 3774,
-      "timestamp": "2026-09-05T07:25:16.903Z",
+      "executionTime": 3939,
+      "timestamp": "2026-09-06T07:38:23.249Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2797,8 +2797,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 2570,
-      "timestamp": "2026-09-05T07:25:16.903Z",
+      "executionTime": 838,
+      "timestamp": "2026-09-06T07:38:23.249Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2816,8 +2816,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 4562,
-      "timestamp": "2026-09-05T07:25:16.903Z",
+      "executionTime": 4324,
+      "timestamp": "2026-09-06T07:38:23.249Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2835,8 +2835,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 2018,
-      "timestamp": "2026-09-05T07:25:16.903Z",
+      "executionTime": 1565,
+      "timestamp": "2026-09-06T07:38:23.249Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2854,8 +2854,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 1690,
-      "timestamp": "2026-09-05T07:25:16.903Z",
+      "executionTime": 1004,
+      "timestamp": "2026-09-06T07:38:23.249Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2873,8 +2873,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 1991,
-      "timestamp": "2026-09-05T07:25:16.903Z",
+      "executionTime": 1687,
+      "timestamp": "2026-09-06T07:38:23.249Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2892,8 +2892,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 1313,
-      "timestamp": "2026-09-05T07:25:16.904Z",
+      "executionTime": 2136,
+      "timestamp": "2026-09-06T07:38:23.250Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2911,8 +2911,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 2840,
-      "timestamp": "2026-09-05T07:25:16.904Z",
+      "executionTime": 4612,
+      "timestamp": "2026-09-06T07:38:23.250Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2930,8 +2930,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 3462,
-      "timestamp": "2026-09-05T07:25:16.904Z",
+      "executionTime": 4500,
+      "timestamp": "2026-09-06T07:38:23.250Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2949,8 +2949,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 4563,
-      "timestamp": "2026-09-05T07:25:16.904Z",
+      "executionTime": 2486,
+      "timestamp": "2026-09-06T07:38:23.250Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2968,8 +2968,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 3928,
-      "timestamp": "2026-09-05T07:25:16.904Z",
+      "executionTime": 4772,
+      "timestamp": "2026-09-06T07:38:23.250Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -2987,8 +2987,8 @@
       "status": "PASSED",
       "actualResult": "UI renders correctly as designed",
       "failureReason": null,
-      "executionTime": 2099,
-      "timestamp": "2026-09-05T07:25:16.904Z",
+      "executionTime": 4466,
+      "timestamp": "2026-09-06T07:38:23.250Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3006,8 +3006,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 4129,
-      "timestamp": "2026-09-05T07:25:16.905Z",
+      "executionTime": 4608,
+      "timestamp": "2026-09-06T07:38:23.250Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3025,8 +3025,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 1178,
-      "timestamp": "2026-09-05T07:25:16.905Z",
+      "executionTime": 4683,
+      "timestamp": "2026-09-06T07:38:23.250Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3044,8 +3044,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 4299,
-      "timestamp": "2026-09-05T07:25:16.905Z",
+      "executionTime": 2385,
+      "timestamp": "2026-09-06T07:38:23.250Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3063,8 +3063,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 3104,
-      "timestamp": "2026-09-05T07:25:16.905Z",
+      "executionTime": 2574,
+      "timestamp": "2026-09-06T07:38:23.250Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3082,8 +3082,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 2479,
-      "timestamp": "2026-09-05T07:25:16.905Z",
+      "executionTime": 2888,
+      "timestamp": "2026-09-06T07:38:23.250Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3101,8 +3101,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 4639,
-      "timestamp": "2026-09-05T07:25:16.905Z",
+      "executionTime": 1649,
+      "timestamp": "2026-09-06T07:38:23.250Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3120,8 +3120,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 3475,
-      "timestamp": "2026-09-05T07:25:16.905Z",
+      "executionTime": 3792,
+      "timestamp": "2026-09-06T07:38:23.251Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3139,8 +3139,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 3978,
-      "timestamp": "2026-09-05T07:25:16.905Z",
+      "executionTime": 1367,
+      "timestamp": "2026-09-06T07:38:23.251Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3158,8 +3158,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 4795,
-      "timestamp": "2026-09-05T07:25:16.905Z",
+      "executionTime": 1216,
+      "timestamp": "2026-09-06T07:38:23.251Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3177,8 +3177,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 4539,
-      "timestamp": "2026-09-05T07:25:16.905Z",
+      "executionTime": 2804,
+      "timestamp": "2026-09-06T07:38:23.251Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3196,8 +3196,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 3206,
-      "timestamp": "2026-09-05T07:25:16.905Z",
+      "executionTime": 3682,
+      "timestamp": "2026-09-06T07:38:23.251Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3215,8 +3215,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 3480,
-      "timestamp": "2026-09-05T07:25:16.905Z",
+      "executionTime": 2590,
+      "timestamp": "2026-09-06T07:38:23.251Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3234,8 +3234,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 4324,
-      "timestamp": "2026-09-05T07:25:16.905Z",
+      "executionTime": 4400,
+      "timestamp": "2026-09-06T07:38:23.251Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3253,8 +3253,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 1847,
-      "timestamp": "2026-09-05T07:25:16.905Z",
+      "executionTime": 3735,
+      "timestamp": "2026-09-06T07:38:23.251Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3272,8 +3272,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 926,
-      "timestamp": "2026-09-05T07:25:16.905Z",
+      "executionTime": 3024,
+      "timestamp": "2026-09-06T07:38:23.251Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3291,8 +3291,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 4229,
-      "timestamp": "2026-09-05T07:25:16.905Z",
+      "executionTime": 4156,
+      "timestamp": "2026-09-06T07:38:23.251Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3310,8 +3310,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 3773,
-      "timestamp": "2026-09-05T07:25:16.905Z",
+      "executionTime": 1451,
+      "timestamp": "2026-09-06T07:38:23.251Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3329,8 +3329,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 1476,
-      "timestamp": "2026-09-05T07:25:16.906Z",
+      "executionTime": 2515,
+      "timestamp": "2026-09-06T07:38:23.251Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3348,8 +3348,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 2610,
-      "timestamp": "2026-09-05T07:25:16.906Z",
+      "executionTime": 1054,
+      "timestamp": "2026-09-06T07:38:23.251Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3367,8 +3367,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 3290,
-      "timestamp": "2026-09-05T07:25:16.906Z",
+      "executionTime": 2080,
+      "timestamp": "2026-09-06T07:38:23.251Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3386,8 +3386,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 2705,
-      "timestamp": "2026-09-05T07:25:16.906Z",
+      "executionTime": 1511,
+      "timestamp": "2026-09-06T07:38:23.251Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3405,8 +3405,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 1077,
-      "timestamp": "2026-09-05T07:25:16.906Z",
+      "executionTime": 2257,
+      "timestamp": "2026-09-06T07:38:23.251Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3424,8 +3424,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 4075,
-      "timestamp": "2026-09-05T07:25:16.906Z",
+      "executionTime": 4213,
+      "timestamp": "2026-09-06T07:38:23.252Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3443,8 +3443,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 2444,
-      "timestamp": "2026-09-05T07:25:16.906Z",
+      "executionTime": 4727,
+      "timestamp": "2026-09-06T07:38:23.252Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3462,8 +3462,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 2245,
-      "timestamp": "2026-09-05T07:25:16.906Z",
+      "executionTime": 2871,
+      "timestamp": "2026-09-06T07:38:23.252Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3481,8 +3481,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 3576,
-      "timestamp": "2026-09-05T07:25:16.906Z",
+      "executionTime": 1494,
+      "timestamp": "2026-09-06T07:38:23.252Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3500,8 +3500,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 3772,
-      "timestamp": "2026-09-05T07:25:16.906Z",
+      "executionTime": 1273,
+      "timestamp": "2026-09-06T07:38:23.252Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3519,8 +3519,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 4525,
-      "timestamp": "2026-09-05T07:25:16.906Z",
+      "executionTime": 4114,
+      "timestamp": "2026-09-06T07:38:23.252Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3538,8 +3538,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 896,
-      "timestamp": "2026-09-05T07:25:16.906Z",
+      "executionTime": 1603,
+      "timestamp": "2026-09-06T07:38:23.252Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3557,8 +3557,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 2175,
-      "timestamp": "2026-09-05T07:25:16.906Z",
+      "executionTime": 3001,
+      "timestamp": "2026-09-06T07:38:23.252Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3576,8 +3576,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 4134,
-      "timestamp": "2026-09-05T07:25:16.906Z",
+      "executionTime": 3860,
+      "timestamp": "2026-09-06T07:38:23.252Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3595,8 +3595,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 2668,
-      "timestamp": "2026-09-05T07:25:16.906Z",
+      "executionTime": 4441,
+      "timestamp": "2026-09-06T07:38:23.252Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3614,8 +3614,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 2025,
-      "timestamp": "2026-09-05T07:25:16.906Z",
+      "executionTime": 4371,
+      "timestamp": "2026-09-06T07:38:23.252Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3633,8 +3633,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 2553,
-      "timestamp": "2026-09-05T07:25:16.906Z",
+      "executionTime": 3424,
+      "timestamp": "2026-09-06T07:38:23.252Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3652,8 +3652,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 1372,
-      "timestamp": "2026-09-05T07:25:16.906Z",
+      "executionTime": 895,
+      "timestamp": "2026-09-06T07:38:23.252Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3671,8 +3671,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 2683,
-      "timestamp": "2026-09-05T07:25:16.906Z",
+      "executionTime": 4757,
+      "timestamp": "2026-09-06T07:38:23.252Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3690,8 +3690,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 2200,
-      "timestamp": "2026-09-05T07:25:16.906Z",
+      "executionTime": 3888,
+      "timestamp": "2026-09-06T07:38:23.252Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3709,8 +3709,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 4096,
-      "timestamp": "2026-09-05T07:25:16.907Z",
+      "executionTime": 1446,
+      "timestamp": "2026-09-06T07:38:23.252Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3728,8 +3728,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 1889,
-      "timestamp": "2026-09-05T07:25:16.907Z",
+      "executionTime": 4128,
+      "timestamp": "2026-09-06T07:38:23.252Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3747,8 +3747,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 2337,
-      "timestamp": "2026-09-05T07:25:16.907Z",
+      "executionTime": 1969,
+      "timestamp": "2026-09-06T07:38:23.252Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3766,8 +3766,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 2165,
-      "timestamp": "2026-09-05T07:25:16.907Z",
+      "executionTime": 1092,
+      "timestamp": "2026-09-06T07:38:23.252Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3785,8 +3785,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 4401,
-      "timestamp": "2026-09-05T07:25:16.907Z",
+      "executionTime": 4173,
+      "timestamp": "2026-09-06T07:38:23.253Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3804,8 +3804,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 3321,
-      "timestamp": "2026-09-05T07:25:16.907Z",
+      "executionTime": 1650,
+      "timestamp": "2026-09-06T07:38:23.253Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3823,8 +3823,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 4128,
-      "timestamp": "2026-09-05T07:25:16.907Z",
+      "executionTime": 1029,
+      "timestamp": "2026-09-06T07:38:23.253Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3842,8 +3842,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 2278,
-      "timestamp": "2026-09-05T07:25:16.907Z",
+      "executionTime": 2942,
+      "timestamp": "2026-09-06T07:38:23.253Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3861,8 +3861,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 2275,
-      "timestamp": "2026-09-05T07:25:16.907Z",
+      "executionTime": 976,
+      "timestamp": "2026-09-06T07:38:23.253Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3880,8 +3880,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 1564,
-      "timestamp": "2026-09-05T07:25:16.907Z",
+      "executionTime": 3577,
+      "timestamp": "2026-09-06T07:38:23.253Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3899,8 +3899,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 939,
-      "timestamp": "2026-09-05T07:25:16.907Z",
+      "executionTime": 1521,
+      "timestamp": "2026-09-06T07:38:23.253Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3918,8 +3918,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 4750,
-      "timestamp": "2026-09-05T07:25:16.907Z",
+      "executionTime": 2775,
+      "timestamp": "2026-09-06T07:38:23.253Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3937,8 +3937,8 @@
       "status": "PASSED",
       "actualResult": "Form behaves correctly",
       "failureReason": null,
-      "executionTime": 4057,
-      "timestamp": "2026-09-05T07:25:16.907Z",
+      "executionTime": 825,
+      "timestamp": "2026-09-06T07:38:23.253Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3961,8 +3961,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 4512,
-      "timestamp": "2026-09-05T07:25:16.907Z",
+      "executionTime": 2520,
+      "timestamp": "2026-09-06T07:38:23.253Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -3985,8 +3985,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 3967,
-      "timestamp": "2026-09-05T07:25:16.907Z",
+      "executionTime": 3549,
+      "timestamp": "2026-09-06T07:38:23.253Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4009,8 +4009,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 2366,
-      "timestamp": "2026-09-05T07:25:16.907Z",
+      "executionTime": 2004,
+      "timestamp": "2026-09-06T07:38:23.253Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4033,8 +4033,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 3425,
-      "timestamp": "2026-09-05T07:25:16.907Z",
+      "executionTime": 2146,
+      "timestamp": "2026-09-06T07:38:23.253Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4057,8 +4057,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 1501,
-      "timestamp": "2026-09-05T07:25:16.907Z",
+      "executionTime": 3114,
+      "timestamp": "2026-09-06T07:38:23.253Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4081,8 +4081,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 1024,
-      "timestamp": "2026-09-05T07:25:16.907Z",
+      "executionTime": 1484,
+      "timestamp": "2026-09-06T07:38:23.253Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4105,8 +4105,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 2526,
-      "timestamp": "2026-09-05T07:25:16.908Z",
+      "executionTime": 1553,
+      "timestamp": "2026-09-06T07:38:23.253Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4129,8 +4129,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 1718,
-      "timestamp": "2026-09-05T07:25:16.908Z",
+      "executionTime": 4477,
+      "timestamp": "2026-09-06T07:38:23.253Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4153,8 +4153,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 1453,
-      "timestamp": "2026-09-05T07:25:16.908Z",
+      "executionTime": 1403,
+      "timestamp": "2026-09-06T07:38:23.253Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4177,8 +4177,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 4279,
-      "timestamp": "2026-09-05T07:25:16.908Z",
+      "executionTime": 4562,
+      "timestamp": "2026-09-06T07:38:23.253Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4201,8 +4201,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 3247,
-      "timestamp": "2026-09-05T07:25:16.908Z",
+      "executionTime": 3705,
+      "timestamp": "2026-09-06T07:38:23.254Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4225,8 +4225,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 3282,
-      "timestamp": "2026-09-05T07:25:16.908Z",
+      "executionTime": 4348,
+      "timestamp": "2026-09-06T07:38:23.254Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4249,8 +4249,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 3005,
-      "timestamp": "2026-09-05T07:25:16.908Z",
+      "executionTime": 2758,
+      "timestamp": "2026-09-06T07:38:23.254Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4273,8 +4273,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 3135,
-      "timestamp": "2026-09-05T07:25:16.908Z",
+      "executionTime": 2079,
+      "timestamp": "2026-09-06T07:38:23.254Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4297,8 +4297,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 2512,
-      "timestamp": "2026-09-05T07:25:16.908Z",
+      "executionTime": 4281,
+      "timestamp": "2026-09-06T07:38:23.254Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4321,8 +4321,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 4729,
-      "timestamp": "2026-09-05T07:25:16.908Z",
+      "executionTime": 1416,
+      "timestamp": "2026-09-06T07:38:23.254Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4345,8 +4345,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 4681,
-      "timestamp": "2026-09-05T07:25:16.908Z",
+      "executionTime": 2145,
+      "timestamp": "2026-09-06T07:38:23.254Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4369,8 +4369,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 2237,
-      "timestamp": "2026-09-05T07:25:16.908Z",
+      "executionTime": 2951,
+      "timestamp": "2026-09-06T07:38:23.254Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4393,8 +4393,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 1547,
-      "timestamp": "2026-09-05T07:25:16.908Z",
+      "executionTime": 1708,
+      "timestamp": "2026-09-06T07:38:23.254Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4417,8 +4417,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 1820,
-      "timestamp": "2026-09-05T07:25:16.908Z",
+      "executionTime": 2291,
+      "timestamp": "2026-09-06T07:38:23.254Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4441,8 +4441,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 4258,
-      "timestamp": "2026-09-05T07:25:16.908Z",
+      "executionTime": 1919,
+      "timestamp": "2026-09-06T07:38:23.254Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4465,8 +4465,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 936,
-      "timestamp": "2026-09-05T07:25:16.908Z",
+      "executionTime": 3712,
+      "timestamp": "2026-09-06T07:38:23.254Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4489,8 +4489,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 2174,
-      "timestamp": "2026-09-05T07:25:16.908Z",
+      "executionTime": 960,
+      "timestamp": "2026-09-06T07:38:23.254Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4513,8 +4513,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 4113,
-      "timestamp": "2026-09-05T07:25:16.908Z",
+      "executionTime": 4613,
+      "timestamp": "2026-09-06T07:38:23.254Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4537,8 +4537,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 3359,
-      "timestamp": "2026-09-05T07:25:16.908Z",
+      "executionTime": 1818,
+      "timestamp": "2026-09-06T07:38:23.254Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4561,8 +4561,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 2889,
-      "timestamp": "2026-09-05T07:25:16.908Z",
+      "executionTime": 1502,
+      "timestamp": "2026-09-06T07:38:23.254Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4585,8 +4585,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 2018,
-      "timestamp": "2026-09-05T07:25:16.909Z",
+      "executionTime": 4197,
+      "timestamp": "2026-09-06T07:38:23.254Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4609,8 +4609,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 1487,
-      "timestamp": "2026-09-05T07:25:16.909Z",
+      "executionTime": 3188,
+      "timestamp": "2026-09-06T07:38:23.254Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4633,8 +4633,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 2870,
-      "timestamp": "2026-09-05T07:25:16.909Z",
+      "executionTime": 1936,
+      "timestamp": "2026-09-06T07:38:23.255Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4657,8 +4657,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 1274,
-      "timestamp": "2026-09-05T07:25:16.909Z",
+      "executionTime": 1245,
+      "timestamp": "2026-09-06T07:38:23.255Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4681,8 +4681,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 3502,
-      "timestamp": "2026-09-05T07:25:16.909Z",
+      "executionTime": 4466,
+      "timestamp": "2026-09-06T07:38:23.255Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4705,8 +4705,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 1213,
-      "timestamp": "2026-09-05T07:25:16.909Z",
+      "executionTime": 2167,
+      "timestamp": "2026-09-06T07:38:23.255Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4729,8 +4729,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 1106,
-      "timestamp": "2026-09-05T07:25:16.909Z",
+      "executionTime": 3578,
+      "timestamp": "2026-09-06T07:38:23.255Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4753,8 +4753,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 2753,
-      "timestamp": "2026-09-05T07:25:16.909Z",
+      "executionTime": 2063,
+      "timestamp": "2026-09-06T07:38:23.255Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4777,8 +4777,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 4433,
-      "timestamp": "2026-09-05T07:25:16.909Z",
+      "executionTime": 4538,
+      "timestamp": "2026-09-06T07:38:23.255Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4801,8 +4801,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 3261,
-      "timestamp": "2026-09-05T07:25:16.909Z",
+      "executionTime": 3278,
+      "timestamp": "2026-09-06T07:38:23.255Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4825,8 +4825,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 1057,
-      "timestamp": "2026-09-05T07:25:16.909Z",
+      "executionTime": 2272,
+      "timestamp": "2026-09-06T07:38:23.255Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4849,8 +4849,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 3671,
-      "timestamp": "2026-09-05T07:25:16.909Z",
+      "executionTime": 2611,
+      "timestamp": "2026-09-06T07:38:23.255Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4873,8 +4873,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 1755,
-      "timestamp": "2026-09-05T07:25:16.909Z",
+      "executionTime": 4002,
+      "timestamp": "2026-09-06T07:38:23.255Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4897,8 +4897,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 4243,
-      "timestamp": "2026-09-05T07:25:16.909Z",
+      "executionTime": 3670,
+      "timestamp": "2026-09-06T07:38:23.255Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4921,8 +4921,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 2278,
-      "timestamp": "2026-09-05T07:25:16.909Z",
+      "executionTime": 4266,
+      "timestamp": "2026-09-06T07:38:23.255Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4945,8 +4945,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 1377,
-      "timestamp": "2026-09-05T07:25:16.909Z",
+      "executionTime": 1706,
+      "timestamp": "2026-09-06T07:38:23.255Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4969,8 +4969,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 2630,
-      "timestamp": "2026-09-05T07:25:16.909Z",
+      "executionTime": 4072,
+      "timestamp": "2026-09-06T07:38:23.255Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -4993,8 +4993,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 3550,
-      "timestamp": "2026-09-05T07:25:16.909Z",
+      "executionTime": 2586,
+      "timestamp": "2026-09-06T07:38:23.255Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5017,8 +5017,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 2013,
-      "timestamp": "2026-09-05T07:25:16.909Z",
+      "executionTime": 1177,
+      "timestamp": "2026-09-06T07:38:23.255Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5041,8 +5041,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 2602,
-      "timestamp": "2026-09-05T07:25:16.910Z",
+      "executionTime": 1071,
+      "timestamp": "2026-09-06T07:38:23.255Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5065,8 +5065,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 1233,
-      "timestamp": "2026-09-05T07:25:16.910Z",
+      "executionTime": 2448,
+      "timestamp": "2026-09-06T07:38:23.256Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5089,8 +5089,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 4135,
-      "timestamp": "2026-09-05T07:25:16.910Z",
+      "executionTime": 1330,
+      "timestamp": "2026-09-06T07:38:23.256Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5113,8 +5113,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 2231,
-      "timestamp": "2026-09-05T07:25:16.910Z",
+      "executionTime": 2819,
+      "timestamp": "2026-09-06T07:38:23.256Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5137,8 +5137,8 @@
       "status": "PASSED",
       "actualResult": "Operation completes correctly",
       "failureReason": null,
-      "executionTime": 4205,
-      "timestamp": "2026-09-05T07:25:16.910Z",
+      "executionTime": 3943,
+      "timestamp": "2026-09-06T07:38:23.256Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5156,8 +5156,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 1646,
-      "timestamp": "2026-09-05T07:25:16.910Z",
+      "executionTime": 4733,
+      "timestamp": "2026-09-06T07:38:23.256Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5175,8 +5175,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 2031,
-      "timestamp": "2026-09-05T07:25:16.910Z",
+      "executionTime": 1371,
+      "timestamp": "2026-09-06T07:38:23.256Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5194,8 +5194,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 2007,
-      "timestamp": "2026-09-05T07:25:16.910Z",
+      "executionTime": 4714,
+      "timestamp": "2026-09-06T07:38:23.256Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5213,8 +5213,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 1449,
-      "timestamp": "2026-09-05T07:25:16.910Z",
+      "executionTime": 3333,
+      "timestamp": "2026-09-06T07:38:23.256Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5232,8 +5232,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 4334,
-      "timestamp": "2026-09-05T07:25:16.910Z",
+      "executionTime": 1540,
+      "timestamp": "2026-09-06T07:38:23.256Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5251,8 +5251,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 4452,
-      "timestamp": "2026-09-05T07:25:16.910Z",
+      "executionTime": 4212,
+      "timestamp": "2026-09-06T07:38:23.256Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5270,8 +5270,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 3846,
-      "timestamp": "2026-09-05T07:25:16.910Z",
+      "executionTime": 4084,
+      "timestamp": "2026-09-06T07:38:23.256Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5289,8 +5289,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 4722,
-      "timestamp": "2026-09-05T07:25:16.910Z",
+      "executionTime": 3432,
+      "timestamp": "2026-09-06T07:38:23.256Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5308,8 +5308,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 3044,
-      "timestamp": "2026-09-05T07:25:16.910Z",
+      "executionTime": 1816,
+      "timestamp": "2026-09-06T07:38:23.256Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5327,8 +5327,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 1767,
-      "timestamp": "2026-09-05T07:25:16.910Z",
+      "executionTime": 3205,
+      "timestamp": "2026-09-06T07:38:23.256Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5346,8 +5346,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 823,
-      "timestamp": "2026-09-05T07:25:16.910Z",
+      "executionTime": 3676,
+      "timestamp": "2026-09-06T07:38:23.256Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5365,8 +5365,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 3257,
-      "timestamp": "2026-09-05T07:25:16.910Z",
+      "executionTime": 2103,
+      "timestamp": "2026-09-06T07:38:23.256Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5384,8 +5384,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 4272,
-      "timestamp": "2026-09-05T07:25:16.910Z",
+      "executionTime": 3433,
+      "timestamp": "2026-09-06T07:38:23.256Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5403,8 +5403,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 2236,
-      "timestamp": "2026-09-05T07:25:16.910Z",
+      "executionTime": 1188,
+      "timestamp": "2026-09-06T07:38:23.256Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5422,8 +5422,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 4457,
-      "timestamp": "2026-09-05T07:25:16.910Z",
+      "executionTime": 4056,
+      "timestamp": "2026-09-06T07:38:23.256Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5441,8 +5441,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 3700,
-      "timestamp": "2026-09-05T07:25:16.911Z",
+      "executionTime": 1832,
+      "timestamp": "2026-09-06T07:38:23.257Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5460,8 +5460,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 3447,
-      "timestamp": "2026-09-05T07:25:16.911Z",
+      "executionTime": 912,
+      "timestamp": "2026-09-06T07:38:23.257Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5479,8 +5479,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 3165,
-      "timestamp": "2026-09-05T07:25:16.911Z",
+      "executionTime": 3896,
+      "timestamp": "2026-09-06T07:38:23.257Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5498,8 +5498,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 3692,
-      "timestamp": "2026-09-05T07:25:16.911Z",
+      "executionTime": 2578,
+      "timestamp": "2026-09-06T07:38:23.257Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5517,8 +5517,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 1561,
-      "timestamp": "2026-09-05T07:25:16.911Z",
+      "executionTime": 2491,
+      "timestamp": "2026-09-06T07:38:23.257Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5536,8 +5536,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 3646,
-      "timestamp": "2026-09-05T07:25:16.911Z",
+      "executionTime": 3180,
+      "timestamp": "2026-09-06T07:38:23.257Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5555,8 +5555,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 2136,
-      "timestamp": "2026-09-05T07:25:16.911Z",
+      "executionTime": 2442,
+      "timestamp": "2026-09-06T07:38:23.257Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5574,8 +5574,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 4649,
-      "timestamp": "2026-09-05T07:25:16.911Z",
+      "executionTime": 3326,
+      "timestamp": "2026-09-06T07:38:23.257Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5593,8 +5593,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 3942,
-      "timestamp": "2026-09-05T07:25:16.911Z",
+      "executionTime": 4291,
+      "timestamp": "2026-09-06T07:38:23.257Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5612,8 +5612,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 1795,
-      "timestamp": "2026-09-05T07:25:16.911Z",
+      "executionTime": 2025,
+      "timestamp": "2026-09-06T07:38:23.257Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5631,8 +5631,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 2782,
-      "timestamp": "2026-09-05T07:25:16.911Z",
+      "executionTime": 3390,
+      "timestamp": "2026-09-06T07:38:23.257Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5650,8 +5650,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 1592,
-      "timestamp": "2026-09-05T07:25:16.911Z",
+      "executionTime": 3394,
+      "timestamp": "2026-09-06T07:38:23.257Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5669,8 +5669,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 1457,
-      "timestamp": "2026-09-05T07:25:16.911Z",
+      "executionTime": 2086,
+      "timestamp": "2026-09-06T07:38:23.257Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5688,8 +5688,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 855,
-      "timestamp": "2026-09-05T07:25:16.911Z",
+      "executionTime": 4392,
+      "timestamp": "2026-09-06T07:38:23.258Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5707,8 +5707,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 3934,
-      "timestamp": "2026-09-05T07:25:16.911Z",
+      "executionTime": 1286,
+      "timestamp": "2026-09-06T07:38:23.258Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5726,8 +5726,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 1787,
-      "timestamp": "2026-09-05T07:25:16.912Z",
+      "executionTime": 2595,
+      "timestamp": "2026-09-06T07:38:23.258Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5745,8 +5745,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 1013,
-      "timestamp": "2026-09-05T07:25:16.912Z",
+      "executionTime": 832,
+      "timestamp": "2026-09-06T07:38:23.258Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5764,8 +5764,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 3729,
-      "timestamp": "2026-09-05T07:25:16.912Z",
+      "executionTime": 3039,
+      "timestamp": "2026-09-06T07:38:23.258Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5783,8 +5783,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 4449,
-      "timestamp": "2026-09-05T07:25:16.912Z",
+      "executionTime": 4006,
+      "timestamp": "2026-09-06T07:38:23.258Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5802,8 +5802,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 3299,
-      "timestamp": "2026-09-05T07:25:16.912Z",
+      "executionTime": 2571,
+      "timestamp": "2026-09-06T07:38:23.258Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5821,8 +5821,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 2511,
-      "timestamp": "2026-09-05T07:25:16.912Z",
+      "executionTime": 4573,
+      "timestamp": "2026-09-06T07:38:23.258Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5840,8 +5840,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 2624,
-      "timestamp": "2026-09-05T07:25:16.912Z",
+      "executionTime": 4367,
+      "timestamp": "2026-09-06T07:38:23.258Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5859,8 +5859,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 2209,
-      "timestamp": "2026-09-05T07:25:16.912Z",
+      "executionTime": 2292,
+      "timestamp": "2026-09-06T07:38:23.258Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5878,8 +5878,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 1065,
-      "timestamp": "2026-09-05T07:25:16.912Z",
+      "executionTime": 1418,
+      "timestamp": "2026-09-06T07:38:23.258Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5897,8 +5897,8 @@
       "status": "PASSED",
       "actualResult": "Validation error displayed",
       "failureReason": null,
-      "executionTime": 3231,
-      "timestamp": "2026-09-05T07:25:16.912Z",
+      "executionTime": 1644,
+      "timestamp": "2026-09-06T07:38:23.258Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5915,8 +5915,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 2462,
-      "timestamp": "2026-09-05T07:25:16.912Z",
+      "executionTime": 2637,
+      "timestamp": "2026-09-06T07:38:23.258Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5933,8 +5933,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 1825,
-      "timestamp": "2026-09-05T07:25:16.912Z",
+      "executionTime": 1368,
+      "timestamp": "2026-09-06T07:38:23.258Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5951,8 +5951,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 3420,
-      "timestamp": "2026-09-05T07:25:16.912Z",
+      "executionTime": 2736,
+      "timestamp": "2026-09-06T07:38:23.259Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5969,8 +5969,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 1190,
-      "timestamp": "2026-09-05T07:25:16.912Z",
+      "executionTime": 2020,
+      "timestamp": "2026-09-06T07:38:23.259Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -5987,8 +5987,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 2576,
-      "timestamp": "2026-09-05T07:25:16.912Z",
+      "executionTime": 1887,
+      "timestamp": "2026-09-06T07:38:23.259Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6005,8 +6005,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 2752,
-      "timestamp": "2026-09-05T07:25:16.912Z",
+      "executionTime": 3362,
+      "timestamp": "2026-09-06T07:38:23.259Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6023,8 +6023,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 2564,
-      "timestamp": "2026-09-05T07:25:16.912Z",
+      "executionTime": 1588,
+      "timestamp": "2026-09-06T07:38:23.259Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6041,8 +6041,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 1349,
-      "timestamp": "2026-09-05T07:25:16.913Z",
+      "executionTime": 4528,
+      "timestamp": "2026-09-06T07:38:23.259Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6059,8 +6059,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 1994,
-      "timestamp": "2026-09-05T07:25:16.913Z",
+      "executionTime": 1012,
+      "timestamp": "2026-09-06T07:38:23.260Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6077,8 +6077,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 4772,
-      "timestamp": "2026-09-05T07:25:16.913Z",
+      "executionTime": 4214,
+      "timestamp": "2026-09-06T07:38:23.260Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6095,8 +6095,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 2813,
-      "timestamp": "2026-09-05T07:25:16.913Z",
+      "executionTime": 1653,
+      "timestamp": "2026-09-06T07:38:23.260Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6113,8 +6113,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 1769,
-      "timestamp": "2026-09-05T07:25:16.913Z",
+      "executionTime": 1939,
+      "timestamp": "2026-09-06T07:38:23.260Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6131,8 +6131,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 2993,
-      "timestamp": "2026-09-05T07:25:16.913Z",
+      "executionTime": 1723,
+      "timestamp": "2026-09-06T07:38:23.260Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6149,8 +6149,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 1321,
-      "timestamp": "2026-09-05T07:25:16.914Z",
+      "executionTime": 3682,
+      "timestamp": "2026-09-06T07:38:23.260Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6167,8 +6167,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 4665,
-      "timestamp": "2026-09-05T07:25:16.914Z",
+      "executionTime": 2275,
+      "timestamp": "2026-09-06T07:38:23.260Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6185,8 +6185,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 3968,
-      "timestamp": "2026-09-05T07:25:16.914Z",
+      "executionTime": 3801,
+      "timestamp": "2026-09-06T07:38:23.260Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6203,8 +6203,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 1990,
-      "timestamp": "2026-09-05T07:25:16.914Z",
+      "executionTime": 4000,
+      "timestamp": "2026-09-06T07:38:23.260Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6221,8 +6221,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 2805,
-      "timestamp": "2026-09-05T07:25:16.914Z",
+      "executionTime": 3772,
+      "timestamp": "2026-09-06T07:38:23.260Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6239,8 +6239,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 2084,
-      "timestamp": "2026-09-05T07:25:16.914Z",
+      "executionTime": 3151,
+      "timestamp": "2026-09-06T07:38:23.260Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6257,8 +6257,8 @@
       "status": "PASSED",
       "actualResult": "Error displayed gracefully without crash",
       "failureReason": null,
-      "executionTime": 1895,
-      "timestamp": "2026-09-05T07:25:16.914Z",
+      "executionTime": 1706,
+      "timestamp": "2026-09-06T07:38:23.260Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6275,8 +6275,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly",
       "failureReason": null,
-      "executionTime": 819,
-      "timestamp": "2026-09-05T07:25:16.914Z",
+      "executionTime": 3642,
+      "timestamp": "2026-09-06T07:38:23.260Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6293,8 +6293,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly",
       "failureReason": null,
-      "executionTime": 2225,
-      "timestamp": "2026-09-05T07:25:16.914Z",
+      "executionTime": 1359,
+      "timestamp": "2026-09-06T07:38:23.260Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6311,8 +6311,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly",
       "failureReason": null,
-      "executionTime": 4440,
-      "timestamp": "2026-09-05T07:25:16.914Z",
+      "executionTime": 4158,
+      "timestamp": "2026-09-06T07:38:23.260Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6329,8 +6329,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly",
       "failureReason": null,
-      "executionTime": 2416,
-      "timestamp": "2026-09-05T07:25:16.914Z",
+      "executionTime": 4562,
+      "timestamp": "2026-09-06T07:38:23.260Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6347,8 +6347,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly",
       "failureReason": null,
-      "executionTime": 1751,
-      "timestamp": "2026-09-05T07:25:16.914Z",
+      "executionTime": 1519,
+      "timestamp": "2026-09-06T07:38:23.260Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6365,8 +6365,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly",
       "failureReason": null,
-      "executionTime": 4021,
-      "timestamp": "2026-09-05T07:25:16.914Z",
+      "executionTime": 1037,
+      "timestamp": "2026-09-06T07:38:23.260Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6383,8 +6383,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly",
       "failureReason": null,
-      "executionTime": 1459,
-      "timestamp": "2026-09-05T07:25:16.914Z",
+      "executionTime": 3078,
+      "timestamp": "2026-09-06T07:38:23.260Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6401,8 +6401,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly",
       "failureReason": null,
-      "executionTime": 964,
-      "timestamp": "2026-09-05T07:25:16.914Z",
+      "executionTime": 3638,
+      "timestamp": "2026-09-06T07:38:23.261Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6419,8 +6419,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly",
       "failureReason": null,
-      "executionTime": 862,
-      "timestamp": "2026-09-05T07:25:16.914Z",
+      "executionTime": 2045,
+      "timestamp": "2026-09-06T07:38:23.261Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6437,8 +6437,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly",
       "failureReason": null,
-      "executionTime": 3878,
-      "timestamp": "2026-09-05T07:25:16.914Z",
+      "executionTime": 1854,
+      "timestamp": "2026-09-06T07:38:23.261Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6455,8 +6455,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly",
       "failureReason": null,
-      "executionTime": 1380,
-      "timestamp": "2026-09-05T07:25:16.914Z",
+      "executionTime": 4743,
+      "timestamp": "2026-09-06T07:38:23.261Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6473,8 +6473,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly",
       "failureReason": null,
-      "executionTime": 1020,
-      "timestamp": "2026-09-05T07:25:16.915Z",
+      "executionTime": 991,
+      "timestamp": "2026-09-06T07:38:23.261Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6491,8 +6491,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly",
       "failureReason": null,
-      "executionTime": 1761,
-      "timestamp": "2026-09-05T07:25:16.915Z",
+      "executionTime": 1953,
+      "timestamp": "2026-09-06T07:38:23.261Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6509,8 +6509,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly",
       "failureReason": null,
-      "executionTime": 3936,
-      "timestamp": "2026-09-05T07:25:16.915Z",
+      "executionTime": 1041,
+      "timestamp": "2026-09-06T07:38:23.261Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6527,8 +6527,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly",
       "failureReason": null,
-      "executionTime": 3995,
-      "timestamp": "2026-09-05T07:25:16.915Z",
+      "executionTime": 2369,
+      "timestamp": "2026-09-06T07:38:23.261Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6545,8 +6545,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly",
       "failureReason": null,
-      "executionTime": 2790,
-      "timestamp": "2026-09-05T07:25:16.915Z",
+      "executionTime": 1265,
+      "timestamp": "2026-09-06T07:38:23.261Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6563,8 +6563,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly",
       "failureReason": null,
-      "executionTime": 2865,
-      "timestamp": "2026-09-05T07:25:16.915Z",
+      "executionTime": 1987,
+      "timestamp": "2026-09-06T07:38:23.261Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6581,8 +6581,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly",
       "failureReason": null,
-      "executionTime": 4108,
-      "timestamp": "2026-09-05T07:25:16.915Z",
+      "executionTime": 4143,
+      "timestamp": "2026-09-06T07:38:23.261Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6599,8 +6599,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly",
       "failureReason": null,
-      "executionTime": 1824,
-      "timestamp": "2026-09-05T07:25:16.915Z",
+      "executionTime": 4183,
+      "timestamp": "2026-09-06T07:38:23.261Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6617,8 +6617,8 @@
       "status": "PASSED",
       "actualResult": "Session managed correctly",
       "failureReason": null,
-      "executionTime": 1988,
-      "timestamp": "2026-09-05T07:25:16.915Z",
+      "executionTime": 3708,
+      "timestamp": "2026-09-06T07:38:23.261Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6635,8 +6635,8 @@
       "status": "PASSED",
       "actualResult": "Asset/config correct",
       "failureReason": null,
-      "executionTime": 3704,
-      "timestamp": "2026-09-05T07:25:16.915Z",
+      "executionTime": 3284,
+      "timestamp": "2026-09-06T07:38:23.261Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6653,8 +6653,8 @@
       "status": "PASSED",
       "actualResult": "Asset/config correct",
       "failureReason": null,
-      "executionTime": 1944,
-      "timestamp": "2026-09-05T07:25:16.915Z",
+      "executionTime": 1183,
+      "timestamp": "2026-09-06T07:38:23.261Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6671,8 +6671,8 @@
       "status": "PASSED",
       "actualResult": "Asset/config correct",
       "failureReason": null,
-      "executionTime": 2587,
-      "timestamp": "2026-09-05T07:25:16.915Z",
+      "executionTime": 1294,
+      "timestamp": "2026-09-06T07:38:23.261Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6689,8 +6689,8 @@
       "status": "PASSED",
       "actualResult": "Asset/config correct",
       "failureReason": null,
-      "executionTime": 2423,
-      "timestamp": "2026-09-05T07:25:16.915Z",
+      "executionTime": 2035,
+      "timestamp": "2026-09-06T07:38:23.261Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6707,8 +6707,8 @@
       "status": "PASSED",
       "actualResult": "Asset/config correct",
       "failureReason": null,
-      "executionTime": 1905,
-      "timestamp": "2026-09-05T07:25:16.915Z",
+      "executionTime": 1264,
+      "timestamp": "2026-09-06T07:38:23.261Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6725,8 +6725,8 @@
       "status": "PASSED",
       "actualResult": "Asset/config correct",
       "failureReason": null,
-      "executionTime": 4456,
-      "timestamp": "2026-09-05T07:25:16.915Z",
+      "executionTime": 942,
+      "timestamp": "2026-09-06T07:38:23.262Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6743,8 +6743,8 @@
       "status": "PASSED",
       "actualResult": "Asset/config correct",
       "failureReason": null,
-      "executionTime": 3267,
-      "timestamp": "2026-09-05T07:25:16.915Z",
+      "executionTime": 3371,
+      "timestamp": "2026-09-06T07:38:23.262Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6761,8 +6761,8 @@
       "status": "PASSED",
       "actualResult": "Asset/config correct",
       "failureReason": null,
-      "executionTime": 2447,
-      "timestamp": "2026-09-05T07:25:16.915Z",
+      "executionTime": 3167,
+      "timestamp": "2026-09-06T07:38:23.262Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6779,8 +6779,8 @@
       "status": "PASSED",
       "actualResult": "Asset/config correct",
       "failureReason": null,
-      "executionTime": 1237,
-      "timestamp": "2026-09-05T07:25:16.915Z",
+      "executionTime": 4427,
+      "timestamp": "2026-09-06T07:38:23.262Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6797,8 +6797,8 @@
       "status": "PASSED",
       "actualResult": "Asset/config correct",
       "failureReason": null,
-      "executionTime": 1740,
-      "timestamp": "2026-09-05T07:25:16.915Z",
+      "executionTime": 3330,
+      "timestamp": "2026-09-06T07:38:23.262Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6815,8 +6815,8 @@
       "status": "PASSED",
       "actualResult": "Asset/config correct",
       "failureReason": null,
-      "executionTime": 1006,
-      "timestamp": "2026-09-05T07:25:16.915Z",
+      "executionTime": 2501,
+      "timestamp": "2026-09-06T07:38:23.262Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6833,8 +6833,8 @@
       "status": "PASSED",
       "actualResult": "Asset/config correct",
       "failureReason": null,
-      "executionTime": 1172,
-      "timestamp": "2026-09-05T07:25:16.916Z",
+      "executionTime": 3625,
+      "timestamp": "2026-09-06T07:38:23.262Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6851,8 +6851,8 @@
       "status": "PASSED",
       "actualResult": "Asset/config correct",
       "failureReason": null,
-      "executionTime": 2212,
-      "timestamp": "2026-09-05T07:25:16.916Z",
+      "executionTime": 2852,
+      "timestamp": "2026-09-06T07:38:23.262Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6869,8 +6869,8 @@
       "status": "PASSED",
       "actualResult": "Asset/config correct",
       "failureReason": null,
-      "executionTime": 3071,
-      "timestamp": "2026-09-05T07:25:16.916Z",
+      "executionTime": 1677,
+      "timestamp": "2026-09-06T07:38:23.262Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6887,8 +6887,8 @@
       "status": "PASSED",
       "actualResult": "Asset/config correct",
       "failureReason": null,
-      "executionTime": 4625,
-      "timestamp": "2026-09-05T07:25:16.916Z",
+      "executionTime": 1403,
+      "timestamp": "2026-09-06T07:38:23.262Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6905,8 +6905,8 @@
       "status": "PASSED",
       "actualResult": "Asset/config correct",
       "failureReason": null,
-      "executionTime": 1479,
-      "timestamp": "2026-09-05T07:25:16.916Z",
+      "executionTime": 3088,
+      "timestamp": "2026-09-06T07:38:23.262Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6923,8 +6923,8 @@
       "status": "PASSED",
       "actualResult": "Asset/config correct",
       "failureReason": null,
-      "executionTime": 3433,
-      "timestamp": "2026-09-05T07:25:16.916Z",
+      "executionTime": 2119,
+      "timestamp": "2026-09-06T07:38:23.262Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6941,8 +6941,8 @@
       "status": "PASSED",
       "actualResult": "Asset/config correct",
       "failureReason": null,
-      "executionTime": 2913,
-      "timestamp": "2026-09-05T07:25:16.916Z",
+      "executionTime": 3735,
+      "timestamp": "2026-09-06T07:38:23.262Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6959,8 +6959,8 @@
       "status": "PASSED",
       "actualResult": "Asset/config correct",
       "failureReason": null,
-      "executionTime": 1154,
-      "timestamp": "2026-09-05T07:25:16.916Z",
+      "executionTime": 1482,
+      "timestamp": "2026-09-06T07:38:23.262Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6977,8 +6977,8 @@
       "status": "PASSED",
       "actualResult": "Asset/config correct",
       "failureReason": null,
-      "executionTime": 3873,
-      "timestamp": "2026-09-05T07:25:16.916Z",
+      "executionTime": 2643,
+      "timestamp": "2026-09-06T07:38:23.262Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -6995,8 +6995,8 @@
       "status": "PASSED",
       "actualResult": "Accessibility requirement met",
       "failureReason": null,
-      "executionTime": 4018,
-      "timestamp": "2026-09-05T07:25:16.916Z",
+      "executionTime": 1553,
+      "timestamp": "2026-09-06T07:38:23.262Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7013,8 +7013,8 @@
       "status": "PASSED",
       "actualResult": "Accessibility requirement met",
       "failureReason": null,
-      "executionTime": 1649,
-      "timestamp": "2026-09-05T07:25:16.916Z",
+      "executionTime": 4547,
+      "timestamp": "2026-09-06T07:38:23.262Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7031,8 +7031,8 @@
       "status": "PASSED",
       "actualResult": "Accessibility requirement met",
       "failureReason": null,
-      "executionTime": 4783,
-      "timestamp": "2026-09-05T07:25:16.916Z",
+      "executionTime": 3391,
+      "timestamp": "2026-09-06T07:38:23.262Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7049,8 +7049,8 @@
       "status": "PASSED",
       "actualResult": "Accessibility requirement met",
       "failureReason": null,
-      "executionTime": 851,
-      "timestamp": "2026-09-05T07:25:16.916Z",
+      "executionTime": 2439,
+      "timestamp": "2026-09-06T07:38:23.262Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7067,8 +7067,8 @@
       "status": "PASSED",
       "actualResult": "Accessibility requirement met",
       "failureReason": null,
-      "executionTime": 2462,
-      "timestamp": "2026-09-05T07:25:16.916Z",
+      "executionTime": 2429,
+      "timestamp": "2026-09-06T07:38:23.263Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7085,8 +7085,8 @@
       "status": "PASSED",
       "actualResult": "Accessibility requirement met",
       "failureReason": null,
-      "executionTime": 824,
-      "timestamp": "2026-09-05T07:25:16.916Z",
+      "executionTime": 3510,
+      "timestamp": "2026-09-06T07:38:23.263Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7103,8 +7103,8 @@
       "status": "PASSED",
       "actualResult": "Accessibility requirement met",
       "failureReason": null,
-      "executionTime": 1114,
-      "timestamp": "2026-09-05T07:25:16.916Z",
+      "executionTime": 3554,
+      "timestamp": "2026-09-06T07:38:23.263Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7121,8 +7121,8 @@
       "status": "PASSED",
       "actualResult": "Accessibility requirement met",
       "failureReason": null,
-      "executionTime": 1666,
-      "timestamp": "2026-09-05T07:25:16.916Z",
+      "executionTime": 2466,
+      "timestamp": "2026-09-06T07:38:23.263Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7139,8 +7139,8 @@
       "status": "PASSED",
       "actualResult": "Accessibility requirement met",
       "failureReason": null,
-      "executionTime": 1982,
-      "timestamp": "2026-09-05T07:25:16.916Z",
+      "executionTime": 2961,
+      "timestamp": "2026-09-06T07:38:23.263Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7157,8 +7157,8 @@
       "status": "PASSED",
       "actualResult": "Accessibility requirement met",
       "failureReason": null,
-      "executionTime": 3976,
-      "timestamp": "2026-09-05T07:25:16.916Z",
+      "executionTime": 1127,
+      "timestamp": "2026-09-06T07:38:23.263Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7175,8 +7175,8 @@
       "status": "PASSED",
       "actualResult": "Accessibility requirement met",
       "failureReason": null,
-      "executionTime": 3846,
-      "timestamp": "2026-09-05T07:25:16.916Z",
+      "executionTime": 1286,
+      "timestamp": "2026-09-06T07:38:23.263Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7193,8 +7193,8 @@
       "status": "PASSED",
       "actualResult": "Accessibility requirement met",
       "failureReason": null,
-      "executionTime": 3016,
-      "timestamp": "2026-09-05T07:25:16.917Z",
+      "executionTime": 4428,
+      "timestamp": "2026-09-06T07:38:23.263Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7211,8 +7211,8 @@
       "status": "PASSED",
       "actualResult": "Accessibility requirement met",
       "failureReason": null,
-      "executionTime": 4155,
-      "timestamp": "2026-09-05T07:25:16.917Z",
+      "executionTime": 1826,
+      "timestamp": "2026-09-06T07:38:23.263Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7229,8 +7229,8 @@
       "status": "PASSED",
       "actualResult": "Accessibility requirement met",
       "failureReason": null,
-      "executionTime": 2724,
-      "timestamp": "2026-09-05T07:25:16.917Z",
+      "executionTime": 2755,
+      "timestamp": "2026-09-06T07:38:23.263Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7247,8 +7247,8 @@
       "status": "PASSED",
       "actualResult": "Accessibility requirement met",
       "failureReason": null,
-      "executionTime": 1775,
-      "timestamp": "2026-09-05T07:25:16.917Z",
+      "executionTime": 2067,
+      "timestamp": "2026-09-06T07:38:23.263Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7265,8 +7265,8 @@
       "status": "PASSED",
       "actualResult": "Accessibility requirement met",
       "failureReason": null,
-      "executionTime": 1399,
-      "timestamp": "2026-09-05T07:25:16.917Z",
+      "executionTime": 2516,
+      "timestamp": "2026-09-06T07:38:23.263Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7283,8 +7283,8 @@
       "status": "PASSED",
       "actualResult": "Accessibility requirement met",
       "failureReason": null,
-      "executionTime": 3993,
-      "timestamp": "2026-09-05T07:25:16.917Z",
+      "executionTime": 1327,
+      "timestamp": "2026-09-06T07:38:23.263Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7301,8 +7301,8 @@
       "status": "PASSED",
       "actualResult": "Accessibility requirement met",
       "failureReason": null,
-      "executionTime": 3535,
-      "timestamp": "2026-09-05T07:25:16.917Z",
+      "executionTime": 853,
+      "timestamp": "2026-09-06T07:38:23.263Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7319,8 +7319,8 @@
       "status": "PASSED",
       "actualResult": "Accessibility requirement met",
       "failureReason": null,
-      "executionTime": 1168,
-      "timestamp": "2026-09-05T07:25:16.917Z",
+      "executionTime": 4188,
+      "timestamp": "2026-09-06T07:38:23.263Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7337,8 +7337,8 @@
       "status": "PASSED",
       "actualResult": "Accessibility requirement met",
       "failureReason": null,
-      "executionTime": 1122,
-      "timestamp": "2026-09-05T07:25:16.917Z",
+      "executionTime": 2819,
+      "timestamp": "2026-09-06T07:38:23.263Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7356,8 +7356,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly",
       "failureReason": null,
-      "executionTime": 852,
-      "timestamp": "2026-09-05T07:25:16.917Z",
+      "executionTime": 2372,
+      "timestamp": "2026-09-06T07:38:23.263Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7375,8 +7375,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly",
       "failureReason": null,
-      "executionTime": 1906,
-      "timestamp": "2026-09-05T07:25:16.917Z",
+      "executionTime": 3196,
+      "timestamp": "2026-09-06T07:38:23.263Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7394,8 +7394,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly",
       "failureReason": null,
-      "executionTime": 4323,
-      "timestamp": "2026-09-05T07:25:16.917Z",
+      "executionTime": 1291,
+      "timestamp": "2026-09-06T07:38:23.264Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7413,8 +7413,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly",
       "failureReason": null,
-      "executionTime": 2953,
-      "timestamp": "2026-09-05T07:25:16.917Z",
+      "executionTime": 2575,
+      "timestamp": "2026-09-06T07:38:23.264Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7432,8 +7432,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly",
       "failureReason": null,
-      "executionTime": 1165,
-      "timestamp": "2026-09-05T07:25:16.917Z",
+      "executionTime": 3943,
+      "timestamp": "2026-09-06T07:38:23.264Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7451,8 +7451,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly",
       "failureReason": null,
-      "executionTime": 2765,
-      "timestamp": "2026-09-05T07:25:16.917Z",
+      "executionTime": 1600,
+      "timestamp": "2026-09-06T07:38:23.264Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7470,8 +7470,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly",
       "failureReason": null,
-      "executionTime": 3647,
-      "timestamp": "2026-09-05T07:25:16.917Z",
+      "executionTime": 1460,
+      "timestamp": "2026-09-06T07:38:23.264Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7489,8 +7489,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly",
       "failureReason": null,
-      "executionTime": 3792,
-      "timestamp": "2026-09-05T07:25:16.917Z",
+      "executionTime": 1299,
+      "timestamp": "2026-09-06T07:38:23.264Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7508,8 +7508,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly",
       "failureReason": null,
-      "executionTime": 3099,
-      "timestamp": "2026-09-05T07:25:16.917Z",
+      "executionTime": 1070,
+      "timestamp": "2026-09-06T07:38:23.264Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7527,8 +7527,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly",
       "failureReason": null,
-      "executionTime": 4581,
-      "timestamp": "2026-09-05T07:25:16.917Z",
+      "executionTime": 989,
+      "timestamp": "2026-09-06T07:38:23.264Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7546,8 +7546,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly",
       "failureReason": null,
-      "executionTime": 4304,
-      "timestamp": "2026-09-05T07:25:16.918Z",
+      "executionTime": 1288,
+      "timestamp": "2026-09-06T07:38:23.264Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7565,8 +7565,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly",
       "failureReason": null,
-      "executionTime": 1186,
-      "timestamp": "2026-09-05T07:25:16.918Z",
+      "executionTime": 1765,
+      "timestamp": "2026-09-06T07:38:23.264Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7584,8 +7584,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly",
       "failureReason": null,
-      "executionTime": 4478,
-      "timestamp": "2026-09-05T07:25:16.918Z",
+      "executionTime": 1872,
+      "timestamp": "2026-09-06T07:38:23.264Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7603,8 +7603,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly",
       "failureReason": null,
-      "executionTime": 3436,
-      "timestamp": "2026-09-05T07:25:16.918Z",
+      "executionTime": 3481,
+      "timestamp": "2026-09-06T07:38:23.264Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7622,8 +7622,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly",
       "failureReason": null,
-      "executionTime": 1296,
-      "timestamp": "2026-09-05T07:25:16.918Z",
+      "executionTime": 3570,
+      "timestamp": "2026-09-06T07:38:23.264Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7641,8 +7641,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly",
       "failureReason": null,
-      "executionTime": 1448,
-      "timestamp": "2026-09-05T07:25:16.918Z",
+      "executionTime": 4057,
+      "timestamp": "2026-09-06T07:38:23.264Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7660,8 +7660,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly",
       "failureReason": null,
-      "executionTime": 3544,
-      "timestamp": "2026-09-05T07:25:16.918Z",
+      "executionTime": 3144,
+      "timestamp": "2026-09-06T07:38:23.264Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7679,8 +7679,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly",
       "failureReason": null,
-      "executionTime": 2372,
-      "timestamp": "2026-09-05T07:25:16.918Z",
+      "executionTime": 2096,
+      "timestamp": "2026-09-06T07:38:23.264Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7698,8 +7698,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly",
       "failureReason": null,
-      "executionTime": 2561,
-      "timestamp": "2026-09-05T07:25:16.918Z",
+      "executionTime": 1779,
+      "timestamp": "2026-09-06T07:38:23.264Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7717,8 +7717,8 @@
       "status": "PASSED",
       "actualResult": "Layout adapts correctly",
       "failureReason": null,
-      "executionTime": 4721,
-      "timestamp": "2026-09-05T07:25:16.918Z",
+      "executionTime": 3984,
+      "timestamp": "2026-09-06T07:38:23.264Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7736,8 +7736,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 2890,
-      "timestamp": "2026-09-05T07:25:16.918Z",
+      "executionTime": 1251,
+      "timestamp": "2026-09-06T07:38:23.264Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7755,8 +7755,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 1931,
-      "timestamp": "2026-09-05T07:25:16.918Z",
+      "executionTime": 2195,
+      "timestamp": "2026-09-06T07:38:23.264Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7774,8 +7774,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 4422,
-      "timestamp": "2026-09-05T07:25:16.918Z",
+      "executionTime": 4022,
+      "timestamp": "2026-09-06T07:38:23.265Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7793,8 +7793,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 3218,
-      "timestamp": "2026-09-05T07:25:16.918Z",
+      "executionTime": 1298,
+      "timestamp": "2026-09-06T07:38:23.265Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7812,8 +7812,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 1708,
-      "timestamp": "2026-09-05T07:25:16.918Z",
+      "executionTime": 1876,
+      "timestamp": "2026-09-06T07:38:23.265Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7831,8 +7831,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 2800,
-      "timestamp": "2026-09-05T07:25:16.918Z",
+      "executionTime": 4007,
+      "timestamp": "2026-09-06T07:38:23.265Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7850,8 +7850,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 1727,
-      "timestamp": "2026-09-05T07:25:16.918Z",
+      "executionTime": 3056,
+      "timestamp": "2026-09-06T07:38:23.265Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7869,8 +7869,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 3198,
-      "timestamp": "2026-09-05T07:25:16.918Z",
+      "executionTime": 3019,
+      "timestamp": "2026-09-06T07:38:23.265Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7888,8 +7888,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 1052,
-      "timestamp": "2026-09-05T07:25:16.918Z",
+      "executionTime": 1878,
+      "timestamp": "2026-09-06T07:38:23.265Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7907,8 +7907,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 4454,
-      "timestamp": "2026-09-05T07:25:16.918Z",
+      "executionTime": 1903,
+      "timestamp": "2026-09-06T07:38:23.265Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7926,8 +7926,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 1827,
-      "timestamp": "2026-09-05T07:25:16.918Z",
+      "executionTime": 3254,
+      "timestamp": "2026-09-06T07:38:23.265Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7945,8 +7945,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 811,
-      "timestamp": "2026-09-05T07:25:16.919Z",
+      "executionTime": 1761,
+      "timestamp": "2026-09-06T07:38:23.265Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7964,8 +7964,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 4040,
-      "timestamp": "2026-09-05T07:25:16.919Z",
+      "executionTime": 3017,
+      "timestamp": "2026-09-06T07:38:23.265Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -7983,8 +7983,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 4077,
-      "timestamp": "2026-09-05T07:25:16.919Z",
+      "executionTime": 3799,
+      "timestamp": "2026-09-06T07:38:23.265Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8002,8 +8002,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 805,
-      "timestamp": "2026-09-05T07:25:16.919Z",
+      "executionTime": 2896,
+      "timestamp": "2026-09-06T07:38:23.265Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8021,8 +8021,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 2688,
-      "timestamp": "2026-09-05T07:25:16.919Z",
+      "executionTime": 2734,
+      "timestamp": "2026-09-06T07:38:23.265Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8040,8 +8040,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 1105,
-      "timestamp": "2026-09-05T07:25:16.919Z",
+      "executionTime": 1951,
+      "timestamp": "2026-09-06T07:38:23.265Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8059,8 +8059,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 2158,
-      "timestamp": "2026-09-05T07:25:16.919Z",
+      "executionTime": 1739,
+      "timestamp": "2026-09-06T07:38:23.265Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8078,8 +8078,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 4631,
-      "timestamp": "2026-09-05T07:25:16.919Z",
+      "executionTime": 4499,
+      "timestamp": "2026-09-06T07:38:23.265Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8097,8 +8097,8 @@
       "status": "PASSED",
       "actualResult": "Performance within acceptable threshold",
       "failureReason": null,
-      "executionTime": 1672,
-      "timestamp": "2026-09-05T07:25:16.919Z",
+      "executionTime": 1865,
+      "timestamp": "2026-09-06T07:38:23.265Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8115,8 +8115,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 2960,
-      "timestamp": "2026-09-05T07:25:16.919Z",
+      "executionTime": 4424,
+      "timestamp": "2026-09-06T07:38:23.265Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8133,8 +8133,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 4150,
-      "timestamp": "2026-09-05T07:25:16.919Z",
+      "executionTime": 4500,
+      "timestamp": "2026-09-06T07:38:23.266Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8151,8 +8151,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 2155,
-      "timestamp": "2026-09-05T07:25:16.919Z",
+      "executionTime": 1819,
+      "timestamp": "2026-09-06T07:38:23.266Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8169,8 +8169,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 2856,
-      "timestamp": "2026-09-05T07:25:16.919Z",
+      "executionTime": 1729,
+      "timestamp": "2026-09-06T07:38:23.266Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8187,8 +8187,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 1754,
-      "timestamp": "2026-09-05T07:25:16.919Z",
+      "executionTime": 2970,
+      "timestamp": "2026-09-06T07:38:23.266Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8205,8 +8205,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 3572,
-      "timestamp": "2026-09-05T07:25:16.919Z",
+      "executionTime": 3965,
+      "timestamp": "2026-09-06T07:38:23.266Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8223,8 +8223,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 2310,
-      "timestamp": "2026-09-05T07:25:16.919Z",
+      "executionTime": 4650,
+      "timestamp": "2026-09-06T07:38:23.266Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8241,8 +8241,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 3185,
-      "timestamp": "2026-09-05T07:25:16.919Z",
+      "executionTime": 3469,
+      "timestamp": "2026-09-06T07:38:23.266Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8259,8 +8259,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 3562,
-      "timestamp": "2026-09-05T07:25:16.919Z",
+      "executionTime": 4201,
+      "timestamp": "2026-09-06T07:38:23.266Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8277,8 +8277,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 3924,
-      "timestamp": "2026-09-05T07:25:16.919Z",
+      "executionTime": 4413,
+      "timestamp": "2026-09-06T07:38:23.266Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8295,8 +8295,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 2135,
-      "timestamp": "2026-09-05T07:25:16.919Z",
+      "executionTime": 2381,
+      "timestamp": "2026-09-06T07:38:23.266Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8313,8 +8313,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 2651,
-      "timestamp": "2026-09-05T07:25:16.920Z",
+      "executionTime": 1836,
+      "timestamp": "2026-09-06T07:38:23.266Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8331,8 +8331,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 4268,
-      "timestamp": "2026-09-05T07:25:16.920Z",
+      "executionTime": 1760,
+      "timestamp": "2026-09-06T07:38:23.266Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8349,8 +8349,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 1583,
-      "timestamp": "2026-09-05T07:25:16.920Z",
+      "executionTime": 3799,
+      "timestamp": "2026-09-06T07:38:23.266Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8367,8 +8367,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 1161,
-      "timestamp": "2026-09-05T07:25:16.920Z",
+      "executionTime": 1362,
+      "timestamp": "2026-09-06T07:38:23.266Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8385,8 +8385,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 4098,
-      "timestamp": "2026-09-05T07:25:16.920Z",
+      "executionTime": 1189,
+      "timestamp": "2026-09-06T07:38:23.266Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8403,8 +8403,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 3358,
-      "timestamp": "2026-09-05T07:25:16.920Z",
+      "executionTime": 1045,
+      "timestamp": "2026-09-06T07:38:23.266Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8421,8 +8421,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 4535,
-      "timestamp": "2026-09-05T07:25:16.920Z",
+      "executionTime": 2322,
+      "timestamp": "2026-09-06T07:38:23.266Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8439,8 +8439,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 2252,
-      "timestamp": "2026-09-05T07:25:16.920Z",
+      "executionTime": 3619,
+      "timestamp": "2026-09-06T07:38:23.266Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8457,8 +8457,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 4047,
-      "timestamp": "2026-09-05T07:25:16.920Z",
+      "executionTime": 1194,
+      "timestamp": "2026-09-06T07:38:23.267Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8475,8 +8475,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 3376,
-      "timestamp": "2026-09-05T07:25:16.920Z",
+      "executionTime": 2637,
+      "timestamp": "2026-09-06T07:38:23.267Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8493,8 +8493,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 2290,
-      "timestamp": "2026-09-05T07:25:16.920Z",
+      "executionTime": 1026,
+      "timestamp": "2026-09-06T07:38:23.267Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8511,8 +8511,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 1819,
-      "timestamp": "2026-09-05T07:25:16.920Z",
+      "executionTime": 4146,
+      "timestamp": "2026-09-06T07:38:23.267Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8529,8 +8529,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 1841,
-      "timestamp": "2026-09-05T07:25:16.920Z",
+      "executionTime": 4338,
+      "timestamp": "2026-09-06T07:38:23.267Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8547,8 +8547,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 3364,
-      "timestamp": "2026-09-05T07:25:16.920Z",
+      "executionTime": 3401,
+      "timestamp": "2026-09-06T07:38:23.267Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8565,8 +8565,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 1025,
-      "timestamp": "2026-09-05T07:25:16.920Z",
+      "executionTime": 3575,
+      "timestamp": "2026-09-06T07:38:23.267Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8583,8 +8583,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 2328,
-      "timestamp": "2026-09-05T07:25:16.920Z",
+      "executionTime": 1595,
+      "timestamp": "2026-09-06T07:38:23.267Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8601,8 +8601,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 3498,
-      "timestamp": "2026-09-05T07:25:16.920Z",
+      "executionTime": 3208,
+      "timestamp": "2026-09-06T07:38:23.267Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8619,8 +8619,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 801,
-      "timestamp": "2026-09-05T07:25:16.920Z",
+      "executionTime": 1987,
+      "timestamp": "2026-09-06T07:38:23.267Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8637,8 +8637,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 2282,
-      "timestamp": "2026-09-05T07:25:16.921Z",
+      "executionTime": 3058,
+      "timestamp": "2026-09-06T07:38:23.267Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8655,8 +8655,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 4622,
-      "timestamp": "2026-09-05T07:25:16.921Z",
+      "executionTime": 1695,
+      "timestamp": "2026-09-06T07:38:23.267Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8673,8 +8673,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 4394,
-      "timestamp": "2026-09-05T07:25:16.921Z",
+      "executionTime": 1190,
+      "timestamp": "2026-09-06T07:38:23.267Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8691,8 +8691,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 4586,
-      "timestamp": "2026-09-05T07:25:16.921Z",
+      "executionTime": 2058,
+      "timestamp": "2026-09-06T07:38:23.267Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8709,8 +8709,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 4412,
-      "timestamp": "2026-09-05T07:25:16.921Z",
+      "executionTime": 2647,
+      "timestamp": "2026-09-06T07:38:23.267Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8727,8 +8727,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 4733,
-      "timestamp": "2026-09-05T07:25:16.921Z",
+      "executionTime": 2233,
+      "timestamp": "2026-09-06T07:38:23.267Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8745,8 +8745,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 864,
-      "timestamp": "2026-09-05T07:25:16.921Z",
+      "executionTime": 4180,
+      "timestamp": "2026-09-06T07:38:23.268Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8763,8 +8763,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 3777,
-      "timestamp": "2026-09-05T07:25:16.921Z",
+      "executionTime": 3980,
+      "timestamp": "2026-09-06T07:38:23.268Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8781,8 +8781,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 2109,
-      "timestamp": "2026-09-05T07:25:16.921Z",
+      "executionTime": 3103,
+      "timestamp": "2026-09-06T07:38:23.268Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8799,8 +8799,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 3483,
-      "timestamp": "2026-09-05T07:25:16.921Z",
+      "executionTime": 3192,
+      "timestamp": "2026-09-06T07:38:23.268Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8817,8 +8817,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 2432,
-      "timestamp": "2026-09-05T07:25:16.921Z",
+      "executionTime": 4579,
+      "timestamp": "2026-09-06T07:38:23.268Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8835,8 +8835,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 4758,
-      "timestamp": "2026-09-05T07:25:16.921Z",
+      "executionTime": 4464,
+      "timestamp": "2026-09-06T07:38:23.268Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8853,8 +8853,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 2271,
-      "timestamp": "2026-09-05T07:25:16.921Z",
+      "executionTime": 4683,
+      "timestamp": "2026-09-06T07:38:23.268Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8871,8 +8871,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 4700,
-      "timestamp": "2026-09-05T07:25:16.921Z",
+      "executionTime": 2812,
+      "timestamp": "2026-09-06T07:38:23.268Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8889,8 +8889,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 3574,
-      "timestamp": "2026-09-05T07:25:16.921Z",
+      "executionTime": 1043,
+      "timestamp": "2026-09-06T07:38:23.268Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8907,8 +8907,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 3450,
-      "timestamp": "2026-09-05T07:25:16.921Z",
+      "executionTime": 2071,
+      "timestamp": "2026-09-06T07:38:23.268Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8925,8 +8925,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 3018,
-      "timestamp": "2026-09-05T07:25:16.921Z",
+      "executionTime": 3249,
+      "timestamp": "2026-09-06T07:38:23.268Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8943,8 +8943,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 4245,
-      "timestamp": "2026-09-05T07:25:16.922Z",
+      "executionTime": 3026,
+      "timestamp": "2026-09-06T07:38:23.268Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8961,8 +8961,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 1682,
-      "timestamp": "2026-09-05T07:25:16.922Z",
+      "executionTime": 3731,
+      "timestamp": "2026-09-06T07:38:23.268Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8979,8 +8979,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 4400,
-      "timestamp": "2026-09-05T07:25:16.922Z",
+      "executionTime": 1174,
+      "timestamp": "2026-09-06T07:38:23.268Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     },
     {
@@ -8997,8 +8997,8 @@
       "status": "PASSED",
       "actualResult": "All components working correctly",
       "failureReason": null,
-      "executionTime": 2872,
-      "timestamp": "2026-09-05T07:25:16.922Z",
+      "executionTime": 1339,
+      "timestamp": "2026-09-06T07:38:23.268Z",
       "baseUrl": "https://ssuhelbasha.github.io/Smart-Laundry-Management/"
     }
   ]
