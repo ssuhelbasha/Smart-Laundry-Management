@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Environment variables (NEVER commit real secrets)
+.env
+
+# Build output
+dist/
+public/bundle/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp/debug scripts
+fix*.js
+patch*.js
+recon.js
+extract.py
+reconstruct.py
+manage_users.js
+search_results.txt
+patch_history.txt
+recovered_server_raw.txt
+run_tests.cjs
+test_otp.js
+test_smtp.js
+test_verify.js
+git_log_output.txt
+error.txt
