@@ -1,13 +1,4 @@
 {
   "version": 2,
-  "projects": [
-    {
-      "name": "smart-laundry-backend",
-      "rootDirectory": "BACKEND/Node_Express/laundry_backend_web"
-    },
-    {
-      "name": "smart-laundry-management",
-      "rootDirectory": "WEB_APPLICATION/FRONTEND/React/laundry_frontend_react"
-    }
-  ]
+  "ignoreCommand": "exit 0"
 }

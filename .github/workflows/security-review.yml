@@ -16,7 +16,7 @@ permissions:
   id-token: write
 
 env:
-  BACKEND_DIR: laundry_backend_web
+  BACKEND_DIR: BACKEND/Node_Express/laundry_backend_web
   BACKEND_PORT: 3000
   BACKEND_URL: http://localhost:3000
 
