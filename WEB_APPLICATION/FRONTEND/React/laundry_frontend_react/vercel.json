@@ -6,6 +6,10 @@
   "framework": "vite",
   "rewrites": [
     {
+      "source": "/api/(.*)",
+      "destination": "https://smart-laundry-backend.vercel.app/api/$1"
+    },
+    {
       "source": "/((?!assets/.*).*)",
       "destination": "/index.html"
     }

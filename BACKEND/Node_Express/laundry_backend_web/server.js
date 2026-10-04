@@ -16,10 +16,25 @@ const PORT = process.env.PORT || 3000;
 // Supabase Configuration
 const supabaseUrl = process.env.SUPABASE_URL || 'https://mock.supabase.co';
 const supabaseKey = process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_KEY || 'mock_key';
-const isSupabaseConfigured = Boolean(
-process.env.SUPABASE_URL && !process.env.SUPABASE_URL.includes('mock.supabase.co')
+let isSupabaseConfigured = Boolean(
+  process.env.SUPABASE_URL && !process.env.SUPABASE_URL.includes('mock.supabase.co')
 );
 const supabase = isSupabaseConfigured ? createClient(supabaseUrl, supabaseKey) : null;
+
+// Probe Supabase asynchronously. If unreachable (e.g. paused/deleted project), disable so requests don't hang.
+if (isSupabaseConfigured && supabase) {
+  supabase.from('users').select('user_id').limit(1).then(({ error }) => {
+    if (error) {
+      console.warn("⚠️ Supabase error:", error.message, "- Switching to resilient local DB.");
+      isSupabaseConfigured = false;
+    } else {
+      console.log("✅ Supabase is online and accessible.");
+    }
+  }).catch(err => {
+    console.warn("⚠️ Supabase host unreachable:", err.message, "- Switching to resilient local DB.");
+    isSupabaseConfigured = false;
+  });
+}
 
 const { Resend } = require('resend');
 
@@ -139,24 +154,93 @@ function getStandardEmailTemplate(customerName, message, orderDetails = null, ad
 
 // Local storage helper for resilient fallback & extended metadata (photos, etc.)
 const isVercel = !!process.env.VERCEL;
-const DB_PATH = isVercel ? path.join('/tmp', 'db.json') : path.join(__dirname, 'db.json');
+const BUNDLED_DB_PATH = path.join(__dirname, 'db.json');
+const DB_PATH = isVercel ? path.join('/tmp', 'db.json') : BUNDLED_DB_PATH;
+
+// Built-in hardcoded fallback so users can ALWAYS log in even if no file exists
+const DEFAULT_SEED_DATA = {
+  users: [
+    {
+      userId: "usr_cust1",
+      name: "Shaik Suhel Basha",
+      email: "shaiksuhelbasha609@gmail.com",
+      password: "ae7908713f085b5c977648b2a294bee7f18ab4f95a8e3b588e075e8ac3289048",
+      phone: "9876543210",
+      address: "123 Clean Street, Bubble Town",
+      role: "admin",
+      status: "approved",
+      walletBalance: 617.5,
+      wallet_balance: 500
+    },
+    {
+      userId: "usr_admin1",
+      name: "Manager Admin",
+      email: "admin@laundry.com",
+      password: "123",
+      phone: "9876543212",
+      address: "Central Administration Office",
+      role: "admin",
+      status: "approved"
+    },
+    {
+      userId: "usr_staff1",
+      name: "Bob Staff",
+      email: "staff@laundry.com",
+      password: "123",
+      phone: "9876543211",
+      address: "Laundry Depot Hub 4",
+      role: "staff",
+      status: "approved",
+      walletBalance: 6010
+    }
+  ],
+  orders: [],
+  pricing: { basePrice: 2.0 }
+};
+
+function initLocalDb() {
+  try {
+    if (isVercel && !fs.existsSync(DB_PATH)) {
+      if (fs.existsSync(BUNDLED_DB_PATH)) {
+        fs.copyFileSync(BUNDLED_DB_PATH, DB_PATH);
+      } else {
+        fs.writeFileSync(DB_PATH, JSON.stringify(DEFAULT_SEED_DATA, null, 2), 'utf8');
+      }
+    }
+  } catch (err) {
+    console.error("Local db init error:", err);
+  }
+}
+initLocalDb();
+
 function readLocalDb() {
-try {
-if (fs.existsSync(DB_PATH)) {
-return JSON.parse(fs.readFileSync(DB_PATH, 'utf8'));
-}
-} catch (err) {
-console.error("Local db read error:", err);
-}
-return { users: [], orders: [], pricing: { basePrice: 2.0 } };
+  try {
+    initLocalDb();
+    if (fs.existsSync(DB_PATH)) {
+      const parsed = JSON.parse(fs.readFileSync(DB_PATH, 'utf8'));
+      if (parsed && Array.isArray(parsed.users) && parsed.users.length > 0) {
+        return parsed;
+      }
+    }
+    if (fs.existsSync(BUNDLED_DB_PATH)) {
+      const parsed = JSON.parse(fs.readFileSync(BUNDLED_DB_PATH, 'utf8'));
+      if (parsed && Array.isArray(parsed.users) && parsed.users.length > 0) {
+        return parsed;
+      }
+    }
+  } catch (err) {
+    console.error("Local db read error:", err);
+  }
+  return DEFAULT_SEED_DATA;
 }
 
 function writeLocalDb(data) {
-try {
-fs.writeFileSync(DB_PATH, JSON.stringify(data, null, 2), 'utf8');
-} catch (err) {
-console.error("Local db write error:", err);
-}
+  try {
+    initLocalDb();
+    fs.writeFileSync(DB_PATH, JSON.stringify(data, null, 2), 'utf8');
+  } catch (err) {
+    console.error("Local db write error:", err);
+  }
 }
 
 const otpStore = new Map();
@@ -489,6 +573,9 @@ locationDetails: data.location_details
 }
 } catch (err) {
 console.warn("Supabase login query notice:", err.message);
+if (err.message && (err.message.includes('ENOTFOUND') || err.message.includes('fetch failed'))) {
+  isSupabaseConfigured = false;
+}
 }
 }
 
