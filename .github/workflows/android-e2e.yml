@@ -37,7 +37,10 @@ jobs:
           distribution: 'temurin'
 
       - name: 🤖 Stage 3 – Setup Android SDK
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
+        continue-on-error: true
+        with:
+          packages: 'platform-tools'
 
       - name: 📦 Stage 4 – Install Android Dependencies
         run: |
@@ -85,7 +88,10 @@ jobs:
           node-version: '20'
 
       - name: 🤖 Stage 4 – Setup Android SDK
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
+        continue-on-error: true
+        with:
+          packages: 'platform-tools'
 
       - name: 📦 Stage 5–8 – Install Dependencies & Verify Readiness
         run: |

@@ -42,7 +42,7 @@ const { Resend } = require('resend');
 // Production: Resend API (works on Vercel, uses HTTPS not SMTP)
 // Local fallback: Gmail SMTP via App Password
 const SMTP_USER = process.env.SMTP_USER;
-const SMTP_PASS = process.env.SMTP_PASS;
+const SMTP_PASS = process.env.SMTP_PASS ? process.env.SMTP_PASS.replace(/\s+/g, '').replace(/["']/g, '') : undefined;
 const ADMIN_EMAIL = process.env.ADMIN_NOTIFY_EMAIL || 'shaiksuhelbasha609@gmail.com';
 const RESEND_API_KEY = process.env.RESEND_API_KEY;
 
@@ -85,16 +85,24 @@ async function sendEmail(mailOptions) {
   const from = `Smart Laundry <onboarding@resend.dev>`;
   try {
     if (smtpTransporter) {
-      // Primary: Gmail SMTP (allows sending to any address without domain verification)
-      await smtpTransporter.sendMail({
-        from: `"Smart Laundry" <${SMTP_USER}>`,
-        to: mailOptions.to,
-        subject: mailOptions.subject,
-        html: mailOptions.html,
-        text: mailOptions.text
-      });
-      console.log(`✅ Email sent via SMTP to ${mailOptions.to}`);
-    } else if (resendClient) {
+      try {
+        // Primary: Gmail SMTP (allows sending to any address without domain verification)
+        await smtpTransporter.sendMail({
+          from: `"Smart Laundry" <${SMTP_USER}>`,
+          to: mailOptions.to,
+          subject: mailOptions.subject,
+          html: mailOptions.html,
+          text: mailOptions.text
+        });
+        console.log(`✅ Email sent via SMTP to ${mailOptions.to}`);
+        return;
+      } catch (smtpErr) {
+        console.error(`⚠️ SMTP failed (${smtpErr.message}). Attempting Resend fallback if available...`);
+        if (!resendClient) throw smtpErr;
+      }
+    }
+
+    if (resendClient) {
       // Fallback: Resend API (requires verified domain for non-owner emails)
       const { error } = await resendClient.emails.send({
         from,

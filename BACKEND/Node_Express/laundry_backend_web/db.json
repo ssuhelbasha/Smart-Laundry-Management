@@ -208,7 +208,7 @@
       "phone": "6301651388",
       "address": "Rani nagar, Anantapur",
       "role": "staff",
-      "status": "approved",
+      "status": "rejected",
       "wallet_balance": 0,
       "walletBalance": 50,
       "staff_photo": null,
@@ -220,7 +220,7 @@
       "location_details": "2/58 Rani nagar, anantapur - 515001",
       "locationDetails": "2/58 Rani nagar, anantapur - 515001",
       "created_at": 1787050198889,
-      "rejectionReason": ""
+      "rejectionReason": "Submitted photos or facility location criteria not met."
     },
     {
       "userId": "usr_kgc42yk40",
@@ -287,6 +287,28 @@
       "location_details": "Old Town , Anantapur",
       "locationDetails": "Old Town , Anantapur",
       "created_at": 1787061933288
+    },
+    {
+      "userId": "usr_gvg0rc0c2",
+      "user_id": "usr_gvg0rc0c2",
+      "name": "Akhil",
+      "email": "akhilnani1977@gmail.com",
+      "password": "49b1c50546c29e741c8a9492e31c20e91263a34aee8b5103f3a92ffd69eb23b5",
+      "phone": "9496655587",
+      "address": "Old Town , Anantapur",
+      "role": "customer",
+      "status": "approved",
+      "wallet_balance": 0,
+      "walletBalance": 0,
+      "staff_photo": null,
+      "staffPhoto": null,
+      "machines_photo": null,
+      "machinesPhoto": null,
+      "utilities_photo": null,
+      "utilitiesPhoto": null,
+      "location_details": "Old Town , Anantapur",
+      "locationDetails": "Old Town , Anantapur",
+      "created_at": 1793594933448
     }
   ],
   "orders": [
@@ -491,6 +513,32 @@
       "paymentStatus": "Paid",
       "assignedStaffId": "usr_4ahrphakf",
       "createdAt": 1787061975744
+    },
+    {
+      "orderId": "ord_a13qtak4h",
+      "userId": "usr_d45e02qtg",
+      "serviceType": "Wash & Fold",
+      "fabricType": "Wool",
+      "totalQuantity": 1,
+      "pickupDate": "2026-11-02",
+      "status": "Pending",
+      "totalPrice": 22.5,
+      "paymentStatus": "Paid",
+      "assignedStaffId": null,
+      "createdAt": 1793629714760
+    },
+    {
+      "orderId": "ord_57825jb25",
+      "userId": "usr_d45e02qtg",
+      "serviceType": "Ironing",
+      "fabricType": "Cotton",
+      "totalQuantity": 5,
+      "pickupDate": "2026-11-05T00:00:00.000",
+      "status": "Drying",
+      "totalPrice": 60,
+      "paymentStatus": "Paid",
+      "assignedStaffId": "usr_yqs7h7h5q",
+      "createdAt": 1793633533351
     }
   ],
   "pricing": {
